@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../app_state.dart';
 import '../content.dart';
+import '../widgets/player_bar.dart';
 import 'entry_editor.dart';
 import 'quiz_screen.dart';
 
@@ -26,6 +27,7 @@ class AreaScreen extends StatelessWidget {
             foregroundColor: Colors.white,
             title: Text(area.name),
             actions: [
+              if (entries.isNotEmpty) ListenButton(ids: [for (final e in entries) e.id], tooltip: 'Bu alanı baştan sona dinle'),
               if (hasQuiz)
                 IconButton(
                   tooltip: 'Bu alandan test',

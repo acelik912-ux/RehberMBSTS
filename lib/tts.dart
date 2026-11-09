@@ -1,0 +1,167 @@
+import 'package:flutter/foundation.dart';
+import 'package:flutter_tts/flutter_tts.dart';
+
+import 'app_state.dart';
+import 'content.dart';
+
+/// Maddeleri Türkçe sesle okur. Tek madde veya sıralı liste (ör. bir alanın tamamı) çalabilir.
+class Reader extends ChangeNotifier {
+  final FlutterTts _tts = FlutterTts();
+  bool _ready = false;
+  bool playing = false;
+  bool turkishMissing = false;
+  List<String> queue = [];
+  int index = 0;
+  double rate = 0.5; // Android'de 0.5 normal hız
+  int _session = 0; // durdurulunca eski döngüyü kesmek için
+
+  static const rates = [0.35, 0.45, 0.5, 0.6, 0.75];
+
+  String? get currentId => playing && index < queue.length ? queue[index] : null;
+
+  Future<void> _init() async {
+    if (_ready) return;
+    _ready = true;
+    try {
+      await _tts.awaitSpeakCompletion(true);
+      final ok = await _tts.isLanguageAvailable('tr-TR');
+      turkishMissing = ok != true;
+      await _tts.setLanguage('tr-TR');
+      await _tts.setPitch(1.0);
+    } catch (e) {
+      debugPrint('tts: $e');
+    }
+  }
+
+  Future<void> setRate(double r) async {
+    rate = r;
+    store.ttsRate = r;
+    store.save();
+    await _tts.setSpeechRate(r);
+    notifyListeners();
+  }
+
+  void cycleRate() {
+    final i = rates.indexOf(rate);
+    setRate(rates[(i + 1) % rates.length]);
+  }
+
+  /// Tek bir maddeyi okur.
+  Future<void> playEntry(String id) => playList([id]);
+
+  /// Listeyi baştan (veya [start]'tan) sırayla okur.
+  Future<void> playList(List<String> ids, {int start = 0}) async {
+    await _init();
+    await _tts.stop();
+    rate = store.ttsRate;
+    await _tts.setSpeechRate(rate);
+    queue = ids.where(entryExists).toList();
+    if (queue.isEmpty) return;
+    index = start.clamp(0, queue.length - 1);
+    playing = true;
+    final s = ++_session;
+    notifyListeners();
+    while (s == _session && index < queue.length) {
+      final e = store.resolve(content, queue[index]);
+      if (e != null) {
+        for (final chunk in chunks(speechText(e, notes: store.notesFor(e.id).map((n) => n.text).toList()))) {
+          if (s != _session) return;
+          await _tts.speak(chunk);
+        }
+      }
+      if (s != _session) return;
+      index++;
+      notifyListeners();
+    }
+    if (s == _session) {
+      playing = false;
+      notifyListeners();
+    }
+  }
+
+  Future<void> next() async {
+    if (!playing || index + 1 >= queue.length) return stop();
+    await playList(queue, start: index + 1);
+  }
+
+  Future<void> previous() async {
+    if (!playing) return;
+    await playList(queue, start: (index - 1).clamp(0, queue.length - 1));
+  }
+
+  Future<void> stop() async {
+    _session++;
+    playing = false;
+    await _tts.stop();
+    notifyListeners();
+  }
+}
+
+final reader = Reader();
+
+/// Madde metnini okunacak düz metne çevirir (bağlantı ve biçim işaretleri temizlenir).
+String speechText(Entry e, {List<String> notes = const []}) {
+  final b = StringBuffer('${e.title}.\n');
+  if (e.summary.isNotEmpty) b.writeln('${clean(e.summary)}.');
+  for (final raw in e.body.split('\n')) {
+    final l = raw.trim();
+    if (l.isEmpty) continue;
+    if (RegExp(r'^\[\[https?://').hasMatch(l) || l.startsWith('http')) continue;
+    if (l.startsWith('## ')) {
+      b.writeln('${clean(l.substring(3))}.');
+    } else if (l.startsWith('- ')) {
+      b.writeln('${clean(l.substring(2))}.');
+    } else if (l.startsWith('> ')) {
+      b.writeln('İpucu: ${clean(l.substring(2))}.');
+    } else if (l.startsWith('!! ')) {
+      b.writeln('Dikkat: ${clean(l.substring(3))}.');
+    } else if (l.startsWith('%% ')) {
+      b.writeln('Akılda tut: ${clean(l.substring(3))}.');
+    } else {
+      b.writeln('${clean(l)}.');
+    }
+  }
+  final own = notes.where((n) => n.trim().isNotEmpty).toList();
+  if (own.isNotEmpty) {
+    b.writeln('Senin notların.');
+    for (final n in own) {
+      b.writeln('${clean(n)}.');
+    }
+  }
+  return b.toString().replaceAll(RegExp(r'\.\.+'), '.').replaceAllMapped(RegExp(r'([:;!?])\.'), (m) => m.group(1)!);
+}
+
+String clean(String s) {
+  var t = s.replaceAllMapped(linkRe, (m) => m.group(2) ?? (m.group(1)!.startsWith('http') ? '' : m.group(1)!));
+  t = t.replaceAll('**', '');
+  t = t.replaceAll(RegExp(r'https?://\S+'), '');
+  t = t.replaceAll('→', ', ').replaceAll('↔', ' ile ').replaceAll('·', ', ').replaceAll('✔', 'doğru: ').replaceAll('✘', 'yanlış: ');
+  t = t.replaceAll('≥', 'en az ').replaceAll(' – ', ', ').replaceAll('—', ', ');
+  t = t.replaceAllMapped(RegExp(r'(\d+)/(\d+)'), (m) {
+    final a = m.group(1)!, b = m.group(2)!;
+    if (b.length >= 3) return 'hicri $a, miladi $b';
+    const den = {'2': 'ikide', '3': 'üçte', '4': 'dörtte', '5': 'beşte', '6': 'altıda', '8': 'sekizde', '10': 'onda', '20': 'yirmide'};
+    const num = {'1': 'bir', '2': 'iki'};
+    if (den.containsKey(b) && num.containsKey(a)) return '${den[b]} ${num[a]}';
+    return '$a bölü $b';
+  });
+  t = t.replaceAll('/', ' ya da ');
+  t = t.replaceAll(RegExp(r'[؀-ۿ]+'), ''); // Arapça harfler Türkçe sesle okunamaz
+  t = t.replaceAll(RegExp(r'\(\s*\)'), '').replaceAll(RegExp(r' {2,}'), ' ');
+  return t.trim().replaceAll(RegExp(r'[.\s]+$'), '');
+}
+
+/// Android TTS tek seferde ~4000 karakter okur; satır sınırlarından bölerek parçalar.
+List<String> chunks(String text, {int max = 1500}) {
+  final out = <String>[];
+  final b = StringBuffer();
+  for (final line in text.split('\n')) {
+    if (b.length + line.length > max && b.isNotEmpty) {
+      out.add(b.toString());
+      b.clear();
+    }
+    b.writeln(line);
+  }
+  if (b.isNotEmpty) out.add(b.toString());
+  return out;
+}

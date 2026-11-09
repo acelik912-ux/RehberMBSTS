@@ -22,13 +22,13 @@ import sys
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SRC = ROOT / 'content'
 OUT = ROOT / 'assets' / 'content'
-AREAS = {'hadis', 'fikih', 'kelam', 'kuran', 'tefsir', 'siyer', 'mezhep', 'dinler'}
-FILES = ['hadis', 'kelam', 'fikih', 'kuran', 'siyer']
+AREAS = {'hadis', 'fikih', 'kelam', 'kuran', 'tefsir', 'siyer', 'mezhep', 'dinler', 'video'}
+FILES = ['hadis', 'kelam', 'fikih', 'kuran', 'siyer', 'videolar']
 LINK = re.compile(r'\[\[([^\]|]+)(?:\|([^\]]+))?\]\]')
 
 
 def parse(name):
-    area = name
+    area = 'video' if name == 'videolar' else name
     entries = []
     cur = None
     for raw in (SRC / f'{name}.txt').read_text(encoding='utf-8').split('\n'):
@@ -102,7 +102,7 @@ def main():
         files.append(f'{f}.json')
     for e in allent.values():
         for m in LINK.finditer(e['b'] + ' ' + e['o']):
-            if m.group(1).strip() not in allent:
+            if not m.group(1).strip().startswith('http') and m.group(1).strip() not in allent:
                 errors.append(f'kırık bağlantı: {e["id"]} -> {m.group(1)}')
         for i in e.get('img', []):
             if not (ROOT / i).exists():

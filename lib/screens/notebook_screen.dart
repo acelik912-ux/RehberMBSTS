@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../app_state.dart';
 import '../content.dart';
+import '../widgets/player_bar.dart';
 import 'entry_editor.dart';
 import 'note_editor.dart';
 
@@ -22,6 +23,7 @@ class NotebookScreen extends StatelessWidget {
           return Scaffold(
             appBar: AppBar(
               title: const Text('Defterim'),
+              actions: [if (favs.isNotEmpty) ListenButton(ids: [for (final f in favs) f.id], tooltip: 'Favorileri sırayla dinle')],
               bottom: TabBar(tabs: [
                 Tab(text: 'Notlar (${notes.length})'),
                 Tab(text: 'Maddelerim (${mine.length})'),

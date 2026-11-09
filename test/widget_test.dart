@@ -10,6 +10,7 @@ import 'package:rehber_mbsts/screens/entry_screen.dart';
 import 'package:rehber_mbsts/screens/home_screen.dart';
 import 'package:rehber_mbsts/screens/notebook_screen.dart';
 import 'package:rehber_mbsts/screens/quiz_screen.dart';
+import 'package:rehber_mbsts/tts.dart';
 import 'package:rehber_mbsts/widgets/rich_body.dart';
 
 void main() {
@@ -30,6 +31,18 @@ void main() {
       expect(q.answer, inInclusiveRange(0, q.options.length - 1));
       if (q.entryId.isNotEmpty) expect(c.entries.containsKey(q.entryId), isTrue, reason: q.text);
     }
+  });
+
+  test('sesli okuma metni temizlenir', () async {
+    final c = await Content.load();
+    expect(clean('Me\'mûn 218/833\'te [[mihne|mihneyi]] başlattı'), "Me'mûn hicri 218, miladi 833'te mihneyi başlattı");
+    expect(clean('Koca 1/2, karı 1/4'), 'Koca ikide bir, karı dörtte bir');
+    final t = speechText(c.entries['mihne']!);
+    expect(t.contains('[['), isFalse);
+    expect(t.contains('**'), isFalse);
+    expect(chunks(t).every((x) => x.length < 3000), isTrue);
+    final v = speechText(c.entries['ng-hadis-usulu-4']!);
+    expect(v.contains('http'), isFalse);
   });
 
   test('arama anahtarı şapka ve kesmeden bağımsız', () {

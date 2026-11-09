@@ -1,0 +1,96 @@
+@@ ng-kanal | Kanal ve bu bölüm nasıl kullanılır? | Başlarken | Nurettin Gültekin; Nurettin Gültekin Dersleri |
+= Nurettin Gültekin'in MBSTS ve DHBT hazırlık videolarına giden yol, her videoyla ilgili maddeler ve senin video notların.
+Nurettin Gültekin, YouTube'da "Nurettin Gültekin Dersleri" adıyla MBSTS, DHBT, DHBT mülakatı, ihtisas ve GYS sınavlarına yönelik konu anlatımı, kamp ve soru çözümü videoları yayımlıyor.
+- YouTube kanalı: [[https://www.youtube.com/@nurettingultekin|Kanalı aç]]
+- Oynatma listeleri: [[https://www.youtube.com/@nurettingultekin/playlists|Oynatma listelerini aç]]
+- Facebook sayfası: [[https://www.facebook.com/nureddin45|facebook.com/nureddin45]]
+## Bu bölümdeki sayfalar ne içeriyor?
+Her video sayfasında videonun bağlantısı, **izlemeden önce okuman gereken maddeler** ve izlerken kendine sorman için hazırladığım **kontrol soruları** var.
+!! Videoların içeriğini ben dinleyemedim; bu sayfalarda hocanın anlattıklarının özeti yok. Kontrol soruları ve açıklamalar benim hazırladıklarımdır, hocaya ait değildir.
+## Hocanın anlattıklarını uygulamaya nasıl eklersin?
+- **Kendin**: Video sayfasında sağ alttaki "Not / görsel ekle" ile izlerken not al; tahtanın ekran görüntüsünü de görsel olarak ekleyebilirsin.
+- **Benimle**: YouTube'da videonun açıklamasının altındaki "Transkripti göster" bölümündeki metni kopyalayıp sohbette bana gönder. Ben özetleyip açıklamalarla bu bölüme yazarım; bir sonraki sürümde uygulamada görünür.
+- Bildiğim bir videonun sayfası burada yoksa, alan sayfasındaki "Madde ekle" ile kendi video sayfanı açabilirsin; YouTube bağlantısını metne yapıştırman yeterli, dokununca açılır.
+> Önerilen sıra: Önce ilgili maddeleri oku → videoyu 1,25x hızda izle → kontrol sorularını cevapla → yeni öğrendiğin terimi tekrar kartına ekle.
+
+@@ ng-hadis-usulu-4 | Hadis Tarihi ve Usûlü - 4 | Hadis | MBSTS 2025 hadis |
+= MBSTS 2025 serisinden hadis tarihi ve usûlü konu anlatımı ile ilk dört haftanın örnek soruları.
+[[https://www.youtube.com/watch?v=BI3qKbBD7cs|Videoyu YouTube'da aç]]
+Serinin diğer bölümlerini kanalın oynatma listelerinde bulabilirsin: [[https://www.youtube.com/@nurettingultekin/search?query=hadis|kanalda "hadis" ara]]
+## İzlemeden önce oku
+- [[hadis-tarihi]] · [[tedvin]] · [[sahife]] · [[kutub-i-sitte]]
+- [[sened]] · [[sahih]] · [[zayif]] · [[tahammul-yollari]]
+## İzlerken kendine sor (benim hazırladığım sorular)
+- Hadis tarihinin dönemleri nelerdir, hangisinde resmî tedvin başladı?
+- Resmî tedvini kim, kimlere yaptırdı?
+- Kütüb-i Sitte müelliflerini vefat sırasıyla sayabilir misin?
+- Bir hadisin sahih olması için gereken beş şart hangileri?
+%% Hadis bölümündeki "Hİ-Kİ-TE-TA" ve "İnce Adam Zor Şeyi İster" kodlarıyla videodaki anlatımı karşılaştır.
+
+@@ ng-hadis-kavram | Hadis Kavram Dersi | Hadis | hadis terimleri; MBSTS-DHBT 2022 |
+= Hadis usulü terimlerinin anlatıldığı ders (MBSTS ve DHBT 2022).
+[[https://www.youtube.com/@nurettingultekin/search?query=hadis%20kavram|Kanalda "hadis kavram" ara]]
+## İzlemeden önce oku
+- Kaynağına göre: [[kudsi]] · [[merfu]] · [[mevkuf]] · [[maktu]]
+- Ravi sayısına göre: [[mutevatir]] · [[meshur]] · [[aziz]] · [[garib]]
+- Sened kopukluğu: [[muallak]] · [[mursel]] · [[munkati]] · [[mudal]] · [[mudelles]]
+- Ravideki kusur: [[mevzu]] · [[saz]] · [[munker]] · [[muallel]] · [[mudrec]] · [[maklub]] · [[muztarib]]
+## İzlerken kendine sor
+- Maktû ile munkatı' arasındaki fark nedir?
+- Şâz ile münker hangi bakımdan ayrılır?
+- Mütâbi ile şâhidin farkı nedir?
+- Adalet kusurları ile zabt kusurlarını ayırt edebiliyor musun?
+> Hocanın verdiği her yeni örneği ilgili madde sayfasına not olarak ekle; tekrar kartında karşına o örnek de çıkar.
+
+@@ ng-kelam-son-ozet | Kelam - Son Özet | Kelam | MBSTS-DHBT 2021 kelam |
+= Kelam konularının sınav öncesi topluca tekrar edildiği özet ders (MBSTS-DHBT 2021).
+[[https://www.youtube.com/watch?v=xoWquiX9IEU|Videoyu YouTube'da aç]]
+## İzlemeden önce oku
+- [[kelam]] · [[mesail-vesail]]
+- Deliller: [[hudus-delili]] · [[imkan-delili]] · [[gaye-nizam]] · [[temanu]]
+- Sıfatlar: [[sifatlar]] · [[subuti-sifatlar]] · [[tekvin]]
+- Ekoller: [[mutezile]] · [[usul-i-hamse]] · [[esarilik]] · [[maturidilik]]
+- Fırkalar: [[murcie]] · [[haricilik]] · [[cehmiyye]] · [[sia-kavramlari]]
+## İzlerken kendine sor
+- Mutezile'nin beş esasını sırayla sayabilir misin? Adl ilkesi hangi sonuçlara götürür?
+- Mihne nedir, kim başlattı, kim bitirdi?
+- Mâtürîdî ve Eş'arî iman tanımında nerede ayrılır?
+- Büyük günah işleyen hakkında Haricî, Mutezile ve Ehl-i sünnet ne der?
+%% Bu videoyu sınavdan önceki son iki haftada tekrar izle; kelamın "son özet" dersi tam bunun için.
+
+@@ ng-kuran-bilgisi-1 | Kur'an Bilgisi - 1 | Kur'an Bilgisi | MBSTS 2025 Kur'an bilgisi |
+= MBSTS 2025 serisinden Kur'an bilgisi konu anlatımının ilk dersi.
+[[https://www.youtube.com/watch?v=jWE_ZLl1Z9E|Videoyu YouTube'da aç]]
+## İzlemeden önce oku
+- Tecvid: [[nun-sakin]] · [[mim-sakin]] · [[idgam]] · [[med]] · [[vakf]]
+- Kur'an tarihi: [[kuran-tarihi]] · [[tencim]] · [[harekeleme]] · [[mekki-medeni]]
+## İzlerken kendine sor
+- Sakin nunun dört kuralı hangi harflerde uygulanır?
+- Kur'an'ın cem'i ile istinsahı arasındaki fark nedir?
+- Mekkî ve Medenî surelerin üçer özelliğini sayabilir misin?
+> Tecvid kurallarını dinlerken mushaftan bir sayfa açıp örnekleri işaretle; bulduğun örneğin fotoğrafını ilgili maddeye görsel olarak ekle.
+
+@@ ng-nusayrilik | Nusayrîlik Nedir? | Mezhepler | |
+= Nusayrîliğin anlatıldığı mezhepler tarihi dersi.
+[[https://www.youtube.com/@nurettingultekin/search?query=nusayrilik|Kanalda "Nusayrilik" ara]]
+## İzlemeden önce oku
+- [[nusayrilik]] · [[batinilik]] · [[durzilik]] · [[ismaililik]] · [[yezidilik]]
+## İzlerken kendine sor
+- Nusayrîlerin kutsal kitabı hangisidir? Dürzî, Yezîdî ve Bâbî kitaplarıyla karıştırmamak için kodun ne?
+- Nusayrîliği İmâmiyye'den ayıran temel inanç nedir?
+
+@@ ng-kamp | Kamp dersleri (MBSTS-DHBT) | Kamp ve soru çözümü | Kamp-3; Kamp-4; Kamp-5; Kamp-6 |
+= Sınav öncesi bütün alanların yoğun tekrarının yapıldığı kamp serisi.
+[[https://www.youtube.com/@nurettingultekin/search?query=kamp|Kanalda "kamp" ara]]
+## Nasıl kullanılır?
+- Kamp videoları geniş kapsamlı tekrar içindir; konu çalışmasını bitirdikten sonra (Şubat–Mart) izle.
+- Her kamp dersinden sonra o günkü alanın testini çöz: ana sayfa → Test → ilgili alan.
+- Yanlış yaptığın konunun maddesini aç, videodan aldığın notu oraya ekle.
+
+@@ ng-soru-cozum | Soru çözümleri | Kamp ve soru çözümü | Mîsâk soru kitabı; soru çözüm |
+= MBSTS adaylarına yönelik soru çözüm videoları (kanalda Mîsâk soru kitabının çözümleri de duyurulmuştu).
+[[https://www.youtube.com/@nurettingultekin/search?query=soru%20%C3%A7%C3%B6z%C3%BCm|Kanalda "soru çözüm" ara]]
+## Nasıl kullanılır?
+- Videoyu durdur, soruyu önce kendin çöz, sonra hocanın çözümünü dinle.
+- Yanlış yaptığın soruların konusunu bu uygulamada bulup **Notlarım** bölümüne soruyu ve doğru cevabı yaz.
+> Soru çözümü videolarında geçen ve uygulamada olmayan bir terim görürsen alan sayfasından "Madde ekle" ile kendi maddeni aç.

@@ -1,5 +1,6 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 /// Madde metnini çizer.
 /// Satır biçimleri:  "## Başlık", "- madde", "> ipucu kutusu", "!! tuzak kutusu", "%% akılda tut kutusu".
@@ -31,14 +32,34 @@ class _RichBodyState extends State<RichBody> {
     super.dispose();
   }
 
-  static final _inline = RegExp(r'\*\*(.+?)\*\*|\[\[([^\]|]+)(?:\|([^\]]+))?\]\]');
+  static final _inline = RegExp(r'\*\*(.+?)\*\*|\[\[([^\]|]+)(?:\|([^\]]+))?\]\]|(https?://[^\s)\]]+)');
+
+  static Future<void> openUrl(String u) async {
+    try {
+      await launchUrl(Uri.parse(u), mode: LaunchMode.externalApplication);
+    } catch (_) {}
+  }
+
+  TextSpan _urlSpan(String url, String label, Color linkColor) {
+    final r = TapGestureRecognizer()..onTap = () => openUrl(url);
+    _recs.add(r);
+    return TextSpan(
+      text: '▶ $label',
+      recognizer: r,
+      style: TextStyle(color: const Color(0xFFC4302B), fontWeight: FontWeight.w700, decoration: TextDecoration.underline, decorationColor: linkColor),
+    );
+  }
 
   List<InlineSpan> _spans(String s, TextStyle base, Color linkColor) {
     final out = <InlineSpan>[];
     var i = 0;
     for (final m in _inline.allMatches(s)) {
       if (m.start > i) out.add(TextSpan(text: s.substring(i, m.start)));
-      if (m.group(1) != null) {
+      if (m.group(4) != null) {
+        out.add(_urlSpan(m.group(4)!, m.group(4)!.length > 40 ? 'bağlantıyı aç' : m.group(4)!, linkColor));
+      } else if (m.group(2) != null && m.group(2)!.trim().startsWith('http')) {
+        out.add(_urlSpan(m.group(2)!.trim(), (m.group(3) ?? 'bağlantıyı aç').trim(), linkColor));
+      } else if (m.group(1) != null) {
         out.add(TextSpan(text: m.group(1), style: const TextStyle(fontWeight: FontWeight.w700)));
       } else {
         final id = m.group(2)!.trim();

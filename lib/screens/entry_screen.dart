@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../app_state.dart';
 import '../content.dart';
 import '../store.dart';
+import '../widgets/player_bar.dart';
 import '../widgets/rich_body.dart';
 import 'entry_editor.dart';
 import 'note_editor.dart';
@@ -41,6 +42,7 @@ class _EntryScreenState extends State<EntryScreen> {
             foregroundColor: Colors.white,
             title: Text(e.title),
             actions: [
+              ListenButton(ids: [e.id]),
               IconButton(
                 tooltip: 'Favori',
                 icon: Icon(store.favorites.contains(e.id) ? Icons.star : Icons.star_border),

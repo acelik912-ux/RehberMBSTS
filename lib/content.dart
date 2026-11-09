@@ -22,6 +22,7 @@ const areas = <Area>[
   Area('siyer', 'Siyer ve İslam Tarihi', 7, Color(0xFF0F5C63), Icons.history_edu),
   Area('mezhep', 'Mezhepler Tarihi', 3, Color(0xFF7A5A3A), Icons.account_tree),
   Area('dinler', 'Dinler Tarihi', 2, Color(0xFF5B6775), Icons.public),
+  Area('video', 'Nurettin Gültekin Dersleri', 0, Color(0xFFC4302B), Icons.ondemand_video),
 ];
 
 Area areaById(String id) => areas.firstWhere((a) => a.id == id, orElse: () => areas.first);
@@ -157,4 +158,5 @@ class Content {
 final linkRe = RegExp(r'\[\[([^\]|]+)(?:\|([^\]]+))?\]\]');
 
 /// Gövde metnindeki bağlantıların hedefleri.
-Iterable<String> linksIn(String body) => linkRe.allMatches(body).map((m) => m.group(1)!.trim());
+Iterable<String> linksIn(String body) =>
+    linkRe.allMatches(body).map((m) => m.group(1)!.trim()).where((id) => !id.startsWith('http'));

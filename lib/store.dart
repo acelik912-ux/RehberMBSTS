@@ -52,6 +52,7 @@ class Store extends ChangeNotifier {
   final Set<String> read = {};
   final Map<String, int> quizWrong = {}; // soru metni hash -> yanlış sayısı
   final List<String> history = [];
+  double ttsRate = 0.5;
 
   File get _file => File('${dir.path}/rehber_veri.json');
 
@@ -96,6 +97,7 @@ class Store extends ChangeNotifier {
     history
       ..clear()
       ..addAll(List<String>.from(j['hist'] ?? const []));
+    ttsRate = (j['tts'] as num?)?.toDouble() ?? 0.5;
   }
 
   Map<String, dynamic> toJson() => {
@@ -108,6 +110,7 @@ class Store extends ChangeNotifier {
         'read': read.toList(),
         'qw': quizWrong,
         'hist': history,
+        'tts': ttsRate,
       };
 
   Future<void> save() async {

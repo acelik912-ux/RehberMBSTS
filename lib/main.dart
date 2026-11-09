@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'app_state.dart';
 import 'content.dart';
 import 'screens/home_screen.dart';
+import 'widgets/player_bar.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -20,6 +21,8 @@ class RehberApp extends StatelessWidget {
     return MaterialApp(
       title: 'Rehber MBSTS',
       debugShowCheckedModeBanner: false,
+      navigatorKey: navKey,
+      builder: (context, child) => Column(children: [Expanded(child: child ?? const SizedBox()), const PlayerBar()]),
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: seed),
         useMaterial3: true,

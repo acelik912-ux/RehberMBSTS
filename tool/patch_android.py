@@ -78,3 +78,22 @@ elif root_groovy.exists():
 '''
     if 'rehberFix' not in r:
         root_groovy.write_text(fix + r, encoding='utf-8')
+
+# ---- Android 11+ için metin okuma (TTS) ve web bağlantısı sorguları ----
+s = manifest.read_text(encoding='utf-8')
+if 'TTS_SERVICE' not in s:
+    q = '''    <queries>
+        <intent>
+            <action android:name="android.intent.action.TTS_SERVICE" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="https" />
+        </intent>
+    </queries>
+'''
+    if '<queries>' in s:
+        s = s.replace('<queries>', q.strip().replace('</queries>', '').rstrip() + '\n', 1)
+    else:
+        s = s.replace('</manifest>', q + '</manifest>', 1)
+    manifest.write_text(s, encoding='utf-8')
