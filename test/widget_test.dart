@@ -1,8 +1,15 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:rehber_mbsts/app_state.dart';
 import 'package:rehber_mbsts/content.dart';
+import 'package:rehber_mbsts/screens/area_screen.dart';
+import 'package:rehber_mbsts/screens/cards_screen.dart';
+import 'package:rehber_mbsts/screens/entry_screen.dart';
 import 'package:rehber_mbsts/screens/home_screen.dart';
+import 'package:rehber_mbsts/screens/notebook_screen.dart';
+import 'package:rehber_mbsts/screens/quiz_screen.dart';
 import 'package:rehber_mbsts/widgets/rich_body.dart';
 
 void main() {
@@ -45,5 +52,37 @@ void main() {
     ));
     expect(find.textContaining('Başlık'), findsOneWidget);
     expect(tapped, isNull);
+  });
+
+  testWidgets('madde, alan, kart, test ve defter ekranları hatasız açılır', (tester) async {
+    content = (await tester.runAsync(() => Content.load()))!;
+    final tmp = Directory.systemTemp.createTempSync('rehber');
+    store.dir = tmp;
+    store.imgDir = Directory('${tmp.path}/gorseller')..createSync();
+    tester.view.physicalSize = const Size(1080, 2340);
+    tester.view.devicePixelRatio = 3;
+    addTearDown(tester.view.reset);
+
+    for (final w in <Widget>[
+      const EntryScreen(id: 'mutezile'),
+      const EntryScreen(id: 'mihne'),
+      const EntryScreen(id: 'hadis'),
+      AreaScreen(area: areas.first),
+      AreaScreen(area: areas[1]),
+      const QuizScreen(area: 'kelam'),
+      const NotebookScreen(),
+    ]) {
+      await tester.pumpWidget(MaterialApp(home: w));
+      await tester.pump(const Duration(milliseconds: 100));
+      expect(tester.takeException(), isNull);
+    }
+    store.addCards(['adl', 'mihne']);
+    await tester.pumpWidget(const MaterialApp(home: CardsScreen()));
+    await tester.pump();
+    expect(find.text('Kartı çevir'), findsOneWidget);
+    await tester.tap(find.text('Kartı çevir'));
+    await tester.pump();
+    expect(find.text('Bildim'), findsOneWidget);
+    expect(tester.takeException(), isNull);
   });
 }
