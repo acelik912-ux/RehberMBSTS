@@ -31,7 +31,7 @@ void main() {
   });
 
   testWidgets('ana sayfa ve bağlantılı metin çizilir', (tester) async {
-    content = await Content.load();
+    content = (await tester.runAsync(() => Content.load()))!;
     await tester.pumpWidget(const MaterialApp(home: HomeScreen()));
     await tester.pump();
     expect(find.text('Rehber MBSTS'), findsOneWidget);
