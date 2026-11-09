@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:archive/archive.dart';
-import 'package:file_picker/file_picker.dart';
+import 'package:file_selector/file_selector.dart';
 import 'package:flutter/material.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:share_plus/share_plus.dart';
@@ -46,9 +46,9 @@ class _BackupScreenState extends State<BackupScreen> {
   }
 
   Future<void> _import() async {
-    final r = await FilePicker.platform.pickFiles(type: FileType.any);
-    final path = r?.files.single.path;
-    if (path == null) return;
+    final XFile? picked = await openFile();
+    if (picked == null) return;
+    final bytes = await picked.readAsBytes();
     if (!mounted) return;
     final ok = await showDialog<bool>(
       context: context,
@@ -64,7 +64,7 @@ class _BackupScreenState extends State<BackupScreen> {
     if (ok != true) return;
     setState(() => _busy = true);
     try {
-      final arc = ZipDecoder().decodeBytes(File(path).readAsBytesSync());
+      final arc = ZipDecoder().decodeBytes(bytes);
       Map<String, dynamic>? data;
       for (final f in arc.files) {
         if (!f.isFile) continue;
