@@ -1,0 +1,527 @@
+@@ hadis | Hadis | Temel kavramlar | haber; eser |
+= Hz. Peygamber'e ait söz, fiil ve takrirlerin (onaylarının) rivayet yoluyla aktarılmış hâli.
+Hadis iki parçadan oluşur: hadisi nakledenlerin zinciri olan [[sened]] ve aktarılan söz olan [[metin]]. Aktaran kişiye [[ravi]] denir.
+## Hadis, sünnet, haber, eser
+- **Hadis**: Peygamber'den nakledilen söz, fiil ve takrir.
+- **[[sunnet|Sünnet]]**: Peygamber'in dini yaşama biçimi, yolu; hadis bunun rivayetidir.
+- **Haber**: Hadisi de içine alan genel kavram; bazı âlimler sahabe ve tâbiûn sözlerini de katar.
+- **Eser**: Çoğunlukla sahabe ve tâbiûn sözleri ([[mevkuf]] ve [[maktu]]) için kullanılır.
+## Neye göre ayrılır?
+- Kime ait olduğuna göre: [[kudsi]], [[merfu]], [[mevkuf]], [[maktu]].
+- Ravi sayısına göre: [[mutevatir]], [[ahad]] ([[meshur]], [[aziz]], [[garib]]).
+- Sıhhatine göre: [[sahih]], [[hasen]], [[zayif]], [[mevzu]].
+%% Ağacı ezberden çizebiliyorsan hadis usulünün yarısını biliyorsun: "Kime ait? Kaç kişi? Sağlam mı? Kusur nerede?"
+@img sema/hadis_agaci.png
+
+@@ sunnet | Sünnet | Temel kavramlar | kavlî sünnet; fiilî sünnet; takrîrî sünnet |
+= Hz. Peygamber'in söz (kavlî), davranış (fiilî) ve onaylarıyla (takrîrî) ortaya koyduğu dini yaşama örneği.
+Sözlükte "yol, gidişat" demektir. Hadis usulünde üç türü vardır:
+- **Kavlî sünnet**: Peygamber'in sözleri ("Ameller niyetlere göredir").
+- **Fiilî sünnet**: Yaptıkları (namazı nasıl kıldığı, haccı nasıl yaptığı).
+- **Takrîrî sünnet**: Yanında yapılan bir şeyi görüp ses çıkarmaması, yani onaylaması.
+%% Kod: "Kafa – Fiil – Takdir" → Kavlî, Fiilî, Takrîrî.
+!! Fıkıhta "sünnet" bir hüküm derecesidir (farz değil, ama Peygamber'in devam ettiği davranış). Hadis usulündeki "sünnet" ise kaynak anlamındadır; ikisini karıştırma. Fıkıhtaki anlamı için: [[sunnet-mustehap]].
+
+@@ sened | Sened (isnad) | Temel kavramlar | isnâd; tarik |
+= Hadisi Hz. Peygamber'e ulaştıran ravilerin zinciri.
+Sened, metnin "kimden kime" geldiğini gösterir: musannif (kitabı yazan) → hocası → … → [[tabiun|tâbiî]] → [[sahabe|sahabî]] → Hz. Peygamber.
+Senedi oluşturma işine **isnad** denir. Aynı hadisin farklı ravi zincirleriyle gelmesine **tarik** (yol) denir; bir hadisin çok tarikinin olması onu güçlendirir (bkz. [[mutabi]], [[sahid]]).
+## Senedde ne aranır?
+- Zincirin kesintisiz olması (ittisal) — kopuklukları: [[muallak]], [[mursel]], [[munkati]], [[mudal]], [[mudelles]].
+- Ravilerin güvenilir ([[adalet]]) ve sağlam hafızalı ([[zabt]]) olması.
+> Abdullah b. Mübârek: "İsnad dindendir; isnad olmasaydı dileyen dilediğini söylerdi."
+@img sema/sened_zinciri.png
+
+@@ metin | Metin | Temel kavramlar | metn |
+= Senedin sonunda gelen, hadisin asıl sözü / içeriği.
+Senedle ilgilenen ilimler ravilere bakar ([[cerh-tadil]], [[ricalul-hadis]]); metinle ilgilenenler ise anlamı inceler ([[garibul-hadis]], [[muhtelifu-l-hadis]], [[esbabu-vurud]]).
+Bir hadis senedi sağlam olduğu halde metninde gizli bir kusur ([[muallel|illet]]) ya da [[saz|şâzlık]] taşıyabilir. Bu yüzden sahihlik için ikisine birlikte bakılır.
+
+@@ ravi | Ravi | Temel kavramlar | râvî |
+= Hadisi duyduğu kişiden alıp başkasına aktaran kişi.
+Bir ravinin rivayetinin kabul edilmesi için iki temel şart vardır:
+- **[[adalet|Adalet]]**: Dürüst, takvalı, güvenilir kişilik.
+- **[[zabt|Zabt]]**: Duyduğunu doğru koruması ve aktarması (hafıza veya yazılı kayıt).
+Her ikisini de taşıyan raviye **sika** (güvenilir) denir. Ravilerin durumunu inceleyen ilim [[cerh-tadil]]dir.
+Ravinin hadisi alma yollarına "tahammül", aktarmasına "edâ" denir: [[tahammul-yollari]].
+
+@@ sahabe | Sahabe | Temel kavramlar | sahâbî; ashâb |
+= Hz. Peygamber'i mümin olarak görüp mümin olarak vefat eden kişi.
+Hadis usulünde sahabenin tamamı **âdil** kabul edilir; bu yüzden ravileri incelenirken sahabe hakkında [[cerh-tadil]] yapılmaz.
+Senedde sahabe düşerse hadis [[mursel]] olur. Sahabeye ait söz ve fiillere [[mevkuf]] denir.
+## Çok hadis rivayet edenler (müksirûn)
+Ebû Hüreyre, Abdullah b. Ömer, Enes b. Mâlik, Hz. Âişe, Abdullah b. Abbâs, Câbir b. Abdullah, Ebû Saîd el-Hudrî.
+> 2026 sorusu: Bir eserin içindekiler listesinde "Aşere-i mübeşşere, Ehl-i beyt, müksirûn rivayetleri" yazıyorsa o eser bir [[musned]]dir.
+
+@@ tabiun | Tâbiûn | Temel kavramlar | tâbiî; tâbiîn |
+= Sahabeyi mümin olarak görüp mümin olarak ölen nesil (tekili tâbiî).
+Sahabeden sonraki kuşaktır; onlardan sonra gelene **etbâu't-tâbiîn** denir.
+- Tâbiûna ait söz ve fiiller: [[maktu]].
+- Tâbiînin sahabeyi atlayıp doğrudan "Resulullah dedi" demesi: [[mursel]].
+Meşhurları: Saîd b. el-Müseyyeb, Hasan-ı Basrî, İbn Şihâb [[zuhri|ez-Zührî]], Mücâhid, İkrime, Alkame.
+
+@@ kudsi | Kudsî hadis | Kaynağına göre | hadîs-i kudsî |
+= Manası Allah'a, lafzı Hz. Peygamber'e ait olan hadis.
+Peygamber, Allah'tan naklederek "Allah Teâlâ buyurdu ki…" diye aktarır.
+!! Kudsî hadis Kur'an değildir: namazda okunmaz, mucize (i'caz) özelliği yoktur, tevatür şartı aranmaz; sahih, hasen veya zayıf olabilir.
+%% Kod: "Kudret Mermer Mevki Makamda" → Kudsî · Merfû · Mevkûf · Maktû (Allah → Peygamber → Sahabe → Tâbiûn).
+
+@@ merfu | Merfû | Kaynağına göre | |
+= Hz. Peygamber'e ait olduğu bildirilen söz, fiil veya takrir.
+**Kök:** r-f-ʿ "yükseltmek" → rivayet zincirde en üste, Peygamber'e kadar **yükseltilmiştir**.
+Senedin kesintisiz olması şart değildir; kopuk senedli bir hadis de merfû olabilir. Hem merfû hem kesintisiz olana [[musned|müsned]] hadis denir.
+## Hükmen merfû
+Sahabe "…sünnettendir", "bize şu emredildi" derse ya da akılla bilinemeyecek bir şeyi (gayb, ahiret) haber verirse, sözü sahabeye ait görünse de **hükmen merfû** sayılır.
+!! Karıştırma: [[mevkuf]] sahabede durur.
+> 2024 sorusu: Merfû bir hadisi [[mevkuf]] gibi rivayet etmek ([[muallel|illet]]) örneği.
+
+@@ mevkuf | Mevkûf | Kaynağına göre | eser |
+= Sahabeye ait söz veya fiil; rivayet sahabede durur.
+**Kök:** v-k-f "durdurmak" → rivayet sahabede **durdurulmuştur**, Peygamber'e çıkmaz.
+Örnek: Hz. Ömer'in hutbede söylediği bir söz. Fıkıhta "sahabe kavli" olarak delil sayılır: [[kavl-i-sahabi]].
+!! Karıştırma: [[maktu]] (tâbiûn sözü), [[merfu]] (Peygamber sözü).
+> 2023 tuzağı: "Nokta veya harekesi değiştirilen hadise mevkuf denir" → YANLIŞ. Doğrusu [[musahhaf]].
+
+@@ maktu | Maktû | Kaynağına göre | |
+= Tâbiûna (sahabeyi görmüş kuşağa) ait söz veya fiil.
+**Kök:** k-t-ʿ "kesmek" → rivayet tâbiûnda **kesilmiştir**.
+Örnek: Hasan-ı Basrî'nin bir sözü.
+!! Klasik tuzak: Maktû bir **kaynak** sınıflamasıdır (sözün kime ait olduğu). Senedden ravi düşmesi değildir! Sened kopukluğu [[munkati]]dır. Kökleri aynı, anlamları farklı.
+
+@@ mutevatir | Mütevâtir | Ravi sayısına göre | tevâtür; lafzî mütevâtir; mânevî mütevâtir | 2026
+= Her tabakada yalan üzerinde birleşmeleri aklen ve âdeten imkânsız bir topluluğun, duyularla bildikleri bir şeyi aktardığı haber.
+**Kök:** v-t-r "art arda gelmek" → haber kalabalıklarca **ardı ardına** gelir.
+## Şartları
+- Her tabakada kalabalık bir ravi topluluğu (belirli bir sayı şart değildir).
+- Bu kalabalığın yalanda birleşmesinin imkânsız olması.
+- Haberin gözle veya kulakla bilinen bir şey olması (akıl yürütme değil).
+- Bu durumun senedin başından sonuna kadar sürmesi.
+Mütevâtir haber **kesin bilgi** (ilm-i zarûrî) ifade eder; ravilerinin tek tek incelenmesine gerek yoktur.
+## Türleri
+- **Lafzî mütevâtir**: Lafzı da aynı. Örnek: "Kim bana bilerek yalan isnad ederse cehennemdeki yerine hazırlansın."
+- **Mânevî mütevâtir**: Farklı olaylarda, farklı lafızlarla gelen rivayetlerin **ortak noktası** mütevâtirdir. Örnek: duada elleri kaldırma, yağmur duasına çıkma (2026 sorusu).
+!! Karıştırma: [[meshur]] en az üç ravi ile gelir ama tevatür derecesine ulaşmaz.
+
+@@ ahad | Âhâd haber | Ravi sayısına göre | haber-i vâhid |
+= Mütevâtir derecesine ulaşmayan her haber.
+Ravi sayısına göre üçe ayrılır: [[meshur]] (en az 3), [[aziz]] (en az 2), [[garib]] (1).
+Âhâd haber kesin bilgi değil **zan** (kuvvetli ihtimal) ifade eder; ama sahihse amelde (fıkhi hükümlerde) delil kabul edilir.
+> Fıkıh usulünde Hanefîler âhâd haberi değerlendirirken [[hanefi|kendi]] ölçülerini koyar; Mâlikîler ise [[amel-i-ehl-i-medine|Medine ameli]]ne aykırı olmamasını gözetir.
+%% Kod: "Meşhur Aziz Garip" = 3 – 2 – 1.
+
+@@ meshur | Meşhur | Ravi sayısına göre | müstefîz |
+= Her tabakada en az üç ravi ile gelen, fakat tevatür sayısına ulaşmayan hadis.
+Hanefîlere göre meşhur hadis [[mutevatir]] ile [[ahad]] arasında ayrı bir derecedir ve Kur'an'daki genel bir hükmü tahsis edebilir.
+!! Halk arasında "meşhur" denen söz (dilde dolaşan) usuldeki meşhurla aynı değildir; halk arasında dolaşan sözler [[mevzuat-eserleri|Keşfü'l-hafâ]] gibi eserlerde incelenir.
+
+@@ aziz | Azîz | Ravi sayısına göre | |
+= Senedin her tabakasında en az iki ravisi olan hadis.
+Bir tabakada bile sayı ikiye düşerse hadis "azîz" adını alır; hadis en düşük sayılı tabakaya göre isimlendirilir.
+%% Azîz = "nadir, değerli" → az bulunur, ama tek de değildir: 2 kişi.
+
+@@ garib | Garîb / Ferd | Ravi sayısına göre | ferd; garîb-i mutlak; garîb-i nisbî |
+= Senedinin herhangi bir tabakasında tek ravi bulunan hadis.
+**Kök:** garîb "yalnız, gurbette" → ravi o tabakada **yapayalnız**.
+- **Garîb-i mutlak (ferd-i mutlak)**: Sahabeden sonra tek bir ravi ile devam eden.
+- **Garîb-i nisbî**: Belli bir ravi veya şehir bakımından tek kalan.
+> Garîb olmak zayıf olmak demek değildir! "Ameller niyetlere göredir" hadisi Hz. Ömer'den yalnızca Alkame ile gelir; hem garîb hem sahihtir.
+Tek sanılan bir hadisin başka yollarını aramaya [[itibar]] denir.
+
+@@ itibar | İ'tibâr | Ravi sayısına göre | |
+= Tek ravili (ferd) sanılan bir hadisin başka rivayet yollarını araştırma işi.
+İ'tibâr sonunda iki tür destek bulunabilir:
+- Aynı sahabiden gelen başka bir yol: [[mutabi]].
+- Başka bir sahabiden gelen aynı manada rivayet: [[sahid]].
+İ'tibâr bir hadis çeşidi değil, bir **yöntem**dir.
+
+@@ mutabi | Mütâbi | Ravi sayısına göre | mütâbaa; tam mütâbaa; kâsır mütâbaa | 2024
+= Ferd sanılan bir hadisi, aynı sahabiden gelen başka bir rivayet yolunun desteklemesi.
+**Kök:** t-b-ʿ "peşinden gitmek" → aynı yoldan **ikinci bir yolcu** gelmiştir.
+- **Tam mütâbaa**: Destek doğrudan ravinin kendisine (onunla aynı hocadan) olur.
+- **Kâsır (eksik) mütâbaa**: Destek senedin daha üst bir yerinde (hocanın hocası vb.) birleşir.
+> 2024 sorusu: Hadis önce Ebû Hüreyre → Ebû Seleme yoluyla tek bulunur; sonra Ebû Hüreyre → A'rec yoluyla da gelir. Cevap: mütâbi.
+!! Karıştırma: [[sahid]] başka bir sahabiden gelir.
+
+@@ sahid | Şâhid | Ravi sayısına göre | |
+= Aynı lafız veya manadaki hadisin başka bir sahabiden de rivayet edilmesi.
+**Kök:** ş-h-d "tanıklık etmek" → başka bir sahabi gelip **tanıklık** eder.
+Örnek: Ebû Hüreyre'nin rivayet ettiği bir hadisin aynı manasını İbn Ömer'in de aktarması.
+%% Aynı sahabi → [[mutabi]] · Farklı sahabi → şâhid. Destek arama işinin adı → [[itibar]].
+
+@@ sahih | Sahih hadis | Sıhhatine göre | sahîh li-zâtihî; sahîh li-gayrihî |
+= Senedi kesintisiz, ravileri âdil ve zabtı tam olan; şâz ve illetli olmayan hadis.
+## Beş şart — "İnce Adam Zor Şeyi İster"
+- **İ**ttisâl: Senedin baştan sona kesintisiz olması (kopukluklar: [[munkati]], [[mursel]]…).
+- **A**dalet: Ravilerin güvenilir kişiliği ([[adalet]]).
+- **Z**abt: Ravilerin sağlam hafızası ([[zabt]]).
+- **Ş**âz olmamak: Daha güvenilir ravilere aykırı olmaması ([[saz]]).
+- **İ**llet olmamak: Gizli bir kusur taşımaması ([[muallel]]).
+Bu şartları kendi başına taşıyan **sahîh li-zâtihî**dir. Zabtı biraz eksik olan [[hasen]], başka yollarla desteklenince **sahîh li-gayrihî** olur.
+> En güvenilir iki eser: [[buhari]] ve [[muslim]]in Sahîh'leri (Sahîhayn).
+@img sema/hadis_agaci.png
+
+@@ hasen | Hasen hadis | Sıhhatine göre | hasen li-zâtihî; hasen li-gayrihî |
+= Sahih hadisin şartlarını taşıyan, fakat ravilerinden birinin zabtı biraz hafif olan hadis.
+Hasen hadis delil olarak kabul edilir. Bu terimi bir hadis türü olarak yaygınlaştıran [[tirmizi]]dir; Câmi'inde her hadisin derecesini "hasen sahîh" gibi notlarla belirtir.
+- **Hasen li-zâtihî**: Kendi başına hasen.
+- **Hasen li-gayrihî**: Hafif zayıf olup başka yollarla desteklenerek hasen derecesine çıkan.
+
+@@ zayif | Zayıf hadis | Sıhhatine göre | da'îf |
+= Sahih ve hasen hadisin şartlarından en az birini taşımayan hadis.
+Zayıflık iki ana sebepten doğar:
+- **Senedde kopukluk**: [[muallak]], [[mursel]], [[munkati]], [[mudal]], [[mudelles]].
+- **Ravide kusur** (ta'n): adaletle ilgili ([[mevzu]], [[metruk]]) veya zabtla ilgili ([[muallel]], [[mudrec]], [[maklub]], [[muztarib]], [[musahhaf]], [[saz]], [[munker]]).
+> 2026 sorusu: "Muztarib, muallel, münker, şâz, maklûb" listesi için doğru başlık: **Ravideki kusur açısından zayıf hadisler.**
+!! Zayıf hadis uydurma ([[mevzu]]) değildir; çoğunluğa göre fezâil (amellerin fazileti) konusunda şartlı olarak rivayet edilebilir.
+
+@@ adalet | Adalet (ravide) | Sıhhatine göre | adl ravi |
+= Ravinin dürüst, takvalı ve güvenilir kişiliğe sahip olması.
+## Adaleti zedeleyen 5 kusur — "Kimliği Yok, Fena Bir Cahil"
+- **Kizb**: Hadis uydurduğu bilinmek → [[mevzu]].
+- **Yalanla itham** edilmek → [[metruk]].
+- **Fısk**: Büyük günah işlemek, günahta ısrar.
+- **Bid'at**: Dinde sonradan çıkan inançlara bağlılık (şartlı olarak reddedilir).
+- **Cehâlet**: Ravinin **kim olduğunun bilinmemesi** (mechûl ravi).
+%% Adalet = **kişilik** ("kimdir, güvenilir mi?") · [[zabt]] = **hafıza** ("doğru aktarıyor mu?").
+> 2024 sorusu: "Tanınmıyor olma" → adalet kusurudur; "yanılma" ve "güvenilir ravilere muhalefet" → zabt kusurudur.
+!! Bu "adalet", Mutezile'nin [[adl]] ilkesiyle karıştırılmamalı.
+
+@@ zabt | Zabt | Sıhhatine göre | zabt-ı sadr; zabt-ı kitâb |
+= Ravinin duyduğunu eksiksiz koruması ve aynen aktarabilmesi.
+- **Zabt-ı sadr**: Hafızayla koruma.
+- **Zabt-ı kitâb**: Yazılı kayıtla koruma.
+## Zabtı zedeleyen 5 kusur — "Fazla Gaflet, Vehim ve Muhalefet = Sû-i hıfz"
+- **Fuhşu'l-galat**: Çok hata yapmak.
+- **Gaflet**: Dikkatsizlik.
+- **Vehim**: Yanılma → [[muallel]].
+- **Sikalara muhalefet**: Güvenilir ravilere aykırı rivayet → [[saz]], [[mudrec]], [[maklub]], [[muztarib]], [[musahhaf]].
+- **Sû-i hıfz**: Kötü hafıza.
+Zabtı biraz hafif olan ravinin hadisi [[hasen]], zabtı bozuk olanınki [[zayif]] olur.
+
+@@ muallak | Muallak | Sened kopukluğu | ta'lîk; ta'lîkât |
+= Senedin başından (musannif tarafından) bir veya daha fazla ravinin atılmasıyla oluşan hadis.
+**Kök:** ʿ-l-k "asmak" → zincirin **alt ucu boş**, havada asılı kalmış.
+Bazen senedin tamamı atılıp doğrudan "Peygamber şöyle buyurdu" denir.
+> Örnek: [[buhari]]nin bab başlıklarında senedsiz aktardığı rivayetler (ta'lîkât).
+!! Karıştırma: [[mursel]] en üstten (sahabe) düşer; muallak en alttan (musannif tarafı) düşer.
+@img sema/sened_zinciri.png
+
+@@ mursel | Mürsel | Sened kopukluğu | irsâl |
+= Tâbiînin, aradaki sahabeyi söylemeden doğrudan "Resulullah şöyle dedi" demesi.
+**Kök:** r-s-l "salıvermek" → tâbiî sahabeyi atlayıp sözü **salıvermiştir**.
+## Delil değeri
+- Muhaddislerin çoğuna göre zayıftır (düşen kişinin kim olduğu bilinmez).
+- **Hanefî ve Mâlikîler**, güvenilir bir tâbiînin mürselini delil kabul eder.
+- İmam Şâfiî, başka yollarla desteklenirse kabul eder.
+> Örnek: Saîd b. el-Müseyyeb'in "Resulullah buyurdu ki…" diye başlayan rivayetleri.
+!! 2024 sorusu: Mürsel bir hadisi müsned (kesintisiz) gibi rivayet etmek bir [[muallel|illet]] örneğidir.
+
+@@ munkati | Munkatı' | Sened kopukluğu | inkıtâ' |
+= Senedin ortasından (sahabeden sonraki tabakalardan) bir ravinin düşmesiyle oluşan hadis.
+**Kök:** k-t-ʿ (inkıtâ') "kopmak" → zincirin **ortasında** bir halka kopmuş.
+Farklı yerlerden birer ravi düşmesi de munkatı' sayılır.
+Örnek: Bir ravinin hiç görüşmediği bir hocadan doğrudan rivayet etmesi.
+!! Klasik karıştırma: [[maktu]] (tâbiûn sözü) — aynı kök, farklı kavram. Art arda iki ravi düşerse [[mudal]] olur.
+
+@@ mudal | Mu'dal | Sened kopukluğu | i'dâl |
+= Senedin ortasından art arda iki veya daha fazla ravinin düşmesiyle oluşan hadis.
+**Kök:** ʿ-d-l "zorlaştırmak, yormak" → iki halka birden eksik; izini sürmek **zor**.
+> Örnek: İmam [[muvatta|Mâlik]]'in "Ebû Hüreyre'den bana ulaştı ki…" demesi (Mâlik ile Ebû Hüreyre arasında iki ravi vardır).
+%% Munkatı' = 1 kopuk halka · Mu'dal = yan yana 2+ kopuk halka.
+
+@@ mudelles | Müdelles | Sened kopukluğu | tedlîs; tedlîsü'l-isnâd; tedlîsü'ş-şüyûh |
+= Ravinin senetteki bir kusuru gizleyerek rivayet ettiği hadis.
+**Kök:** d-l-s "karanlık; satıcının malın kusurunu gizlemesi".
+## Türleri
+- **Tedlîsü'l-isnâd**: Ravi, görüştüğü bir hocadan **duymadığı** bir hadisi "an fülân" (falandan) gibi duymuş izlenimi veren belirsiz bir ifadeyle aktarır. "Haddesenâ" (bize anlattı) demez.
+- **Tedlîsü'ş-şüyûh**: Hocasını tanınmasın diye bilinmeyen bir lakap veya künyeyle anar.
+Tedlis yapan ravinin, açıkça "işittim" demediği rivayetleri şüpheli sayılır.
+
+@@ mevzu | Mevzû (uydurma) hadis | Ravideki kusur | vaz'; uydurma |
+= Hz. Peygamber'in söylemediği halde yalan yere ona nispet edilen söz.
+**Kök:** v-d-ʿ "koymak" → söz Peygamber'in ağzına **konulmuştur**.
+## Uydurma sebepleri
+- Siyasi ve mezhebi taassup (taraftarını övme, rakibini yerme).
+- Kıssacıların (kussâs) dinleyiciyi etkileme isteği.
+- İyi niyetli ama yanlış teşvik (terğîb) ve korkutma (terhîb) çabası.
+- İslam'ı bozmak isteyen zındıklar.
+- Kişisel çıkar, bir şehir, kavim veya mesleği övme.
+## Nasıl anlaşılır?
+Uyduranın itirafı; Kur'an'a, sahih sünnete, akla veya tarihe açık aykırılık; basit bir işe aşırı sevap/ceza vaadi; dilinin bozukluğu.
+!! 2023 tuzağı: "Nâzil (uzun) isnad" bir uydurma alameti **değildir**.
+Uydurma olduğu belirtilmeden aktarılması caiz değildir. İnceleyen eserler: [[mevzuat-eserleri]].
+
+@@ metruk | Metrûk | Ravideki kusur | |
+= Yalan söylemekle itham edilen (ama yalanı kesin olarak sabit olmayan) bir ravinin tek başına rivayet ettiği hadis.
+**Kök:** t-r-k "bırakmak" → bu ravinin hadisi **bırakılır**.
+Ravinin yalanı kesinleşirse hadis [[mevzu]] olur.
+%% Yalancı = mevzû · Yalanla itham edilen = metrûk.
+
+@@ munker | Münker | Ravideki kusur | ma'rûf |
+= Zayıf bir ravinin, güvenilir (sika) ravilere aykırı rivayeti.
+**Kök:** n-k-r "yadırgamak" → herkesin **tuhaf bulduğu** rivayet.
+Karşıtına, yani sikaların doğru rivayetine **ma'rûf** denir. Çok hata yapan, gafil veya fâsık ravinin tek kaldığı rivayet de münker kabul edilir.
+%% Şâz ↔ mahfûz (aykırı olan **sika**) · Münker ↔ ma'rûf (aykırı olan **zayıf**).
+!! Karıştırma: [[saz]].
+
+@@ saz | Şâz | Ravideki kusur | şüzûz; mahfûz | 2023
+= Sika (güvenilir) bir ravinin, kendisinden daha sika veya daha kalabalık sika ravilere aykırı rivayeti.
+**Kök:** ş-z-z "sürüden ayrılmak" → güvenilir bir koyun, ama sürüden ayrı yöne gidiyor.
+Karşıtı, yani tercih edilen rivayet **mahfûz** adını alır.
+Örnek: Dört sika ravi bir lafızla, bir sika ravi farklı ve çelişen bir lafızla aktarırsa o tek rivayet şâzdır.
+Şâz olmamak, [[sahih]] hadisin beş şartından biridir.
+> 2023 sorusu: "Muztarib ve şâz" tanımları doğru verilmişti.
+
+@@ muallel | Muallel (illetli) hadis | Ravideki kusur | illet; ma'lûl | 2024
+= Görünüşte sahih olduğu halde, uzmanların ancak bütün rivayet yollarını toplayınca fark edebildiği gizli bir kusur (illet) taşıyan hadis.
+**Kök:** ʿ-l-l "hastalık" → dıştan sağlıklı görünür, **içinde gizli hastalık** vardır.
+## İllet örnekleri
+- [[mursel|Mürsel]] bir hadisin müsned (kesintisiz) gibi rivayet edilmesi.
+- [[mevkuf|Mevkûf]] bir hadisin [[merfu]] gibi rivayet edilmesi.
+- Bir ravinin hiç görüşmediği birinden işitmiş gibi gösterilmesi.
+> 2024 sorusu: Bu tür gizli kusurlara verilen ad: **illet**.
+İlletleri inceleyen ilim: [[ilelul-hadis]]. İllet olmamak [[sahih]] hadisin beş şartından biridir.
+!! Açık kusurlar (kopukluk, yalancı ravi) illet sayılmaz; illet **gizli**dir.
+
+@@ mudrec | Müdrec | Ravideki kusur | idrâc; müdrecü'l-metn; müdrecü'l-isnâd |
+= Ravinin kendi açıklamasını ayırt etmeden hadisin metnine veya senedine katmasıyla oluşan hadis.
+**Kök:** d-r-c "araya sokmak" → ravinin sözü hadisin içine **sıkıştırılmıştır**.
+- **Müdrecü'l-metn**: Metne ekleme.
+- **Müdrecü'l-isnâd**: Bir senedin başka bir senede katılması.
+> Örnek: "Abdesti tam alın. Vay ateşten topukların hâline!" Burada "abdesti tam alın" kısmı Ebû Hüreyre'nin kendi sözüdür.
+!! Karıştırma: [[maklub]] ekleme değil yer değişimidir.
+
+@@ maklub | Maklûb | Ravideki kusur | kalb | 2023
+= Senedde ravi adlarının ya da metinde kelimelerin yer değiştirmesiyle oluşan hadis.
+**Kök:** k-l-b "çevirmek" → bir şey **ters** yazılmış.
+- Senedde: "Ka'b b. Mürre" yerine "Mürre b. Ka'b" demek; aynı tabakadaki iki raviyi karıştırmak.
+- Metinde: "Sağ elinin verdiğini sol eli bilmesin" yerine "Sol elinin verdiğini sağ eli bilmesin" rivayeti.
+> 2023 sorusu: Bir ravinin, hadisi aldığı kişi yerine başka bir raviyi (kardeşini) zikretmesi → maklûb.
+
+@@ muztarib | Muztarib | Ravideki kusur | ıztırâb; mahfûz | 2023
+= Aynı hadisin, güç bakımından birbirine denk ve aralarında ne tercih ne de uzlaştırma yapılabilen farklı şekillerde rivayet edilmesi.
+**Kök:** d-r-b (ıztırâb) "çalkalanmak" → rivayetler dalga gibi sağa sola gidiyor.
+Örnek: Bir ravi aynı senedi bir kez Ebû Hüreyre'den, bir kez Âişe'den, bir kez [[mursel]] olarak aktarır ve hiçbiri diğerinden güçlü değildir.
+!! Rivayetlerden biri daha güçlüyse hadis muztarib olmaz: güçlü olan **mahfûz/ma'rûf**, zayıf olan [[saz]] / [[munker]] olur.
+
+@@ musahhaf | Musahhaf / Muharref | Ravideki kusur | tashîf; tahrîf; muharref |
+= Harflerin iskeleti aynı kaldığı halde noktalarının değişmesiyle oluşan yanlış rivayet (harekesi değişirse muharref).
+**Kök:** s-h-f "sahife" → sahifeden **yanlış okunmuş** kelime.
+> Klasik örnek: "Ramazan orucundan sonra Şevvâl'den **altı** gün (sitten)" ifadesinin "Şevvâl'den **bir şey** (şey'en)" diye okunması.
+!! 2023 tuzağı: Bu tür hataya "mevkuf" denmez. Doğrusu musahhaf/muharref.
+%% Musahhaf = **nokta** değişti · Muharref = **hareke** değişti · [[maklub]] = **yer** değişti.
+
+@@ cerh-tadil | Cerh ve ta'dîl | Hadis ilimleri | el-cerh ve't-ta'dîl | 2026
+= Ravileri kusurlu (cerh) veya güvenilir (ta'dîl) olarak niteleyen, öncelikle senedle ilgilenen ilim.
+**Cerh**: yaralamak → ravinin kusurunu ortaya koymak. **Ta'dîl**: âdil olduğunu belirtmek.
+Kullanılan ifadelerin dereceleri vardır: "sika sebt" (en üst) … "kezzâb" (en alt).
+> 2026 sorusu: Hadis ilimlerinden **öncelikle senedle** ilgilenen → cerh ve ta'dîl.
+İlişkili: [[ricalul-hadis]], [[adalet]], [[zabt]].
+!! Sahabe hakkında cerh-ta'dîl yapılmaz; hepsi âdil kabul edilir.
+
+@@ ricalul-hadis | Ricâlü'l-hadis / Tabakât | Hadis ilimleri | tabakât; esmâ ve künâ; mu'telif-muhtelif |
+= Ravilerin hayatlarını, hocalarını, öğrencilerini ve hangi kuşağa (tabakaya) ait olduklarını inceleyen ilim.
+Sened incelemesinin temel aracıdır: iki ravinin aynı çağda yaşayıp görüşebilip görüşemeyeceği buradan anlaşılır ([[munkati]], [[mudelles]] tespiti).
+Yakın dallar:
+- **Tabakât**: Ravileri kuşaklara göre sıralar.
+- **Esmâ ve künâ**: İsim ve künyeleri ayırır.
+- **Mu'telif–muhtelif**: Yazılışı benzeyen isimleri ayırt eder.
+- **Vefeyât**: Ölüm tarihleri.
+
+@@ ilelul-hadis | İlelü'l-hadis | Hadis ilimleri | ilel |
+= Hadislerdeki gizli kusurları (illet) ortaya çıkaran, hem sened hem metinle ilgilenen ilim.
+Hadis ilimlerinin en zorudur; bir hadisin bütün rivayet yollarını toplayıp karşılaştırmayı gerektirir.
+İlgili: [[muallel]].
+
+@@ garibul-hadis | Garîbü'l-hadis | Hadis ilimleri | |
+= Hadislerde geçen az bilinen, anlaşılması güç kelimeleri açıklayan ilim (metin odaklı).
+Kur'an'daki karşılığı Garîbü'l-Kur'an'dır ([[ulumul-kuran]]).
+!! Karıştırma: [[garib]] hadis (tek ravili hadis) ile ilgisi yoktur.
+
+@@ muhtelifu-l-hadis | Muhtelifü'l-hadis | Hadis ilimleri | müşkilü'l-hadis; telfîk |
+= Birbiriyle çelişkili görünen hadisleri uzlaştıran, uzlaştırılamazsa birini tercih eden ilim.
+Yöntem sırası: önce **cem'** (uzlaştırma), olmazsa **nesh** (biri öbürünü kaldırmış mı?), o da olmazsa **tercih**.
+Kur'an ilimlerindeki karşılığı Müşkilü'l-Kur'an'dır.
+
+@@ esbabu-vurud | Esbâbü vürûdi'l-hadis | Hadis ilimleri | sebeb-i vürûd | 2024
+= Bir hadisin söylenme sebebini (olayını) inceleyen ilim.
+Kur'an'daki karşılığı [[esbab-i-nuzul]]dür.
+> 2024 sorusu: "Ameller niyetlere göredir… Kimin hicreti evleneceği bir kadın içinse…" hadisinin, Ümmü Kays ile evlenmek için hicret eden kişi (**Muhâcir-i Ümmü Kays**) üzerine söylendiğinin bilinmesi → esbâbü vürûdi'l-hadis.
+%% Hadiste "vürûd" (geliş) · Kur'an'da "nüzûl" (iniş).
+
+@@ tahammul-yollari | Tahammül ve edâ yolları | Tahammül ve edâ | semâ'; kırâat; arz; icâzet; münâvele; kitâbet; mükâtebe; i'lâm; vasiyyet; vicâde | 2023
+= Ravinin hadisi hocasından alma (tahammül) ve başkasına aktarma (edâ) yöntemleri.
+## 8 yol — güçlüden zayıfa: "SEKİ MÜKİ VAVİ"
+- **Semâ'**: Öğrenci hocanın okuduğunu **dinler**. En üstün yol. (kök: işitmek)
+- **Kırâat / Arz**: Öğrenci okur, hoca dinleyip onaylar. (sunmak)
+- **İcâzet**: Hoca, rivayetlerini nakletmesi için **izin** verir. (caiz = izinli)
+- **Münâvele**: Hoca, rivayetlerinin yazılı olduğu kitabı öğrencisine **elden verir**. (nevl = el uzatmak)
+- **Kitâbet (mükâtebe)**: Hoca hadisleri **yazıp gönderir**.
+- **İ'lâm**: Hoca "Bunlar benim rivayetlerimdir" diye **bildirir**; izin söz konusu değildir.
+- **Vasiyyet**: Hoca ölüm veya yolculuk öncesi kitaplarını birine **vasiyet** eder.
+- **Vicâde**: Birinin el yazısı hadis sahifesi **bulunur**. (vecd = bulmak)
+!! 2023 tuzağı: "Vasiyye = 'Benim rivayetlerim işte bunlardır' sözü" → bu i'lâm'dır. "Semâ = talebeye izin vermek" → bu icâzettir. Doğru eşleşme yalnızca münâvele idi.
+@img sema/tahammul.png
+
+@@ hadis-tarihi | Hadis tarihinin dönemleri | Hadis tarihi | hıfz; kitâbet; tedvîn; tasnîf | 2024
+= Hadislerin ezberlenmesinden kitaplarda tasnifine kadar geçirdiği aşamalar.
+## Dönemler — "Hİ-Kİ-TE-TA"
+- **Hıfz**: Ezberleme, Hz. Peygamber ve sahabe dönemi.
+- **Kitâbet**: Bireysel yazım; sahabenin tuttuğu [[sahife|sahifeler]].
+- **Tedvîn**: Resmî derleme (h. II. asır başı) — bkz. [[tedvin]].
+- **Tasnîf**: Konulara göre düzenleme; h. III. asır, hadisin altın çağı ([[kutub-i-sitte]]).
+- Sonrası: [[serh]], ihtisar, [[zevaid]], [[etraf]], [[mustahrec]] gibi çalışmalar.
+!! 2024 tuzağı: **İstinbât** bir hadis tarihi dönemi değildir.
+
+@@ sahife | Sahifeler (yazılı ilk derlemeler) | Hadis tarihi | es-Sahîfetü's-sâdıka; Hemmâm b. Münebbih |
+= Hz. Peygamber döneminde ve sonrasında sahabe ve tâbiûnun hadisleri yazdığı küçük derlemeler.
+Hadislerin ilk kez tedvin döneminde yazıldığı düşüncesi **yanlıştır** (2026 sorusu).
+- **es-Sahîfetü's-sâdıka**: Abdullah b. Amr b. Âs'ın, Peygamber'in izniyle yazdığı sahife.
+- **Sahîfetü Hemmâm b. Münebbih**: Ebû Hüreyre'nin talebesinin yazdığı, günümüze ulaşan erken bir derleme.
+- Hz. Ali'nin sahifesi (diyetler ve hükümler).
+> Peygamber'in başta hadis yazımını yasakladığı, sonra izin verdiği rivayetler vardır: yasak, Kur'an'la karışma endişesine bağlanır.
+
+@@ tedvin | Tedvîn | Hadis tarihi | resmî tedvin | 2026
+= Hadislerin devlet eliyle, resmî olarak toplanıp yazıya geçirilmesi.
+- Emevî halifesi **[[omer-b-abdulaziz|Ömer b. Abdülaziz]]** (99–101/717–720) başlattı. ✔
+- Görevlendirilenler: Medine valisi Ebû Bekir b. Hazm ve **İbn Şihâb [[zuhri|ez-Zührî]]**.
+- İlk tedvin bölgesi **Medine**dir (Mâverâünnehir değil). ✘
+- Hadisler ilk kez bu dönemde yazılmadı; daha önce de [[sahife]]ler vardı. ✘
+> 2026 sorusu: Üç öncülden yalnızca "Resmî tedvin Ömer b. Abdülaziz'in emriyle başladı" doğruydu.
+
+@@ omer-b-abdulaziz | Ömer b. Abdülaziz | Hadis tarihi | II. Ömer |
+= Hadislerin resmî tedvinini başlatan, adaletiyle tanınan Emevî halifesi (h. 99–101).
+Âlimlerin ölmesiyle hadislerin kaybolmasından endişe ederek valilerine hadisleri toplamalarını emretti: [[tedvin]].
+Emevîler içinde "beşinci râşid halife" diye anılır. Bkz. [[emeviler]].
+
+@@ zuhri | İbn Şihâb ez-Zührî | Hadis tarihi | Zührî |
+= Hadislerin ilk resmî tedvinini gerçekleştiren meşhur tâbiî muhaddis (ö. 124/742).
+[[omer-b-abdulaziz]]in görevlendirmesiyle Medine'deki hadisleri topladı. Senedi sistemli kullananların öncülerindendir.
+
+@@ kutub-i-sitte | Kütüb-i Sitte | Hadis tarihi | altı kitap; Sahîhayn |
+= Hadis tasnif döneminin en muteber altı eseri.
+## Hafıza sarayı: Ev
+- **Kapı**: [[buhari]] — el-Câmiu's-sahîh (ö. 256)
+- **Antre**: [[muslim]] — el-Câmiu's-sahîh (ö. 261)
+- **Mutfak**: [[ebu-davud]] — es-Sünen (ö. 275) — helal/haram, ahkâm
+- **Salon**: [[tirmizi]] — es-Sünen / el-Câmi' (ö. 279) — her hadisin "notu" asılı
+- **Banyo**: [[nesai]] — es-Sünen (el-Müctebâ) (ö. 303) — en titiz
+- **Balkon**: [[ibn-mace]] — es-Sünen (ö. 273) — dışarıya en açık
+İlk ikisine **Sahîhayn**, diğer dördüne **Sünen-i Erbaa** denir.
+@img sema/hafiza_sarayi.png
+
+@@ buhari | Buhârî | Hadis tarihi | el-Câmiu's-sahîh; Sahîh-i Buhârî |
+= Kütüb-i Sitte'nin ilki olan el-Câmiu's-sahîh'in müellifi (ö. 256/870).
+Buhara'da doğdu; yaklaşık 600 bin hadis arasından seçtiği hadislerle eserini 16 yılda tamamladı. Eser [[cami]] türündedir; bab başlıklarındaki fıkhi tespitleri (terâcim) ve senedsiz [[muallak]] rivayetleri meşhurdur.
+Şartı: ravinin hocasıyla **görüşmüş olması (likâ')**.
+En meşhur şerhi: İbn Hacer, Fethu'l-Bârî ([[serh]]).
+
+@@ muslim | Müslim | Hadis tarihi | Sahîh-i Müslim |
+= Kütüb-i Sitte'nin ikincisi, el-Câmiu's-sahîh'in müellifi (ö. 261/875).
+Eseri [[cami]] türündedir; bir hadisin farklı rivayetlerini tek yerde topladığı için düzenli ve kullanışlıdır. Başına hadis usulüne dair önemli bir mukaddime yazmıştır.
+Şartı: ravilerin **çağdaş olması (muâsara)** yeterlidir; Buhârî kadar sıkı değildir.
+Nevevî'nin şerhi meşhurdur.
+
+@@ ebu-davud | Ebû Dâvûd | Hadis tarihi | Sünen-i Ebî Dâvûd |
+= Ahkâm (fıkıh) hadislerini topladığı es-Sünen'in müellifi (ö. 275/889).
+Eser [[sunen]] türünün en önemlisidir; fakihler için temel kaynaktır.
+
+@@ tirmizi | Tirmizî | Hadis tarihi | Câmiu't-Tirmizî; Sünenü't-Tirmizî |
+= es-Sünen (el-Câmi') müellifi; her hadisin derecesini belirtmesiyle tanınır (ö. 279/892).
+"[[hasen]]" terimini bir hadis çeşidi olarak yaygınlaştırmıştır. Ayrıca her konuda fakihlerin görüşlerini de aktarır. Eser hem [[cami]] hem [[sunen]] özelliği taşır.
+Ayrıca Hz. Peygamber'in şemâilini anlatan eş-Şemâil'i meşhurdur.
+
+@@ nesai | Nesâî | Hadis tarihi | el-Müctebâ |
+= es-Sünen (el-Müctebâ) müellifi; ravi seçiminde titizliğiyle bilinir (ö. 303/915).
+Şartları Sahîhayn'dan sonra en sıkı kabul edilen Sünen'dir.
+
+@@ ibn-mace | İbn Mâce | Hadis tarihi | |
+= Kütüb-i Sitte'nin altıncısı es-Sünen'in müellifi (ö. 273/887).
+Diğerlerine göre zayıf hadisi en çok olan eserdir; bu yüzden altıncı kitabın hangisi olacağı (bazıları [[muvatta]]yı sayar) tartışılmıştır.
+
+@@ muvatta | Muvatta' (İmam Mâlik) | Hadis tarihi | İmam Mâlik |
+= İmam Mâlik'in (ö. 179/795) hadis, sahabe ve tâbiûn görüşleri ile Medine amelini bir arada topladığı eser.
+[[musannef]] tarzında, fıkıh bablarına göre düzenlenmiştir; merfûların yanında [[mevkuf]], [[maktu]] ve [[mursel]]ler de içerir. Mâlikî mezhebinin temel kaynağıdır: [[maliki]], [[amel-i-ehl-i-medine]].
+
+@@ ahmed-b-hanbel | Ahmed b. Hanbel | Hadis tarihi | İmam Ahmed; el-Müsned |
+= Hanbelî mezhebinin imamı, el-Müsned'in müellifi, [[mihne]] karşısındaki direnişiyle tanınan âlim (ö. 241/855).
+## İki yönü
+- **Hadisçi**: el-Müsned, en büyük [[musned]] eseridir; hadisleri sahabe isimlerine göre sıralar.
+- **Mihne kahramanı**: Halife [[memun]] ve sonraki halifeler döneminde "Kur'an mahlûktur" ([[halku-l-kuran]]) demeyi reddetti; hapsedildi ve kırbaçlandı. Direnişi, Ehl-i sünnet ve Ehl-i hadisin gözünde onu bir sembole dönüştürdü.
+Mezhebi: [[hanbeli]].
+
+@@ tahric | Tahrîc | Hadis tarihi | | 2024
+= Bir hadisin asıl kaynaklarını (sened ile rivayet eden eserleri) bulup gösterme ve sıhhat derecesini belirleme işi.
+**Kök:** h-r-c "çıkmak" → hadisin kaynağını **çıkarmak**.
+> 2024 sorusu: Bir hadisin aslî kaynaklarını tespit edip sıhhatini belirleme → tahrîc.
+!! Karıştırma: [[mustahrec]] bir eser türüdür; tahrîc ise yöntemdir.
+
+@@ cami | Câmi' | Eser türleri | |
+= Akaid, ahkâm, rikak (zühd), âdâb, tefsir, siyer, fiten ve menâkıb olmak üzere sekiz ana konunun hepsini içeren hadis eseri.
+Örnek: [[buhari]], [[muslim]], [[tirmizi]].
+%% "Câmi' = cami gibi herkesi toplar." Hafıza sarayında kapıdır.
+!! Suyûtî'nin el-Câmiu's-sağîr'i de bir câmi'dir (alfabetik); mevzuat kitabı değildir.
+
+@@ sunen | Sünen | Eser türleri | |
+= Fıkıh bablarına (taharet, namaz, zekât…) göre düzenlenmiş, ağırlıkla merfû ahkâm hadislerini toplayan eser.
+Örnek: [[ebu-davud]], [[nesai]], [[ibn-mace]], [[tirmizi]].
+!! Karıştırma: [[musannef]] de fıkıh bablarına göredir ama mevkûf ve maktû rivayetler de içerir.
+
+@@ musannef | Musannef | Eser türleri | |
+= Fıkıh bablarına göre düzenlenmiş; merfû hadislerin yanında sahabe ve tâbiûn sözlerini ([[mevkuf]], [[maktu]]) de bolca içeren eser.
+Örnek: Abdürrezzâk es-San'ânî'nin ve İbn Ebî Şeybe'nin Musannef'leri; [[muvatta]] da bu tarzdadır.
+
+@@ musned | Müsned | Eser türleri | | 2023,2026
+= Hadisleri, onları rivayet eden sahabenin isimlerine göre sıralayan eser.
+**Kök:** isnâd "dayandırmak".
+Sahabeler çoğu kez fazilet sırasına göre dizilir: Aşere-i mübeşşere → Ehl-i beyt → müksirûn (çok rivayet edenler) → diğerleri. Bazı müsnedler alfabetik veya kabilelere göredir.
+> 2023 ve 2026: "Sahabeleri faziletine göre sıralayıp rivayetlerini toplamak" ve "içindekiler: Aşere-i mübeşşere, Ehl-i beyt, müksirûn" → müsned.
+En büyük örnek: [[ahmed-b-hanbel]]in el-Müsned'i. Ayrıca Tayâlisî ve Humeydî'nin müsnedleri.
+!! "Müsned hadis" ise ayrı bir terimdir: hem [[merfu]] hem senedi kesintisiz olan hadis.
+
+@@ mucem | Mu'cem | Eser türleri | |
+= Hadisleri hocaların, sahabenin veya şehirlerin alfabetik sırasına göre düzenleyen eser.
+Örnek: Taberânî'nin el-Mu'cemü'l-kebîr, el-Mu'cemü'l-evsat ve el-Mu'cemü's-sağîr'i.
+
+@@ mustedrek | Müstedrek | Eser türleri | Hâkim en-Nîsâbûrî |
+= Bir eserin şartlarına uyduğu halde o eserde yer almayan hadisleri toplayan eser.
+**Kök:** idrâk "yetişmek, eksiği yakalamak" → eksik kalanı **tamamlar**.
+Örnek: Hâkim en-Nîsâbûrî'nin el-Müstedrek ale's-Sahîhayn'ı ([[buhari]] ve [[muslim]]in şartlarına uyan ama onlarda olmayan hadisler).
+!! Karıştırma: [[mustahrec]] var olanı kendi senediyle yeniden çıkarır; [[zevaid]] fazlalıkları ayıklar.
+
+@@ mustahrec | Müstahrec | Eser türleri | | 2023,2026
+= Başka bir eserdeki hadisleri, müellifin kendi senediyle ve o eserin yazarına uğramadan yeniden rivayet ettiği eser.
+**Kök:** h-r-c "çıkarmak" → **yeniden çıkarılmış**.
+## Faydaları
+- Daha kısa ve yüksek (âlî) isnad elde etmek.
+- İlave lafızlar ve açıklamalar.
+- Ferd sanılan rivayetin başka yollarını göstererek onu güçlendirmek.
+!! 2023 tuzağı: "Ezberlemeyi kolaylaştırmak" müstahrecin bir faydası **değildir**.
+> 2026 sorusu: Müslim'deki rivayetlerin başka senedlerle ayrı bir eserde toplanması → müstahrec.
+
+@@ zevaid | Zevâid | Eser türleri | |
+= Bir kitapta olup temel kitaplarda (çoğunlukla Kütüb-i Sitte) bulunmayan fazla hadisleri ayıklayıp toplayan eser.
+Örnek: Heysemî, Mecmau'z-zevâid.
+
+@@ etraf | Etrâf | Eser türleri | | 2023
+= Hadislerin yalnızca baş kısmını (tarafını) verip hangi kitaplarda, hangi senedlerle geçtiğini rumuzlarla gösteren eser.
+**Kök:** taraf "uç, baş".
+> 2023 sorusu: "Hadis başları alfabetik, kaynakları rumuzlarla" → etrâf.
+Örnek: Mizzî, Tuhfetü'l-eşrâf; Nablusî, Zehâirü'l-mevâris. Bugünkü fihrist ve indekslerin atasıdır.
+
+@@ mevzuat-eserleri | Mevzûât eserleri | Eser türleri | Keşfü'l-hafâ; el-Makâsıdü'l-hasene | 2024
+= Uydurma hadisleri veya halk arasında hadis diye dolaşan sözleri inceleyen eserler.
+- İbnü'l-Cevzî, el-Mevzûât (uydurmalar).
+- Sehâvî, el-Makâsıdü'l-hasene (dilde dolaşan sözler).
+- **Aclûnî, Keşfü'l-hafâ** (halk arasında meşhur sözler) — 2024 sorusu.
+- Aliyyü'l-Kârî, el-Esrârü'l-merfûa.
+Bkz. [[mevzu]].
+
+@@ erbaun | Erbaûn (Kırk hadis) | Eser türleri | |
+= Belli bir konuda veya genel olarak seçilmiş kırk hadisi bir araya getiren eser.
+En meşhuru: Nevevî, el-Erbaûn. "Ümmetim için kırk hadis ezberleyen…" rivayeti bu türün yaygınlaşmasında etkilidir. Türk edebiyatında da çok sayıda manzum "Kırk Hadis" vardır.
+
+@@ serh | Şerh | Eser türleri | Fethu'l-Bârî |
+= Bir hadis kitabını açıklayan eser.
+Örnek: İbn Hacer el-Askalânî, Fethu'l-Bârî ve Aynî, Umdetü'l-kârî ([[buhari]] şerhleri); Nevevî'nin [[muslim]] şerhi.
+Resmî kaynaklar arasındaki **Riyâzü's-Sâlihîn** ise Nevevî'nin ahlak ve âdâba dair konulu hadis seçkisidir.

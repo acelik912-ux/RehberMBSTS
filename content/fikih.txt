@@ -1,0 +1,483 @@
+@@ fikih-usulu | Fıkıh usulü | Usul: deliller | usûl-i fıkıh |
+= Fıkhi hükümlerin hangi delillerden ve hangi yöntemlerle çıkarılacağını inceleyen ilim.
+## Deliller
+- **Aslî (ittifakla kabul edilen)**: Kitap, Sünnet, [[icma]], [[kiyas]].
+- **Fer'î (tartışmalı)**: [[istihsan]], [[istislah]], [[istishab]], [[orf]], [[sedd-i-zerai]], [[amel-i-ehl-i-medine]], [[kavl-i-sahabi]], [[ser-u-men-kablena]].
+## Hükümler
+[[ser-i-hukum]] → [[teklifi-hukum|teklîfî]] ve [[vazi-hukum|vaz'î]].
+%% Mezhep–delil kodu: "Hanefi Hasta" → İsti**h**san · "Mâlik Mesleği Medine" → **M**esalih + **M**edine ameli · "Şâfiî Şimdi de Sürsün" → İstishab (devam).
+@img sema/fikih_usulu.png
+
+@@ ser-i-hukum | Şer'î hüküm | Usul: hükümler | hüküm |
+= Allah'ın, mükelleflerin fiilleriyle ilgili talep (emir/yasak), serbest bırakma veya bir şeyi bir şeye bağlama şeklindeki hitabı.
+İki ana kısım:
+- **[[teklifi-hukum|Teklîfî hüküm]]**: "Yap / yapma / serbestsin" der → farz, vacip, sünnet, mübah, mekruh, haram.
+- **[[vazi-hukum|Vaz'î hüküm]]**: Bir şeyi başka bir şeyin sebebi, şartı veya engeli yapar.
+%% Ayette doğrudan emir/yasak varsa teklîfî; "şu olunca / şu olmadan / şu varsa olmaz" bağlantısı varsa vaz'î.
+
+@@ teklifi-hukum | Teklîfî hüküm | Usul: hükümler | | 2026
+= Mükelleften bir şeyi yapmasını, yapmamasını ya da yapıp yapmamakta serbest olmasını isteyen hüküm.
+## Hanefî sıralaması
+- [[farz]] → [[vacip]] → [[sunnet-mustehap|sünnet / mendup / müstehap]] → [[mubah]] → [[mekruh]] → [[haram]].
+> 2026 sorusu: "Kat kat faiz yemeyin" → haram (teklîfî). "Sabahı aydınlıkta kılmak" → müstehap.
+@img sema/fikih_usulu.png
+
+@@ vazi-hukum | Vaz'î hüküm | Usul: hükümler | sebep; şart; mâni'; rükün; sıhhat; fesâd; butlân; azîmet; ruhsat | 2024,2026
+= Bir şeyi başka bir şeyin sebebi, şartı, engeli (mâni') yapan; ya da bir işin geçerli/geçersiz, azîmet/ruhsat olduğunu bildiren hüküm.
+## Kod: "Sışmar Saat" → SŞ-MR-SA
+- **Sebep**: Varlığı hükmün varlığını gerektirir. Örnek: Namaz vaktinin girmesi namazın sebebidir ("Güneşin kaymasından… namazı kıl" — İsrâ 78); Ramazan'ı idrak oruç için sebeptir.
+- **Şart**: Yokluğu hükmün yokluğunu gerektirir ama varlığı hükmü doğurmaz. Örnek: "Allah temizliksiz namazı kabul etmez" → taharet namazın şartıdır.
+- **Mâni'**: Varlığı hükmü engeller. Örnek: "Katil mirasçı olamaz" → öldürme mirasa engeldir.
+- **Rükün**: İşin kendi parçası (namazda rükû, secde).
+- **Sıhhat – fesâd – butlân**: Geçerli – (Hanefî'de) eksikli geçersiz – tamamen geçersiz.
+- **Azîmet – ruhsat**: Asıl hüküm – zorluk sebebiyle tanınan kolaylık (yolculukta oruç tutmamak).
+> 2026: "Katil mirasçı olamaz" → mâni'. 2024: Vaz'î hükmün örnekleri.
+
+@@ farz | Farz | Usul: hükümler | farz-ı ayın; farz-ı kifâye |
+= Kesin bir delille (Kur'an, mütevatir sünnet) sabit olan ve yapılması kesin olarak istenen hüküm.
+İnkâr eden kâfir olur; terk eden büyük günah işler.
+- **Farz-ı ayın**: Her mükellefe ayrı ayrı (beş vakit namaz, oruç).
+- **Farz-ı kifâye**: Toplumun bir kısmı yapınca diğerlerinden düşer (cenaze namazı, kelam ilminde derinleşmek).
+!! Hanefîlerde farz ile [[vacip]] ayrıdır; diğer mezheplerde ikisi aynı anlamdadır.
+
+@@ vacip | Vâcip | Usul: hükümler | vacip türleri; muayyen; muhayyer; mutlak; mukayyed; aynî; kifâî | 2026
+= Hanefîlerde: zannî (kesinlik derecesi daha düşük) bir delille sabit olan, yapılması kesin olarak istenen hüküm.
+Terk edene günah vardır ama inkâr eden kâfir olmaz. Örnek: vitir namazı, bayram namazı, fıtır sadakası, [[kurban]], namazda Fâtiha okumak.
+## Vacip türleri
+- **Muayyen ↔ Muhayyer**: Tek bir şey istenir ↔ seçenekler arasından biri istenir. Örnek: [[yemin|yemin kefareti]] muhayyer vaciptir (2026 sorusu).
+- **Mutlak ↔ Mukayyed (muvakkat)**: Vakit sınırı yok ↔ belli vakitte yapılmalı.
+- **Aynî ↔ Kifâî**: Herkese ↔ topluma.
+- **Muhadded ↔ Gayr-i muhadded**: Miktarı belli (zekât oranı) ↔ belli değil (infak).
+
+@@ sunnet-mustehap | Sünnet / Mendup / Müstehap | Usul: hükümler | sünnet-i müekkede; gayr-i müekkede; âdâb | 2026
+= Hz. Peygamber'in yaptığı ve teşvik ettiği, yapılınca sevap umulan, terkinde günah olmayan davranışlar.
+- **Sünnet-i müekkede**: Peygamber'in devamlı yaptığı (sabah namazının sünneti). Terki kınamayı gerektirir.
+- **Gayr-i müekkede**: Bazen yaptığı (ikindinin sünneti).
+- **Mendup / müstehap / âdâb**: Yapılması güzel görülen davranışlar.
+> 2026 sorusu: Sabah namazını ortalık ağarıncaya kadar geciktirmek (isfâr), akşam namazında acele etmek → müstehap.
+Hadis usulündeki "[[sunnet]]" kavramıyla karıştırma.
+
+@@ mubah | Mübah | Usul: hükümler | helal |
+= Yapılıp yapılmamasında serbest bırakılan, sevap da günah da gerektirmeyen davranış.
+Fıkıhta "eşyada asıl olan mubahlıktır" kâidesi vardır ([[kulli-kaideler]]).
+
+@@ mekruh | Mekruh | Usul: hükümler | tahrîmen mekruh; tenzîhen mekruh |
+= Yapılmaması istenen ama haram derecesinde olmayan davranış.
+- **Tahrîmen mekruh**: Harama yakın; zannî bir delille yasaklanmış (Hanefî). Örnek: güneş doğarken namaz kılmak.
+- **Tenzîhen mekruh**: Helale yakın; terki daha iyi.
+
+@@ haram | Haram | Usul: hükümler | | 2026
+= Kesin bir delille yapılması yasaklanmış davranış.
+Örnek: faiz ("Kat kat faiz yemeyin" — Âl-i İmrân 130; 2026 sorusu), içki, zina, hırsızlık.
+!! Haram ile [[vazi-hukum|mâni']] karıştırılmasın: "Katil mirasçı olamaz" bir yasak değil, mirasa engel (mâni') bildirir.
+
+@@ icma | İcmâ | Usul: deliller | inkırâzu'l-asr | 2026
+= Hz. Peygamber'den sonra bir dönemdeki bütün müctehidlerin, şer'î bir hüküm üzerinde birleşmesi.
+Kesin delil kabul edilir ve sonraki nesiller için bağlayıcıdır.
+- **Sarih icmâ**: Hepsi görüşünü açıkça bildirir.
+- **Sükûtî icmâ**: Bazıları bildirir, diğerleri susarak onaylar (tartışmalı).
+## İnkırâzu'l-asr (2026 sorusu)
+İcmâın kesinleşmesi için icmâa katılan müctehidlerin hepsinin **vefat etmiş olması** (dönemin sona ermesi) şartı. Bu şartı arayanlara göre o kuşak hayattayken görüşünden dönebilir.
+
+@@ kiyas | Kıyas | Usul: deliller | asl; fer'; illet | 2023,2024
+= Hakkında nas bulunmayan bir meseleye, aralarındaki ortak sebep (illet) nedeniyle, nasla hükmü belirlenmiş bir meselenin hükmünü vermek.
+## Dört rüknü — "AFHİ"
+- **Asl**: Hükmü nasla bilinen (şarap).
+- **Fer'**: Hükmü aranan (bira, rakı).
+- **Hüküm**: Aslın hükmü (haram).
+- **[[illet]]**: Ortak sebep (sarhoş etmesi).
+> Kıyas örnekleri: Şarabın haramlığından bütün sarhoş edici içkilere · "Katil mirasçı olamaz"dan vasiyet alacaklısı katile.
+!! 2024: Hz. Musa'nın çobanlığının mehir sayılması kıyas değil, [[ser-u-men-kablena]] örneğidir.
+
+@@ illet | İllet (fıkıhta) | Usul: deliller | | 2023
+= Kıyasta, aslın hükmüne gerekçe olan ve fer'e taşınan vasıf.
+## İlletin şartları
+- **Zâhir**: Açık, gözle görülebilir.
+- **Munzabıt**: Belirli, kişiden kişiye değişmeyen.
+- **Münâsip**: Hükümle uygun bağlantısı olan.
+- **Müteaddî**: Başka olaylara geçebilen.
+!! 2023 tuzağı: İlletin **tevatürle sabit olması şart değildir**.
+Hadis usulündeki "illet" (gizli kusur, [[muallel]]) ile karıştırma.
+
+@@ istihsan | İstihsan | Usul: deliller | | 2024,2026
+= Bir meselede kıyasın veya genel kuralın gerektirdiği hükümden, daha güçlü bir delil sebebiyle istisna yaparak vazgeçmek.
+Hanefî mezhebiyle özdeşleşmiştir ([[hanefi]]).
+## İstihsanın dayanakları
+Nas (sünnet), icmâ, zaruret, örf veya daha güçlü bir gizli kıyas (kıyâs-ı hafî).
+> 2026 sorusu: Yırtıcı hayvanların artığı genel kurala (kıyas) göre necistir. Ama yırtıcı kuşlar suyu gagalarıyla içer; gaga kemiktir ve temizdir. Bu yüzden onların artığı **temiz** sayılır → istihsan.
+> Başka örnek: Selem ve istisnâ' satışları normalde "olmayan malın satışı" kuralına aykırıdır, ama sünnet ve ihtiyaç nedeniyle caizdir.
+%% "Hanefi **H**asta" → İsti**h**san.
+
+@@ istislah | İstislah (Mesâlih-i mürsele) | Usul: deliller | maslahat; mesâlih-i mürsele | 2023
+= Hakkında emir ya da yasak bulunmayan bir konuda toplumun yararını (maslahat) esas alarak hüküm vermek.
+Mâlikî mezhebiyle özdeşleşmiştir ([[maliki]]).
+> Örnekler: Kur'an'ın mushafta toplanması, Hz. Ömer'in divan teşkilatı, hapishane kurulması, trafik kuralları.
+Maslahatın şartları: Şer'in amaçlarına (dinin, canın, aklın, neslin, malın korunması) uygun olmalı, bir nassa aykırı olmamalı, genel olmalı.
+
+@@ istishab | İstishâb | Usul: deliller | | 2024
+= Daha önce varlığı veya yokluğu sabit olan bir durumun, değiştiğine dair delil bulunmadıkça devam ettiğini kabul etmek.
+Şâfiî mezhebinde yaygın kullanılır.
+> Örnekler: Abdestli olduğundan emin olan kişi, bozulduğundan şüphe ederse abdestli sayılır. Kaybolan kişi (mefkûd) ölümü sabit olana kadar sağ kabul edilir.
+Bu delile dayanan [[kulli-kaideler|külli kâideler]]: "Yakîn şekle zâil olmaz", "Berâet-i zimmet asıldır" vb.
+
+@@ sedd-i-zerai | Sedd-i zerâi' | Usul: deliller | zerîa |
+= Kendisi mubah olsa da harama götüren yolu (vesileyi) kapatmak.
+Mâlikî ve Hanbelîler geniş kullanır.
+> Kur'an'daki örnek: "Onların Allah'ı bırakıp taptıklarına sövmeyin ki onlar da bilmeden Allah'a sövmesinler" (En'âm 108).
+Tersi **feth-i zerâi'**: Vacibe götüren yolu açmak.
+
+@@ orf | Örf ve âdet | Usul: deliller | |
+= Nas bulunmayan konularda toplumda yaygın ve sağlıklı kabul gören uygulama.
+Bütün mezhepler belli ölçüde dikkate alır. Mecelle kâidesi: "Âdet muhakkemdir" (örf hakemdir).
+!! Nassa aykırı örf (fâsid örf) dikkate alınmaz.
+
+@@ amel-i-ehl-i-medine | Amel-i ehl-i Medîne | Usul: deliller | Medine ameli |
+= Medinelilerin, Peygamber'den itibaren nesilden nesile süren uygulaması; İmam Mâlik'in delil saydığı ölçü.
+İmam Mâlik'e göre Medine'nin yaygın uygulaması, tek kişilik bir habere ([[ahad]]) tercih edilebilir; çünkü binlerce kişinin nesilden nesile aktardığı bir sünnettir. Bkz. [[maliki]], [[muvatta]].
+
+@@ kavl-i-sahabi | Kavl-i sahâbî | Usul: deliller | sahabe kavli |
+= Sahabenin içtihada dayalı görüşü; Hanefî ve Mâlikîlerin delil saydığı kaynak.
+Hadis usulünde sahabe sözüne [[mevkuf]] denir.
+
+@@ ser-u-men-kablena | Şer'u men kablenâ | Usul: deliller | önceki şeriatlar | 2024
+= Önceki peygamberlerin şeriatlarında olup Kur'an veya sünnette aktarılan hükümler.
+## Üç durum
+- İslam'ın kabul ettiği (kısas gibi) → bağlayıcıdır.
+- İslam'ın kaldırdığı (cumartesi yasağı gibi) → bağlayıcı değildir.
+- **Kabul veya red delili olmayanlar** → mezhepler arasında **en çok tartışılan** kısımdır (2024 sorusu).
+> 2024: Hz. Musa'nın sekiz-on yıl çobanlık yapmasının mehir sayılması → şer'u men kablenâ.
+
+@@ kulli-kaideler | Külli kâideler | Usul: deliller | Mecelle kâideleri; kavâid |
+= Birçok meseleye uygulanabilen genel fıkıh kuralları.
+## İstishâba bağlı olanlar
+- Yakîn şekle zâil olmaz (kesin bilgi şüpheyle ortadan kalkmaz).
+- Berâet-i zimmet asıldır (kişinin borçsuz olması asıldır).
+- Eşyada asıl olan ibâhadır (mubahlıktır).
+- Sıfât-ı arızada asıl olan ademdir (sonradan ortaya çıkan niteliklerde asıl, yokluktur).
+- Bir şeyin bulunduğu hal üzere kalması asıldır — 2023: kayıp koca vakası.
+## Diğer meşhurları
+- Zarar izâle olunur. · Meşakkat teysîri celbeder (zorluk kolaylık getirir).
+- Zaruretler memnû olan şeyleri mubah kılar.
+- **Def-i mefâsid celb-i menâfiden evlâdır** (zararı gidermek fayda sağlamaktan önce gelir) — istishâbla **ilgisizdir** (2024).
+- Âdet muhakkemdir ([[orf]]).
+
+@@ fikih-alt-alanlari | Fıkhın alt alanları | Usul: deliller | furûk; kavâid; edebü'l-kâdî; harâc; ahkâmu's-sultâniyye | 2026
+= Fıkıh literatüründe belirli konulara ayrılmış dallar.
+- **Furûk**: Birbirine benzeyen hükümler arasındaki farkları açıklar.
+- **Kavâid**: [[kulli-kaideler|Külli kâideleri]] toplar.
+- **Edebü'l-kâdî**: Yargılama usulü, hâkimin âdâbı.
+- **Harâc**: Kamu maliyesi (Ebû Yûsuf'un Kitâbü'l-Harâc'ı).
+- **Ahkâmu's-sultâniyye**: Kamu yönetimi, devlet teşkilatı (Mâverdî, Ebû Ya'lâ).
+- **Siyer**: Devletlerarası ilişkiler, savaş hukuku.
+
+@@ hanefi | Hanefî mezhebi | Mezhepler ve eserler | Ebû Hanîfe; Ehl-i re'y | 2026
+= Ebû Hanîfe'nin (ö. 150/767) görüşleri etrafında Kûfe'de oluşan, re'y ve kıyasa geniş yer veren fıkıh mezhebi.
+İmameyn: Ebû Yûsuf ve İmam Muhammed. Ayırt edici delili: [[istihsan]]. Farz–[[vacip]] ayrımı bu mezhebe özgüdür.
+## Temel eserler
+- Serahsî, **el-Mebsût** (2026)
+- Kâsânî, Bedâiu's-sanâi'
+- Merğînânî, el-Hidâye
+- Mevsılî, el-İhtiyâr
+- Kudûrî ve Tahâvî, el-Muhtasar
+- Ebû Yûsuf, Kitâbü'l-Harâc
+> 2026 sorusu: Şâfiî–Hanefî karşılaştırması için doğru ikili: Nevevî'nin Minhâc'ı ([[safii]]) + Serahsî'nin Mebsût'u.
+İtikatta çoğunlukla [[maturidilik|Mâtürîdî]] çizgidedir.
+
+@@ maliki | Mâlikî mezhebi | Mezhepler ve eserler | İmam Mâlik; Ehl-i Medîne |
+= İmam Mâlik'in (ö. 179/795) görüşleri etrafında Medine'de oluşan fıkıh mezhebi.
+Ayırt edici delilleri: [[amel-i-ehl-i-medine]], [[istislah]], [[sedd-i-zerai]].
+Eserler: [[muvatta]] (İmam Mâlik), el-Müdevvenetü'l-kübrâ (Sahnûn). Kuzey ve Batı Afrika'da yaygındır.
+
+@@ safii | Şâfiî mezhebi | Mezhepler ve eserler | İmam Şâfiî; er-Risâle |
+= İmam Şâfiî'nin (ö. 204/820) kurduğu, Ehl-i hadis ile Ehl-i re'y arasında sistemli bir usul geliştiren fıkıh mezhebi.
+Şâfiî, **er-Risâle** ile fıkıh usulünün ilk sistematik eserini yazdı. [[istishab]]ı yaygın kullanır; istihsanı eleştirir.
+Eserler: el-Ümm (Şâfiî), **Minhâcü't-tâlibîn** ve el-Mecmû' (Nevevî — 2026), el-Ahkâmu's-sultâniyye (Mâverdî).
+
+@@ hanbeli | Hanbelî mezhebi | Mezhepler ve eserler | Ahmed b. Hanbel |
+= [[ahmed-b-hanbel|Ahmed b. Hanbel]]'in görüşleri etrafında oluşan, nassa ve sahabe görüşlerine sıkı bağlı fıkıh mezhebi.
+Zayıf hadisi kıyasa tercih eder. Eserler: el-Muğnî (İbn Kudâme), es-Siyâsetü'ş-şer'iyye (İbn Teymiyye), el-Kavâid (İbn Receb). Bugün Suudi Arabistan'da yaygındır.
+
+@@ abdest | Abdest ve taharet | İbadetler: taharet ve namaz | kahkaha; gusül | 2023
+= Namaz ve bazı ibadetler için şart olan temizlik.
+## Abdest şart olan ibadetler (2023)
+Namaz, cenaze namazı, tilavet secdesi, Mushaf'a dokunmak, Kâbe'yi tavaf (Hanefî'de vacip). **Ezan için şart değildir.**
+## Kahkaha (Hanefî — 2023)
+Rükû ve secdesi olan bir namazda, ergen birinin kahkahayla gülmesi hem **namazı** hem **abdesti** bozar. Sessiz gülümseme bozmaz; acı veya musibet nedeniyle sesli ağlamak namazı bozar, Allah korkusuyla ağlamak bozmaz.
+Bkz. [[cebire]].
+
+@@ cebire | Sargı (cebîre) üzerine mesh | İbadetler: taharet ve namaz | cebîre | 2026
+= Yaralı veya kırık bir uzvun üzerindeki sargıya abdest ve gusülde mesh etmek.
+## Hanefî hükümleri (2026 sorusu)
+- ✔ Sargı **abdestsizken** sarılmış olsa da üzerine mesh edilebilir.
+- ✘ Sargının tamamını değil, **çoğunu** mesh etmek yeterlidir.
+- ✔ Yara iyileşip sargı düşerse mesh bozulur; o uzuv yıkanır.
+- ✘ Sargı değiştirilince yeniden mesh etmek gerekmez (müstehaptır).
+%% Kod: "**A**bdestsiz **Ç**oğu **D**üşünce **D**eğişmez".
+
+@@ sehiv-secdesi | Sehiv secdesi | İbadetler: taharet ve namaz | yanılma secdesi | 2026
+= Namazda bir vacibin terk edilmesi veya geciktirilmesi gibi yanılmalarda namazın sonunda yapılan iki secde.
+## Hanefî'de yapılışı
+Son oturuşta Tahiyyât okunur → **sağa selam** verilir → iki secde yapılır → tekrar oturulup **Tahiyyât, Salli-Bârik ve dualar** okunur → selam verilir.
+## 2026 sorusu
+- ✔ İmama uyan kişi **kendi** yanılmasından dolayı secde yapmaz.
+- ✔ Cuma ve bayram namazlarında kalabalık sebebiyle imam terk edebilir.
+- ✘ "Secdelerden sonra Tahiyyât okunmaz" → yanlış, okunur.
+
+@@ kaza-namazi | Kaza namazı | İbadetler: taharet ve namaz | tertip sahibi | 2024
+= Vaktinde kılınamayan farz ve vacip namazların sonradan kılınması.
+- Seferde (yolculukta) kaçırılan dört rekâtlı namaz **iki rekât** kaza edilir; yolculuk bittikten sonra kılınsa da.
+- **Tertip sahibi** (altıdan az kazası olan): Önce kazayı, sonra vaktin namazını kılar.
+- Dinden çıkıp (mürted) yeniden Müslüman olan, eski namazlarını kaza **etmez**.
+- Sünnetler (revâtib) kaza namazının yerine geçmez.
+
+@@ mesbuk-lahik | Mesbûk, Lâhık, Müdrik | İbadetler: taharet ve namaz | | 2023
+= Cemaatle namazda imama yetişme durumuna göre isimler.
+- **Müdrik**: Namazın başından sonuna kadar imamla kılan.
+- **Mesbûk**: İmama **birinci rekâttan sonra** yetişen; kaçırdığı rekâtları imam selam verince tamamlar.
+- **Lâhık**: İmamla başlayıp sonra (uyuklama, abdest bozulması gibi) bir kısmını kaçıran.
+
+@@ cem | Namazları cem etme | İbadetler: taharet ve namaz | cem-i takdim; cem-i te'hir | 2023
+= İki farz namazı birinin vaktinde birlikte kılmak.
+- **Hanefîlere göre** yalnızca hacda caizdir:
+- **Arafat**'ta öğle ile ikindi, öğle vaktinde (**cem-i takdim**).
+- **Müzdelife**'de akşam ile yatsı, yatsı vaktinde (**cem-i te'hir**).
+- Diğer mezhepler yolculuk ve yağmur gibi hallerde de cem'e izin verir.
+Bkz. [[hac]].
+
+@@ kefen | Kefen | İbadetler: taharet ve namaz | kamîs; izâr; lifâfe | 2024
+= Ölünün sarıldığı bez; erkek için sünnet olan kefen üç parçadır.
+- **Kamîs**: Boyundan ayağa kadar uzanan gömlek.
+- **İzâr**: Baştan ayağa kadar örten bez.
+- **Lifâfe**: Baştan ayağa, iki ucu düğümlenen en dış bez.
+Kadına ek olarak başörtüsü ve göğüs bezi konur.
+
+@@ zekat | Zekât | İbadetler: zekât, hac, kurban | nisap; emvâl-i zâhire | 2023,2026
+= Nisap miktarı mala sahip olan Müslüman'ın, belirli mallarının belli bir oranını hak sahiplerine vermesi.
+## Şartları
+Müslüman, akıllı, ergen, hür olmak; malın **nisap** miktarına ulaşması, temel ihtiyaçlardan ve borçtan fazla olması, artıcı (nâmî) olması ve üzerinden [[havelan-i-havl|bir yıl geçmesi]].
+## Açık mallar (emvâl-i zâhire — 2023)
+Hayvanlar ve toprak ürünleri. Borç, bunların zekâtına (öşre) engel değildir.
+Bkz. [[osur]].
+
+@@ havelan-i-havl | Havelân-ı havl | İbadetler: zekât, hac, kurban | | 2026
+= Zekât için malın üzerinden bir kamerî yılın geçmesi şartı.
+## Aranır
+Hayvanlar, ticaret malları, altın-gümüş ve para.
+## Aranmaz
+- **Toprak ürünleri** → her hasatta [[osur|öşür]].
+- **Maden ve define** → bulunduğu anda humus (1/5).
+> 2026 sorusu: Bir yıl şartı aranmayanlar → toprak ürünü ve maden/define.
+
+@@ osur | Öşür | İbadetler: zekât, hac, kurban | | 2024
+= Toprak ürünlerinden verilen zekât.
+- Yağmur veya doğal yolla sulanan ürün: **1/10**.
+- Emek ve masrafla sulanan ürün: **1/20**.
+- **Ebû Hanîfe**ye göre nisap aranmaz; az veya çok her mahsulden verilir (İmameyn ve diğer mezhepler 5 vesk nisap şartı koyar).
+- [[havelan-i-havl|Yıl şartı]] aranmaz; her hasatta verilir.
+
+@@ hac | Hac (menâsik) | İbadetler: zekât, hac, kurban | menâsik; vakfe; tavaf; sa'y; cemre | 2023,2024
+= Belirli günlerde ihramlı olarak Arafat'ta vakfe yapmak ve Kâbe'yi tavaf etmekten oluşan ibadet.
+## Farzları (Hanefî)
+İhram (şart), **Arafat vakfesi** ve **ziyaret tavafı** (rükün).
+## Günlerin akışı
+- **8 Zilhicce**: Minâ'ya çıkış.
+- **9 Zilhicce**: Arafat'ta vakfe; öğle+ikindi cem-i takdim ([[cem]]). Akşam Müzdelife'ye geçiş.
+- **10 Zilhicce (bayram)**: Müzdelife vakfesi (vacip) → Minâ'da büyük cemreye taş → kurban (temettu/kıran) → tıraş = **ilk [[tahallul]]** → Mekke'de ziyaret tavafı = **büyük tahallül**.
+- **11–13 Zilhicce**: Minâ'da üç cemreye taş. Ayrılırken veda tavafı.
+%% Minâ'da 10. gün sırası: "**TaKıTı**" → **Ta**ş, **K**urban, **Tı**raş.
+## Bilinmesi gerekenler
+- Hayızlı kadın tavaf yapamaz ama **sa'y yapabilir** (sa'y için taharet şart değildir — 2023).
+- Izdıbâ: İhram bezini sağ omuz altından geçirmek. Remel: Tavafın ilk üç şavtında çalımlı yürümek.
+Bkz. [[hac-turleri]], [[ihsar-fevat]].
+@img sema/hac_rotasi.png
+
+@@ hac-turleri | Hac türleri (ifrad, temettu, kıran) | İbadetler: zekât, hac, kurban | ifrad; temettu'; kırân | 2024,2026
+= İhrama giriş şekline göre üç hac çeşidi.
+- **İfrad**: Yalnız hac için ihrama girilir; şükür kurbanı (hedy) gerekmez.
+- **Temettu'**: Önce umre yapılıp ihramdan çıkılır, sonra hac için yeniden ihrama girilir; **hedy vaciptir**.
+- **Kırân**: Umre ve hac **tek ihramla**, arada ihramdan çıkmadan yapılır; **hedy vaciptir**.
+> 2024: Kıran haccı yapanın Merve'de sa'yi bitirdiğinde ihramdan çıkmayıp devam etmesi sorusu.
+
+@@ tahallul | Tahallül | İbadetler: zekât, hac, kurban | ilk tahallül; büyük tahallül | 2026
+= Hac veya umrede ihram yasaklarından çıkmak.
+- **İlk tahallül**: Bayramın birinci günü tıraş olunca; ihram yasaklarının çoğu kalkar, **cinsel ilişki yasağı devam eder**.
+- **Büyük (ikinci) tahallül**: Ziyaret tavafından sonra; bütün yasaklar kalkar.
+> 2026 sorusu: İki tahallül arasında süren yasak → eşiyle cinsel ilişki.
+
+@@ ihsar-fevat | İhsâr ve fevât | İbadetler: zekât, hac, kurban | ihsâr; fevât | 2024
+= İhsâr: ihrama girdikten sonra bir engel yüzünden haccı tamamlayamamak; fevât: Arafat vakfesini kaçırmak.
+## İhsâr
+Hastalık, düşman, mahreminin ölümü, yol kesilmesi gibi bir engel. Muhsar, Harem'de bir **hedy kestirerek** ihramdan çıkar ve haccı sonra kaza eder.
+## Fevât
+Arafat vakfesini (9 Zilhicce öğleden 10 Zilhicce fecrine kadar) kaçırmak. Hac kaçmıştır; umre yaparak ihramdan çıkar, haccı sonra kaza eder.
+
+@@ kurban | Kurban türleri | İbadetler: zekât, hac, kurban | udhiyye; hedy; akîka; adak kurbanı | 2026
+= Allah'a yakınlık için belirli vakitte belirli hayvanı kesmek; türlerine göre hükmü değişir.
+## Hanefî'de hükümleri (2026 sorusu)
+- **Udhiyye** (bayram kurbanı): **Vacip** (zengin mukime).
+- **Hedy** (temettu/kıran haccında şükür kurbanı): **Vacip**.
+- **Adak kurbanı**: **Vacip** ([[adak]]).
+- **Akîka** (doğum için): Hanefî'de **mübah** (bazılarına göre mendup) — 2026 anahtarı: mübah.
+
+@@ adak | Adak (nezir) | İbadetler: zekât, hac, kurban | nezir | 2023,2026
+= Kişinin, dinen gerekli olmayan bir ibadeti kendisine vacip kılması.
+## Geçerlilik şartları
+- Adanan şey **ibadet cinsinden** olmalı ve **cinsinden farz veya vacip bir ibadet** bulunmalı (namaz, oruç, sadaka, kurban).
+- Başka bir ibadete vesile değil, **bizzat ibadet** olmalı (abdest adanmaz).
+- Zaten farz veya vacip olan bir şey olmamalı (kaza namazı adanmaz).
+- Maddeten ve dinen **mümkün** ve adayanın **mülkünde** olmalı.
+- Günah olmamalı.
+> 2026: "Fakire para vermeyi adamak" (sadaka) geçerli. Ezan okumak, birini ziyaret etmek, 6 yaşındaki çocuğun adağı geçersiz.
+
+@@ yemin | Yemin ve kefareti | İbadetler: zekât, hac, kurban | münakit yemin; gamûs; lağv | 2024,2026
+= Bir işi yapmak veya yapmamak üzere Allah adıyla söz vermek.
+## Yemin türleri
+- **Münakit**: Gelecekle ilgili, bozulursa kefaret gerekir.
+- **Gamûs**: Geçmişe dair bilerek yalan yemin; büyük günahtır, tövbe gerekir (kefaret yok — Hanefî).
+- **Lağv**: Doğru sanılarak edilen veya ağızdan kaçan yemin; kefaret yok.
+## Yemin kefareti — muhayyer vacip (2026)
+10 fakiri doyurmak **veya** giydirmek **veya** bir köle azat etmek. Bunlara gücü yetmeyen **3 gün** oruç tutar. Kefaretin fidyesi olmaz.
+%% Kod: "10 – 10 – 1 / yoksa 3".
+Bkz. [[kefaret]].
+
+@@ kefaret | Kefaretler | İbadetler: zekât, hac, kurban | oruç kefareti; zıhar kefareti | 2023
+= Belirli günahların veya hataların karşılığında yapılması gereken ibadetler.
+## Sıra var mı?
+- **[[yemin|Yemin kefareti]]**: Seçenekli (muhayyer), sonra 3 gün oruç.
+- **Oruç kefareti** (Ramazan orucunu bilerek bozmak): **Sıralı** — köle azat → **60 gün peş peşe oruç** → 60 fakiri doyurmak.
+- **Zıhar** ve **hata ile öldürme**: Sıralı, oruç kefareti gibi (hata ile öldürmede doyurma yoktur).
+%% Oruç kefareti kodu: "1 – 60 – 60".
+
+@@ ibadette-vekalet | İbadette vekâlet | İbadetler: zekât, hac, kurban | | 2024
+= Bir ibadetin başkası tarafından vekâleten yapılıp yapılamayacağı.
+- **Malî ibadetler** (zekât, sadaka): Vekâlet caiz ✔
+- **Mal + beden** (hac): Sürekli acizlik halinde caiz (bedel hac) ✔
+- **Bedenî ibadetler** (namaz, oruç): Caiz değil ✘
+
+@@ iddet | İddet | Aile ve miras | | 2024,2026
+= Nikâhı sona eren kadının yeniden evlenebilmek için beklediği süre.
+## Süreler
+- **Kocanın vefatı**: Hamile değilse **4 ay 10 gün** — zifaf olmasa bile! Hamileyse doğuma kadar.
+- **Boşanma / fesih** (zifaf veya sahih halvet olmuşsa): Hayız gören **3 hayız**, görmeyen **3 ay**, hamile **doğum**.
+- Zifaf ve halvetten **önce** boşanma: **İddet yok**.
+## Sınav vakaları
+- 2026: Nikâh kıyılmış, düğün yapılmamış, koca şehit → 4 ay 10 gün.
+- 2024: Ric'î boşanma iddetinde koca ölürse kadın vefat iddetine geçer.
+- 2024: Fâsid nikâhta zifaf olduysa iddet beklenir.
+@img sema/iddet.png
+
+@@ hidane | Hidâne ve velayet | Aile ve miras | hidâne; velâyet; vesâyet; nafaka | 2023
+= Hidâne: küçük çocuğun bakım ve terbiyesini üstlenme hakkı; öncelikle annenindir.
+- **Hidâne**: Bakım-terbiye (anne öncelikli).
+- **Velayet**: Çocuğun şahsı ve malı üzerinde karar yetkisi (baba).
+- **Nafaka**: Babaya aittir.
+- **Vesâyet**: Velinin yerine atanan vasinin yetkisi.
+> 2023 sorusu: Boşanma sonrası annenin küçük çocuğu yanında tutma hakkı → hidâne.
+
+@@ miras | Miras (ferâiz) | Aile ve miras | tereke; ashâbü'l-ferâiz; asabe; zevi'l-erhâm | 2023,2024,2026
+= Ölen kişinin malının (tereke) mirasçılarına paylaştırılması.
+## Tereke sırası — "Kefen – Kredi – Kâğıt – Kardeş"
+- **Teçhiz ve tekfin** (cenaze masrafları)
+- **Borçlar**
+- **Vasiyet** (üçte biri geçmemek üzere; mirasçıya vasiyet yoktur)
+- **Mirasçılara** paylaştırma
+## Mirasçı grupları
+- **Ashâbü'l-ferâiz**: Payı Kur'an'da belirlenmiş olanlar (koca, karı, anne, baba, kız, kız kardeş…).
+- **Asabe**: Pay sahiplerinden kalanı alan yakın erkek akrabalar (oğul, kardeş, amca).
+- **Zevi'l-erhâm**: Bu ikisinin dışındaki akrabalar (hala, dayı, teyze); mirasçılıkları tartışmalıdır (2023).
+- **[[ashabul-feraiz-asabe|Baba]]** hem pay sahibi hem asabe olabilir (2026).
+## Eş payı — "Koca yarım, karı çeyrek"
+- Koca: Çocuk yoksa **1/2**, varsa **1/4**.
+- Karı: Çocuk yoksa **1/4**, varsa **1/8**.
+## 2026 hesap vakası
+Kasada 50 altın + tahsil edilen alacak 15 = 65 → borç 12 düşülür = 53 → vasiyetler (burs 5 + vasiyet edilen zekât borcu 3) = **45 altın** mirasçılara.
+!! Tereke borcu karşılamazsa çocuklar kalan borcu ödemekle yükümlü değildir (2024).
+@img sema/miras.png
+
+@@ ashabul-feraiz-asabe | Baba ve asabe | Aile ve miras | | 2026
+= Baba, ölenin çocuğu varsa 1/6 pay sahibi, yalnız kızı varsa hem 1/6 pay sahibi hem asabe, hiç çocuğu yoksa asabe olur.
+Bu yüzden 2026 sorusunda "hem ashâbü'l-ferâiz hem asabe olabilen" mirasçı **baba** idi. Dede de babanın yokluğunda benzer durumdadır.
+Oğul her zaman asabedir; oğul varsa kız da asabe olur ve erkeğe iki kız payı verilir.
+Bkz. [[miras]].
+
+@@ akit-turleri | Akit türleri (hibe, âriyet, bey', icâre) | Muamelat | hibe; âriyet; bey'; icâre; sarf; karz; vedîa; rehin; kefâlet | 2023,2026
+= Mülkiyet veya kullanımın karşılıklı ya da karşılıksız devrine göre ayrılan temel akitler.
+## Akit matrisi (2023)
+- Karşılıksız + mülk → **Hibe**
+- Bedelli + mülk → **Bey'** (satış)
+- Karşılıksız + kullanım → **Âriyet** (ödünç)
+- Bedelli + kullanım → **İcâre** (kira)
+## Diğerleri
+- **Sarf**: Parayı parayla değişmek (matriste yok — 2023 cevabı).
+- **Karz**: Misli malı geri ödenmek üzere borç vermek.
+- **Vedîa**: Emanet bırakmak.
+- **Rehin**: Borca karşı **ayni** teminat · **Kefâlet**: **Şahsi** teminat (2026).
+- **Havâle**: Borcu başkasına aktarmak. **Vekâlet**: Birini kendi yerine işlem yapmaya yetkilendirmek.
+@img sema/akit_matrisi.png
+
+@@ sirketler | Ortaklıklar (şirketler) | Muamelat | mudârebe; müzâraa; müsâkât; inân; ebdân; a'mâl; vücûh | 2023,2024
+= Kâr amaçlı ortaklık türleri.
+- **Mudârebe**: Biri **sermaye**, diğeri **emek** koyar; kâr paylaşılır, zarar sermayedarındır.
+- **Müzâraa**: Biri **arazi**, diğeri **emek** (ekincilik).
+- **Müsâkât**: Biri **bağ-bahçe/ağaç**, diğeri **bakım emeği** (para değil!).
+- **İnân**: Her iki taraf hem sermaye hem emek koyar.
+- **Ebdân / A'mâl / Sanâyi'**: Emek + emek (meslek ortaklığı) — itibar değil!
+- **Vücûh**: **İtibar** ortaklığı; sermayesiz, veresiye alıp satarlar.
+%% Mu**d**arebe = **D**ükkân parası · Mü**z**araa = **Z**emin · Mü**s**akat = **S**ulama · Vü**c**ûh = **C**ebinde para yok, yüzü (vech) var.
+
+@@ satis-turleri | Satış türleri | Muamelat | selem; istisnâ'; murâbaha; tevliye; vazîa; arâyâ; müzâbene; teâtî; îne | 2023,2026
+= Bedelin ve malın teslim zamanı ile fiyat belirleme şekline göre satış çeşitleri.
+- **Selem**: Parası **peşin**, malı **vadeli** satış (hasattan önce buğday almak).
+- **İstisnâ'**: Sipariş üzerine imal.
+- **Murâbaha**: Maliyet + belirli kâr.
+- **Tevliye**: Maliyetine satış. · **Vazîa**: Maliyetin altında.
+- **Arâyâ** (2026): Yaş hurmayı ağaç üzerindeyken kuru hurma karşılığında tahminen almak; ihtiyaç sahiplerine tanınan ruhsat (5 veskten az, peşin).
+- **Müzâbene**: Yaş hurma ile kuru hurmanın tahmini değişimi — yasak; arâyâ bunun istisnasıdır.
+- **Teâtî** (2023): Söz söylemeden alıp vererek yapılan satış (fırından ekmek almak).
+- **Îne**: Faize kılıf olarak vadeli alıp peşin geri satmak.
+!! Akde konan şart (2024): "Başkasına satmaman şartıyla" → şart akdin gereğine aykırı; **şart geçersiz, satış geçerli**.
+
+@@ muhayyerlik | Muhayyerlikler | Muamelat | hıyâr; rü'yet; ayıp; şart; meclis; ta'yîn; nakd | 2024
+= Akdi feshetme veya devam ettirme hakkı (hıyâr).
+- **Rü'yet** (2024): Görmeden alınan malı görünce vazgeçme (görmeden ısmarlanan takım elbise).
+- **Ayıp**: Malda kusur çıkınca.
+- **Şart**: Taraflar belirli bir süre düşünme şartı koyunca.
+- **Meclis**: Akit meclisi dağılana kadar (Şâfiî ve Hanbelî).
+- **Ta'yîn**: Birkaç maldan birini seçme.
+- **Nakd**: Bedel ödenmezse feshetme.
+
+@@ mal-turleri | Mal türleri ve irtifak | Muamelat | mütekavvim; mislî; kıyemî; şirb; mecrâ; mesîl; mürûr; teallî | 2023,2026
+= Malın hukuki niteliğine göre ayrımlar ve başkasının mülkünden yararlanma hakları.
+## Mal türleri
+- **Mütekavvim / gayr-i mütekavvim**: Müslüman için şarap ve domuz değerli mal sayılmaz → telef edilirse **tazmin gerekmez** (2023).
+- **Mislî / kıyemî**: Benzeri piyasada bulunan / bulunmayan.
+- **Menkul / gayr-i menkul**.
+## İrtifak hakları (2026)
+**Şirb** (su alma) · **Mecrâ** (su geçirme) · **Mesîl** (atık su akıtma) · **Mürûr** (geçit) · **Teallî** (üst kat) · Civar (komşuluk). "Karar" diye bir irtifak hakkı yoktur.
+
+@@ fuzuli | Fuzûlî | Muamelat | vekil; veli; vasi; kayyım | 2026
+= Yetkisi (vekâlet veya velayet) olmadığı halde başkası adına hukuki işlem yapan kişi.
+Fuzûlînin işlemi, adına işlem yapılan kişinin **onayına bağlı** (mevkuf) olarak geçerlidir; onaylarsa yürürlüğe girer.
+Örnek: Komşusunun arabasını ondan izinsiz satan kişi.
+
+@@ ispat | İspat vasıtaları ve yargı | Ceza ve yargı | ikrar; şehâdet; yemin; nükûl; karîne; kitâbet | 2024
+= Mahkemede bir hakkın varlığını kanıtlama yolları.
+- **İkrar**: Kişinin kendi aleyhine itirafı ("Vazoyu ben kırdım").
+- **Şehâdet**: Tanıklık.
+- **Yemin**: "Vallahi almadım".
+- **Nükûl**: Yemin etmekten kaçınma.
+- **Karîne / emare**: Parmak izi gibi güçlü işaretler.
+- **Kitâbet**: Yazılı belge (tapu) — tapu nükûl değildir! (2024)
+> Hadis: Hâkim **açık delillere (zâhire)** göre hüküm verir; gizliyi Allah bilir (2024).
+
+@@ ceza-ilkeleri | İslam ceza hukukunun ilkeleri | Ceza ve yargı | had; kısas; ta'zîr | 2024
+= Suç ve cezaların belirlenmesinde gözetilen temel ilkeler.
+## Ceza türleri
+- **Had**: Miktarı nasla belirlenmiş cezalar (hırsızlık, zina iftirası…).
+- **Kısas**: Öldürme ve yaralamada misliyle karşılık (diyet ile affedilebilir).
+- **Ta'zîr**: Miktarı devlete bırakılmış cezalar.
+## İlkeler
+- **Kanunîlik**: Suç ve ceza önceden belirlenmiş olmalı.
+- **Genellik / eşitlik** (2024): Kimseye ayrıcalık yok — Mahzûmlu kadının hırsızlık vakasında Peygamber: "Kızım Fâtıma çalsaydı onun da elini keserdim."
+- **Şahsîlik**: Kimse başkasının suçundan sorumlu tutulmaz.
+- Suç ile ceza arasında denge; şüphe hâlinde had cezası düşer.

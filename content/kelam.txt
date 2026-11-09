@@ -1,0 +1,320 @@
+@@ kelam | Kelam ilmi | Temel kavramlar | ilm-i kelâm; akaid; usûlü'd-dîn |
+= İslam inanç esaslarını akli ve nakli delillerle açıklayıp savunan, itirazlara cevap veren ilim.
+Adının "kelâm" (söz) olması, en çok tartışılan konunun Allah'ın kelâm sıfatı ([[halku-l-kuran]]) olmasına ya da tartışma (cedel) yöntemine bağlanır.
+## Konuları
+- **[[mesail-vesail|Mesâil]]**: Asıl inanç konuları — ilâhiyyât (Allah), nübüvvât (peygamberlik), sem'iyyât/meâd (ahiret).
+- **[[mesail-vesail|Vesâil]]**: Araç bilgiler — bilgi teorisi, varlık (cevher–araz), delil yöntemleri.
+## Hükmü
+Temel inanç esaslarını bilmek herkese farz-ı ayındır; kelam ilminde derinleşmek ise **farz-ı kifâye**dir (2026 sorusunun bir öncülü).
+## Başlıca ekoller
+[[mutezile]], [[esarilik]], [[maturidilik]]; ayrıca [[murcie]], [[haricilik]], [[cehmiyye]] ve [[sia-kavramlari|Şia]] gibi fırkalar.
+> Kelamda siyasi olayların etkisi: Hz. Osman'ın şehadeti, [[cemel]], [[siffin]] ve [[tahkim]] → iman-amel, [[kader]], hilafet ve [[murtekib-i-kebire]] tartışmalarını doğurdu.
+
+@@ mesail-vesail | Mesâil ve vesâil | Temel kavramlar | cevher; araz; sebr ve taksim | 2026
+= Mesâil: kelamın asıl inanç konuları; vesâil: bu konuları kanıtlamak için gereken araç bilgiler.
+- **Mesâil**: Allah'ın varlığı ve sıfatları, peygamberlik, ahiret (meâd), [[imamet]] gibi konular.
+- **Vesâil**: Bilginin kaynakları, **cevher ve araz** (varlığın parçalanamaz en küçük birimi ve ona ilişen nitelikler), **sebr ve taksim** (ihtimalleri sıralayıp tek tek eleme yöntemi), mantık kuralları.
+> 2026 sorusu: Cevher-araz ve sebr-taksim vesâildendir; meâd (ahiret) ise mesâildendir.
+%% Mesâil = **mesele** (ne?) · Vesâil = **vasıta** (nasıl kanıtlarım?).
+
+@@ hudus-delili | Hudûs delili | Allah'ın varlığının delilleri | | 2024
+= Âlemin sonradan var olduğunu (hâdis), sonradan olan her şeyin bir var edicisi (muhdis) bulunması gerektiğini söyleyen delil.
+## Akıl yürütme
+- Âlem değişir; değişen her şey sonradan olmuştur.
+- Sonradan olan bir şey kendi kendini var edemez.
+- O halde âlemi var eden, kendisi sonradan olmayan (kadîm) bir varlık vardır.
+Kelamcıların en çok kullandığı delildir; [[mesail-vesail|cevher–araz]] teorisine dayanır.
+> 2024 sorusu: "Allah vardı ve O'ndan önce hiçbir şey yoktu" hadisi ve âlemin yokluktan var edilmesi vurgusu → hudûs.
+%% Görsel: kum saati — bir anda başlamış, birisi çevirmiş.
+
+@@ imkan-delili | İmkân delili | Allah'ın varlığının delilleri | vâcibü'l-vücûd |
+= Varlığı da yokluğu da mümkün olan şeylerin, varlığı zorunlu (vâcib) bir varlığa muhtaç olduğunu söyleyen delil.
+Varlıklar üçe ayrılır: **vâcib** (olmaması düşünülemez: Allah), **mümkin** (olabilir de olmayabilir de: âlem), **mümteni'** (olması imkânsız). Mümkin bir şeyi var olmaya tercih eden bir sebep gerekir; bu da Vâcibü'l-vücûd'dur.
+Özellikle İbn Sînâ ve sonraki kelamcılar kullanmıştır.
+
+@@ gaye-nizam | Gaye ve nizam (inâyet) delili | Allah'ın varlığının delilleri | inâyet delili; düzen delili | 2026
+= Evrendeki düzen, uyum ve amaçlılığın bilinçli bir yaratıcıyı gösterdiğini söyleyen delil.
+> 2026 sorusu: Gazzâlî'nin "herkesin yararlandığı su" örneği → gaye-nizam delili.
+Kur'an'da göklerin, yerin, gece-gündüzün düzenine dikkat çeken ayetler bu delile örnektir.
+
+@@ temanu | Temânu' delili | Allah'ın varlığının delilleri | | 2023
+= Birden fazla ilah olsaydı iradeleri çatışır ve âlemin düzeni bozulurdu diyerek Allah'ın birliğini (vahdaniyet) kanıtlayan delil.
+**Kök:** "birbirine engel olmak".
+Dayanağı: "Eğer yerde ve gökte Allah'tan başka ilahlar olsaydı ikisi de bozulup gitmişti" (Enbiyâ 22); İsrâ 42.
+> 2023 sorusu: İsrâ 42 → temânu'.
+
+@@ kabul-i-amme | Kabûl-i âmme delili | Allah'ın varlığının delilleri | consensus gentium |
+= Tarih boyunca bütün toplumların bir yaratıcıya inanmış olmasını Allah'ın varlığına delil sayan görüş.
+Yakın delil: **fıtrat** (insanın içinde inanma duygusu bulunması) ve **ahlak** delili (ahlak yasasının bir koyucusu olması).
+
+@@ sifatlar | Zâtî (selbî) sıfatlar | Sıfatlar | vücûd; kıdem; bekâ; vahdâniyet; muhâlefetün li'l-havâdis; kıyâm bi-nefsihî | 2024
+= Allah'ın zatına ait olup O'na yakışmayanları nefyeden altı sıfat.
+## "Vukubu Var Mı Kı?"
+- **Vücûd**: Var olması.
+- **Kıdem**: Varlığının başlangıcı olmaması.
+- **Bekâ**: Varlığının sonu olmaması (Kasas 88: "O'nun zatından başka her şey yok olacaktır").
+- **Vahdâniyet**: Bir olması (bkz. [[temanu]]).
+- **Muhâlefetün li'l-havâdis**: Yaratılmışlara benzememesi (Şûrâ 11: "O'nun benzeri hiçbir şey yoktur").
+- **Kıyâm bi-nefsihî**: Varlığının kendinden olması, hiçbir şeye muhtaç olmaması (İhlâs 1–2).
+> 2024 sorusu bu ayet–sıfat eşleştirmelerini sordu.
+Ayrıca: [[subuti-sifatlar]].
+
+@@ subuti-sifatlar | Sübûtî sıfatlar | Sıfatlar | hayat; ilim; sem'; basar; irâde; kudret; kelâm; tekvîn |
+= Allah'ın zatına ilave olarak varlıkları sabit, kemal bildiren sıfatları.
+## "Hiç Sebebsiz İkna Ket" — 8 sıfat
+**Ha**yat · **İ**lim · **Se**m' (işitme) · **Ba**sar (görme) · **İ**râde · **K**udret · **Ke**lâm · **T**ekvîn.
+- [[tekvin]]i ayrı bir sıfat sayan **Mâtürîdîler**dir; Eş'arîlerde sübûtî sıfat yedidir.
+- [[mutezile]] sıfatları zatın aynı sayar (ayrı ezelî sıfat kabul etmez); bu onların [[usul-i-hamse|tevhid]] anlayışının sonucudur.
+- Kelâm sıfatının yaratılmış olup olmadığı tartışması: [[halku-l-kuran]].
+
+@@ tekvin | Tekvîn | Sıfatlar | |
+= Allah'ın var etme (yaratma) sıfatı.
+Mâtürîdîlere göre tekvîn ezelî ve ayrı bir sübûtî sıfattır; yaratılmış olan (mükevven) ise sonradan olandır. Eş'arîler bunu ayrı bir sıfat saymaz, kudret sıfatının taalluku olarak görür.
+Bkz. [[maturidilik]], [[subuti-sifatlar]].
+
+@@ iman | İman | İman | tasdik; ikrar; icmâlî iman; tafsîlî iman; taklidî iman; tahkikî iman | 2023
+= Hz. Peygamber'in Allah'tan getirdiği kesin olarak bilinen esasları kalple tasdik etmek.
+## Ekollere göre tanım
+- **[[maturidilik|Mâtürîdî]]** ve Ebû Hanîfe: İman kalple tasdiktir; dil ile ikrar, dünyada Müslüman muamelesi görmek içindir. Amel imanın parçası değildir.
+- **Eş'arî**: Esas olan kalbî tasdiktir.
+- **Selef / Ehl-i hadis**: Kalple tasdik, dil ile ikrar ve amelle yerine getirme; iman artar ve eksilir.
+- **[[mutezile]]** ve **[[haricilik|Haricîler]]**: Amel imana dahildir; büyük günah imanı etkiler ([[murtekib-i-kebire]]).
+## İman türleri
+- **İcmâlî**: Kelime-i şehadet altında genel hatlarıyla inanmak (2023 sorusu).
+- **Tafsîlî**: Esasları tek tek bilerek inanmak.
+- **Taklidî**: Delilini bilmeden başkasını taklitle inanmak.
+- **Tahkikî**: Delilleriyle bilerek inanmak.
+
+@@ mutezile | Mu'tezile | Kelam ekolleri | Mutezile; Ehlü'l-adl ve't-tevhîd; Kaderiyye | 2023
+= II/VIII. yüzyılın başında Basra'da doğan, akla öncelik veren ve beş esas (usûl-i hamse) üzerine kurulan kelam ekolü.
+## Doğuşu
+Hasan-ı Basrî'nin derslerinde büyük günah işleyenin durumu sorulunca **[[vasil-b-ata|Vâsıl b. Atâ]]**, "Ne mümindir ne kâfir, ikisi arasında bir yerdedir" dedi ve meclisten ayrıldı (i'tizâl = ayrılmak). Hasan-ı Basrî'nin "Bizden ayrıldı" sözü ekole adını verdi.
+## Beş esas — "TAV-ME"
+Bkz. ayrıntılı: [[usul-i-hamse]]
+- [[tevhid-mutezile|Tevhid]]: Sıfatlar zatın aynıdır; Kur'an yaratılmıştır.
+- [[adl]]: Allah kötülüğü yaratmaz; kul fiilinin yaratıcısıdır.
+- [[vad-vaid|el-Va'd ve'l-vaîd]]: Allah sözünden dönmez; tövbesiz büyük günahkâr cehennemde kalır.
+- [[menzile|el-Menzile beyne'l-menzileteyn]]: Büyük günahkâr iki yer arasındadır.
+- [[emr-bil-maruf]]: İyiliği emir, kötülükten men — gerekirse güç kullanarak.
+## Kendilerine verdikleri ad
+"Ehlü'l-adl ve't-tevhîd" (adalet ve tevhid ehli). Muhalifleri onlara insan iradesini öne çıkardıkları için "Kaderiyye" de dedi.
+## Kolları
+**Basra** (Ebü'l-Hüzeyl el-Allâf, Nazzâm, Cübbâî, [[kadi-abdulcebbar]]) ve **Bağdat** (Bişr b. Mu'temir) — 2023 sorusu.
+## Altın çağı ve düşüşü
+Abbâsî halifesi [[memun]] döneminde devlet desteği aldı ve [[mihne]] uygulandı. Mihnenin baskıcı yüzü, Mutezile'nin halk gözünde itibarını yitirmesine yol açtı. Mütevekkil döneminde (232/847 sonrası) destek kesildi; IV. yüzyıldan itibaren [[esarilik]] ve [[maturidilik]] öne çıktı.
+!! 2023 tuzağı: "Mihneye zemin hazırlaması" Mutezile'nin **olumlu katkılarından sayılmaz**. Olumlu katkıları: akli delillere önem vermesi, felsefi akımlara karşı İslam'ı savunması, kelam terminolojisini geliştirmesi.
+@img sema/kelam_ekolleri.png
+
+@@ usul-i-hamse | Usûl-i hamse (Mutezile'nin 5 esası) | Kelam ekolleri | beş esas |
+= Mutezile'yi diğer ekollerden ayıran ve bir kişinin Mutezilî sayılması için kabul etmesi gereken beş ilke.
+%% Kod: "TAV-ME" → **T**evhid, **A**dl, **V**a'd-vaîd, **Me**nzile, **E**mr bi'l-ma'rûf → "TAVla MEydanı".
+## Beşinin özü ve "nereye götürdüğü"
+- **[[tevhid-mutezile|Tevhid]]**: Allah'ın birliğini korumak için ezelî sıfatları zatından ayrı kabul etmezler → Kur'an (kelâm) ezelî olamaz, **yaratılmıştır** → [[halku-l-kuran]] → [[mihne]].
+- **[[adl|Adl]]**: Allah adildir, zulmetmez → kötülüğü Allah yaratmaz, kul kendi fiilinin yaratıcısıdır → **iyi ve kötü akılla bilinir**, Allah kul için en iyisini yapmak zorundadır.
+- **[[vad-vaid|Va'd ve vaîd]]**: Allah vaat ve tehdidinden dönmez → tövbe etmeden ölen büyük günahkâr ebedî cehennemliktir; **şefaat** büyük günahkâr için değildir.
+- **[[menzile|Menzile]]**: Büyük günahkâr ne mümin ne kâfir, **fâsık**tır (iki yer arası).
+- **[[emr-bil-maruf|Emr bi'l-ma'rûf]]**: İyiliği emir kötülükten men, gerektiğinde zalim yöneticiye karşı güç kullanmayı da içerir.
+> İlk ikisi ilâhiyyât (Allah) konusu, ortadaki ikisi ahiret ve iman, sonuncusu toplum ve siyasetle ilgilidir.
+
+@@ tevhid-mutezile | Tevhid (Mutezile anlayışı) | Kelam ekolleri | sıfatların nefyi |
+= Mutezile'ye göre Allah'ın birliğini korumak için O'nun zatından ayrı ezelî sıfatlar kabul etmemek.
+## Mantığı
+Eğer Allah'ın ilim, kudret, kelâm gibi sıfatları zatından ayrı ve ezelî olsaydı, Allah'la birlikte başka ezelî varlıklar da olurdu; bu "birden çok kadîm" (taaddüd-i kudemâ) demektir ve tevhide aykırıdır. Bu yüzden Allah "zatıyla bilir, zatıyla güç yetirir" derler.
+## Nereye götürdü?
+- Kelâm sıfatı ezelî olmadığına göre Kur'an sonradan yaratılmıştır → [[halku-l-kuran]].
+- Allah cisim olmadığı için ahirette **gözle görülemez** (rü'yetullahın inkârı).
+- Allah'ın eli, yüzü, arşa istivası gibi haberî sıfatlar mecaz olarak yorumlanır (te'vil).
+Ehl-i sünnete göre ise sıfatlar "ne zatın aynıdır ne de gayrıdır"; ezelîdir ve zatla birlikte vardır ([[sifatlar]], [[subuti-sifatlar]]).
+
+@@ adl | Adl (Mutezile) | Kelam ekolleri | adalet ilkesi; halku'l-ef'âl; hüsün-kubuh; aslah |
+= Mutezile'nin ikinci esası: Allah adildir, kötülük yapmaz, kuluna zulmetmez ve onu yapmadığı bir şeyden sorumlu tutmaz.
+## İnsanlar ne demek istiyor?
+Mutezile şöyle akıl yürütür: Eğer insanın işlediği kötülükleri (inkâr, zulüm) de Allah yaratıyorsa, sonra o insanı cezalandırması **adaletsizlik** olur. Adil bir Allah bunu yapmaz. O halde:
+## Adl ilkesi nereye götürür? (4 sonuç)
+- **Kul kendi fiilinin yaratıcısıdır (halku'l-ef'âl)**: İnsan, iradesiyle yaptığı fiilleri Allah'ın kendisine verdiği güçle kendisi yaratır. Sorumluluk buradan doğar.
+- **Allah kötülüğü/şerri yaratmaz ve istemez**: Şer kulların fiilidir.
+- **İyi ve kötü akılla bilinir (hüsün ve kubh aklî)**: Bir şey Allah emrettiği için iyi değildir; iyi olduğu için emredilmiştir. Vahiy gelmeden de akıl, adaletin iyi zulmün kötü olduğunu bilir.
+- **Allah kulu için en iyisini yapmak zorundadır (aslah)**: Bazı Mutezilîlere göre Allah'ın lütuf ve en uygun olanı yapması adaletinin gereğidir.
+## Ehl-i sünnetin cevabı
+- **[[esarilik|Eş'arî]]**: Her şeyi Allah yaratır; şer de O'nun iradesiyledir ama O'nun rızası değildir. İnsan fiili **[[kesb]]** eder ve sorumlu olur. İyi ve kötüyü belirleyen vahiydir. Allah'a hiçbir şey vacip değildir.
+- **[[maturidilik|Mâtürîdî]]**: Fiili Allah yaratır, kul **cüz'î iradesiyle** seçer. Akıl iyi ve kötünün bir kısmını bilebilir (Mutezile'ye yaklaşır) ama Allah'a bir şeyi vacip kılmaz.
+> Bu yüzden muhalifleri Mutezile'yi "[[kader]]i inkâr eden" Kaderiyye çizgisine yakın gördü. Mutezile ise kendine "Ehlü'l-adl" (adalet ehli) dedi.
+!! Hadis usulündeki ravinin "[[adalet]]i" ile karıştırma.
+
+@@ vad-vaid | el-Va'd ve'l-vaîd | Kelam ekolleri | vaat ve tehdit |
+= Mutezile'nin üçüncü esası: Allah müminlere verdiği sevap vaadinden de günahkârlara yönelik ceza tehdidinden de dönmez.
+## Sonuçları
+- Tövbe etmeden ölen büyük günahkâr, ebedî olarak cehennemde kalır (ama kâfirden hafif azap görür).
+- Hz. Peygamber'in **şefaati** büyük günahkârlar için değil, müminlerin derecesinin yükselmesi içindir.
+- Allah'ın, tehdit ettiği birini affetmesi sözünden dönmek olur; bu da Allah'a yakışmaz.
+Ehl-i sünnet ise Allah'ın dilerse büyük günahkârı affedebileceğini ve şefaatin büyük günahkârlara da olacağını söyler.
+
+@@ menzile | el-Menzile beyne'l-menzileteyn | Kelam ekolleri | iki yer arasında bir yer; fâsık |
+= Mutezile'ye göre büyük günah işleyen Müslüman ne mümindir ne kâfir; ikisi arasında bir yerdedir (fâsıktır).
+Mutezile'nin doğuşuna sebep olan görüştür ([[vasil-b-ata]]).
+## Üç farklı cevap — [[murtekib-i-kebire]] tartışması
+- **[[haricilik|Haricîler]]**: Büyük günah işleyen **kâfir**dir.
+- **Mutezile**: Ne mümin ne kâfir, **fâsık**tır; dünyada Müslüman muamelesi görür, tövbesiz ölürse ebedî cehennemliktir.
+- **[[murcie|Mürcie]]** ve Ehl-i sünnet: **Mümin**dir (günahkâr mümin); ahiretteki durumu Allah'a kalmıştır.
+
+@@ emr-bil-maruf | Emr bi'l-ma'rûf nehy ani'l-münker | Kelam ekolleri | |
+= İyiliği emretmek, kötülükten alıkoymak; Mutezile'de gerekirse zalim yöneticiye karşı güç kullanmayı da içeren beşinci esas.
+Bütün Müslümanlar bu ilkeyi kabul eder; Mutezile'yi ayıran, onu bir **inanç esası** sayması ve siyasi alanda isyanı da meşru görebilmesidir.
+> Mutezile, iktidarla birleştiğinde bu ilkeyi kendi görüşünü devlet eliyle yaymak için de kullandı → [[mihne]].
+
+@@ vasil-b-ata | Vâsıl b. Atâ | Kelam ekolleri | |
+= Mutezile'nin kurucusu kabul edilen Basralı âlim (ö. 131/748).
+Hocası Hasan-ı Basrî'nin meclisinde büyük günah işleyenin "iki yer arasında" olduğunu söyleyip ayrıldı ([[menzile]]). Arkadaşı Amr b. Ubeyd ile birlikte [[mutezile]]nin temelini attı.
+
+@@ kadi-abdulcebbar | Kadı Abdülcebbâr | Kelam ekolleri | | 2024
+= Basra Mutezile ekolünün son büyük temsilcisi (ö. 415/1025).
+Eserleri: el-Muğnî (Mutezile kelamının ansiklopedisi), Şerhu'l-Usûli'l-hamse ([[usul-i-hamse]]), **Müteşâbihü'l-Kur'ân** ve **Tenzîhü'l-Kur'ân ani'l-metâin**.
+> 2024 sorusu: Akılcı yöntemle müteşâbih ayetleri **yorumlar**; onlardan kaçınmaz. Bkz. [[muhkem-mutesabih]].
+
+@@ mihne | Mihne | Kelam ekolleri | Mihne olayı; mihnet; engizisyon | 2023
+= Abbâsî halifesi Me'mûn'un 218/833'te başlattığı, âlim ve kadıları "Kur'an yaratılmıştır" görüşünü kabul etmeye zorlayan resmî sorgulama süreci.
+**Kelime anlamı**: "Sınama, imtihan; sıkıntı." Batı kaynaklarında "İslam engizisyonu" diye de anılır.
+## Nasıl başladı?
+- Halife [[memun]], [[mutezile]] görüşlerini benimsemişti. Ölümünden kısa süre önce (218/833) Bağdat valisine mektup yazarak kadı, muhaddis ve fakihlerin "Kur'an mahlûktur" ([[halku-l-kuran]]) görüşünü kabul edip etmediklerinin sorgulanmasını emretti.
+- Kabul etmeyenlerin kadılık ve şahitlik gibi görevlerden uzaklaştırılması, direnenlerin cezalandırılması istendi.
+- Çoğu âlim baskı altında kabul etti. Kabul etmeyenlerin başında **[[ahmed-b-hanbel|Ahmed b. Hanbel]]** geliyordu.
+## Nasıl sürdü?
+- Me'mûn'dan sonra **Mu'tasım** ve **Vâsık** dönemlerinde de devam etti. Bu dönemde Mutezilî kadı **Ahmed b. Ebû Duâd** sürecin başlıca yürütücüsüydü.
+- Ahmed b. Hanbel hapsedildi, Mu'tasım döneminde kırbaçlandı ama görüşünden dönmedi.
+- Halife **Mütevekkil** (232/847'de tahta geçti) mihneyi sona erdirdi ve Ehl-i hadisi destekledi.
+## Sonuçları
+- Mutezile, devlet gücüyle fikrini dayattığı için halk ve âlimler gözünde **itibarını kaybetti**.
+- Ahmed b. Hanbel ve Ehl-i hadis toplum gözünde güç kazandı; Ehl-i sünnet kimliği belirginleşti.
+- Sonraki dönemde [[esarilik|Eş'arîlik]] ve [[maturidilik|Mâtürîdîlik]] öne çıktı.
+!! 2023 sorusu: "Mutezile'nin mihneye zemin hazırlaması" onun **olumlu katkılarından değildir** — sorunun cevabıydı.
+%% Kod: "**M**e'mûn başlattı, **M**u'tasım kırbaçlattı, **M**ütevekkil bitirdi" — üç M. Tarih: 218'de başladı, 232'den sonra bitti.
+
+@@ halku-l-kuran | Halku'l-Kur'ân | Kelam ekolleri | Kur'an'ın yaratılmışlığı; kelâm sıfatı | 2023,2026
+= Kur'an'ın (Allah'ın kelâmının) yaratılmış (mahlûk) olup olmadığı tartışması.
+## Görüşler
+- **[[mutezile]]**: Allah'ın zatından ayrı ezelî sıfat yoktur ([[tevhid-mutezile]]); Kur'an sonradan yaratılmış bir sözdür.
+- **Ehl-i hadis ([[ahmed-b-hanbel]])**: Kur'an Allah'ın kelâmıdır, yaratılmamıştır.
+- **Eş'arî ve Mâtürîdî**: Allah'ın ezelî **kelâm-ı nefsî**si yaratılmamıştır; ama bizim okuduğumuz sesler, yazılan harfler ve mushaf yaratılmıştır.
+## Neden önemli oldu?
+Halife [[memun]] bu görüşü devlet politikası yaptı → [[mihne]].
+> 2023: Hz. İsa'nın özü (kelime/ilahi söz) tartışmasıyla benzerliği soruldu. 2026: Kelamda siyasi olayların **en az** etkilediği konu sorulduğunda cevap buydu (felsefi-teolojik kökenli).
+
+@@ memun | Me'mûn | Kelam ekolleri | Abbâsî halifesi Me'mûn; Beytü'l-hikme |
+= Mutezile'yi destekleyen ve [[mihne]]yi başlatan Abbâsî halifesi (hilafeti 198–218/813–833).
+Hârûnürreşîd'in oğludur. Beytü'l-hikme'yi geliştirdi; Grekçe felsefe ve bilim eserlerinin Arapçaya çevirisi bu dönemde hızlandı. [[halku-l-kuran|Halku'l-Kur'an]] görüşünü devletin resmî görüşü yaptı.
+Bkz. [[abbasiler]].
+
+@@ esarilik | Eş'arîlik | Kelam ekolleri | Eş'arî; Ebü'l-Hasen el-Eş'arî | 2026
+= Ebü'l-Hasen el-Eş'arî'nin (ö. 324/935-36) kurduğu, nakli esas alıp akli delillerle destekleyen Ehl-i sünnet kelam ekolü.
+## Doğuşu
+Eş'arî kırk yaşına kadar Mutezilî idi (hocası Cübbâî). Mutezile'den ayrılıp Ehl-i hadisin görüşlerini kelam yöntemiyle savundu.
+## Temel görüşleri
+- Her şeyi Allah yaratır; şer de Allah'ın iradesiyledir ama rızasıyla değildir. Allah'ın fiilleri bir amaca (hikmete) bağlı olmak zorunda değildir (2026 sorusu).
+- İnsan fiilini **[[kesb]]** eder; yaratan Allah'tır.
+- İyi ve kötüyü belirleyen vahiydir (hüsün-kubuh şer'î).
+- Allah'a hiçbir şey vacip değildir; [[adl]] ilkesindeki "aslah" görüşü reddedilir.
+- Sübûtî sıfatlar yedidir; [[tekvin]] ayrı sıfat değildir.
+## Temsilcileri
+Bâkıllânî, İbn Fûrek, İsferâyînî, Abdülkâhir el-Bağdâdî, Cüveynî, [[gazali]], Fahreddin Râzî.
+@img sema/kelam_ekolleri.png
+
+@@ maturidilik | Mâtürîdîlik | Kelam ekolleri | Mâtürîdî; Ebû Mansûr el-Mâtürîdî; Kitâbü't-Tevhîd | 2023,2024,2026
+= Ebû Mansûr el-Mâtürîdî'nin (ö. 333/944) Semerkant'ta kurduğu, akıl ile nakli dengeleyen Hanefî çizgisindeki Ehl-i sünnet kelam ekolü.
+## Temel görüşleri
+- **Akıl–nakil uzlaşısı**: Akıl, iyi ve kötünün bir kısmını vahiyden önce bilebilir; Allah'ın varlığını bilmek akılla da gereklidir (2026).
+- **İman**: Kalple tasdiktir; ikrar dünyevi hükümler içindir. İman **artmaz, eksilmez**; "inşallah müminim" demek (istisna) caiz değildir; **iman ile İslam aynıdır** (2024 sorusu).
+- **Fiiller**: Allah yaratır, insan **cüz'î iradesiyle** seçer ve sorumlu olur.
+- **[[tekvin]]** ayrı ezelî bir sıfattır; sübûtî sıfatlar sekizdir.
+- Allah'ın fiilleri hikmetlidir, abes iş yapmaz.
+## Temsilcileri
+**Ebü'l-Muîn en-Nesefî** (Tebsıratü'l-edille — 2023 sorusu), Ebü'l-Yüsr Pezdevî, Ömer en-Nesefî (el-Akâid), Nûreddin es-Sâbûnî.
+> Türk dünyasında yaygın olan itikadi mezheptir; fıkıhta [[hanefi]] mezhebiyle birlikte anılır.
+
+@@ kesb | Kesb | Kader ve insan fiilleri | |
+= Eş'arîlere göre: fiili Allah yaratır, insan ise onu kazanır (kesb eder) ve bundan sorumlu olur.
+İnsanın fiile yönelmesiyle Allah o anda fiili ve gücü yaratır; insanın payı bu yönelme/kazanmadır. Mâtürîdîler bunu **cüz'î irade** kavramıyla açıklar. Mutezile ise kulun fiilini kendisinin yarattığını söyler ([[adl]]).
+Bkz. [[kader]].
+
+@@ kader | Kader ve kaza | Kader ve insan fiilleri | cebir; cüz'î irade; Kaderiyye; Cebriyye |
+= Allah'ın olacak her şeyi ezelde bilip takdir etmesi (kader) ve vakti gelince yaratması (kaza).
+## Uç görüşler ve orta yol
+- **Cebriyye ([[cehmiyye]])**: İnsanın iradesi yoktur; rüzgârdaki yaprak gibidir.
+- **Kaderiyye / [[mutezile]]**: İnsan fiilini kendisi yaratır ([[adl]]).
+- **Ehl-i sünnet**: Fiili Allah yaratır, insan seçer ve sorumludur — Eş'arî'de [[kesb]], Mâtürîdî'de cüz'î irade.
+
+@@ illiyet | İlliyet (nedensellik) | Kader ve insan fiilleri | sebep-sonuç; âdetullah | 2024
+= Sebep ile sonuç arasında zorunlu bir bağ olup olmadığı tartışması.
+**[[gazali]]**: Ateş ile pamuğun yanması arasında zorunlu bir bağ akılla kanıtlanamaz; biz yalnızca ikisinin birlikte olduğunu gözlemleriz. Yakan Allah'tır; tabiattaki düzen Allah'ın âdetidir (âdetullah) ve Allah dilerse mucize olarak bunu değiştirebilir.
+> 2024 sorusu: Gazzâlî'nin bu görüşü → illiyet.
+
+@@ gazali | Gazzâlî | Kader ve insan fiilleri | İmam Gazzâlî; Tehâfütü'l-felâsife |
+= Eş'arî kelamcı, fakih ve mutasavvıf (ö. 505/1111); filozofları eleştiren Tehâfütü'l-felâsife'nin ve İhyâü ulûmi'd-dîn'in müellifi.
+Kelamda [[illiyet]] eleştirisi ve [[gaye-nizam]] örnekleriyle sınavda geçer. Bkz. [[esarilik]].
+
+@@ murcie | Mürcie | Diğer fırkalar | irca | 2026
+= Büyük günah işleyenin hükmünü Allah'a bırakan ve ameli imandan ayrı tutan fırka.
+**Kök:** irca "ertelemek, geriye bırakmak".
+- Siyasi kökeni: Hz. Osman ve Hz. Ali ile ilgili ihtilaflarda taraf tutmayıp hükmü Allah'a bırakmak.
+- İtikadi görüşü: Amel imanın parçası değildir; büyük günahkâr mümindir ([[menzile]] tartışması).
+> 2026 sorusu: Sahabe dönemi siyasi ihtilaflarında taraf tutmama tavrı Mürcie'nin ortaya çıkışıyla ilgilidir.
+!! Aşırı Mürcie "iman varken günahın zararı olmaz" demiştir; Ebû Hanîfe ise amelin önemini kabul eden ılımlı irca anlayışıyla anılır.
+
+@@ haricilik | Haricîler | Diğer fırkalar | Hâric; Hurûriyye; Ezârika; Necedât; İbâdiyye; Sufriyye | 2023
+= Sıffîn'deki tahkime itiraz edip Hz. Ali'nin ordusundan ayrılan, büyük günah işleyeni kâfir sayan fırka.
+## Doğuşu
+[[tahkim]]e "Hüküm ancak Allah'ındır" diyerek karşı çıktılar ve Harûrâ'ya çekildiler. Hz. Ali, Nehrevan'da (38/658) onlarla savaştı; sonra bir Haricî tarafından şehit edildi.
+## Görüşleri
+- Büyük günah işleyen **kâfir**dir ([[murtekib-i-kebire]]).
+- Amel imanın parçasıdır.
+- Halife olmak için Kureyşli olmak şart değildir; ehliyet yeterlidir ([[imamet]]).
+## Kolları
+- **Ezârika** (Nâfi' b. Ezrak): En aşırı kol; kendilerine katılmayanları müşrik sayar, **takiyyeyi caiz görmez** (2023 sorusu).
+- **Necedât**, **Sufriyye** (daha ılımlı).
+- **İbâdiyye**: Günümüzde Umman ve Kuzey Afrika'da yaşayan ılımlı kol.
+> Tefsirde: Mâide 44'ü ("…hükmetmeyenler kâfirlerdir") günahkâr Müslümanları da kapsayacak şekilde yorumlarlar (2026 sorusu).
+
+@@ cehmiyye | Cehmiyye | Diğer fırkalar | Muattıla; Cehm b. Safvân | 2024
+= Cehm b. Safvân'a (ö. 128/746) nispet edilen, sıfatları inkâr eden ve insan iradesini reddeden fırka.
+- Allah'ın sıfatlarını nefyettikleri için **Muattıla** (sıfatları işlevsiz bırakanlar) denir.
+- **Cebrî**dirler: İnsanın fiillerinde iradesi yoktur ([[kader]]).
+- Cennet ve cehennemin sonlu olduğunu ileri sürdüler.
+> 2024 sorusu: "Muattıla" nitelemesi → Cehmiyye.
+
+@@ sia-kavramlari | Şia kavramları | Diğer fırkalar | Şîa; ismet; gaybet; mehdî; ric'at; tevellî; teberrî | 2024
+= Şiî inancında öne çıkan temel kavramlar.
+- **[[imamet]]**: İmamın nasla (Hz. Peygamber'in tayiniyle) belirlenmesi; Hz. Ali'nin ilk imam olması.
+- **İsmet**: İmamların günahtan korunmuşluğu.
+- **[[beda]]**: Allah'ın bir hükmü sonradan değiştirmesi.
+- **[[takiye]]**: Tehlike karşısında inancı gizlemek.
+- **Gaybet / Mehdî**: On ikinci imamın gizlenmesi ve dönecek olması.
+- **Ric'at**: Bazı kişilerin kıyametten önce dünyaya dönmesi.
+- **Tevellî – teberrî**: Ehl-i beyt'i sevmek, düşmanlarından uzak durmak.
+Kollar: [[imamiyye]], [[zeydiyye]], [[ismaililik]].
+
+@@ beda | Bedâ | Diğer fırkalar | | 2024
+= Şia'da: Allah'ın daha önceki bir iradesini sonradan değiştirmesi anlayışı.
+> 2024 sorusu: İmam Ca'fer es-Sâdık'tan sonra imametin büyük oğlu İsmail yerine Musa Kâzım'a geçtiğinin bedâ ile açıklanması.
+Ehl-i sünnet, bedânın Allah'ın ilmine bir sonradan öğrenme izafe ettiği için reddeder.
+
+@@ takiye | Takiye | Diğer fırkalar | takıyye |
+= Can, mal veya namus tehlikesi karşısında inancını gizlemek.
+Özellikle Şia'da önemli bir ilkedir. Haricîlerden [[haricilik|Ezârika]] takiyeyi caiz görmez (2023 sorusu).
+
+@@ imamet | İmamet (hilafet) | Diğer fırkalar | hilafet; Kureyşlilik şartı | 2023
+= Devlet başkanlığı (halifelik/imamlık) meselesi ve devlet başkanında aranacak şartlar.
+## İmamın Kureyşli olması şartı (2023 sorusu)
+- **Ehl-i sünnet**: "İmamlar Kureyş'tendir" rivayetine dayanarak şart koşar.
+- **[[imamiyye]]**: İmamlık Hz. Ali soyunda nasla belirlenir (Ali soyu Kureyş'in Hâşimoğulları koludur).
+- **[[zeydiyye]]**: İmam Hz. Fâtıma soyundan olmalıdır (yine Kureyşli).
+- **[[haricilik|Haricîler]]**: Kureyşlilik şart değildir; ehil olan herhangi bir Müslüman olabilir.
+> 2023 cevabı: Kureyşliliği savunanlar → İmâmiyye ve Zeydiyye.
+!! Ehl-i sünnette imamet itikadi değil fıkhi (amelî) bir konudur; Şia'da ise iman esasıdır.
+
+@@ murtekib-i-kebire | Mürtekib-i kebîre | Diğer fırkalar | büyük günah işleyen | 2023
+= Büyük günah işleyen Müslüman'ın dini durumu tartışması; kelamın ilk büyük meselelerinden.
+## Görüşler
+- **[[haricilik|Haricîler]]**: Kâfirdir.
+- **[[mutezile]]**: Ne mümin ne kâfir, fâsıktır ([[menzile]]).
+- **[[murcie]]**: Mümindir; günah imana zarar vermez (aşırıları).
+- **Ehl-i sünnet**: Günahkâr mümindir; Allah dilerse affeder, dilerse cezalandırır; ebedî cehennemde kalmaz.
+> 2023 sorusu: Tartışmanın ortaya çıkışında **[[cemel]]** ve sonraki siyasi olaylar etkili oldu.

@@ -1,0 +1,204 @@
+@@ cahiliye-devletleri | Cahiliye dönemi Arap devletleri | İslam öncesi | Nebatîler; Hîreliler; Lahmîler; Gassânîler; Tedmür; Himyerîler; Kinde | 2023,2024,2026
+= İslam'dan önce Arap Yarımadası ve çevresinde kurulan Arap devletleri.
+- **Nebatîler** (2026): Edom bölgesi (Ürdün), başkent **Petra**; Roma 106'da son verdi.
+- **Hîreliler (Lahmîler)** (2023): Fırat kıyısında, **Sâsânî** (İran) etkisinde; Hristiyanlık yaygın değildi.
+- **Gassânîler**: Suriye'de, **Bizans** etkisinde, Hristiyan.
+- **Tedmürlüler**: Palmira; Kraliçe Zenobia.
+- **Himyerîler** (2024): Yemen; kralı Zûnüvâs Yahudi olup Necranlı Hristiyanları ateş hendeklerine attı ([[ashab-gruplari|Ashâb-ı Uhdûd]]).
+- **Kinde**: Orta Arabistan.
+%% Kod: "Hîre İran'a, Gassân Rum'a" · "Nebat Petra'da biter".
+@img sema/arabistan.png
+
+@@ kusay | Kusay ve Mekke'nin görevleri | İslam öncesi | sikâye; rifâde; nedve; livâ; hicâbe; kıyâde | 2024
+= Kureyş'i Mekke'de toplayan ve şehrin dini-idari görevlerini düzenleyen Hz. Peygamber'in atası.
+- **Sikâye**: Hacılara su dağıtmak.
+- **Rifâde**: Fakir hacılara yemek vermek.
+- **Nedve**: Danışma meclisi (Dârü'n-nedve) başkanlığı.
+- **Livâ**: Savaşta sancak taşımak.
+- **Hicâbe**: **Kâbe'nin anahtarı ve perdedarlığı** (2024 — elçilik/temsil değil!).
+- **Kıyâde**: Ordu komutanlığı.
+Elçilik (sefâret) sonraki dönemde Adiyyoğullarına (Hz. Ömer'in ailesi) aitti.
+
+@@ hicret | Hicret | Mekke ve Medine dönemi | Akabe biatları; Habeşistan hicreti | 2023
+= Hz. Peygamber'in ve Müslümanların 622'de Mekke'den Medine'ye göçü; hicri takvimin başlangıcı.
+## Mekke dönemi olayları (2023)
+İlk vahiy (610), Habeşistan hicreti (615), Hüzün yılı (619: Hz. Hatice ve Ebû Tâlib'in vefatı), İsrâ ve Mi'râc, Akabe biatları.
+## Medine dönemi olayları
+Hz. Zeyneb'in (Peygamber'in kızı) vefatı Medine dönemindedir (2023).
+Bkz. [[medine-vesikasi]], [[ashab-i-suffe]].
+
+@@ medine-vesikasi | Medine Vesikası | Mekke ve Medine dönemi | Medine Sözleşmesi | 2024
+= Hicretten sonra Hz. Peygamber'in Medine'deki toplulukların hak ve görevlerini belirleyen yazılı antlaşma.
+> 2024 sorusu: Öncelikle Medine'deki Müslümanlar (muhacir ve ensar) ile **Yahudiler** arasında düzenlenmiştir.
+Medine'yi ortak savunulacak bir şehir ilan etti; anlaşmazlıklarda son merci Hz. Peygamber oldu.
+
+@@ ashab-i-suffe | Ashâb-ı Suffe | Mekke ve Medine dönemi | Suffe | 2026
+= Mescid-i Nebevî'nin yanındaki gölgelikte (suffe) barınan, ilimle uğraşan fakir sahabeler.
+İlk İslam eğitim kurumu kabul edilir. Ebû Hüreyre de Suffe ehlindendir.
+
+@@ gazveler | Hz. Peygamber'in savaşları | Mekke ve Medine dönemi | Bedir; Uhud; Hendek; Hudeybiye; Hayber; Mûte; Mekke'nin fethi; Huneyn; Tebük | 2023,2024,2026
+= Medine döneminde yapılan başlıca savaşlar ve antlaşmalar.
+- **Bedir** (2/624): İlk büyük zafer.
+- **Uhud** (3/625) (2023): Peygamber kendi görüşüne rağmen çoğunluğa uyup şehir dışına çıktı; okçuların yeri terk etmesiyle yenilgi.
+- **Hendek** (5/627): Selmân-ı Fârisî'nin önerisiyle hendek.
+- **Hudeybiye** (6/628): Antlaşma; sonra Mümtehine suresi.
+- **Hayber** (7/628) (2023): İktisadi rahatlık, Hicaz'da Yahudi tehdidinin sonu, Hz. Ali'nin kahramanlığı.
+- **Mûte** (8/629) (2024, 2026): Bizans'a karşı. Komutanlar sırasıyla **Zeyd b. Hârise → Câfer b. Ebû Tâlib → Abdullah b. Revâha**; üçü de şehit olunca ordu **Hâlid b. Velîd**'i seçti. (Amr b. Âs değil!)
+- **Mekke'nin fethi** (8/630).
+- **Huneyn** (8/630) (2024): Büyük ganimet; **müellefe-i kulûba** (kalpleri İslam'a ısındırılacaklara) pay verildi.
+- **Tebük** (9/630): Son sefer.
+%% Mûte kodu: "Zeyd Câfer'le Revâha'ya, Hâlid kurtardı" (Z-C-R-H).
+@img sema/arabistan.png
+
+@@ ebu-bekir | Hz. Ebû Bekir | Dört Halife | | 2023,2026
+= İlk halife (11–13/632–634).
+- Ridde (dinden dönme) ve sahte peygamberlerle savaştı.
+- Kur'an'ı tek mushafta topladı ([[kuran-tarihi|cem']]).
+- **Ecnâdeyn** (13/634): Hâlid b. Velîd komutasında Bizans'a karşı; Suriye-Filistin'in kapısını açtı (2026).
+- Valilikler: Yemen, Hadramut, Bahreyn, Umman… **Mısır yoktu** (2023; Mısır Hz. Ömer döneminde fethedildi).
+
+@@ omer | Hz. Ömer | Dört Halife | | 2024
+= İkinci halife (13–23/634–644); fetihlerin ve devlet teşkilatının genişlediği dönem.
+- **Mısır'ın fethi** (Amr b. Âs) — 2024.
+- Kadisiye (İran'a karşı), Kudüs'ün fethi.
+- Ordugâh şehirleri: **Kûfe, Basra, Fustat**.
+- **Divan teşkilatı** (maaş ve kayıt), **hicri takvim**.
+
+@@ osman | Hz. Osman | Dört Halife | |
+= Üçüncü halife (23–35/644–656).
+- Mushafın çoğaltılıp (istinsah) şehirlere gönderilmesi ([[kuran-tarihi]]).
+- Deniz fetihleri (Kıbrıs).
+- Son yıllarındaki karışıklıklar ve şehadeti; ardından gelen iç savaşlar kelam tartışmalarını başlattı ([[kelam]]).
+
+@@ ali | Hz. Ali | Dört Halife | |
+= Dördüncü halife (35–40/656–661); iç savaşlar dönemi.
+- [[cemel]] (36/656), [[siffin]] (37/657), [[tahkim]] → [[haricilik|Haricîler]], Nehrevan (38/658).
+- Başkenti Kûfe'ye taşıdı. Bir Haricî tarafından şehit edildi.
+
+@@ cemel | Cemel Vakası | Dört Halife | | 2023
+= Hz. Ali ile Hz. Âişe, Talha ve Zübeyr arasında 36/656'da Basra yakınlarında yaşanan savaş.
+Hz. Âişe'nin devesi (cemel) etrafında yoğunlaştığı için bu adı aldı. Müslümanlar arasındaki ilk büyük savaştır ve [[murtekib-i-kebire]] gibi kelam tartışmalarının ortaya çıkışında etkili olmuştur (2023).
+
+@@ siffin | Sıffîn Savaşı | Dört Halife | |
+= Hz. Ali ile Muâviye arasında 37/657'de Fırat kıyısında yapılan savaş.
+Muâviye'nin askerleri Kur'an sayfalarını mızraklara takınca savaş durdu ve [[tahkim]]e gidildi.
+
+@@ tahkim | Tahkim | Dört Halife | hakem olayı |
+= Sıffîn'den sonra anlaşmazlığın iki hakeme (Ebû Mûsâ el-Eş'arî ve Amr b. Âs) havale edilmesi.
+Tahkime karşı çıkanlar "Hüküm ancak Allah'ındır" diyerek ayrıldı → [[haricilik|Haricîler]].
+
+@@ emeviler | Emevîler | Emevî ve Abbâsîler | Kerbelâ; Harre; İbn Zübeyr; Mevâlî | 2023,2024,2026
+= Muâviye'nin 41/661'de kurduğu, başkenti Şam olan hanedan devleti (41–132/661–750).
+## Önemli olaylar (2026)
+- **Kerbelâ** (61/680): Hz. Hüseyin'in şehadeti.
+- **Harre Vakası** (63/683): Medine'nin yağmalanması.
+- **Abdullah b. Zübeyr**'in halifeliği (64–73).
+- Tevvâbûn (65) ve Muhtâr es-Sekafî (66–67) hareketleri.
+- **Zeyd b. Ali isyanı** (122/740) → [[zeydiyye]].
+- [[omer-b-abdulaziz]] ve hadislerin resmî [[tedvin]]i.
+!! **Zenc isyanı** (255–270) Emevî değil, **Abbâsî** dönemi olayıdır (2026).
+## Yıkılış sebepleri (2023, 2024)
+Hanedan içi çekişmeler, Haricî ve Şiî muhalefet, **[[mevali]]**nin hoşnutsuzluğu, Yemenli–Kaysî kabile çatışması. **Dış müdahale** bir sebep değildir.
+
+@@ mevali | Mevâlî | Emevî ve Abbâsîler | | 2023
+= Arap olmayan Müslümanlar; Emevî döneminde ikinci sınıf muamele gördükleri için hoşnutsuzdular.
+Abbâsî ihtilalini destekledikleri ve Abbâsîlerin onlara daha fazla yer vermesi nedeniyle Abbâsî yönetiminden **memnun kalan** grup oldular (2023).
+
+@@ abbasiler | Abbâsîler | Emevî ve Abbâsîler | Beytü'l-hikme |
+= 132/750'de Emevîleri yıkarak kurulan, başkenti Bağdat olan hilafet (750–1258).
+Hârûnürreşîd, [[memun]] (Beytü'l-hikme, [[mihne]]), Mu'tasım dönemleri parlaktır. Zenc isyanı (255–270) Abbâsî dönemindedir. 1258'de Moğollar Bağdat'ı yıkınca Kahire'de Memlükler himayesinde sembolik olarak sürdü.
+
+@@ islam-devletleri | İslam devletleri | Emevî ve Abbâsîler | İdrîsîler; Ağlebîler; Murâbıtlar; Muvahhidler; Fâtımîler; Memlükler | 2024,2026
+= Abbâsî döneminde ve sonrasında kurulan bölgesel İslam devletleri.
+- **Kuzey Afrika – Endülüs**: İdrîsîler (Fas), Ağlebîler (Tunus), Murâbıtlar, Muvahhidler, Fâtımîler, Hafsîler.
+- **Orta Asya – İran**: Karahanlılar, Gazneliler, Harizmşahlar, Selçuklular.
+- **Mısır – Suriye**: **Memlükler** — Akka'yı alıp Haçlılara son verdi, Moğolları Aynicâlût'ta durdurdu, Sünnî idi; Osmanlı 1517'de son verdi.
+%% Kod: Kuzey Afrika = "İdris Ağlayıp Murabıt oldu".
+
+@@ turk-islam-eserleri | İlk Türk-İslam eserleri | Emevî ve Abbâsîler | Kutadgu Bilig; Dîvânu Lugâti't-Türk; Atabetü'l-Hakâyık; Dîvân-ı Hikmet | 2023
+= Karahanlılar döneminden itibaren yazılan ilk Türkçe İslami eserler.
+- **Kutadgu Bilig** — Yusuf Has Hâcib
+- **Dîvânu Lugâti't-Türk** — Kaşgarlı Mahmud
+- **Atabetü'l-Hakâyık** — Edib Ahmed Yüknekî
+- **Dîvân-ı Hikmet** — Ahmed Yesevî
+
+@area mezhep
+
+@@ batinilik | Bâtınîlik | Bâtınî fırkalar | |
+= Dini metinlerin zâhirî (görünen) anlamının arkasında gizli bir bâtın (iç) anlam olduğunu ileri sürüp asıl olanın bu iç anlam olduğunu söyleyen akımların ortak adı.
+[[ismaililik]], [[durzilik]], [[nusayrilik]] bu çizgidedir. Bâtınî yorum [[isari-tefsir]]den farklıdır: işârî tefsir zâhiri kabul eder, Bâtınîlik onu iptal edebilir.
+
+@@ imamiyye | İmâmiyye (İsnâaşeriyye) | Şiî fırkalar | On iki imam; Ca'feriyye |
+= On iki imama inanan, Şia'nın en kalabalık kolu.
+İmamet nasla Hz. Ali ve soyuna aittir; on ikinci imam Muhammed el-Mehdî gaybettedir. Fıkhı Ca'ferî fıkhıdır. Bugün İran, Irak, Lübnan ve Azerbaycan'da yaygındır. Kavramlar: [[sia-kavramlari]].
+
+@@ zeydiyye | Zeydiyye | Şiî fırkalar | Zeyd b. Ali | 2026
+= Zeyd b. Ali'nin (ö. 122/740) imametini kabul eden, Ehl-i sünnete en yakın Şiî kol.
+- **Efdal varken mefdûlün imameti** caizdir → Hz. Ebû Bekir ve Ömer'in hilafetini kabul eder.
+- İmam Hz. Fâtıma soyundan olmalı ve kılıçla hakkını aramalıdır.
+- **İtikatta Mutezile'ye**, **fıkıhta Hanefî**lere yakındır (2026).
+- Bugün Yemen'de yaşar.
+
+@@ ismaililik | İsmâilîlik | Şiî fırkalar | Seb'iyye; Küni; Kader; Fâtımîler | 2024
+= İmametin Ca'fer es-Sâdık'tan sonra büyük oğlu İsmail'e geçtiğini kabul eden Bâtınî Şiî kol.
+- **Küni – Kader** (2024): Dişil ve eril iki ilk ilke.
+- Yedi **nâtık** peygamber ve onların vasileri; zâhir–bâtın ayrımı.
+- Fâtımî devleti bu mezhebe dayanır. Bugünkü kolları: Nizârîler (Ağa Han), Bohralar.
+İlgili: [[beda]] (İsmail–Musa Kâzım meselesi).
+
+@@ durzilik | Dürzîlik | Bâtınî fırkalar | Hâkim Biemrillah; Resâilü'l-hikme | 2026
+= Fâtımî halifesi Hâkim Biemrillah'ın ilahlığına (hulûl) inanan, İsmâilîlikten doğan gizli inançlı topluluk.
+Kutsal metni **Resâilü'l-hikme**dir. Dışarıdan katılıma kapalıdır. Bugün Lübnan, Suriye ve İsrail'de yaşar.
+%% "Dürzî Hikmet okur."
+
+@@ nusayrilik | Nusayrîlik | Bâtınî fırkalar | Kitâbü'l-Mecmû' | 2024
+= Muhammed b. Nusayr'a nispet edilen, Hz. Ali'ye uluhiyet atfeden aşırı (gālî) Şiî fırka.
+Aşırı Şiî uluhiyet–nübüvvet anlayışı ile İmâmiyye mehdiliğini birleştirir (2024). Kitabı **Kitâbü'l-Mecmû'**. Suriye ve Hatay'da yaşar.
+%% "Nusayrî Mecmua toplar."
+
+@@ yezidilik | Yezîdîlik | Bâtınî fırkalar | Kitâbü'l-Cilve; Mushaf-ı Reş | 2023
+= Kuzey Irak merkezli, Melek Tâvûs inancı taşıyan senkretik topluluk.
+Kitapları: **Kitâbü'l-Cilve** ve **Mushaf-ı Reş** (Kara Kitap).
+%% "Yezîdî Cilve yapar."
+
+@@ kadiyanilik | Kadiyânîlik (Ahmedîlik) | Modern akımlar | Ahmediyye; Mirza Gulam Ahmed; Lahor kolu | 2023,2026
+= Mirza Gulam Ahmed'in (ö. 1908) Hindistan'da kurduğu hareket.
+1914'te ikiye ayrıldı: **Kadiyan kolu** Mirza'yı **nebi** kabul eder; **Lahor kolu** onu yalnızca müceddid sayar. Ayrılığın sebebi nebi olup olmadığıdır (2026).
+!! **Kitâbü'l-Beyân** Kadiyânîliğin değil, **Bâbîlik**in kitabıdır (2023).
+
+@@ babilik-bahailik | Bâbîlik ve Bahâîlik | Modern akımlar | Kitâbü'l-Beyân; Kitâb-ı Akdes |
+= İran'da XIX. yüzyılda doğan Bâbîlik (Bâb'ın Kitâbü'l-Beyân'ı) ve ondan çıkan Bahâîlik (Bahâullah'ın Kitâb-ı Akdes'i).
+Bahâîlik kendini ayrı bir din olarak tanımlar.
+
+@area dinler
+
+@@ protestanlik | Protestanlık | Hristiyanlık | Luther; reform | 2026
+= XVI. yüzyılda Martin Luther'in başlattığı reformla Katoliklikten ayrılan Hristiyan mezhebi.
+- Tek otorite **Kutsal Kitap**'tır; **papa otoritesini reddeder** (2026).
+- İki sakrament: vaftiz ve evharistiya (Katoliklikte yedi).
+- İbadet ana dildedir; kiliseler ikonasızdır; din adamları evlenebilir.
+
+@@ yeni-ahit | Yeni Ahit | Hristiyanlık | İncil; Kitab-ı Mukaddes | 2024
+= Hristiyan kutsal kitabının ikinci bölümü; 27 kitaptan oluşur.
+- **4 İncil**: Matta, Markos, Luka, Yuhanna.
+- **Resullerin İşleri**.
+- **Mektuplar** (Pavlus ve diğer havariler).
+- **Vahiy** (Yuhanna'nın Vahyi).
+!! Konsil kararları Yeni Ahit'te yer almaz (2024).
+
+@@ yahudi-bayramlari | Yahudi bayramları | Yahudilik | Roş Haşana; Yom Kippur; Pesah; Şavuot; Sukkot; Hanuka; Purim | 2023
+= Yahudiliğin başlıca bayram ve kutsal günleri.
+- **Roş Haşana**: Yılbaşı; **şofar** (koç boynuzu) üflenir. "Roş = baş" (2023).
+- **Yom Kippur**: Kefaret günü, oruç. "Kippur = kefaret".
+- **Pesah**: Mısır'dan çıkış (Fısıh).
+- **Şavuot**: Tevrat'ın verilişi.
+- **Sukkot**: Çardak bayramı.
+- **Hanuka**: Işıklar bayramı. **Purim**: Ester kıssası.
+
+@@ mecusilik | Mecûsîlik (Zerdüştlük) | Diğer dinler | Avesta; Dahme; Parsîler | 2024
+= Zerdüşt'e dayanan, iyilik (Ahura Mazda) ve kötülük ilkesine inanan eski İran dini.
+Kutsal kitabı **Avesta**. Ölüler toprağı kirletmesin diye **Dahme** (sessizlik kulesi) üzerine bırakılır (2024). Bugün İran'da ve Hindistan'da (Parsîler) yaşar.
+
+@@ sabiilik | Sâbiîlik (Mandeizm) | Diğer dinler | Mandeizm; Ginza | 2026
+= Hz. Yahya'yı önemseyen, vaftizin merkezde olduğu gnostik-düalist din.
+Kutsal kitabı **Ginza**. Kur'an'da adı geçer (Bakara 62, Mâide 69, Hac 17). Irak ve İran'da küçük topluluklar hâlinde yaşar.

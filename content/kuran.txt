@@ -1,0 +1,183 @@
+@@ nun-sakin | Sakin nun ve tenvin | Tecvid | izhar; idgam meal-gunne; idgam bilâ-gunne; iklâb; ihfâ | 2023
+= Sakin nun veya tenvinden sonra gelen harfe göre uygulanan dört kural.
+- **İzhâr** — boğaz harfleri ء ه ع ح غ خ (6): Açıkça okunur.
+- **İdgam meal-gunne** — ي ن م و (4), kod **"YeNMU"**: Genizden kaynaştırılır.
+- **İdgam bilâ-gunne** — ل ر (2), kod **"LaR"**: Gunnesiz kaynaştırılır (2023).
+- **İklâb** — ب (1): Nun, mim'e çevrilir.
+- **İhfâ** — kalan 15 harf: Genizden gizlenerek okunur.
+%% Renk çarkı: 6 yeşil – 4 mavi – 2 mor – 1 kırmızı – 15 altın = 28 harf.
+Bkz. [[idgam]], [[mim-sakin]].
+@img sema/tecvid_carki.png
+
+@@ mim-sakin | Sakin mim | Tecvid | ihfâ-i şefevî; idgam-ı misleyn; izhâr-ı şefevî | 2024,2026
+= Sakin mimden sonra gelen harfe göre üç kural.
+- **İhfâ-i şefevî**: Sakin mimden sonra ب gelirse dudakta gizlenerek gunneyle okunur.
+- **İdgam-ı misleyn meal-gunne**: Sakin mimden sonra م gelirse kaynaştırılıp bir buçuk elif gunne yapılır (2026).
+- **İzhâr-ı şefevî**: Diğer harflerde açık okunur; özellikle و ve ف yanında **idgam yapılmaz** (2024).
+
+@@ idgam | İdgam türleri | Tecvid | misleyn; mütecâniseyn; mütekâribeyn; şemsiyye |
+= Sakin bir harfi, kendinden sonraki harekeli harfin içine katıp tek şeddeli harf gibi okumak.
+- **Misleyn**: Aynı iki harf (lam + lam).
+- **Mütecâniseyn**: Mahreci aynı, sıfatı farklı harfler (د→ت, ت→ط, ذ→ظ, ب→م).
+- **Mütekâribeyn**: Mahreç ve sıfatı yakın harfler (ق→ك, ل→ر).
+- **Şemsiyye**: Harf-i tarif lamının şemsî harflerde okunmaması (eş-şems).
+
+@@ med | Med çeşitleri | Tecvid | tabiî; muttasıl; munfasıl; lâzım; âriz; lîn | 2024,2026
+= Med harflerinde (elif, vav, ye) sesin uzatılması.
+- **Tabiî**: Sebepsiz; 1 elif.
+- **Muttasıl**: Med harfi ve hemze **aynı kelimede**; 2–4 elif.
+- **Munfasıl**: Hemze **sonraki kelimede**; 1–4 elif.
+- **Lâzım**: Med harfinden sonra aslî sükûn; 3–5 elif.
+- **Âriz** (2024): Vakıf sebebiyle sükûn; 1–3 elif.
+- **Lîn** (2026): Üstünlü harften sonra gelen sakin و / ي, vakıfta; 1–3 elif.
+
+@@ vakf | Vakıf şekilleri ve işaretleri | Tecvid | revm; işmâm; kasr; tûl; vakf işaretleri | 2023,2026
+= Okumayı durdurma şekilleri ve mushaftaki durma işaretleri.
+## Vakıf şekilleri
+- **Kasr**: Bir elif uzatma. **Tûl**: Uzun uzatma.
+- **Revm**: Harekenin üçte birini gizli bir sesle okumak.
+- **İşmâm**: Ötreli harfte **sessizce** dudakları büzmek (ses yok, işaret var).
+> 2026: Bir elif uzatıp dudak büzen kârî → kasr + işmâm. Kod: "İşmâm = İşaret".
+## Vakf işaretleri
+م lâzım (durmak gerekir) · ط mutlak · ج câiz · ز geçmek evlâ · لا durulmaz · ع **aşr/rükû**: konu bitti, rükû için uygun yer (2023).
+
+@@ kuran-tarihi | Kur'an'ın cem'i ve istinsahı | Kur'an tarihi | cem'; istinsah; Zeyd b. Sâbit |
+= Kur'an'ın Hz. Ebû Bekir döneminde tek bir mushafta toplanması ve Hz. Osman döneminde çoğaltılması.
+- **Hz. Ebû Bekir**: Yemâme savaşında çok sayıda hâfızın şehit düşmesi üzerine, Hz. Ömer'in teklifiyle **Zeyd b. Sâbit** başkanlığında Kur'an tek mushafta toplandı (cem').
+- **Hz. Osman**: Okuyuş farklılıkları üzerine mushaf çoğaltılıp (istinsah) büyük şehirlere gönderildi.
+Bkz. [[tencim]], [[harekeleme]], [[ebu-bekir]], [[osman]].
+
+@@ tencim | Tencîm ve tedrîc | Kur'an tarihi | tencîm; tedrîc | 2023
+= Tencîm: Kur'an'ın 23 yılda olaylara göre parça parça inmesi; tedrîc: hükümlerin aşama aşama gelmesi.
+- Tencîmin dayanağı: İsrâ 106, Furkân 32.
+- Tedrîcin örnekleri: **içki** ve faiz yasakları adım adım geldi (2023).
+Bkz. [[esbab-i-nuzul]].
+
+@@ harekeleme | Kur'an'ın harekelenmesi | Kur'an tarihi | Ebü'l-Esved ed-Düelî; Halîl b. Ahmed | 2024
+= Mushaf yazısına okumayı kolaylaştıran işaretlerin aşamalı olarak eklenmesi.
+- **Ebü'l-Esved ed-Düelî**: Harekeleri (i'rabı) nokta şeklinde gösterdi.
+- **Nasr b. Âsım ve Yahyâ b. Ya'mer**: Benzer harfleri ayırt eden noktaları (i'câm) koydu.
+- **Halîl b. Ahmed**: Bugün kullandığımız hareke sistemini geliştirdi (2024).
+
+@@ mekki-medeni | Mekkî ve Medenî sureler | Kur'an tarihi | | 2024
+= Hicretten önce inen sureler Mekkî, sonra inenler Medenî kabul edilir.
+## Mekkî özellikleri
+"Yâ eyyühe'n-nâs" hitabı, tevhid ve ahiret vurgusu, Âdem–İblis kıssası gibi kıssalar, kısa ve ahenkli ayetler, "kellâ" kelimesi, secde ayetleri.
+## Medenî özellikleri
+"Yâ eyyühellezîne âmenû" hitabı, ibadet ve muamelat hükümleri, cihat, hadler, miras, münafıklar ve Ehl-i kitap ile ilişkiler.
+
+@@ kavimler | Kur'an'da helak edilen kavimler | Kur'an'da kıssalar | Âd; Semûd; Medyen; Eyke; Ress | 2026
+= Peygamberlerini yalanlayarak helak edilen kavimler.
+- Nûh kavmi → Hz. Nûh
+- **Âd** → Hz. Hûd
+- **Semûd** (Ashâbü'l-Hicr) → Hz. Sâlih
+- Lût kavmi → Hz. Lût
+- **Medyen** ve **Eyke** → Hz. Şuayb
+- **Ress** → peygamberi zikredilmez (2026)
+%% "Âdam Hûd'ini aldı, Semûd Sâlih oldu, Medyen'de Şuayb şarkı söyledi."
+
+@@ ashab-gruplari | Kur'an'daki "ashâb" grupları | Kur'an'da kıssalar | Ashâb-ı Uhdûd; Ashâb-ı Kehf; Ashâb-ı Fîl; Ashâb-ı Meymene | 2023,2024
+= Kur'an'da "… sahipleri / halkı" diye anılan topluluklar.
+- **Ashâb-ı Uhdûd** (2024): Necranlı Hristiyanları ateş hendeklerine atanlar (Burûc suresi; Himyerî kralı Zûnüvâs).
+- Ashâb-ı Kehf / Rakîm: Mağara arkadaşları.
+- Ashâb-ı Fîl: Ebrehe'nin ordusu.
+- Ashâb-ı Karye: Yâsîn'deki kasaba halkı.
+- Ashâb-ı Sebt: Cumartesi yasağını çiğneyenler.
+- **Ashâb-ı Meymene** (2023): Ahirette sağdakiler — kınanan bir grup değildir.
+
+@area tefsir
+
+@@ tefsir-ekolleri | Sahabe tefsir ekolleri | Tefsir ekolleri | Mekke ekolü; Medine ekolü; Kûfe ekolü | 2023,2026
+= Sahabe döneminde üç merkezde oluşan tefsir okulları.
+- **Mekke**: [[ibn-abbas]] → Mücâhid, İkrime, Atâ, Saîd b. Cübeyr.
+- **Medine**: Übey b. Ka'b → Zeyd b. Eslem, Ebü'l-Âliye, Muhammed b. Ka'b.
+- **Kûfe (Irak)**: Abdullah b. Mes'ûd → Alkame, Mesrûk, Esved; ayrıca Hasan-ı Basrî, Katâde. Re'y (akıl yürütme) ağırlıklıdır.
+%% Kod: "**A**-**Ü**-**M**" → Abbâs (Mekke), Übey (Medine), Mes'ûd (Kûfe).
+
+@@ ibn-abbas | Abdullah b. Abbâs | Tefsir ekolleri | Hibrü'l-ümme; Tercümânü'l-Kur'ân | 2023
+= Hz. Peygamber'in amcasının oğlu; "Hibrü'l-ümme" (ümmetin âlimi) ve "Tercümânü'l-Kur'ân" lakaplı en büyük sahabe müfessiri.
+Peygamber'in "Allah'ım onu dinde fakih kıl ve ona te'vili öğret" duasına mazhar oldu. Mekke tefsir ekolünün kurucusudur ([[tefsir-ekolleri]]); kendisinden en çok tefsir rivayeti nakledilen sahabidir.
+
+@@ rivayet-tefsiri | Rivayet tefsiri | Tefsir çeşitleri | me'sûr tefsir; Taberî | 2023,2026
+= Kur'an'ı Kur'an, sünnet, sahabe ve tâbiûn sözleriyle açıklayan tefsir.
+## Eserler
+- **Taberî, Câmiu'l-beyân**: Rivayet tefsirinin ilk büyük örneği; kıraat farklılıkları, şiirle dil açıklamaları ve fıkhi tahliller de yapar; **İsrâiliyattan uzak değildir** (2026, 2023).
+- İbn Kesîr, Tefsîrü'l-Kur'âni'l-azîm.
+- **Suyûtî, ed-Dürrü'l-mensûr** (2023).
+- Ebü'l-Leys es-Semerkandî, Bahrü'l-ulûm: rivayet, dirayet, kıraat ve işârî yorum içerir; **bilimsel (ilmî) yönü yoktur** (2024).
+!! Rivayet tefsirinde "değişen örfle yeniden değerlendirme" aranmaz; bu dirayet yaklaşımıdır (2026).
+Bkz. [[israiliyat]], [[dirayet-tefsiri]].
+
+@@ dirayet-tefsiri | Dirayet tefsiri | Tefsir çeşitleri | re'y tefsiri | 2023
+= Dil, akıl, içtihat ve diğer ilimleri kullanarak Kur'an'ı açıklayan tefsir.
+## Eserler
+- **Zemahşerî, el-Keşşâf**: Mutezilî, dil ve belâgat ağırlıklı; Beyzâvî ondan çokça yararlanmıştır (2023).
+- Beyzâvî, Envârü't-tenzîl.
+- Fahreddin Râzî, Mefâtîhu'l-gayb (kelamî-felsefi).
+- Nesefî, Medârikü't-tenzîl (Mâtürîdî-Hanefî).
+- **Ebüssuûd Efendi, İrşâdü'l-akli's-selîm** (Osmanlı; 2023).
+- **Ferrâ, Meâni'l-Kur'ân**: İlk dilbilimsel tefsirlerden (2026).
+- [[kadi-abdulcebbar]], Müteşâbihü'l-Kur'ân (Mutezilî).
+- **Elmalılı Hamdi Yazır, Hak Dini Kur'an Dili** (Türkçe; Hamidullah değil! — 2023).
+
+@@ isari-tefsir | İşârî tefsir | Tefsir çeşitleri | sûfî tefsir | 2024
+= Ayetlerin zâhirî anlamını kabul ederek, sûfîlerin kalbine doğan iç (işârî) anlamları açıklayan tefsir.
+## Kabul şartları (2024)
+- ✔ Ayetin zâhirî anlamıyla uyumlu olmalı.
+- ✔ Destekleyen bir şer'î delil bulunmalı.
+- ✔ Akla ve şer'a aykırı olmamalı; zâhiri iptal etmemeli.
+- ✘ "Vecd hâlinde yapılmalı" veya "bütün sûfîler aynı yoruma ulaşmalı" şart değildir.
+Eserler: Kuşeyrî, Letâifü'l-işârât; Sülemî, Hakâiku't-tefsîr.
+!! Bâtınîlerin zâhiri yok sayan yorumları işârî tefsir değildir ([[batinilik]]).
+
+@@ ilmi-tefsir | İlmî ve modern tefsir | Tefsir çeşitleri | Tantâvî Cevherî; el-Menâr; Fazlurrahman | 2024,2026
+= Ayetleri bilimsel bulgular ışığında yorumlayan (ilmî) ve çağdaş sorunlara cevap arayan (modern) tefsir yaklaşımları.
+- **Tantâvî Cevherî, el-Cevâhir**: Çağdaş ilmî tefsirin temsilcisi (2026).
+- **Muhammed Abduh – Reşîd Rızâ, el-Menâr**: İçtimaî-edebî tefsir.
+- **Fazlurrahman, çift hareket yöntemi**: Önce ayetin nüzul ortamına ([[esbab-i-nuzul]]) gidilir, genel ilke çıkarılır; sonra bu ilke bugüne uygulanır (2024).
+## Modern tefsirin ilkeleri (2024)
+Nüzul ortamını dikkate almak, mezhebi kaygılardan uzak durmak, dilsel tahlili ikinci plana itmek, hidayet yönünü vurgulamak. **Bâtınî yönü öne çıkarmak** bu ilkelerden değildir.
+
+@@ israiliyat | İsrâiliyat | Tefsir çeşitleri | |
+= Yahudi ve Hristiyan kaynaklarından tefsire girmiş, özellikle kıssaların ayrıntılarına dair rivayetler.
+Kur'an ve sahih sünnete uygun olanlar kabul, aykırı olanlar red edilir; hakkında bilgi olmayanlar hakkında susulur. [[rivayet-tefsiri|Taberî]] gibi rivayet tefsirlerinde bolca bulunur.
+
+@@ ulumul-kuran | Ulûmu'l-Kur'ân | Kur'an ilimleri | Kur'an ilimleri | 2023,2024
+= Kur'an'ın anlaşılmasına yardımcı olan ilimlerin genel adı.
+- [[esbab-i-nuzul]] · [[nasih-mensuh]] · [[muhkem-mutesabih]] · [[vucuh-nezair]] · [[mubhemat]] · [[siyak-sibak]]
+- **Garîbü'l-Kur'an**: Az bilinen kelimeler. **Müşkilü'l-Kur'an**: Çelişkili görünen ayetler.
+- **Fezâil**: Sure ve ayetlerin faziletleri (muavvizât okumak — 2023).
+- **Hurûf-ı mukattaa**: Sure başlarındaki harfler; Hz. Ebû Bekir "Kur'an'ın sırrı" demiştir (2024).
+- **Münâsebât** (ayetler arası ilişki), **Aksâm** (yeminler), **Emsâl** (meseller), **Kasas** (kıssalar), **İ'câz**.
+%% Hadis ilimleriyle eşleştir: Garîbü'l-Kur'an ↔ [[garibul-hadis]] · Esbâb-ı nüzûl ↔ [[esbabu-vurud]].
+
+@@ esbab-i-nuzul | Esbâb-ı nüzûl | Kur'an ilimleri | sebeb-i nüzûl | 2024
+= Bir ayetin inmesine sebep olan olay veya soru.
+Örnek: Mümtehine suresi Hudeybiye sonrası iman edip Medine'ye gelen kadın muhacirler üzerine indi.
+Hadisteki karşılığı [[esbabu-vurud]]. Fazlurrahman'ın yönteminin ilk aşamasıdır ([[ilmi-tefsir]]).
+
+@@ nasih-mensuh | Nâsih ve mensûh | Kur'an ilimleri | nesh |
+= Önceki bir şer'î hükmün sonradan gelen bir hükümle kaldırılması; kaldıran nâsih, kaldırılan mensûh.
+Hadislerde de nesh vardır: [[muhtelifu-l-hadis]] çelişkiyi çözerken nesh ihtimalini de inceler.
+
+@@ muhkem-mutesabih | Muhkem ve müteşâbih | Kur'an ilimleri | | 2024
+= Muhkem: anlamı açık, tek manalı ayet; müteşâbih: birden çok anlama ihtimali olan veya mahiyeti tam bilinemeyen ayet.
+> 2024 sorusu: "Rabbin ve melekler saf saf geldiğinde" ayetindeki "Allah'ın gelmesi" ifadesi → müteşâbih.
+Selef müteşâbihleri tevil etmeden kabul etmiş; halef ve [[kadi-abdulcebbar|Mutezile]] akli yorum (te'vil) yapmıştır.
+
+@@ vucuh-nezair | Vücûh ve nezâir | Kur'an ilimleri | | 2023,2024
+= Vücûh: aynı kelimenin farklı ayetlerde farklı anlamlarda kullanılması; nezâir: farklı yerlerde aynı anlamda kullanılması.
+> 2023: "Afv" kelimesi: bağışlama, harcamada ihtiyaç fazlası, çokluk.
+
+@@ mubhemat | Mübhemât | Kur'an ilimleri | | 2024,2026
+= Kur'an'da adı verilmeden zamir veya genel bir ifadeyle anılan kişi, yer ve zamanları belirleyen ilim.
+> Örnek: Hz. Musa'nın yolculuğundaki "genç" (Yûşâ) ve "salih kul" (Hızır).
+
+@@ siyak-sibak | Siyak ve sibak | Kur'an ilimleri | bağlam | 2026
+= Bir ayetin önü (sibak) ve arkası (siyak), yani bağlamı; kelimenin anlamını bağlamdan çıkarma yöntemi.
+> 2026 sorusu: Mücâhid'in Yûsuf suresindeki "muttekeen" kelimesini, devamında kadınlara bıçak verildiği için "turunç (meyve)" diye açıklaması → siyak-sibak.
+
+@@ mezhebi-tefsir | Mezhebî tefsir yorumları | Kur'an ilimleri | | 2026
+= Ayetlerin bir mezhebin görüşlerini destekleyecek şekilde yorumlanması.
+> 2026: Mâide 44'ü ("Allah'ın indirdiğiyle hükmetmeyenler kâfirlerdir") günah işleyen Müslümanları da kapsayacak şekilde tekfirle yorumlayan → [[haricilik|Haricî]] müfessirler.
+[[kadi-abdulcebbar]] Mutezilî, Nesefî Mâtürîdî, Râzî Eş'arî bakışla tefsir yazmıştır.
