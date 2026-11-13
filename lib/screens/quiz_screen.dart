@@ -4,13 +4,21 @@ import 'package:flutter/material.dart';
 
 import '../app_state.dart';
 import '../content.dart';
+import '../tts.dart';
+import '../widgets/read_bar.dart';
 import 'deneme_screen.dart';
 
 class QuizMenuScreen extends StatelessWidget {
   const QuizMenuScreen({super.key});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) => Readable(
+        label: 'yanlış yaptığım sorular (cevaplı)',
+        items: () => [for (final q in content.questions.where(store.isWrongBefore)) questionItem(q, withAnswer: true)],
+        child: _page(context),
+      );
+
+  Widget _page(BuildContext context) {
     return ListenableBuilder(listenable: store, builder: (context, _) => _build(context));
   }
 
@@ -115,7 +123,13 @@ class _QuizScreenState extends State<QuizScreen> {
   }
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) => Readable(
+        label: 'bu soru',
+        items: () => _i < _qs.length ? [questionItem(_qs[_i], no: _i + 1, withAnswer: _chosen != null, chosen: _chosen)] : [ReadItem('Sonuç', '${_qs.length} sorudan $_right doğru.')],
+        child: _page(context),
+      );
+
+  Widget _page(BuildContext context) {
     if (_qs.isEmpty) {
       return Scaffold(appBar: AppBar(title: const Text('Test')), body: const Center(child: Text('Soru yok.')));
     }

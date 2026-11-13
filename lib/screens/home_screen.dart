@@ -2,8 +2,10 @@ import 'package:flutter/material.dart';
 
 import '../app_state.dart';
 import '../content.dart';
-import 'area_screen.dart';
 import '../reminder.dart';
+import '../tts.dart';
+import '../widgets/read_bar.dart';
+import 'area_screen.dart';
 import 'cards_screen.dart';
 import 'notebook_screen.dart';
 import 'quiz_screen.dart';
@@ -14,7 +16,13 @@ class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) => Readable(
+        label: store.dueCards().any(entryExists) ? 'bugünün tekrar kartları' : 'rastgele 10 madde',
+        items: () => (store.dueCards().where(entryExists).isNotEmpty ? store.dueCards().where(entryExists).toList() : (store.allEntries(content).map((e) => e.id).toList()..shuffle()).take(10).toList()).map(entryItem).whereType<ReadItem>().toList(),
+        child: _page(context),
+      );
+
+  Widget _page(BuildContext context) {
     return ListenableBuilder(
       listenable: store,
       builder: (context, _) {

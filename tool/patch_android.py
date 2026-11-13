@@ -143,3 +143,16 @@ elif groovy.exists():
     if 'checkReleaseBuilds' not in g:
         g = g.replace('android {', 'android {\n    lintOptions {\n        checkReleaseBuilds false\n        abortOnError false\n    }', 1)
         groovy.write_text(g, encoding='utf-8')
+
+# ---- Sesle not alma (speech_to_text): mikrofon izni ve ses tanıma servisine erişim ----
+s = manifest.read_text(encoding='utf-8')
+for perm in ['android.permission.RECORD_AUDIO', 'android.permission.INTERNET']:
+    if perm not in s:
+        s = s.replace('<application', f'<uses-permission android:name="{perm}" />\n    <application', 1)
+if 'android.speech.RecognitionService' not in s:
+    q = '<intent><action android:name="android.speech.RecognitionService" /></intent>'
+    if '<queries>' in s:
+        s = s.replace('<queries>', '<queries>\n        ' + q, 1)
+    else:
+        s = s.replace('</manifest>', '    <queries>' + q + '</queries>\n</manifest>', 1)
+manifest.write_text(s, encoding='utf-8')

@@ -15,7 +15,10 @@ import 'package:rehber_mbsts/screens/quiz_screen.dart';
 import 'package:rehber_mbsts/screens/settings_screen.dart';
 import 'package:rehber_mbsts/store.dart';
 import 'package:rehber_mbsts/tts.dart';
+import 'package:rehber_mbsts/widgets/player_bar.dart';
+import 'package:rehber_mbsts/widgets/read_bar.dart';
 import 'package:rehber_mbsts/widgets/rich_body.dart';
+import 'package:rehber_mbsts/screens/note_editor.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
@@ -160,5 +163,39 @@ void main() {
       await tester.pump(const Duration(milliseconds: 100));
       expect(tester.takeException(), isNull);
     }
+  });
+
+  test('soru sesli okuma metni şıkları ve cevabı içerir', () async {
+    content = await Content.load();
+    final q = content.questions.first;
+    final t = questionItem(q, no: 3, withAnswer: true, chosen: 0).text;
+    expect(t.startsWith('3. soru'), isTrue);
+    expect(t.contains('A şıkkı'), isTrue);
+    expect(t.contains('Doğru cevap'), isTrue);
+    expect(questionItem(q).text.contains('Doğru cevap'), isFalse);
+  });
+
+  testWidgets('her sayfanın altında Sesli oku çubuğu ve not ekranında mikrofon düğmesi var', (tester) async {
+    content = (await tester.runAsync(() => Content.load()))!;
+    final tmp = Directory.systemTemp.createTempSync('rehber3');
+    store.dir = tmp;
+    store.imgDir = Directory('${tmp.path}/gorseller')..createSync();
+    tester.view.physicalSize = const Size(1080, 2340);
+    tester.view.devicePixelRatio = 3;
+    addTearDown(tester.view.reset);
+    Widget app(Widget home) => MaterialApp(
+          navigatorObservers: [readRegistry],
+          builder: (c, child) => AppFrame(player: const PlayerBar(), child: child!),
+          home: home,
+        );
+    await tester.pumpWidget(app(const EntryScreen(id: 'mihne')));
+    await tester.pump();
+    await tester.pump();
+    expect(find.text('Sesli oku: bu madde'), findsOneWidget);
+    await tester.pumpWidget(app(const NoteEditor(entryId: 'mihne')));
+    await tester.pump();
+    await tester.pump();
+    expect(find.text('Sesle not al'), findsOneWidget);
+    expect(tester.takeException(), isNull);
   });
 }

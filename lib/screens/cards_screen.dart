@@ -3,7 +3,9 @@ import 'package:flutter/material.dart';
 import '../app_state.dart';
 import '../content.dart';
 import '../store.dart';
+import '../tts.dart';
 import '../widgets/entry_icon.dart';
+import '../widgets/read_bar.dart';
 import '../widgets/rich_body.dart';
 
 /// Leitner usulü tekrar: kart önce terimi (ve varsa senin çağrışım resmini) gösterir,
@@ -21,6 +23,13 @@ class _CardsScreenState extends State<CardsScreen> {
   int _done = 0;
   bool _reverse = false; // önce özeti göster, terimi bul
 
+  List<ReadItem> _cardItems(String id) {
+    final e = store.resolve(content, id);
+    if (e == null) return [];
+    final t = '${e.title}. ${e.hint.isEmpty ? '' : '${clean(e.hint)}. '}${clean(e.summary)}.';
+    return [ReadItem(e.title, t, entryId: id, area: e.area)];
+  }
+
   void _grade(bool known) {
     final id = _queue.removeAt(0);
     store.grade(id, known);
@@ -32,7 +41,13 @@ class _CardsScreenState extends State<CardsScreen> {
   }
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) => Readable(
+        label: 'bu kart',
+        items: () => _queue.isEmpty ? <ReadItem>[] : _cardItems(_queue.first),
+        child: _page(context),
+      );
+
+  Widget _page(BuildContext context) {
     final boxes = List.filled(6, 0);
     for (final c in store.cards.values) {
       boxes[c.box]++;

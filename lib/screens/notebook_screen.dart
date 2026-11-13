@@ -2,8 +2,10 @@ import 'package:flutter/material.dart';
 
 import '../app_state.dart';
 import '../content.dart';
+import '../tts.dart';
 import '../widgets/entry_icon.dart';
 import '../widgets/player_bar.dart';
+import '../widgets/read_bar.dart';
 import 'entry_editor.dart';
 import 'note_editor.dart';
 
@@ -12,7 +14,13 @@ class NotebookScreen extends StatelessWidget {
   const NotebookScreen({super.key});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) => Readable(
+        label: 'notlarım ve favorilerim',
+        items: () => [for (final n in store.notes) if (n.text.trim().isNotEmpty) ReadItem(store.resolve(content, n.entryId)?.title ?? 'Serbest not', '${store.resolve(content, n.entryId)?.title ?? 'Serbest not'}. Notum: ${clean(n.text)}.', entryId: entryExists(n.entryId) ? n.entryId : null, area: store.resolve(content, n.entryId)?.area ?? 'hadis'), ...store.favorites.map(entryItem).whereType<ReadItem>()],
+        child: _page(context),
+      );
+
+  Widget _page(BuildContext context) {
     return DefaultTabController(
       length: 3,
       child: ListenableBuilder(

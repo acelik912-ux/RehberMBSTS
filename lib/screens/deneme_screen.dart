@@ -6,6 +6,8 @@ import 'package:flutter/material.dart';
 import '../app_state.dart';
 import '../content.dart';
 import '../store.dart';
+import '../tts.dart';
+import '../widgets/read_bar.dart';
 
 const denemeMinutes = 90;
 const _letters = ['A', 'B', 'C', 'D', 'E'];
@@ -22,6 +24,15 @@ List<Question> buildDeneme([Random? rnd]) {
     out.addAll(take);
   }
   return out;
+}
+
+ReadItem denemeItem(DenemeResult d) {
+  final b = StringBuffer('Son denemede ${d.total} sorudan ${d.right} doğru, ${d.wrong} yanlış, ${d.empty} boş.\n');
+  for (final a in areas) {
+    final v = d.areas[a.id];
+    if (v != null) b.writeln('${a.name}: ${v[0]} doğru, ${v[1]} yanlış, ${v[2]} boş.');
+  }
+  return ReadItem('Deneme sonucu', b.toString());
 }
 
 String mmss(int sec) {
@@ -138,7 +149,13 @@ class _DenemeScreenState extends State<DenemeScreen> {
   }
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) => Readable(
+        label: 'bu soru',
+        items: () => _qs.isEmpty ? <ReadItem>[] : [questionItem(_qs[_i], no: _i + 1)],
+        child: _page(context),
+      );
+
+  Widget _page(BuildContext context) {
     if (_qs.isEmpty) {
       return Scaffold(appBar: AppBar(title: const Text('Deneme')), body: const Center(child: Text('Soru yok.')));
     }
@@ -238,7 +255,13 @@ class _DenemeResultScreenState extends State<DenemeResultScreen> {
   bool _onlyMistakes = true;
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) => Readable(
+        label: 'yanlış ve boşlar (cevaplı)',
+        items: () => [for (var k = 0; k < widget.questions.length; k++) if (widget.answers[k] != widget.questions[k].answer) questionItem(widget.questions[k], no: k + 1, withAnswer: true, chosen: widget.answers[k])],
+        child: _page(context),
+      );
+
+  Widget _page(BuildContext context) {
     final r = widget.result;
     final idx = [
       for (var k = 0; k < widget.questions.length; k++)
@@ -391,7 +414,13 @@ class DenemeHistoryScreen extends StatelessWidget {
   const DenemeHistoryScreen({super.key});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) => Readable(
+        label: 'son deneme sonucu',
+        items: () => store.denemeler.isEmpty ? <ReadItem>[] : [denemeItem(store.denemeler.first)],
+        child: _page(context),
+      );
+
+  Widget _page(BuildContext context) {
     final list = store.denemeler;
     return Scaffold(
       appBar: AppBar(title: const Text('Deneme geçmişi')),

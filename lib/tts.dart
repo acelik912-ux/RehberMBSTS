@@ -4,20 +4,53 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'app_state.dart';
 import 'content.dart';
 
+/// Sesle okunacak bir parça: bir madde, bir soru veya bir not.
+class ReadItem {
+  final String title;
+  final String text;
+  final String? entryId;
+  final String area;
+  const ReadItem(this.title, this.text, {this.entryId, this.area = 'hadis'});
+}
+
+/// Bir maddeyi okunacak parçaya çevirir.
+ReadItem? entryItem(String id) {
+  final e = store.resolve(content, id);
+  if (e == null) return null;
+  return ReadItem(e.title, speechText(e, notes: store.notesFor(e.id).map((n) => n.text).toList()), entryId: id, area: e.area);
+}
+
+/// Test sorusunu okunacak metne çevirir. [withAnswer] ise doğru cevap ve açıklama da okunur.
+ReadItem questionItem(Question q, {int? no, bool withAnswer = false, int? chosen}) {
+  const letters = ['A', 'B', 'C', 'D', 'E'];
+  final b = StringBuffer(no == null ? 'Soru.\n' : '$no. soru.\n');
+  b.writeln('${clean(q.text)}.');
+  for (var k = 0; k < q.options.length; k++) {
+    b.writeln('${letters[k]} şıkkı: ${clean(q.options[k])}.');
+  }
+  if (withAnswer) {
+    if (chosen != null) b.writeln(chosen == q.answer ? 'Senin cevabın doğru.' : 'Senin cevabın ${letters[chosen]} idi.');
+    b.writeln('Doğru cevap ${letters[q.answer]}: ${clean(q.options[q.answer])}.');
+    if (q.explanation.isNotEmpty) b.writeln('Açıklama: ${clean(q.explanation)}.');
+  }
+  return ReadItem(no == null ? 'Soru' : '$no. soru', b.toString(), entryId: q.entryId.isEmpty ? null : q.entryId, area: q.area);
+}
+
 /// Maddeleri Türkçe sesle okur. Tek madde veya sıralı liste (ör. bir alanın tamamı) çalabilir.
 class Reader extends ChangeNotifier {
   final FlutterTts _tts = FlutterTts();
   bool _ready = false;
   bool playing = false;
   bool turkishMissing = false;
-  List<String> queue = [];
+  List<ReadItem> queue = [];
   int index = 0;
   double rate = 0.5; // Android'de 0.5 normal hız
   int _session = 0; // durdurulunca eski döngüyü kesmek için
 
   static const rates = [0.35, 0.45, 0.5, 0.6, 0.75];
 
-  String? get currentId => playing && index < queue.length ? queue[index] : null;
+  ReadItem? get current => playing && index < queue.length ? queue[index] : null;
+  String? get currentId => current?.entryId;
 
   Future<void> _init() async {
     if (_ready) return;
@@ -50,24 +83,25 @@ class Reader extends ChangeNotifier {
   Future<void> playEntry(String id) => playList([id]);
 
   /// Listeyi baştan (veya [start]'tan) sırayla okur.
-  Future<void> playList(List<String> ids, {int start = 0}) async {
+  Future<void> playList(List<String> ids, {int start = 0}) =>
+      playItems(ids.map(entryItem).whereType<ReadItem>().toList(), start: start);
+
+  /// Hazır parçaları (madde, soru, not) sırayla okur.
+  Future<void> playItems(List<ReadItem> items, {int start = 0}) async {
     await _init();
     await _tts.stop();
     rate = store.ttsRate;
     await _tts.setSpeechRate(rate);
-    queue = ids.where(entryExists).toList();
+    queue = items;
     if (queue.isEmpty) return;
     index = start.clamp(0, queue.length - 1);
     playing = true;
     final s = ++_session;
     notifyListeners();
     while (s == _session && index < queue.length) {
-      final e = store.resolve(content, queue[index]);
-      if (e != null) {
-        for (final chunk in chunks(speechText(e, notes: store.notesFor(e.id).map((n) => n.text).toList()))) {
-          if (s != _session) return;
-          await _tts.speak(chunk);
-        }
+      for (final chunk in chunks(queue[index].text)) {
+        if (s != _session) return;
+        await _tts.speak(chunk);
       }
       if (s != _session) return;
       index++;
@@ -81,12 +115,12 @@ class Reader extends ChangeNotifier {
 
   Future<void> next() async {
     if (!playing || index + 1 >= queue.length) return stop();
-    await playList(queue, start: index + 1);
+    await playItems(queue, start: index + 1);
   }
 
   Future<void> previous() async {
     if (!playing) return;
-    await playList(queue, start: (index - 1).clamp(0, queue.length - 1));
+    await playItems(queue, start: (index - 1).clamp(0, queue.length - 1));
   }
 
   Future<void> stop() async {

@@ -3,6 +3,9 @@ import 'package:image_picker/image_picker.dart';
 
 import '../app_state.dart';
 import '../store.dart';
+import '../tts.dart';
+import '../widgets/dictation.dart';
+import '../widgets/read_bar.dart';
 import 'search_screen.dart';
 
 /// Bir maddeye (ya da serbest olarak) yazı + görsel notu ekler/düzenler.
@@ -86,7 +89,13 @@ class _NoteEditorState extends State<NoteEditor> {
   }
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) => Readable(
+        label: 'yazdığım not',
+        items: () => _text.text.trim().isEmpty ? <ReadItem>[] : [ReadItem('Notum', clean(_text.text))],
+        child: _page(context),
+      );
+
+  Widget _page(BuildContext context) {
     final e = store.resolve(content, widget.entryId);
     return PopScope(
       canPop: true,
@@ -112,6 +121,8 @@ class _NoteEditorState extends State<NoteEditor> {
         body: ListView(
           padding: const EdgeInsets.all(16),
           children: [
+            DictationPanel(controller: _text),
+            const SizedBox(height: 10),
             TextField(
               controller: _text,
               maxLines: null,

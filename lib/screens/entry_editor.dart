@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 
 import '../app_state.dart';
 import '../content.dart';
+import '../tts.dart';
+import '../widgets/dictation.dart';
+import '../widgets/read_bar.dart';
 import 'search_screen.dart';
 
 /// Yeni madde oluşturur ya da var olan maddenin metnini düzenler.
@@ -87,7 +90,13 @@ class _EntryEditorState extends State<EntryEditor> {
   }
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) => Readable(
+        label: 'yazdığım metin',
+        items: () => _body.text.trim().isEmpty ? <ReadItem>[] : [ReadItem(_title.text.isEmpty ? 'Metin' : _title.text, '${_title.text}. ${clean(_summary.text)}. ${clean(_body.text)}')],
+        child: _page(context),
+      );
+
+  Widget _page(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Text(_isBuiltIn ? 'Metni düzenle' : (widget.existing == null ? 'Yeni madde' : 'Maddemi düzenle')),
@@ -150,6 +159,8 @@ class _EntryEditorState extends State<EntryEditor> {
             ActionChip(label: const Text('Tuzak kutusu'), onPressed: () => _wrap('!! ')),
             ActionChip(label: const Text('Akılda tut'), onPressed: () => _wrap('%% ')),
           ]),
+          const SizedBox(height: 8),
+          DictationPanel(controller: _body),
           const SizedBox(height: 8),
           TextField(
             controller: _body,

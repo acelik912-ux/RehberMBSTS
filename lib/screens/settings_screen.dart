@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 
 import '../app_state.dart';
 import '../reminder.dart';
+import '../tts.dart';
+import '../widgets/read_bar.dart';
 import 'backup_screen.dart';
 
 class SettingsScreen extends StatefulWidget {
@@ -50,7 +52,13 @@ class _SettingsScreenState extends State<SettingsScreen> {
   }
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) => Readable(
+        label: 'sınav bilgileri',
+        items: () => [ReadItem('Sınav bilgileri', 'Sınava ${daysToExam()} gün kaldı. Sınav 4 Nisan 2027 Pazar günü. Başvurular 9 ile 17 Şubat 2027 arasında, geç başvuru 25 Şubat. Sonuçlar 21 Nisan 2027 de açıklanacak. Altmış soru, doksan dakika. Dağılım: fıkıh yirmi, Kuran bilgisi yedi, tefsir yedi, kelam yedi, hadis yedi, siyer ve İslam tarihi yedi, mezhepler üç, dinler tarihi iki soru. Yanlış doğruyu götürmez.')],
+        child: _page(context),
+      );
+
+  Widget _page(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('Ayarlar')),
       body: ListView(

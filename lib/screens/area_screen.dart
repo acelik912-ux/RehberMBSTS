@@ -2,8 +2,10 @@ import 'package:flutter/material.dart';
 
 import '../app_state.dart';
 import '../content.dart';
+import '../tts.dart';
 import '../widgets/entry_icon.dart';
 import '../widgets/player_bar.dart';
+import '../widgets/read_bar.dart';
 import 'entry_editor.dart';
 import 'quiz_screen.dart';
 
@@ -19,7 +21,13 @@ class _AreaScreenState extends State<AreaScreen> {
   bool _visual = true;
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) => Readable(
+        label: '${widget.area.name} (tüm maddeler)',
+        items: () => store.allEntries(content).where((e) => e.area == widget.area.id).map((e) => entryItem(e.id)).whereType<ReadItem>().toList(),
+        child: _page(context),
+      );
+
+  Widget _page(BuildContext context) {
     final area = widget.area;
     return ListenableBuilder(
       listenable: store,

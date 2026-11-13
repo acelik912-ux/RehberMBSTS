@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 
 import '../app_state.dart';
 import '../content.dart';
+import '../tts.dart';
 import '../widgets/entry_icon.dart';
+import '../widgets/read_bar.dart';
 
 /// Tüm maddelerde ve notlarda arama. pick=true ise seçilen maddenin id'sini geri döndürür.
 class SearchScreen extends StatefulWidget {
@@ -52,7 +54,13 @@ class _SearchScreenState extends State<SearchScreen> {
   }
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) => Readable(
+        label: 'arama sonuçları',
+        items: () => _results().take(20).map((r) => entryItem(r.$1.id)).whereType<ReadItem>().toList(),
+        child: _page(context),
+      );
+
+  Widget _page(BuildContext context) {
     final res = _results();
     return Scaffold(
       appBar: AppBar(

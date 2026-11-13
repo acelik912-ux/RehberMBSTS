@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import '../app_state.dart';
 import '../content.dart';
 import '../screens/entry_screen.dart';
 import '../tts.dart';
@@ -16,10 +15,10 @@ class PlayerBar extends StatelessWidget {
     return ListenableBuilder(
       listenable: reader,
       builder: (context, _) {
-        final id = reader.currentId;
-        if (id == null) return const SizedBox.shrink();
-        final e = store.resolve(content, id);
-        final color = areaById(e?.area ?? 'hadis').color;
+        final item = reader.current;
+        if (item == null) return const SizedBox.shrink();
+        final id = item.entryId;
+        final color = areaById(item.area).color;
         return Material(
           color: color,
           elevation: 8,
@@ -32,9 +31,9 @@ class PlayerBar extends StatelessWidget {
                 const SizedBox(width: 10),
                 Expanded(
                   child: InkWell(
-                    onTap: () => navKey.currentState?.push(MaterialPageRoute(builder: (_) => EntryScreen(id: id))),
+                    onTap: id == null ? null : () => navKey.currentState?.push(MaterialPageRoute(builder: (_) => EntryScreen(id: id))),
                     child: Column(crossAxisAlignment: CrossAxisAlignment.start, mainAxisSize: MainAxisSize.min, children: [
-                      Text(e?.title ?? '', maxLines: 1, overflow: TextOverflow.ellipsis,
+                      Text(item.title, maxLines: 1, overflow: TextOverflow.ellipsis,
                           style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w800)),
                       Text('${reader.index + 1} / ${reader.queue.length} · dinleniyor',
                           style: const TextStyle(color: Colors.white70, fontSize: 11)),
@@ -70,7 +69,7 @@ class ListenButton extends StatelessWidget {
     return ListenableBuilder(
       listenable: reader,
       builder: (context, _) {
-        final active = reader.playing && reader.queue.isNotEmpty && reader.queue.first == ids.first && reader.queue.length == ids.length;
+        final active = reader.playing && reader.queue.isNotEmpty && reader.queue.first.entryId == ids.first && reader.queue.length == ids.length;
         return IconButton(
           tooltip: active ? 'Durdur' : tooltip,
           icon: Icon(active ? Icons.stop_circle : Icons.headphones),

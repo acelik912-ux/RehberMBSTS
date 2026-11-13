@@ -3,8 +3,10 @@ import 'package:flutter/material.dart';
 import '../app_state.dart';
 import '../content.dart';
 import '../store.dart';
+import '../tts.dart';
 import '../widgets/entry_icon.dart';
 import '../widgets/player_bar.dart';
+import '../widgets/read_bar.dart';
 import '../widgets/rich_body.dart';
 import 'entry_editor.dart';
 import 'note_editor.dart';
@@ -25,7 +27,13 @@ class _EntryScreenState extends State<EntryScreen> {
   }
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) => Readable(
+        label: 'bu madde',
+        items: () => [entryItem(widget.id)].whereType<ReadItem>().toList(),
+        child: _page(context),
+      );
+
+  Widget _page(BuildContext context) {
     return ListenableBuilder(
       listenable: store,
       builder: (context, _) {
