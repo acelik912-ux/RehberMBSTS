@@ -9,6 +9,7 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   content = await Content.load();
   await store.load();
+  store.prune(entryExists);
   runApp(const RehberApp());
 }
 

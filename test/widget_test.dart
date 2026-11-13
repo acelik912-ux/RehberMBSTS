@@ -45,8 +45,7 @@ void main() {
     expect(t.contains('[['), isFalse);
     expect(t.contains('**'), isFalse);
     expect(chunks(t).every((x) => x.length < 3000), isTrue);
-    final v = speechText(c.entries['ng-hadis-usulu-4']!);
-    expect(v.contains('http'), isFalse);
+    expect(clean('bkz. https://youtu.be/x ve [[https://a.b|site]]').contains('http'), isFalse);
   });
 
   test('arama anahtarı şapka ve kesmeden bağımsız', () {

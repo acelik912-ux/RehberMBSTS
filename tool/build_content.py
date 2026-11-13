@@ -22,13 +22,13 @@ import sys
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SRC = ROOT / 'content'
 OUT = ROOT / 'assets' / 'content'
-AREAS = {'hadis', 'fikih', 'kelam', 'kuran', 'tefsir', 'siyer', 'mezhep', 'dinler', 'video'}
-FILES = ['hadis', 'kelam', 'fikih', 'kuran', 'siyer', 'videolar']
+AREAS = {'hadis', 'fikih', 'kelam', 'kuran', 'tefsir', 'siyer', 'mezhep', 'dinler'}
+FILES = ['hadis', 'kelam', 'fikih', 'kuran', 'siyer']
 LINK = re.compile(r'\[\[([^\]|]+)(?:\|([^\]]+))?\]\]')
 
 
 def parse(name):
-    area = 'video' if name == 'videolar' else name
+    area = name
     entries = []
     cur = None
     for raw in (SRC / f'{name}.txt').read_text(encoding='utf-8').split('\n'):

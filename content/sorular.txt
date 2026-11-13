@@ -2022,3 +2022,79 @@ C) Pesah
 D) Şavuot
 E) Hanuka
 = Roş Haşana yılbaşıdır ve şofar üflenir.
+
+?? fikih | iddet
+İddetle ilgili,
+I. Kocası vefat eden kadının iddeti için zifafın gerçekleşmiş olması şarttır.
+II. Zifaf ve sahih halvetten önce boşanan kadın iddet beklemez.
+III. Hamile kadının iddeti, iddetin sebebi ne olursa olsun doğumla sona erer.
+ifadelerinden hangileri doğrudur?
+A) Yalnız I
+B) Yalnız II
+C) I ve II
+*D) II ve III
+E) I, II ve III
+= Vefat iddetinde zifaf şart değildir; boşanmada zifaf ya da sahih halvet şarttır (Ahzâb 49).
+
+?? fikih | iddet
+Zifaftan sonra boşanan ve düzenli âdet gören bir kadının iddeti için Hanefî ve Şâfiî mezheplerinin görüşü sırasıyla hangisidir?
+*A) Üç hayız – üç temizlik dönemi
+B) Üç temizlik dönemi – üç hayız
+C) Üç ay – üç hayız
+D) Dört ay on gün – üç ay
+E) Üç hayız – üç ay
+= Bakara 228'deki "kurû" kelimesini Hanefîler hayız, Şâfiîler temizlik olarak anlar.
+
+?? fikih | iddet
+Yaşı ilerlediği için âdet görmeyen bir kadın zifaftan sonra boşanırsa iddeti nedir?
+A) İddet beklemez.
+B) Üç hayız
+*C) Üç kamerî ay
+D) Dört ay on gün
+E) Bir yıl
+= Talâk 4. ayete göre âdetten kesilenler ve henüz âdet görmeyenler üç ay bekler.
+
+?? fikih | iddet
+Emzirme sebebiyle âdeti kesilmiş olan bir kadın boşanırsa iddeti nasıl hesaplanır?
+A) Hemen üç ay bekler.
+B) Bir yıl bekler.
+*C) Emzirme bitip âdeti dönünce üç hayız (Şâfiî'ye göre üç temizlik) bekler.
+D) Dört ay on gün bekler.
+E) İddet beklemez.
+= Hayzın geçici bir sebeple kesilmesi kadını "âdet görmeyenler" grubuna sokmaz.
+
+?? fikih | iddet
+Aşağıdaki ayet–konu eşleştirmelerinden hangisi yanlıştır?
+A) Bakara 228 – Boşanan kadının üç kurû beklemesi
+B) Bakara 234 – Vefat iddetinin dört ay on gün olması
+C) Talâk 4 – Hamile kadının iddetinin doğumla bitmesi
+*D) Ahzâb 49 – Ric'î boşanmada nafakanın kocaya ait olması
+E) Talâk 4 – Âdetten kesilen kadının üç ay beklemesi
+= Ahzâb 49, zifaftan önce boşanan kadına iddet olmadığını bildirir.
+
+?? fikih | iddet
+Kocası vefat eden kadının iddet süresince süslenme, koku sürünme ve gösterişli giyinmekten kaçınmasına ne ad verilir?
+A) İstibrâ
+*B) İhdâd
+C) Kurû
+D) Halvet
+E) Hidâne
+= İhdâd, eşin hatırasına saygının bir ifadesidir.
+
+?? fikih | iddet
+Ric'î boşanma ile bâin boşanmayı karşılaştıran aşağıdaki ifadelerden hangisi yanlıştır?
+A) Ric'î boşanmada iddet içinde yeni nikâh olmadan dönülebilir.
+B) Bâin boşanmada dönmek için yeni nikâh gerekir.
+C) Ric'î boşanmanın iddeti içinde eşler birbirine mirasçı olur.
+D) Ric'î boşanma iddetinde nafaka kocaya aittir.
+*E) Bâin boşanmada iddet beklemek gerekmez.
+= Bâin boşanmada da zifaf olmuşsa iddet beklenir; değişen dönüşün ve mirasçılığın hükmüdür.
+
+?? fikih | iddet
+Aşağıdakilerden hangisi iddetin amaçlarından biri değildir?
+A) Nesebin karışmasını önlemek
+B) Kadının gebe olup olmadığını anlamak
+C) Vefat eden eşin hatırasına saygı göstermek
+D) Boşanan eşlere yeniden düşünme fırsatı vermek
+*E) Mehrin ödenmesini kolaylaştırmak
+= Mehirle iddet arasında böyle bir amaç bağı yoktur.

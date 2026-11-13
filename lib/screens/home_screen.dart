@@ -171,7 +171,7 @@ class _AreaTile extends StatelessWidget {
             child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
               Text(area.name, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 16)),
               const SizedBox(height: 2),
-              Text(area.questions == 0 ? 'Video rehberi · ${entries.length} sayfa · $read açıldı' : '${area.questions} soru · ${entries.length} madde · $read okundu', style: const TextStyle(fontSize: 12)),
+              Text('${area.questions} soru · ${entries.length} madde · $read okundu', style: const TextStyle(fontSize: 12)),
               const SizedBox(height: 6),
               ClipRRect(
                 borderRadius: BorderRadius.circular(4),

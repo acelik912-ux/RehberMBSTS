@@ -360,12 +360,42 @@ Bkz. [[kefaret]].
 - **Mal + beden** (hac): Sürekli acizlik halinde caiz (bedel hac) ✔
 - **Bedenî ibadetler** (namaz, oruç): Caiz değil ✘
 
-@@ iddet | İddet | Aile ve miras | | 2024,2026
-= Nikâhı sona eren kadının yeniden evlenebilmek için beklediği süre.
-## Süreler
-- **Kocanın vefatı**: Hamile değilse **4 ay 10 gün** — zifaf olmasa bile! Hamileyse doğuma kadar.
-- **Boşanma / fesih** (zifaf veya sahih halvet olmuşsa): Hayız gören **3 hayız**, görmeyen **3 ay**, hamile **doğum**.
-- Zifaf ve halvetten **önce** boşanma: **İddet yok**.
+@@ iddet | İddet | Aile ve miras | kurû; istibrâ; ihdâd; müstehâza; sahih halvet; ric'î talak; bâin talak | 2024,2026
+= Nikâhı boşanma, fesih veya kocanın ölümüyle sona eren kadının yeni bir evlilikten önce beklemesi gereken süre. Sözlükte "saymak" demektir.
+## Neden beklenir? (amaçları)
+- **Nesebi korumak**: Doğacak çocuğun babası karışmasın.
+- **Gebeliği anlamak** (rahmin boş olduğunun ortaya çıkması).
+- Vefatta **eşin hatırasına saygı**, boşanmada **yeniden düşünme ve barışma** fırsatı.
+## Durum → şart → süre
+- **Kocanın ölümü**, hamile değil → **4 ay 10 gün**. Zifaf veya halvet olmasa da gerekir!
+- **Ölüm ya da boşanma**, hamile → **doğumla** biter (doğum 4 ay 10 günden önce olsa bile).
+- **Boşanma**, zifaf ve sahih halvet olmamış → **iddet yok** (Ahzâb 49).
+- **Boşanma / fesih**, zifaf veya sahih halvet olmuş, hayız görüyor → **3 kurû**: Hanefî'ye göre 3 hayız, Şâfiî'ye göre 3 temizlik.
+- **Boşanma / fesih**, yaşlılık (menopoz) veya küçüklük yüzünden hayız yok → **3 kamerî ay** (Talâk 4).
+- Hastalık, emzirme gibi **geçici bir sebeple** hayız kesilmiş → sebep ortadan kalkınca 3 hayız / 3 temizlik.
+- **Sebebi bilinmeden** hayız kesilmiş → gebelik olmadığı anlaşılabiliyorsa 3 ay, anlaşılamıyorsa 1 yıl (Mâlikî görüşüne dayanan ve günümüzde sıkça tercih edilen çözüm; Hanefî'de asıl görüş, kadının menopoz yaşına kadar hayızla beklemesidir).
+- **İstihâze** (sürekli özür kanı): Önceden bilinen âdet düzeni varsa ona göre 3 dönem; bilinmiyorsa çoğunluk görüşüne göre 3 ay.
+!! Sınav odağı: **Vefat iddetinde zifaf şartı yoktur; boşanma iddetinde zifaf ya da sahih halvet şarttır** (2026 sorusu).
+## Anahtar kavramlar
+- **Kurû'**: Hanefî'de hayız, Şâfiî'de temizlik dönemi (Bakara 228).
+- **İstibrâ**: Rahmin gebelikten boş olduğunun anlaşılması.
+- **Sahih halvet**: Eşlerin, cinsel birleşmeye engel bir durum olmadan baş başa kalması; boşanma iddetini gerektiren durumlardandır.
+- **Ric'î talak**: İddet içinde yeni nikâh gerekmeden dönülebilir; iddet bitene kadar eşler birbirine **mirasçı** olur.
+- **Bâin talak**: Dönmek için yeni nikâh gerekir; kural olarak **mirasçılık yoktur**.
+- **İhdâd (yas)**: Kocası ölen kadının iddet boyunca süslenme, koku, gösterişli giyim gibi şeylerden kaçınması.
+- **Müstehâza**: Sürekli özür kanı gören kadın.
+## İddetin hukuki sonuçları
+- **Evlenme yasağı**: İddetteki kadın başka biriyle evlenemez.
+- **Mesken**: Boşanma iddetinde kadın, kocanın evinde kalma hakkına sahiptir; koca bunu sağlamakla yükümlüdür.
+- **Nafaka**: Ric'î boşanma iddetinde nafaka kocaya aittir.
+- **Mirasçılık**: Ric'î boşanma iddetinde karşılıklı sürer.
+- **Nesep**: İddetin en önemli amaçlarından biri onu korumaktır.
+## Ayetler
+- **Bakara 228**: Boşanan kadın üç kurû bekler.
+- **Bakara 234**: Kocası ölen kadın 4 ay 10 gün bekler.
+- **Talâk 4**: Âdetten kesilen ve henüz âdet görmeyenler 3 ay; hamileler doğuma kadar.
+- **Ahzâb 49**: Zifaftan önce boşanan kadına iddet yoktur.
+%% Kod: "**228 kurû, 234 vefat, Talâk 4 ay ve gebe, Ahzâb 49 iddet yok**".
 ## Sınav vakaları
 - 2026: Nikâh kıyılmış, düğün yapılmamış, koca şehit → 4 ay 10 gün.
 - 2024: Ric'î boşanma iddetinde koca ölürse kadın vefat iddetine geçer.

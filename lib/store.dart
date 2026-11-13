@@ -234,6 +234,14 @@ class Store extends ChangeNotifier {
     save();
   }
 
+  /// İçerikten kaldırılan maddelere ait kart ve favorileri temizler (notlar korunur).
+  void prune(bool Function(String id) exists) {
+    final before = cards.length + favorites.length;
+    cards.removeWhere((id, _) => !exists(id));
+    favorites.removeWhere((id) => !exists(id));
+    if (cards.length + favorites.length != before) save();
+  }
+
   List<String> dueCards() {
     final t = today();
     final l = cards.entries.where((e) => e.value.due <= t).map((e) => e.key).toList();
