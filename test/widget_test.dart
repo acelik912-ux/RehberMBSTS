@@ -100,6 +100,7 @@ void main() {
     expect(find.text('Kartı çevir'), findsOneWidget);
     await tester.tap(find.text('Kartı çevir'));
     await tester.pump();
+    await tester.scrollUntilVisible(find.text('Bildim'), 300, scrollable: find.byType(Scrollable).first);
     expect(find.text('Bildim'), findsOneWidget);
     expect(tester.takeException(), isNull);
   });
