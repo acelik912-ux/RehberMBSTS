@@ -130,3 +130,16 @@ elif groovy.exists():
         g += "\ndependencies {\n    coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:2.1.4'\n}\n"
     groovy.write_text(g, encoding='utf-8')
 print(manifest.read_text(encoding='utf-8'))
+
+# ---- Sürüm derlemesinde Android lint'i kapat (JDK 17'de lint aracı çöküyor) ----
+if kts.exists():
+    g = kts.read_text(encoding='utf-8')
+    if 'checkReleaseBuilds' not in g:
+        g = g.replace('android {', 'android {\n    lint {\n        checkReleaseBuilds = false\n        abortOnError = false\n    }', 1)
+        kts.write_text(g, encoding='utf-8')
+    print(g)
+elif groovy.exists():
+    g = groovy.read_text(encoding='utf-8')
+    if 'checkReleaseBuilds' not in g:
+        g = g.replace('android {', 'android {\n    lintOptions {\n        checkReleaseBuilds false\n        abortOnError false\n    }', 1)
+        groovy.write_text(g, encoding='utf-8')
