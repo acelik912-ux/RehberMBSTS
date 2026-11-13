@@ -15,11 +15,12 @@ Bkz. [[idgam]], [[mim-sakin]].
 - **İdgam-ı misleyn meal-gunne**: Sakin mimden sonra م gelirse kaynaştırılıp bir buçuk elif gunne yapılır (2026).
 - **İzhâr-ı şefevî**: Diğer harflerde açık okunur; özellikle و ve ف yanında **idgam yapılmaz** (2024).
 
-@@ idgam | İdgam türleri | Tecvid | misleyn; mütecâniseyn; mütekâribeyn; şemsiyye |
+@@ idgam | İdgam türleri | Tecvid | misleyn; mütecâniseyn; mütekâribeyn; şemsiyye | 2025
 = Sakin bir harfi, kendinden sonraki harekeli harfin içine katıp tek şeddeli harf gibi okumak.
 - **Misleyn**: Aynı iki harf (lam + lam).
 - **Mütecâniseyn**: Mahreci aynı, sıfatı farklı harfler (د→ت, ت→ط, ذ→ظ, ب→م).
 - **Mütekâribeyn**: Mahreç ve sıfatı yakın harfler (ق→ك, ل→ر).
+> 2025 örneği: **يَلْهَثْ ذٰلِكَ** (A'râf 176) → sakin ث, ذ'ye katılır: ikisinin mahreci aynı (dil ucu–ön dişler), sıfatı farklı → **mütecâniseyn**.
 - **Şemsiyye**: Harf-i tarif lamının şemsî harflerde okunmaması (eş-şems).
 
 @@ med | Med çeşitleri | Tecvid | tabiî; muttasıl; munfasıl; lâzım; âriz; lîn | 2024,2026
@@ -98,7 +99,7 @@ Bkz. [[esbab-i-nuzul]].
 = Hz. Peygamber'in amcasının oğlu; "Hibrü'l-ümme" (ümmetin âlimi) ve "Tercümânü'l-Kur'ân" lakaplı en büyük sahabe müfessiri.
 Peygamber'in "Allah'ım onu dinde fakih kıl ve ona te'vili öğret" duasına mazhar oldu. Mekke tefsir ekolünün kurucusudur ([[tefsir-ekolleri]]); kendisinden en çok tefsir rivayeti nakledilen sahabidir.
 
-@@ rivayet-tefsiri | Rivayet tefsiri | Tefsir çeşitleri | me'sûr tefsir; Taberî | 2023,2026
+@@ rivayet-tefsiri | Rivayet tefsiri | Tefsir çeşitleri | me'sûr tefsir; Taberî | 2023,2025,2026
 = Kur'an'ı Kur'an, sünnet, sahabe ve tâbiûn sözleriyle açıklayan tefsir.
 ## Eserler
 - **Taberî, Câmiu'l-beyân**: Rivayet tefsirinin ilk büyük örneği; kıraat farklılıkları, şiirle dil açıklamaları ve fıkhi tahliller de yapar; **İsrâiliyattan uzak değildir** (2026, 2023).
@@ -113,7 +114,7 @@ Bkz. [[israiliyat]], [[dirayet-tefsiri]].
 ## Eserler
 - **Zemahşerî, el-Keşşâf**: Mutezilî, dil ve belâgat ağırlıklı; Beyzâvî ondan çokça yararlanmıştır (2023).
 - Beyzâvî, Envârü't-tenzîl.
-- Fahreddin Râzî, Mefâtîhu'l-gayb (kelamî-felsefi).
+- **Fahreddin Râzî, Mefâtîhu'l-gayb** (kelamî-felsefi; Eş'arî). 2025'te [[rivayet-tefsiri|Taberî]] ile birlikte soruldu: Taberî rivayetin, Râzî dirayetin zirvesi.
 - Nesefî, Medârikü't-tenzîl (Mâtürîdî-Hanefî).
 - **Ebüssuûd Efendi, İrşâdü'l-akli's-selîm** (Osmanlı; 2023).
 - **Ferrâ, Meâni'l-Kur'ân**: İlk dilbilimsel tefsirlerden (2026).

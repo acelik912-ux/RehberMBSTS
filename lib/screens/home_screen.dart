@@ -3,11 +3,12 @@ import 'package:flutter/material.dart';
 import '../app_state.dart';
 import '../content.dart';
 import 'area_screen.dart';
-import 'backup_screen.dart';
+import '../reminder.dart';
 import 'cards_screen.dart';
 import 'notebook_screen.dart';
 import 'quiz_screen.dart';
 import 'search_screen.dart';
+import 'settings_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -24,9 +25,9 @@ class HomeScreen extends StatelessWidget {
             title: const Text('Rehber MBSTS', style: TextStyle(fontWeight: FontWeight.w800)),
             actions: [
               IconButton(
-                tooltip: 'Yedekle / geri yükle',
-                icon: const Icon(Icons.save_alt),
-                onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const BackupScreen())),
+                tooltip: 'Ayarlar ve yedek',
+                icon: const Icon(Icons.settings),
+                onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const SettingsScreen())),
               ),
             ],
           ),
@@ -50,7 +51,9 @@ class HomeScreen extends StatelessWidget {
                   ]),
                 ),
               ),
-              const SizedBox(height: 14),
+              const SizedBox(height: 10),
+              _Countdown(days: daysToExam()),
+              const SizedBox(height: 10),
               Row(children: [
                 Expanded(
                   child: _Action(
@@ -180,6 +183,31 @@ class _AreaTile extends StatelessWidget {
           const SizedBox(width: 6),
         ]),
       ),
+    );
+  }
+}
+
+class _Countdown extends StatelessWidget {
+  final int days;
+  const _Countdown({required this.days});
+
+  @override
+  Widget build(BuildContext context) {
+    final last = store.denemeler.isEmpty ? null : store.denemeler.first;
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+      decoration: BoxDecoration(color: const Color(0xFF2E5A93).withValues(alpha: 0.12), borderRadius: BorderRadius.circular(14)),
+      child: Row(children: [
+        const Icon(Icons.event, color: Color(0xFF2E5A93)),
+        const SizedBox(width: 10),
+        Expanded(
+          child: Text(
+            days > 0 ? 'Sınava $days gün kaldı' : (days == 0 ? 'Sınav bugün, başarılar!' : 'Sınav tamamlandı'),
+            style: const TextStyle(fontWeight: FontWeight.w800),
+          ),
+        ),
+        if (last != null) Text('Son deneme: ${last.right}/${last.total}', style: const TextStyle(fontWeight: FontWeight.w600)),
+      ]),
     );
   }
 }

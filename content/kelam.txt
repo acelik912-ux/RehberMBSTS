@@ -181,13 +181,16 @@ Eserleri: el-Muğnî (Mutezile kelamının ansiklopedisi), Şerhu'l-Usûli'l-ham
 ## Nasıl sürdü?
 - Me'mûn'dan sonra **Mu'tasım** ve **Vâsık** dönemlerinde de devam etti. Bu dönemde Mutezilî kadı **Ahmed b. Ebû Duâd** sürecin başlıca yürütücüsüydü.
 - Ahmed b. Hanbel hapsedildi, Mu'tasım döneminde kırbaçlandı ama görüşünden dönmedi.
-- Halife **Mütevekkil** (232/847'de tahta geçti) mihneyi sona erdirdi ve Ehl-i hadisi destekledi.
+- Vâsık döneminde (227–232/842–847) mihne yeniden sertleşti; muhaddis **Ahmed b. Nasr el-Huzâî**, "Kur'an mahlûktur" demediği için Halife Vâsık tarafından öldürüldü (231/846).
+- Halife **Mütevekkil** (232/847'de tahta geçti) mihneyi kaldırdı ve Ehl-i hadisi destekledi. Uygulamanın fiilen sürdüğü dönem genellikle **218–234** olarak verilir; izlerinin tamamen silinmesi, Başkadı İbn Ebû Duâd'ın görevden alınması ve mihne mağdurlarının serbest bırakılmasıyla **237 (851-52)** yılını bulur.
+- Kadı **İbn Ebû Duâd**: Me'mûn'un tavsiyesiyle Mu'tasım döneminde başkadı oldu; halifeyi Mutezile'ye muhalif âlimlere baskıya teşvik etti ve Ahmed b. Hanbel'in hapsedilip işkence görmesine yol açtı. 233'te (848) felç geçirdi.
 ## Sonuçları
 - Mutezile, devlet gücüyle fikrini dayattığı için halk ve âlimler gözünde **itibarını kaybetti**.
 - Ahmed b. Hanbel ve Ehl-i hadis toplum gözünde güç kazandı; Ehl-i sünnet kimliği belirginleşti.
 - Sonraki dönemde [[esarilik|Eş'arîlik]] ve [[maturidilik|Mâtürîdîlik]] öne çıktı.
 !! 2023 sorusu: "Mutezile'nin mihneye zemin hazırlaması" onun **olumlu katkılarından değildir** — sorunun cevabıydı.
-%% Kod: "**M**e'mûn başlattı, **M**u'tasım kırbaçlattı, **M**ütevekkil bitirdi" — üç M. Tarih: 218'de başladı, 232'den sonra bitti.
+%% Kod: "**M**e'mûn başlattı, **M**u'tasım kırbaçlattı, **V**âsık öldürttü, **M**ütevekkil bitirdi". Tarih: 218'de başladı, 234 civarında bitti.
+> Kaynak: TDV İslâm Ansiklopedisi, "Mihne", "İbn Ebû Duâd", "Ahmed b. Nasr el-Huzâî" maddeleri; Arslan–Yavuz, "Mihne Sonrası Sünni Düşüncede Kırılma" (RTEÜ İlahiyat Fak. Dergisi, 2022).
 
 @@ halku-l-kuran | Halku'l-Kur'ân | Kelam ekolleri | Kur'an'ın yaratılmışlığı; kelâm sıfatı | 2023,2026
 = Kur'an'ın (Allah'ın kelâmının) yaratılmış (mahlûk) olup olmadığı tartışması.
@@ -249,7 +252,7 @@ Bkz. [[kader]].
 
 @@ gazali | Gazzâlî | Kader ve insan fiilleri | İmam Gazzâlî; Tehâfütü'l-felâsife |
 = Eş'arî kelamcı, fakih ve mutasavvıf (ö. 505/1111); filozofları eleştiren Tehâfütü'l-felâsife'nin ve İhyâü ulûmi'd-dîn'in müellifi.
-Kelamda [[illiyet]] eleştirisi ve [[gaye-nizam]] örnekleriyle sınavda geçer. Bkz. [[esarilik]].
+Kelamda [[illiyet]] eleştirisi, [[gaye-nizam]] örnekleri ve son eseri [[ilcamul-avam]] ile sınavda geçer. Bkz. [[esarilik]].
 
 @@ murcie | Mürcie | Diğer fırkalar | irca | 2026
 = Büyük günah işleyenin hükmünü Allah'a bırakan ve ameli imandan ayrı tutan fırka.
@@ -318,3 +321,20 @@ Ehl-i sünnet, bedânın Allah'ın ilmine bir sonradan öğrenme izafe ettiği i
 - **[[murcie]]**: Mümindir; günah imana zarar vermez (aşırıları).
 - **Ehl-i sünnet**: Günahkâr mümindir; Allah dilerse affeder, dilerse cezalandırır; ebedî cehennemde kalmaz.
 > 2023 sorusu: Tartışmanın ortaya çıkışında **[[cemel]]** ve sonraki siyasi olaylar etkili oldu.
+
+@@ ilcamul-avam | İlcâmü'l-avâm an ilmi'l-kelâm | Kader ve insan fiilleri | İlcâm; Risâle fî mezhebi's-selef; yedi vazife | 2025
+= Gazzâlî'nin ölümünden kısa süre önce (505/1111) yazdığı, halkı (avâm) kelam tartışmalarından uzak tutmayı ve müteşâbih ayet ve hadislerde selefin tavrını anlatan son kelam eseri.
+**Adı:** "Halkı kelam ilmine dalmaktan gemlemek (ilcâm)". Diğer adı: Risâle fî mezhebi's-selef.
+## Ana fikri
+Gazzâlî burada Eş'arî te'vil çizgisinden selefe yaklaşır: Allah'ın eli, yüzü, istivası gibi haberî sıfatları duyan sıradan Mümin, onları yorumlamaya ve kurcalamaya kalkmamalıdır.
+## Müteşâbihler karşısında avâmın 7 vazifesi
+- **Takdîs**: Allah'ı cisim ve benzerlikten tenzih etmek.
+- **Tasdîk**: Peygamber'in söylediğinin, kastettiği anlamda doğru olduğuna inanmak.
+- **İ'tirâf bi'l-acz**: Gerçek anlamı bilmekten aciz olduğunu kabul etmek.
+- **Sükût**: Bu konuda soru sormamak, tartışmaya girmemek.
+- **İmsâk**: Lafızları değiştirmemek, başka dile çevirip kurcalamamak.
+- **Keff**: Kalben de onlar üzerinde düşünüp yorum yapmaktan kendini alıkoymak.
+- **Teslîm**: Gerçek anlamını Allah'a, Peygamber'e ve ilimde derinleşmiş olanlara bırakmak.
+> 2025 sorusunda İlcâmü'l-avâm'daki müteşâbih esaslarından "**aczi itiraf**" ve "**keff**" çıktı.
+%% Kod: "**Ta-Ta-İ, Sü-İm-Ke-Te**" → Takdîs, Tasdîk, İ'tirâf bi'l-acz, Sükût, İmsâk, Keff, Teslîm.
+Bkz. [[muhkem-mutesabih]], [[gazali]].

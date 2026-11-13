@@ -525,3 +525,12 @@ En meşhuru: Nevevî, el-Erbaûn. "Ümmetim için kırk hadis ezberleyen…" riv
 = Bir hadis kitabını açıklayan eser.
 Örnek: İbn Hacer el-Askalânî, Fethu'l-Bârî ve Aynî, Umdetü'l-kârî ([[buhari]] şerhleri); Nevevî'nin [[muslim]] şerhi.
 Resmî kaynaklar arasındaki **Riyâzü's-Sâlihîn** ise Nevevî'nin ahlak ve âdâba dair konulu hadis seçkisidir.
+
+@@ veda-hutbesi | Veda Hutbesi'nin rivayeti | Hadis tarihi | Hutbetü'l-vedâ | 2025
+= Hz. Peygamber'in 10/632 Veda Haccı'nda Arafat ve Minâ'da yaptığı konuşmaların, pek çok sahabi tarafından farklı parçalar hâlinde rivayet edilmesi.
+Veda Hutbesi tek bir metin olarak değil, onu dinleyen çok sayıda sahabinin aktardığı parçalarla bize ulaşmıştır. En uzun rivayet Câbir b. Abdullah'ındır (Müslim). Buhârî'de İbn Abbâs, İbn Ömer, Ebû Bekre gibi sahabilerden gelen bölümler vardır.
+## Neden "ferd" değildir?
+[[garib|Ferd (garîb)]] haber, bir tabakada tek ravi ile gelen haberdir. Veda Hutbesi'ni binlerce kişi dinlemiş, birçok sahabi rivayet etmiştir; bu yüzden "Buhârî'deki Veda Hutbesi rivayeti ferd bir haberdir" değerlendirmesi **yanlıştır** (2025 sorusu).
+## İçeriğinden öne çıkanlar
+Can, mal ve namus dokunulmazlığı; cahiliye faizinin ve kan davalarının kaldırılması; kadınların hakları; Kur'an'a ve sünnete sarılma; insanların eşitliği.
+Bkz. [[mutevatir]], [[meshur]].

@@ -4,18 +4,46 @@ import 'package:flutter/material.dart';
 
 import '../app_state.dart';
 import '../content.dart';
+import 'deneme_screen.dart';
 
 class QuizMenuScreen extends StatelessWidget {
   const QuizMenuScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
+    return ListenableBuilder(listenable: store, builder: (context, _) => _build(context));
+  }
+
+  Widget _build(BuildContext context) {
     final wrong = content.questions.where(store.isWrongBefore).length;
+    final last = store.denemeler.isEmpty ? null : store.denemeler.first;
     return Scaffold(
       appBar: AppBar(title: const Text('Test')),
       body: ListView(
         padding: const EdgeInsets.all(12),
         children: [
+          Card(
+            color: const Color(0xFF2E5A93),
+            child: ListTile(
+              textColor: Colors.white,
+              iconColor: Colors.white,
+              leading: const Icon(Icons.timer),
+              title: const Text('Deneme sınavı · 60 soru / 90 dk', style: TextStyle(fontWeight: FontWeight.w800)),
+              subtitle: Text(last == null
+                  ? 'Gerçek dağılım: Fıkıh 20, Kur\'an 7, Tefsir 7, Kelam 7, Hadis 7, Siyer 7, Mezhep 3, Dinler 2'
+                  : 'Son deneme: ${last.right}/${last.total} doğru · ${store.denemeler.length} deneme'),
+              onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const DenemeScreen())),
+            ),
+          ),
+          if (last != null)
+            Align(
+              alignment: Alignment.centerRight,
+              child: TextButton.icon(
+                onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const DenemeHistoryScreen())),
+                icon: const Icon(Icons.bar_chart),
+                label: const Text('Deneme geçmişi'),
+              ),
+            ),
           Card(
             color: const Color(0xFFA8402F),
             child: ListTile(

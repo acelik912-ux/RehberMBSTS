@@ -97,3 +97,36 @@ if 'TTS_SERVICE' not in s:
     else:
         s = s.replace('</manifest>', q + '</manifest>', 1)
     manifest.write_text(s, encoding='utf-8')
+
+# ---- Günlük hatırlatma (flutter_local_notifications): izinler, alıcılar, desugaring ----
+s = manifest.read_text(encoding='utf-8')
+for perm in ['android.permission.POST_NOTIFICATIONS', 'android.permission.RECEIVE_BOOT_COMPLETED']:
+    if perm not in s:
+        s = s.replace('<application', f'<uses-permission android:name="{perm}" />\n    <application', 1)
+if 'ScheduledNotificationReceiver' not in s:
+    rec = """        <receiver android:exported="false" android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver" />
+        <receiver android:exported="false" android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON"/>
+            </intent-filter>
+        </receiver>
+"""
+    s = s.replace('</application>', rec + '    </application>', 1)
+manifest.write_text(s, encoding='utf-8')
+
+if kts.exists():
+    g = kts.read_text(encoding='utf-8')
+    if 'isCoreLibraryDesugaringEnabled' not in g:
+        g = g.replace('compileOptions {', 'compileOptions {\n        isCoreLibraryDesugaringEnabled = true', 1)
+        g += '\ndependencies {\n    coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.1.4")\n}\n'
+    kts.write_text(g, encoding='utf-8')
+elif groovy.exists():
+    g = groovy.read_text(encoding='utf-8')
+    if 'coreLibraryDesugaringEnabled' not in g:
+        g = g.replace('compileOptions {', 'compileOptions {\n        coreLibraryDesugaringEnabled true', 1)
+        g += "\ndependencies {\n    coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:2.1.4'\n}\n"
+    groovy.write_text(g, encoding='utf-8')
+print(manifest.read_text(encoding='utf-8'))

@@ -447,3 +447,1578 @@ C) Pesah
 D) Şavuot
 E) Purim
 = "Roş = baş".
+
+?? hadis | mursel
+Bir tâbiînin, aradaki sahabiyi anmadan doğrudan "Resûlullah şöyle buyurdu" diyerek aktardığı hadise ne ad verilir?
+A) Munkatı'
+B) Mu'dal
+*C) Mürsel
+D) Muallak
+E) Mevkûf
+= Mürsel "salıverilmiş" demektir; düşen halka sahabe tabakasıdır.
+
+?? hadis | mudal
+Senedin ortasından art arda iki veya daha fazla ravinin düştüğü hadis hangisidir?
+A) Munkatı'
+*B) Mu'dal
+C) Müdelles
+D) Mürsel
+E) Garîb
+= Tek ravi düşerse munkatı', ardışık iki ve fazlası düşerse mu'dal olur.
+
+?? hadis | munker
+Zayıf bir ravinin, güvenilir ravilerin rivayetine aykırı olarak aktardığı hadis hangisidir?
+A) Şâz
+B) Metrûk
+C) Maklûb
+*D) Münker
+E) Müdrec
+= Aykırılık sika raviden gelirse şâz, zayıf raviden gelirse münker olur.
+
+?? hadis | metruk
+Yalancılıkla itham edilen ama yalanı kesin olarak sabit olmayan bir ravinin tek başına rivayet ettiği hadis hangisidir?
+A) Mevzû
+*B) Metrûk
+C) Münker
+D) Muallel
+E) Muztarib
+= Yalanı sabit olan ravinin rivayeti mevzû, yalanla itham edilenin rivayeti metrûktür.
+
+?? hadis | muallel
+Görünüşte sahih olduğu halde, ancak bütün rivayet yolları toplanınca uzmanlarca fark edilebilen gizli bir kusur taşıyan hadis hangisidir?
+A) Şâz
+B) Maklûb
+C) Musahhaf
+D) Mürsel
+*E) Muallel
+= Muallelin kusuru (illet) gizlidir; bu kusurları araştıran ilim İlelü'l-hadistir.
+
+?? hadis | maklub
+Senedde ravi adlarının veya metinde kelimelerin yer değiştirmesiyle oluşan hadis türü hangisidir?
+*A) Maklûb
+B) Muztarib
+C) Müdrec
+D) Musahhaf
+E) Müdelles
+= Maklûb "ters çevrilmiş" demektir; ör. "Ka'b b. Mürre" yerine "Mürre b. Ka'b".
+
+?? hadis | muztarib
+Aynı hadisin, güç bakımından denk olup aralarında ne tercih ne de uzlaştırma yapılabilen farklı şekillerde rivayet edilmesi hangi kavramla ifade edilir?
+A) Muhtelifü'l-hadis
+B) Şâz
+*C) Muztarib
+D) Maklûb
+E) Mütâbi
+= Rivayetlerden biri daha güçlüyse tercih yapılır ve ızdırap ortadan kalkar; denklik şarttır.
+
+?? hadis | musahhaf
+Harf iskeleti aynı kaldığı halde noktaların değişmesiyle ortaya çıkan rivayet hatasına ne ad verilir?
+A) Muharref
+*B) Musahhaf
+C) Müdrec
+D) Maklûb
+E) Mevzû
+= Nokta değişirse tashîf (musahhaf), hareke değişirse tahrîf (muharref) olur.
+
+?? hadis | cerh-tadil
+Ravileri güvenilirlik ve kusurları açısından değerlendirip onlar hakkında "sika", "zayıf" gibi hükümler veren ilim hangisidir?
+A) İlelü'l-hadis
+B) Garîbü'l-hadis
+C) Muhtelifü'l-hadis
+*D) Cerh ve ta'dîl
+E) Esbâbü vürûdi'l-hadis
+= Cerh ve ta'dîl öncelikle senedle (ravilerle) ilgilenir.
+
+?? hadis | garibul-hadis
+Hadislerde geçen az bilinen ve anlaşılması güç kelimeleri açıklayan ilim hangisidir?
+A) Muhtelifü'l-hadis
+B) Ricâlü'l-hadis
+*C) Garîbü'l-hadis
+D) Nâsihu'l-hadis
+E) İlelü'l-hadis
+= Metinle ilgilidir; Kur'an ilimlerindeki karşılığı Garîbü'l-Kur'an'dır.
+
+?? hadis | muhtelifu-l-hadis
+Birbiriyle çelişkili görünen hadisleri önce uzlaştırmaya, olmazsa nesh veya tercihle çözmeye çalışan ilim hangisidir?
+*A) Muhtelifü'l-hadis
+B) İlelü'l-hadis
+C) Cerh ve ta'dîl
+D) Tahrîc
+E) Garîbü'l-hadis
+= Sıra: cem' (uzlaştırma) → nesh → tercih.
+
+?? hadis | mutabi
+Ferd sanılan bir hadisin, aynı sahabiden başka bir yolla da rivayet edildiğinin tespit edilmesi durumunda bu destekleyici rivayete ne ad verilir?
+A) Şâhid
+*B) Mütâbi
+C) İ'tibâr
+D) Müstahrec
+E) Etrâf
+= Aynı sahabiden gelen destek mütâbi, başka sahabiden gelen destek şâhiddir; bunları arama işi i'tibârdır.
+
+?? hadis | sahid
+Aynı lafız veya manadaki bir hadisin farklı bir sahabiden de rivayet edilmesine ne ad verilir?
+A) Mütâbi
+B) Azîz
+*C) Şâhid
+D) Meşhur
+E) Mürsel
+= Şâhid: başka sahabiden gelen destek.
+
+?? hadis | hasen
+Sahih hadisin şartlarını taşıyan, fakat ravilerinden birinin zabtı biraz hafif olan hadis türü hangisidir?
+A) Zayıf
+B) Şâz
+C) Garîb
+*D) Hasen
+E) Muallel
+= Hasen kavramını yaygınlaştıran Tirmizî'dir.
+
+?? hadis | kudsi
+Manası Allah'a, lafzı Hz. Peygamber'e ait olan hadise ne ad verilir?
+A) Merfû
+*B) Kudsî
+C) Mütevâtir
+D) Takrîrî
+E) Mevkûf
+= Kudsî hadis Kur'an değildir; lafzıyla ibadet edilmez ve namazda okunmaz.
+
+?? hadis | mevkuf
+Rivayet zinciri sahabide son bulan, yani sahabeye ait söz veya fiile ne ad verilir?
+A) Maktû'
+B) Merfû
+C) Mürsel
+*D) Mevkûf
+E) Muallak
+= Peygamber'e ait merfû, sahabeye ait mevkûf, tâbiûna ait maktû'dur.
+
+?? hadis | omer-b-abdulaziz
+Hadislerin resmî olarak toplanıp yazıya geçirilmesini (tedvin) emreden Emevî halifesi kimdir?
+A) Abdülmelik b. Mervân
+B) I. Velîd
+*C) Ömer b. Abdülaziz
+D) Hişâm b. Abdülmelik
+E) Muâviye
+= Ömer b. Abdülaziz (99–101 h.) bu işi başta Zührî olmak üzere âlimlere ve valilere yazdırdı.
+
+?? hadis | zuhri
+Hadislerin ilk resmî tedvinini gerçekleştiren ünlü tâbiî muhaddis kimdir?
+A) Hasan-ı Basrî
+*B) İbn Şihâb ez-Zührî
+C) Saîd b. Müseyyeb
+D) Mücâhid b. Cebr
+E) Süfyân es-Sevrî
+= Zührî (ö. 124/742) Ömer b. Abdülaziz'in emriyle hadisleri derledi.
+
+?? hadis | tirmizi
+Eserinde hadislerin sıhhat derecelerini (sahih, hasen, garîb) tek tek belirtmesiyle tanınan Kütüb-i Sitte müellifi kimdir?
+A) Ebû Dâvûd
+B) Nesâî
+C) İbn Mâce
+*D) Tirmizî
+E) Müslim
+= Tirmizî'nin Sünen'i (el-Câmi') bu yönüyle öne çıkar.
+
+?? hadis | muvatta
+Hadislerin yanında sahabe ve tâbiûn görüşleri ile Medine halkının uygulamasını da bir araya getiren erken dönem eser hangisidir?
+A) el-Müsned
+*B) el-Muvatta'
+C) el-Mustedrek
+D) Sünen-i Dârimî
+E) el-Musannef (Abdürrezzâk)
+= İmam Mâlik'in Muvatta'ı Medine amelini de içerir; bu yüzden Mâlikî fıkhının temelidir.
+
+?? hadis | cami
+Akaid, ahkâm, rikak, âdâb, tefsir, siyer, fiten ve menâkıb konularının hepsini içeren hadis kitabına ne ad verilir?
+A) Sünen
+B) Musannef
+*C) Câmi'
+D) Mu'cem
+E) Cüz
+= Buhârî ve Müslim'in Sahîh'leri birer câmi'dir.
+
+?? hadis | mucem
+Hadisleri hocaların, sahabenin veya şehirlerin alfabetik sırasına göre düzenleyen eser türü hangisidir?
+A) Müsned
+B) Etrâf
+C) Zevâid
+*D) Mu'cem
+E) Erbaûn
+= En meşhurları Taberânî'nin el-Mu'cemü'l-kebîr, evsat ve sağîr'idir.
+
+?? hadis | etraf
+Hadislerin yalnızca baş kısmını verip hangi kitaplarda ve hangi senedlerle geçtiğini rumuzlarla gösteren eserlere ne ad verilir?
+*A) Etrâf
+B) Zevâid
+C) Müstahrec
+D) Mevzûât
+E) Şerh
+= Örnek: Mizzî, Tuhfetü'l-eşrâf.
+
+?? hadis | zevaid
+Bir kitapta bulunup temel kitaplarda (çoğunlukla Kütüb-i Sitte) yer almayan hadisleri ayıklayan eser türü hangisidir?
+A) Etrâf
+*B) Zevâid
+C) Müstedrek
+D) Mu'cem
+E) Erbaûn
+= Örnek: Heysemî, Mecmau'z-zevâid.
+
+?? hadis | mevzuat-eserleri
+Uydurma hadisleri ya da halk arasında hadis diye dolaşan sözleri inceleyen eser türü hangisidir?
+A) Garîbü'l-hadis
+B) Zevâid
+C) Etrâf
+*D) Mevzûât
+E) Tahrîc
+= Örnekler: İbnü'l-Cevzî, el-Mevzûât; Aliyyülkārî, el-Esrâru'l-merfûa; Aclûnî, Keşfü'l-hafâ.
+
+?? hadis | veda-hutbesi
+Veda Hutbesi'nin rivayetiyle ilgili aşağıdaki ifadelerden hangisi yanlıştır?
+A) Hutbe Veda Haccı sırasında Arafat ve Minâ'da yapılan konuşmaları kapsar.
+B) Pek çok sahabi hutbenin farklı bölümlerini rivayet etmiştir.
+C) En uzun rivayetlerden biri Câbir b. Abdullah'tan gelir.
+*D) Buhârî'deki Veda Hutbesi rivayeti tek raviye dayanan ferd bir haberdir.
+E) Can, mal ve namus dokunulmazlığı hutbenin temel vurgularındandır.
+= Hutbe çok sayıda sahabiden rivayet edildiği için ferd değildir (2025 sorusunun konusu).
+
+?? hadis | tabiun
+Sahabeyi mümin olarak görüp mümin olarak vefat eden nesle ne ad verilir?
+A) Muhadramûn
+B) Etbâu't-tâbiîn
+*C) Tâbiûn
+D) Sıgâr-ı sahabe
+E) Muhaddisûn
+= Tâbiûndan sonraki kuşak etbâu't-tâbiîndir.
+
+?? kelam | mesail-vesail
+Kelam ilminde "Allah'ın varlığı, nübüvvet, ahiret" gibi asıl inanç konularına ne ad verilir?
+*A) Mesâil
+B) Vesâil
+C) Mebâdî
+D) Mukaddimât
+E) Ezkiyâ
+= Asıl konular mesâil, bunları kanıtlamaya yarayan mantık, bilgi teorisi gibi araç bilgiler vesâildir.
+
+?? kelam | hudus-delili
+"Âlem değişkendir; değişen sonradan olmuştur; sonradan olanın bir yaratıcısı vardır" şeklinde kurulan delil hangisidir?
+A) İmkân delili
+*B) Hudûs delili
+C) Gaye ve nizam delili
+D) Temânu' delili
+E) Kabûl-i âmme delili
+= Hudûs delili kelamcıların, özellikle Mutezile ve Eş'arîlerin en çok kullandığı delildir.
+
+?? kelam | imkan-delili
+Varlığı da yokluğu da mümkün olan şeylerin varlık kazanmak için varlığı zorunlu bir varlığa muhtaç olduğunu söyleyen delil hangisidir?
+A) Hudûs delili
+B) Temânu' delili
+*C) İmkân delili
+D) Ahlak delili
+E) Gaye ve nizam delili
+= İbn Sînâ'nın geliştirdiği delildir; vâcibü'l-vücûd kavramına dayanır.
+
+?? kelam | gaye-nizam
+Evrendeki düzen, uyum ve amaçlılıktan hareketle bilinçli bir yaratıcının varlığını kanıtlayan delil hangisidir?
+A) Kabûl-i âmme
+B) İmkân
+C) Hudûs
+D) Temânu'
+*E) Gaye ve nizam (inâyet)
+= Kur'an'da gece ile gündüzün ardışması, yağmurla toprağın dirilmesi gibi örneklerle sıkça işlenir.
+
+?? kelam | kabul-i-amme
+Tarih boyunca bütün toplumların bir yaratıcıya inanmış olmasını Allah'ın varlığına delil sayan görüş hangisidir?
+A) Fıtrat delili
+*B) Kabûl-i âmme delili
+C) Ahlak delili
+D) Hudûs delili
+E) Temânu' delili
+= "Genel kabul" anlamına gelir; insanlığın ortak inancına dayanır.
+
+?? kelam | sifatlar
+Aşağıdakilerden hangisi Allah'ın zâtî (selbî) sıfatlarından biri değildir?
+A) Kıdem
+B) Bekâ
+C) Vahdâniyet
+*D) İrade
+E) Kıyâm bi-nefsihî
+= Zâtî sıfatlar: vücûd, kıdem, bekâ, vahdâniyet, muhâlefetün li'l-havâdis, kıyâm bi-nefsihî. İrade sübûtî sıfattır.
+
+?? kelam | tekvin
+Mâtürîdîlerin Allah'ın ayrı ve ezelî bir sübûtî sıfatı olarak kabul ettiği, Eş'arîlerin ise kudret ve iradenin bir yönü saydığı sıfat hangisidir?
+A) Kelâm
+B) İlim
+*C) Tekvîn
+D) Semi'
+E) Hayat
+= Mâtürîdîlere göre sübûtî sıfatlar sekiz, Eş'arîlere göre yedidir; fark tekvîndir.
+
+?? kelam | iman
+Ehl-i sünnet kelamcılarının çoğunluğuna göre imanın aslı (rüknü) nedir?
+A) Dil ile ikrar ve amel
+*B) Kalp ile tasdik
+C) Amel ve ilim
+D) Yalnız dil ile ikrar
+E) Bilgi ve marifet
+= Dil ile ikrar dünyevi hükümler için şart sayılır; amel imanın parçası değildir (Mâtürîdî ve Eş'arî çoğunluk).
+
+?? kelam | vad-vaid
+Mutezile'nin "Allah müminlere verdiği sevap vaadinden de günahkârlara yönelik ceza tehdidinden de dönmez" esası hangisidir?
+A) Adl
+B) Tevhid
+*C) el-Va'd ve'l-vaîd
+D) el-Menzile beyne'l-menzileteyn
+E) Emr bi'l-ma'rûf
+= Bu esasa göre tövbe etmeden ölen büyük günah sahibi cehennemde ebedî kalır; şefaat bu kişiler için kabul edilmez.
+
+?? kelam | vasil-b-ata
+Büyük günah işleyenin "ne mümin ne kâfir" olduğunu söyleyerek Hasan-ı Basrî'nin meclisinden ayrıldığı rivayet edilen Mutezile kurucusu kimdir?
+A) Amr b. Ubeyd
+B) Nazzâm
+*C) Vâsıl b. Atâ
+D) Ebü'l-Hüzeyl el-Allâf
+E) Câhiz
+= "İ'tezele anna" (bizden ayrıldı) sözü mezhebin adına kaynak olarak gösterilir.
+
+?? kelam | kadi-abdulcebbar
+Mutezile'nin beş esasını sistemleştiren Şerhu'l-Usûli'l-hamse ve el-Muğnî adlı eserlerin yazarı kimdir?
+A) Zemahşerî
+*B) Kadı Abdülcebbâr
+C) Ebû Ali el-Cübbâî
+D) Ebû Hâşim el-Cübbâî
+E) Bişr b. Mu'temir
+= Basra Mutezile ekolünün son büyük temsilcisidir (ö. 415/1025).
+
+?? kelam | memun
+Mutezile görüşlerini resmî görüş hâline getirip mihneyi başlatan Abbâsî halifesi kimdir?
+A) Hârûnürreşîd
+*B) Me'mûn
+C) Mu'tasım
+D) Vâsık
+E) Mütevekkil
+= Me'mûn 218/833'te mihneyi başlattı ve aynı yıl öldü; uygulama Mu'tasım ve Vâsık dönemlerinde sürdü.
+
+?? kelam | mihne
+Mihne döneminde "Kur'an mahlûktur" demediği için Halife Vâsık tarafından öldürülen muhaddis kimdir?
+A) Ahmed b. Hanbel
+B) Yahyâ b. Maîn
+*C) Ahmed b. Nasr el-Huzâî
+D) Muhammed b. Nûh
+E) Ali b. Medînî
+= Ahmed b. Nasr el-Huzâî 231/846'da öldürüldü; Ahmed b. Hanbel hapis ve işkence gördü ama öldürülmedi.
+
+?? kelam | esarilik
+Eş'arîliğin büyük günah işleyen Müslüman hakkındaki görüşü hangisidir?
+A) Kâfirdir.
+B) Ne mümin ne kâfirdir.
+*C) Mümindir; durumu Allah'ın dilemesine kalmıştır, dilerse affeder.
+D) Münafıktır.
+E) İmanı ameliyle birlikte yok olmuştur.
+= Ehl-i sünnete göre büyük günah imandan çıkarmaz; tövbe etmeden ölen kişi Allah'ın dilemesine bağlıdır.
+
+?? kelam | kesb
+"Fiili Allah yaratır, kul ise onu kazanır ve bundan sorumlu olur" görüşü hangi kavramla ifade edilir?
+A) Tevellüd
+*B) Kesb
+C) Cebr
+D) Tefvîz
+E) İstitâat
+= Kesb nazariyesi Eş'arîlerle özdeşleşmiştir; Mâtürîdîler cüz'î iradeye daha geniş yer verir.
+
+?? kelam | gazali
+Filozofları yirmi meselede eleştirip üçünde tekfir ettiği eseri hangisidir?
+A) el-Munkız mine'd-dalâl
+B) İhyâü ulûmi'd-dîn
+*C) Tehâfütü'l-felâsife
+D) el-İktisâd fi'l-i'tikâd
+E) İlcâmü'l-avâm
+= Üç mesele: âlemin ezelîliği, Allah'ın cüz'îleri bilmemesi, cismanî haşrin inkârı.
+
+?? kelam | ilcamul-avam
+Gazzâlî'nin İlcâmü'l-avâm'da, müteşâbih ifadeler karşısında avâmın yerine getirmesi gereken vazifelerden biri değildir?
+A) Takdîs
+B) İ'tirâf bi'l-acz
+C) Keff
+*D) Te'vîl
+E) Teslîm
+= Eser, halkın müteşâbihleri yorumlamaya kalkmamasını ister; yedi vazife takdîs, tasdîk, i'tirâf bi'l-acz, sükût, imsâk, keff, teslîmdir.
+
+?? kelam | murcie
+Ameli imandan ayrı tutan ve büyük günah işleyenin hükmünü ahirette Allah'a bırakan fırka hangisidir?
+A) Hâricîler
+B) Mutezile
+*C) Mürcie
+D) Cehmiyye
+E) Kaderiyye
+= İrcâ "ertelemek, geriye bırakmak" demektir.
+
+?? kelam | haricilik
+Büyük günah işleyen Müslüman'ı kâfir sayan ilk fırka hangisidir?
+*A) Hâricîler
+B) Mürcie
+C) Mutezile
+D) Zeydiyye
+E) Kerrâmiyye
+= Hâricîler Sıffîn'deki tahkime itiraz ederek ortaya çıktı ve ameli imanın parçası saydı.
+
+?? kelam | beda
+Şia'da Allah'ın önceki bir iradesini sonradan değiştirmesi anlamına gelen ve İsmail–Mûsâ el-Kâzım imamet tartışmasıyla gündeme gelen kavram hangisidir?
+A) Takiye
+B) Ric'at
+*C) Bedâ
+D) Gaybet
+E) Nas
+= Ehl-i sünnet bedâyı, Allah'ın ilmine değişiklik atfettiği için reddeder.
+
+?? kelam | takiye
+Can, mal veya namus tehlikesi karşısında kişinin inancını gizlemesine ne ad verilir?
+A) Bedâ
+*B) Takiye
+C) Ric'at
+D) Tevellî
+E) Teberrî
+= Şiî gelenekte özellikle önem kazanmıştır; dayanak olarak Nahl 106 gösterilir.
+
+?? kelam | imamet
+Ehl-i sünnete göre imamet (devlet başkanlığı) meselesi hangi ilim alanında ve nasıl bir konu olarak ele alınır?
+*A) Esasen fıkhî/amelî bir konu olup kelam kitaplarında Şia'ya cevap için işlenir.
+B) İmanın altı esasından biridir.
+C) Nasla belirlenmiş bir itikat esasıdır.
+D) Yalnızca tasavvufun konusudur.
+E) Hiçbir zaman tartışılmamıştır.
+= Şia imameti nasla belirlenen itikadî bir esas sayar; Ehl-i sünnet onu fürûa ait bir mesele görür.
+
+?? kelam | murtekib-i-kebire
+Büyük günah işleyen Müslüman'ın durumu tartışmasında "ne mümin ne kâfir, ikisi arası bir yerdedir" görüşü hangi mezhebe aittir?
+A) Mürcie
+B) Hâricîler
+*C) Mutezile
+D) Mâtürîdîlik
+E) Eş'arîlik
+= Bu görüş Mutezile'nin el-menzile beyne'l-menzileteyn esasıdır.
+
+?? kelam | cehmiyye
+Allah'ın sıfatlarını inkâr eden ve insanın fiillerinde iradesi olmadığını savunan (cebr) fırka hangisidir?
+A) Kaderiyye
+*B) Cehmiyye
+C) Kerrâmiyye
+D) Haşviyye
+E) Zeydiyye
+= Cehm b. Safvân'a nispet edilir; cennet ve cehennemin sonlu olduğunu da savunmuştur.
+
+?? kelam | halku-l-kuran
+Halku'l-Kur'ân tartışmasında Mutezile'nin görüşü hangisidir?
+A) Kur'an ezelî ve kadîmdir.
+*B) Kur'an, Allah'ın sonradan yarattığı mahlûk bir kelamdır.
+C) Kur'an'ın lafzı da manası da kadîmdir.
+D) Bu konuda susmak gerekir.
+E) Kur'an meleklerin sözüdür.
+= Ehl-i sünnete göre kelâm-ı nefsî kadîmdir; Mutezile ise Allah'tan ayrı ezelî sıfat kabul etmediği için Kur'an'ı mahlûk sayar.
+
+?? fikih | teklifi-hukum
+Aşağıdakilerden hangisi teklîfî hükümlerden biri değildir?
+A) Vacip
+B) Mekruh
+C) Mübah
+*D) Şart
+E) Haram
+= Şart, sebep ve mâni' vaz'î hükümlerdir.
+
+?? fikih | farz
+Toplumun bir kısmı yerine getirdiğinde diğerlerinden sorumluluğun düştüğü farza ne ad verilir?
+A) Farz-ı ayın
+*B) Farz-ı kifâye
+C) Vâcib-i muhayyer
+D) Sünnet-i müekkede
+E) Vâcib-i muvakkat
+= Örnek: cenaze namazı.
+
+?? fikih | vacip
+Hanefî mezhebine göre aşağıdakilerden hangisi vaciptir?
+A) Beş vakit namaz
+B) Ramazan orucu
+*C) Vitir namazı
+D) Teravih namazı
+E) Kuşluk namazı
+= Vitir, bayram namazı, fıtır sadakası ve kurban Hanefî'de vaciptir.
+
+?? fikih | mekruh
+Hanefîlere göre zannî bir delille yasaklanmış ve harama yakın olan davranışa ne ad verilir?
+A) Tenzîhen mekruh
+*B) Tahrîmen mekruh
+C) Mübah
+D) Haram
+E) Hilâf-ı evlâ
+= Tenzîhen mekruh ise helale daha yakındır.
+
+?? fikih | icma
+Bazı müctehidlerin görüşünü açıkça bildirip diğerlerinin buna karşı çıkmadan susmasıyla oluşan icmâya ne ad verilir?
+A) Sarih icmâ
+*B) Sükûtî icmâ
+C) İcmâ-ı mürekkeb
+D) Ehl-i Medine icmâı
+E) Kavl-i sahâbî
+= Sükûtî icmâ Hanefîlerce delil sayılır, bazı âlimlerce tartışmalıdır.
+
+?? fikih | kiyas
+"Bütün sarhoş edici içkilerin haram olması, şarabın haramlığına dayandırılır" örneğinde "sarhoş edicilik" kıyasın hangi rüknüdür?
+A) Asl
+B) Fer'
+C) Hüküm
+*D) İllet
+E) Mukīs
+= Asl: şarap, fer': diğer içkiler, hüküm: haramlık, illet: sarhoş etmesi.
+
+?? fikih | illet
+Fıkıh usulüne göre aşağıdakilerden hangisi illette aranan şartlardan biri değildir?
+A) Açık (zâhir) olması
+B) Belirli (munzabıt) olması
+C) Hükme uygun (münâsip) olması
+D) Başka olaylara geçebilmesi (müteaddî)
+*E) Tevatürle sabit olması
+= İlletin tevatürle sabit olması şart değildir (2023 sorusunun tuzağı).
+
+?? fikih | istislah
+Hakkında nas bulunmayan bir konuda toplumun yararını esas alarak hüküm verme yöntemi hangisidir ve en çok hangi mezheple özdeşleşmiştir?
+A) İstihsan – Hanefî
+*B) İstislah – Mâlikî
+C) İstishâb – Şâfiî
+D) Sedd-i zerâi' – Hanbelî
+E) Örf – Hanefî
+= Mesâlih-i mürsele Mâlikî mezhebiyle özdeşleşmiştir.
+
+?? fikih | istishab
+Abdestli olduğundan emin olan bir kişinin abdestinin bozulup bozulmadığından şüphe ettiğinde abdestli sayılması hangi delile dayanır?
+A) İstihsan
+B) Örf
+*C) İstishâb
+D) İstislah
+E) Sedd-i zerâi'
+= "Yakîn şekle zâil olmaz" kâidesi istishâba dayanır.
+
+?? fikih | sedd-i-zerai
+"Onların taptıklarına sövmeyin ki onlar da bilmeden Allah'a sövmesinler" (En'âm 108) ayeti hangi usul ilkesine örnek gösterilir?
+A) İstishâb
+*B) Sedd-i zerâi'
+C) İstihsan
+D) Şer'u men kablenâ
+E) Örf
+= Kendisi serbest olsa da harama götüren yol kapatılır.
+
+?? fikih | orf
+"Âdet muhakkemdir" kâidesi hangi delille ilgilidir?
+A) İcmâ
+B) Kıyas
+*C) Örf
+D) İstishâb
+E) Kavl-i sahâbî
+= Nassa aykırı olmayan (sahih) örf hükümde dikkate alınır.
+
+?? fikih | amel-i-ehl-i-medine
+Medine halkının nesilden nesile süren uygulamasını delil sayıp bazen âhâd habere tercih eden imam kimdir?
+A) Ebû Hanîfe
+*B) İmam Mâlik
+C) İmam Şâfiî
+D) Ahmed b. Hanbel
+E) Leys b. Sa'd
+= Amel-i ehl-i Medîne Mâlikî usulünün ayırt edici delilidir.
+
+?? fikih | kulli-kaideler
+Aşağıdaki külli kâidelerden hangisi istishâb delili ile ilgili değildir?
+A) Yakîn şekle zâil olmaz.
+B) Berâet-i zimmet asıldır.
+C) Bir şeyin bulunduğu hal üzere kalması asıldır.
+*D) Def-i mefâsid celb-i menâfiden evlâdır.
+E) Sıfât-ı arızada asıl olan ademdir.
+= D şıkkı, zararı önlemenin fayda sağlamaktan önce geldiğini anlatır; istishâbla ilgisizdir (2024).
+
+?? fikih | fikih-alt-alanlari
+Birbirine benzeyen fıkhi meseleler arasındaki hüküm farklarını ve sebeplerini açıklayan fıkıh literatürü türü hangisidir?
+A) Kavâid
+*B) Furûk
+C) Edebü'l-kâdî
+D) Harâc
+E) Ahkâmu's-sultâniyye
+= Furûk "farklar" demektir.
+
+?? fikih | safii
+Fıkıh usulünün ilk sistematik eseri kabul edilen er-Risâle'nin müellifi kimdir?
+A) Ebû Yûsuf
+B) İmam Muhammed
+*C) İmam Şâfiî
+D) Ahmed b. Hanbel
+E) Serahsî
+= Şâfiî (ö. 204/820) er-Risâle ile usulün temelini attı.
+
+?? fikih | hanefi
+Aşağıdaki eserlerden hangisi Hanefî mezhebine ait değildir?
+A) el-Mebsût (Serahsî)
+B) el-Hidâye (Merğînânî)
+C) Bedâiu's-sanâi' (Kâsânî)
+*D) el-Muğnî (İbn Kudâme)
+E) el-İhtiyâr (Mevsılî)
+= el-Muğnî Hanbelî fıkhının temel eserlerindendir.
+
+?? fikih | maliki
+Mâlikî fıkhının temel kaynaklarından olan el-Müdevvene kime aittir?
+A) İbn Rüşd
+*B) Sahnûn
+C) Karâfî
+D) Şâtıbî
+E) İbn Abdilber
+= Sahnûn, İmam Mâlik'in görüşlerini öğrencisi İbnü'l-Kāsım'dan alarak el-Müdevvene'yi derledi.
+
+?? fikih | abdest
+Aşağıdakilerden hangisi için abdest şart değildir?
+A) Namaz kılmak
+B) Cenaze namazı
+C) Tilavet secdesi
+D) Mushaf'a dokunmak
+*E) Ezan okumak
+= Ezan abdestsiz de okunabilir, ancak abdestli okumak güzeldir (2023).
+
+?? fikih | abdest
+Hanefîlere göre rükû ve secdesi olan bir namazda ergen bir kişinin kahkaha ile gülmesinin hükmü nedir?
+A) Yalnız namazı bozar.
+B) Yalnız abdesti bozar.
+*C) Hem namazı hem abdesti bozar.
+D) Hiçbirini bozmaz.
+E) Sadece mekruhtur.
+= Gülümseme hiçbirini, sesli gülme yalnız namazı, kahkaha her ikisini bozar.
+
+?? fikih | cebire
+Hanefî mezhebine göre sargı (cebîre) üzerine meshle ilgili aşağıdakilerden hangisi doğrudur?
+A) Sargı abdestli iken sarılmış olmalıdır.
+B) Sargının tamamını mesh etmek farzdır.
+*C) Sargının çoğunu mesh etmek yeterlidir.
+D) Sargı değiştirilince mesh mutlaka yenilenmelidir.
+E) Mesh süresi mukim için bir gündür.
+= Sargıya abdestsizken sarılmış olsa bile mesh edilir; süre sınırı yoktur.
+
+?? fikih | sehiv-secdesi
+Hanefî mezhebine göre sehiv secdesi nasıl yapılır?
+A) Selam vermeden önce iki secde yapılıp namaz bitirilir.
+*B) Son oturuşta Tahiyyât okunup sağa selam verilir, iki secde yapılır, tekrar oturup Tahiyyât, salavat ve dualar okunarak selam verilir.
+C) Namaz bittikten sonra ayrıca iki rekât kılınır.
+D) Her yanılma için ayrı ayrı secde yapılır.
+E) Secdelerden sonra hiçbir şey okunmadan selam verilir.
+= Birden fazla yanılma için bir defa sehiv secdesi yeterlidir.
+
+?? fikih | sehiv-secdesi
+Cemaatle kılınan namazda imama uyan kişi kendi yanılmasından dolayı ne yapar?
+A) Sehiv secdesini imamdan önce yapar.
+B) İmam selam verince tek başına sehiv secdesi yapar.
+*C) Sehiv secdesi yapmaz.
+D) Namazını yeniden kılar.
+E) Kefaret öder.
+= Muktedî imama tabidir; ama imam secde yaparsa o da yapar.
+
+?? fikih | kaza-namazi
+Yolculukta kaçırılan dört rekâtlı bir farz namaz, yolculuk bittikten sonra kaza edilirse kaç rekât kılınır?
+*A) İki rekât
+B) Dört rekât
+C) Üç rekât
+D) Kılınmaz, düşer
+E) Kişi dilerse iki, dilerse dört
+= Kaza, kaçırıldığı hâl üzere yapılır: seferde kaçan iki, ikamette kaçan dört kılınır.
+
+?? fikih | mesbuk-lahik
+İmama birinci rekâttan sonra yetişen ve kaçırdığı rekâtları imam selam verdikten sonra tamamlayan kişiye ne ad verilir?
+A) Müdrik
+B) Lâhık
+*C) Mesbûk
+D) Muktedî
+E) Münferid
+= Başlayıp sonra bir kısmı kaçıran lâhık, baştan sona imamla kılan müdriktir.
+
+?? fikih | cem
+Hanefî mezhebine göre iki farz namazın cem edilmesi hangi durumda caizdir?
+A) Her yolculukta
+B) Şiddetli yağmurda
+C) Hastalıkta
+*D) Yalnızca hacda Arafat ve Müzdelife'de
+E) Hiçbir durumda
+= Arafat'ta öğle ile ikindi (cem-i takdim), Müzdelife'de akşam ile yatsı (cem-i te'hir).
+
+?? fikih | kefen
+Erkek için sünnet olan kefenin parçaları hangileridir?
+A) Kamîs, izâr, başörtüsü
+*B) Kamîs, izâr, lifâfe
+C) İzâr, göğüs bezi, lifâfe
+D) Kamîs, göğüs bezi, başörtüsü
+E) Yalnızca lifâfe
+= Kadına ek olarak başörtüsü ve göğüs bezi konur; böylece kadının kefeni beş parçadır.
+
+?? fikih | zekat
+Aşağıdakilerden hangisi zekâtın farz olmasının şartlarından biri değildir?
+A) Nisap miktarı mala sahip olmak
+B) Malın temel ihtiyaçlardan fazla olması
+C) Malın artıcı (nâmî) olması
+D) Hür ve akıllı olmak
+*E) Malın gayrimenkul olması
+= Zekât artıcı mallarda gerekir; oturulan ev gibi gayrimenkuller zekâta tabi değildir.
+
+?? fikih | osur
+Emek ve masrafla sulanan toprak ürününden ne oranda öşür verilir?
+A) 1/10
+*B) 1/20
+C) 1/40
+D) 1/5
+E) 1/8
+= Yağmurla sulanan üründe 1/10, masrafla sulananda 1/20.
+
+?? fikih | havelan-i-havl
+Zekâtta "üzerinden bir yıl geçme" şartı aşağıdakilerden hangisinde aranmaz?
+A) Ticaret malı
+B) Altın
+C) Koyun
+D) Nakit para
+*E) Toprak ürünü
+= Toprak ürünlerinde her hasatta öşür, maden ve definede bulunduğu anda humus verilir.
+
+?? fikih | hac
+Hanefî mezhebine göre haccın rükünleri hangileridir?
+A) İhram ve sa'y
+*B) Arafat vakfesi ve ziyaret tavafı
+C) Müzdelife vakfesi ve şeytan taşlama
+D) Tıraş ve veda tavafı
+E) Kudûm tavafı ve sa'y
+= İhram haccın şartıdır; Arafat vakfesi ve ziyaret tavafı rükündür.
+
+?? fikih | hac
+Hayızlı bir kadın hac sırasında aşağıdakilerden hangisini yapabilir?
+A) Ziyaret tavafı
+B) Kudûm tavafı
+*C) Sa'y
+D) Veda tavafı
+E) Umre tavafı
+= Sa'y için taharet şart değildir; tavaflar ise Mescid-i Harâm'da yapıldığından hayızlı kadın tavaf edemez.
+
+?? fikih | hac-turleri
+Umre ve haccı tek ihramla, arada ihramdan çıkmadan yapan kişinin haccına ne ad verilir?
+A) İfrad
+B) Temettu'
+*C) Kırân
+D) Bedel
+E) Nafile
+= Kırân ve temettu'da şükür kurbanı (hedy) vaciptir; ifradda gerekmez.
+
+?? fikih | tahallul
+Hacda ilk tahallülden sonra ve ziyaret tavafından önce devam eden ihram yasağı hangisidir?
+A) Dikişli elbise giymek
+B) Tıraş olmak
+C) Koku sürünmek
+*D) Eşiyle cinsel ilişki
+E) Tırnak kesmek
+= Büyük tahallül (ziyaret tavafı) ile bu yasak da kalkar.
+
+?? fikih | ihsar-fevat
+İhrama girdikten sonra Arafat vakfesini kaçıran kişinin durumu nedir?
+A) Kurban keserek haccını tamamlar.
+*B) Haccı kaçmıştır; umre yaparak ihramdan çıkar, haccı sonra kaza eder.
+C) Müzdelife vakfesiyle haccı geçerli olur.
+D) Ceza olarak bir deve keser ve hacı olur.
+E) İhramda bir yıl bekler.
+= Buna fevât denir; engel yüzünden haccı tamamlayamamak ise ihsârdır.
+
+?? fikih | kurban
+Hanefî mezhebine göre bir sığırın kurban olarak kesilmesinde en fazla kaç kişi ortak olabilir?
+A) Üç
+B) Beş
+*C) Yedi
+D) On
+E) Ortaklık caiz değildir.
+= Koyun ve keçi tek kişi; sığır, manda ve deve yedi kişiye kadar.
+
+?? fikih | kurban
+100 kişinin kurban görevini en az sayıda büyükbaşla ve kalanını küçükbaşla yerine getireceği bir organizasyonda 10 büyükbaş hayvan alınmışsa kaç küçükbaş hayvan gerekir?
+A) 10
+B) 20
+*C) 30
+D) 40
+E) 90
+= 10 büyükbaşa 70 kişi ortak olur; kalan 30 kişi için 30 küçükbaş gerekir (2025 sorusunun mantığı).
+
+?? fikih | kurban
+Hanefî mezhebine göre büyükbaş kurbana katılan yedi ortaktan biri yalnızca et almak niyetiyle katılırsa ne olur?
+A) Yalnız onun kurbanı geçersiz olur.
+B) Kurbanlar geçerlidir, o kişi sadaka verir.
+*C) Ortakların hiçbirinin kurbanı geçerli olmaz.
+D) Kurban geçerli olur ama mekruhtur.
+E) Diğerleri kefaret orucu tutar.
+= Hanefî'de bütün ortakların ibadet (kurbet) niyeti taşıması şarttır.
+
+?? fikih | adak
+Aşağıdaki adaklardan hangisi geçerlidir?
+A) Ezan okumayı adamak
+B) Bir arkadaşı ziyaret etmeyi adamak
+C) Abdest almayı adamak
+*D) Fakirlere sadaka vermeyi adamak
+E) Kaza namazı kılmayı adamak
+= Adananın cinsinden farz veya vacip bir ibadet bulunmalı ve kendisi bizzat ibadet olmalıdır.
+
+?? fikih | yemin
+Geçmişe dair bilerek yalan yere yapılan yemine ne ad verilir ve Hanefî mezhebinde hükmü nedir?
+A) Lağv – kefaret gerekir
+*B) Gamûs – kefaret yoktur, tövbe gerekir
+C) Münakit – kefaret yoktur
+D) Gamûs – 60 gün oruç gerekir
+E) Lağv – günah değildir, tövbe gerekir
+= Gelecekle ilgili bozulan yemin (münakit) kefaret gerektirir.
+
+?? fikih | kefaret
+Ramazan orucunu kasten bozmanın kefaretindeki sıra hangisidir?
+*A) Köle azat etmek → 60 gün peş peşe oruç → 60 fakiri doyurmak
+B) 10 fakiri doyurmak → 3 gün oruç
+C) 60 fakiri doyurmak → köle azat etmek
+D) 30 gün oruç → 30 fakiri doyurmak
+E) Fidye vermek → 3 gün oruç
+= Kod: "1 – 60 – 60". Yemin kefareti ise muhayyerdir.
+
+?? fikih | ibadette-vekalet
+Aşağıdaki ibadetlerden hangisinde vekâlet (başkasının yerine yapma) caiz değildir?
+A) Zekât
+B) Fıtır sadakası
+C) Sürekli acizlikte hac
+D) Kurban
+*E) Namaz
+= Bedenî ibadetlerde vekâlet olmaz; malî ibadetlerde olur; hac (mal + beden) sürekli acizlikte bedel yoluyla yapılabilir.
+
+?? fikih | iddet
+Nikâhı kıyılmış ama zifaf ve sahih halvet gerçekleşmeden kocası vefat eden, hamile olmayan kadın ne kadar iddet bekler?
+A) İddet beklemez.
+B) Üç ay
+C) Üç hayız
+*D) Dört ay on gün
+E) Bir yıl
+= Vefat iddeti zifaf olmasa da gerekir; boşanmada ise zifaftan önce iddet yoktur.
+
+?? fikih | iddet
+Ric'î boşanmanın iddeti içinde kocası vefat eden kadın hangi iddeti bekler?
+A) Boşanma iddetini tamamlar.
+*B) Vefat iddetine geçer (dört ay on gün).
+C) İddet beklemez.
+D) İki iddetten kısa olanını seçer.
+E) Üç hayız daha bekler.
+= Ric'î boşanmada evlilik bağı iddet bitene kadar sürdüğü için kadın vefat iddetine geçer (2024).
+
+?? fikih | hidane
+Boşanma sonrası küçük çocuğun bakım ve terbiyesini üstlenme hakkına ne ad verilir ve öncelikle kime aittir?
+*A) Hidâne – anne
+B) Velayet – anne
+C) Vesâyet – baba
+D) Hidâne – baba
+E) Nafaka – anne
+= Velayet (şahıs ve mal üzerinde karar) ve nafaka yükümlülüğü babaya aittir.
+
+?? fikih | miras
+Tereke (ölenin malı) üzerindeki hakların yerine getirilme sırası hangisidir?
+A) Vasiyet → borç → cenaze masrafı → miras
+*B) Cenaze masrafı → borç → vasiyet → miras
+C) Borç → vasiyet → cenaze masrafı → miras
+D) Miras → borç → vasiyet
+E) Cenaze masrafı → vasiyet → borç → miras
+= Kod: "Kefen – Kredi – Kâğıt – Kardeş".
+
+?? fikih | miras
+Çocuğu olan bir erkek vefat ettiğinde karısının miras payı nedir?
+A) 1/2
+B) 1/4
+*C) 1/8
+D) 1/6
+E) 1/3
+= Karı: çocuk yoksa 1/4, varsa 1/8. Koca: çocuk yoksa 1/2, varsa 1/4.
+
+?? fikih | ashabul-feraiz-asabe
+Ölenin yalnız kızı olduğunda hem 1/6 pay sahibi (ashâbü'l-ferâiz) hem de asabe olarak mirasçı olabilen yakın hangisidir?
+A) Oğul
+B) Koca
+C) Anne
+*D) Baba
+E) Kız kardeş
+= 2026 sorusunun cevabı babaydı.
+
+?? fikih | akit-turleri
+Bir malın kullanım hakkının karşılıksız olarak geçici bir süre başkasına verilmesini konu alan akit hangisidir?
+A) Hibe
+B) İcâre
+*C) Âriyet
+D) Bey'
+E) Karz
+= Karşılıksız + kullanım = âriyet; bedelli + kullanım = icâre.
+
+?? fikih | akit-turleri
+Borca karşı bir malın teminat olarak gösterilmesine (ayni teminat) ne ad verilir?
+A) Kefâlet
+*B) Rehin
+C) Havâle
+D) Vedîa
+E) Vekâlet
+= Şahsi teminat kefâlettir (2026).
+
+?? fikih | sirketler
+Bir tarafın sermaye, diğer tarafın emek koyduğu; kârın paylaşıldığı, zararın ise sermaye sahibine ait olduğu ortaklık türü hangisidir?
+*A) Mudârebe
+B) Müzâraa
+C) Müsâkât
+D) Vücûh
+E) İnân
+= Müzâraa arazi + emek, müsâkât bağ-bahçe + bakım emeğidir.
+
+?? fikih | sirketler
+Ortakların sermaye koymadan, itibarlarına dayanarak veresiye mal alıp satması şeklindeki ortaklık hangisidir?
+A) Ebdân
+B) İnân
+C) Mufâvaza
+*D) Vücûh
+E) Mudârebe
+= Vücûh "yüzler", yani itibar demektir.
+
+?? fikih | satis-turleri
+Bedelin peşin, malın ise belirli bir vadede teslim edildiği satış türü hangisidir?
+A) İstisnâ'
+*B) Selem
+C) Murâbaha
+D) Tevliye
+E) Teâtî
+= Selem, ihtiyaç sebebiyle istihsanla caiz görülen bir satıştır.
+
+?? fikih | satis-turleri
+Bir malın maliyetine belirli bir kâr eklenerek satılmasına ne ad verilir?
+A) Tevliye
+B) Vazîa
+*C) Murâbaha
+D) Îne
+E) Arâyâ
+= Maliyetine satış tevliye, maliyetin altında satış vazîadır.
+
+?? fikih | muhayyerlik
+Görmeden satın alınan bir malın görüldükten sonra beğenilmezse alıcıya akdi bozma hakkı veren muhayyerlik hangisidir?
+A) Hıyâr-ı ayıp
+B) Hıyâr-ı şart
+*C) Hıyâr-ı rü'yet
+D) Hıyâr-ı ta'yîn
+E) Hıyâr-ı meclis
+= Rü'yet "görme" demektir.
+
+?? fikih | mal-turleri
+Aşağıdakilerden hangisi irtifak haklarından biri değildir?
+A) Şirb
+B) Mecrâ
+C) Mürûr
+D) Teallî
+*E) Karar
+= Şirb su alma, mecrâ su geçirme, mesîl atık su, mürûr geçit, teallî üst kat hakkıdır.
+
+?? fikih | fuzuli
+Komşusunun arabasını ondan izin almadan satan kişinin yaptığı satışın hükmü nedir?
+A) Bâtıldır, hiçbir şekilde geçerli olamaz.
+*B) Araba sahibinin onayına bağlı (mevkuf) olarak geçerlidir.
+C) Kesin olarak geçerlidir.
+D) Fâsiddir, mutlaka feshedilir.
+E) Ancak hâkim kararıyla geçerli olur.
+= Fuzûlînin işlemi sahibin icazetiyle yürürlüğe girer.
+
+?? fikih | ispat
+Mahkemede davalının kendisine teklif edilen yemini etmekten kaçınmasına ne ad verilir?
+A) İkrar
+B) Karîne
+*C) Nükûl
+D) Şehâdet
+E) Kitâbet
+= Nükûl Hanefîlere göre aleyhe delil sayılır.
+
+?? fikih | ceza-ilkeleri
+Miktarı ve türü nasla belirlenmemiş, takdiri devlete bırakılmış cezalara ne ad verilir?
+A) Had
+B) Kısas
+C) Diyet
+*D) Ta'zîr
+E) Kefaret
+= Had cezaları nasla belirlenmiştir; kısas misliyle karşılıktır.
+
+?? fikih | ceza-ilkeleri
+Hz. Peygamber'in "Kızım Fâtıma çalsaydı onun da elini keserdim" sözü İslam ceza hukukunun hangi ilkesini yansıtır?
+A) Şahsîlik
+*B) Genellik ve eşitlik
+C) Kanunîlik
+D) Geriye yürümezlik
+E) Şüpheden sanığın yararlanması
+= Mahzûmlu kadın vakasıyla ilgilidir (2024).
+
+?? kuran | nun-sakin
+Sakin nun veya tenvinden sonra ب harfi geldiğinde uygulanan tecvid kuralı hangisidir?
+A) İhfâ
+B) İzhâr
+*C) İklâb
+D) İdgam meal-gunne
+E) İdgam bilâ-gunne
+= İklâbda nun, mim'e çevrilip gunneyle okunur.
+
+?? kuran | nun-sakin
+Sakin nun veya tenvinden sonra boğaz harflerinden biri gelirse hangi kural uygulanır?
+*A) İzhâr
+B) İhfâ
+C) İklâb
+D) İdgam meal-gunne
+E) İzhâr-ı şefevî
+= Boğaz harfleri: ء ه ع ح غ خ.
+
+?? kuran | mim-sakin
+Sakin mimden sonra ب harfi gelmesi durumunda uygulanan kural hangisidir?
+A) İzhâr-ı şefevî
+*B) İhfâ-i şefevî
+C) İdgam-ı misleyn
+D) İklâb
+E) İdgam bilâ-gunne
+= Mim dudak (şefe) harfi olduğu için "şefevî" adı verilir.
+
+?? kuran | idgam
+"يَلْهَثْ ذٰلِكَ" ifadesinde sakin ث harfinin ذ harfine katılarak okunması hangi idgam türüdür?
+A) Misleyn
+*B) Mütecâniseyn
+C) Mütekâribeyn
+D) Şemsiyye
+E) Meal-gunne
+= ث ile ذ'nin mahreci aynı, sıfatları farklıdır (2025 sorusunun örneği).
+
+?? kuran | idgam
+Aynı iki harften birincisi sakin, ikincisi harekeli olarak yan yana geldiğinde yapılan idgam hangisidir?
+*A) Misleyn
+B) Mütecâniseyn
+C) Mütekâribeyn
+D) Şemsiyye
+E) Bilâ-gunne
+= Örnek: اِضْرِبْ بِعَصَاكَ.
+
+?? kuran | med
+Med harfi ile hemzenin aynı kelimede bulunması durumundaki med hangisidir?
+A) Med-i munfasıl
+*B) Med-i muttasıl
+C) Med-i lâzım
+D) Med-i âriz
+E) Med-i tabiî
+= Hemze sonraki kelimede olursa munfasıl olur.
+
+?? kuran | med
+Med harfinden sonra vakıf sebebiyle sükûn gelmesiyle oluşan ve 1–3 elif miktarı uzatılan med hangisidir?
+A) Med-i lâzım
+B) Med-i muttasıl
+*C) Med-i âriz
+D) Med-i tabiî
+E) Med-i bedel
+= Sükûn aslî ise lâzım, vakıf nedeniyle sonradan ise ârizdir.
+
+?? kuran | vakf
+Mushafta bulunan "م" işaretinin anlamı nedir?
+*A) Durmak gerekir (vakf-ı lâzım).
+B) Durulmaz.
+C) Durmak da geçmek de caizdir.
+D) Geçmek evlâdır.
+E) Secde yeridir.
+= لا: durulmaz, ج: caiz, ز: geçmek evlâ, ط: mutlak durak.
+
+?? kuran | vakf
+Ötreli bir harfte vakıf yaparken ses çıkarmadan dudakları büzme şekline ne ad verilir?
+A) Revm
+*B) İşmâm
+C) Kasr
+D) Tûl
+E) İhtilâs
+= Revm ise harekenin bir kısmını gizli bir sesle okumaktır.
+
+?? kuran | kuran-tarihi
+Hz. Ebû Bekir döneminde Kur'an'ın tek bir mushafta toplanmasına sebep olan olay hangisidir?
+A) Kadisiye Savaşı
+*B) Yemâme Savaşı'nda çok sayıda hâfızın şehit olması
+C) Cemel Vakası
+D) Okuyuş farklılıkları yüzünden çıkan tartışmalar
+E) Mısır'ın fethi
+= Hz. Ömer'in teklifiyle iş Zeyd b. Sâbit'e verildi; okuyuş farklılıkları ise Hz. Osman dönemindeki istinsahın sebebidir.
+
+?? kuran | tencim
+İçki yasağının aşama aşama gelmesi aşağıdaki kavramlardan hangisine örnektir?
+A) Tencîm
+*B) Tedrîc
+C) Nesh
+D) Esbâb-ı nüzûl
+E) Mübhemât
+= Tencîm Kur'an'ın parça parça inmesi, tedrîc hükümlerin aşamalı gelmesidir.
+
+?? kuran | harekeleme
+Mushaftaki harekeleri nokta şeklinde ilk kez gösteren kişi kimdir?
+A) Halîl b. Ahmed
+B) Nasr b. Âsım
+*C) Ebü'l-Esved ed-Düelî
+D) Haccâc b. Yûsuf
+E) Zeyd b. Sâbit
+= Bugünkü hareke sistemini Halîl b. Ahmed geliştirmiştir.
+
+?? kuran | mekki-medeni
+Aşağıdakilerden hangisi Medenî surelerin özelliklerinden biridir?
+A) "Yâ eyyühe'n-nâs" hitabının yaygın olması
+B) "Kellâ" kelimesinin geçmesi
+*C) Miras, had ve muamelat hükümlerinin yer alması
+D) Âdem–İblis kıssasının anlatılması
+E) Kısa ve ahenkli ayetler
+= Diğer şıklar Mekkî surelerin özellikleridir.
+
+?? kuran | kavimler
+Kur'an'da Semûd kavmine gönderilen peygamber kimdir?
+A) Hz. Hûd
+*B) Hz. Sâlih
+C) Hz. Şuayb
+D) Hz. Lût
+E) Hz. Nûh
+= Âd'a Hûd, Medyen ve Eyke'ye Şuayb gönderildi.
+
+?? kuran | kavimler
+Kur'an'da helak edildiği bildirilip peygamberinin adı zikredilmeyen kavim hangisidir?
+A) Âd
+B) Semûd
+C) Medyen
+*D) Ashâbü'r-Ress
+E) Lût kavmi
+= 2026 sorusunun cevabıdır.
+
+?? kuran | ashab-gruplari
+Necranlı Hristiyanları ateş dolu hendeklere attıkları Burûc suresinde anlatılan topluluk hangisidir?
+A) Ashâb-ı Kehf
+B) Ashâb-ı Fîl
+*C) Ashâb-ı Uhdûd
+D) Ashâb-ı Sebt
+E) Ashâb-ı Karye
+= Himyerî kralı Zûnüvâs dönemine bağlanır (2024).
+
+?? kuran | ashab-gruplari
+Aşağıdaki "ashâb" gruplarından hangisi Kur'an'da kınanan bir topluluk değildir?
+A) Ashâb-ı Fîl
+B) Ashâb-ı Sebt
+C) Ashâb-ı Uhdûd
+*D) Ashâb-ı Meymene
+E) Ashâbü'r-Ress
+= Ashâb-ı Meymene, ahirette sağdakiler yani mutlu olanlardır (2023).
+
+?? tefsir | tefsir-ekolleri
+Kûfe (Irak) tefsir ekolünün kurucusu kabul edilen sahabi kimdir?
+A) Abdullah b. Abbâs
+B) Übey b. Ka'b
+*C) Abdullah b. Mes'ûd
+D) Zeyd b. Sâbit
+E) Ebû Mûsâ el-Eş'arî
+= Mekke: İbn Abbâs, Medine: Übey b. Ka'b, Kûfe: İbn Mes'ûd.
+
+?? tefsir | tefsir-ekolleri
+Mücâhid, İkrime ve Saîd b. Cübeyr hangi tefsir ekolünün temsilcileridir?
+*A) Mekke
+B) Medine
+C) Kûfe
+D) Basra
+E) Şam
+= Hepsi İbn Abbâs'ın öğrencileridir.
+
+?? tefsir | rivayet-tefsiri
+Rivayet tefsirinin ilk büyük ve kapsamlı örneği kabul edilen Câmiu'l-beyân'ın müellifi kimdir?
+A) Zemahşerî
+*B) Taberî
+C) Fahreddin Râzî
+D) Beyzâvî
+E) Mâtürîdî
+= Taberî rivayetleri senedleriyle aktarır; kıraat ve dil tahlilleri de yapar.
+
+?? tefsir | dirayet-tefsiri
+Aşağıdaki eşleştirmelerden hangisi yanlıştır?
+A) Zemahşerî – el-Keşşâf
+B) Fahreddin Râzî – Mefâtîhu'l-gayb
+C) Beyzâvî – Envârü't-tenzîl
+D) Ebüssuûd Efendi – İrşâdü'l-akli's-selîm
+*E) Taberî – Medârikü't-tenzîl
+= Medârikü't-tenzîl Nesefî'nindir; Taberî'nin tefsiri Câmiu'l-beyân'dır.
+
+?? tefsir | dirayet-tefsiri
+Taberî ile Fahreddin Râzî'nin tefsirleri karşılaştırıldığında aşağıdakilerden hangisi doğrudur?
+A) İkisi de işârî tefsirdir.
+*B) Taberî rivayet, Râzî ise dirayet (kelamî-felsefi) tefsirinin temsilcisidir.
+C) İkisi de Mutezilî tefsirdir.
+D) Râzî rivayet, Taberî dirayet tefsiridir.
+E) İkisi de modern ilmî tefsirdir.
+= 2025'te bu iki müfessir birlikte soruldu.
+
+?? tefsir | isari-tefsir
+İşârî tefsirin kabul edilmesi için aranan şartlardan biri değildir?
+A) Ayetin zâhirî anlamıyla çelişmemesi
+B) Destekleyen bir şer'î delilin bulunması
+C) Akla ve şer'a aykırı olmaması
+*D) Bütün sûfîlerin aynı yoruma ulaşması
+E) Zâhirî anlamı iptal etmemesi
+= Vecd hâli veya sûfîlerin ittifakı şart değildir (2024).
+
+?? tefsir | ilmi-tefsir
+Önce ayetin indiği ortama gidip genel ilkeyi çıkarmayı, sonra bu ilkeyi günümüze uygulamayı öneren "çift hareket" yönteminin sahibi kimdir?
+A) Tantâvî Cevherî
+B) Muhammed Abduh
+*C) Fazlurrahman
+D) Elmalılı Hamdi Yazır
+E) Seyyid Kutub
+= Bu yöntem esbâb-ı nüzûle dayanır (2024).
+
+?? tefsir | ilmi-tefsir
+el-Cevâhir fî tefsîri'l-Kur'ân adlı eseriyle çağdaş ilmî tefsirin önde gelen temsilcisi kimdir?
+*A) Tantâvî Cevherî
+B) Reşîd Rızâ
+C) Fahreddin Râzî
+D) İbn Âşûr
+E) Mevdûdî
+= 2026'da ilmî tefsir temsilcisi olarak soruldu.
+
+?? tefsir | israiliyat
+İsrâiliyat rivayetleri karşısında genel kabul gören tutum hangisidir?
+A) Hepsi kabul edilir.
+B) Hepsi kesin olarak reddedilir.
+*C) Kur'an ve sahih sünnete uygun olanlar kabul, aykırı olanlar red edilir; bilgi olmayanlarda susulur.
+D) Yalnız Hristiyan kaynaklılar kabul edilir.
+E) Yalnız fıkhi konularda kabul edilir.
+= Özellikle kıssa ayrıntılarında görülür.
+
+?? tefsir | nasih-mensuh
+Önceki bir şer'î hükmün sonradan gelen bir hükümle kaldırılmasına ne ad verilir?
+A) Tahsîs
+*B) Nesh
+C) Takyîd
+D) Te'vîl
+E) Tedrîc
+= Kaldıran hüküm nâsih, kaldırılan mensûhtur.
+
+?? tefsir | vucuh-nezair
+Aynı kelimenin Kur'an'ın farklı yerlerinde farklı anlamlarda kullanılmasını inceleyen ilim hangisidir?
+A) Garîbü'l-Kur'ân
+*B) Vücûh
+C) Nezâir
+D) Mübhemât
+E) Münâsebât
+= Farklı yerlerde aynı anlamda kullanılması nezâirdir.
+
+?? tefsir | mubhemat
+Kur'an'da adı verilmeden anılan kişi, yer ve zamanları belirlemeye çalışan ilim hangisidir?
+A) Esbâb-ı nüzûl
+B) Vücûh ve nezâir
+*C) Mübhemât
+D) Garîbü'l-Kur'ân
+E) Kasas
+= Örnek: Hz. Musa ile yolculuk yapan "salih kul"un Hızır olarak belirlenmesi.
+
+?? tefsir | ulumul-kuran
+Kur'an'daki ayetler ve sureler arasındaki anlam ilişkisini inceleyen ilim hangisidir?
+A) Aksâm
+B) Emsâl
+*C) Münâsebât
+D) Fezâil
+E) Mübhemât
+= Aksâm yeminleri, emsâl meselleri, fezâil faziletleri inceler.
+
+?? tefsir | esbab-i-nuzul
+Esbâb-ı nüzûl ilminin hadis ilimlerindeki karşılığı hangisidir?
+A) Garîbü'l-hadis
+B) Muhtelifü'l-hadis
+*C) Esbâbü vürûdi'l-hadis
+D) İlelü'l-hadis
+E) Nâsihu'l-hadis
+= Biri ayetin, diğeri hadisin söylenme sebebini inceler.
+
+?? tefsir | mezhebi-tefsir
+"Allah'ın indirdiğiyle hükmetmeyenler kâfirlerdir" (Mâide 44) ayetini günah işleyen Müslümanları da kapsayacak şekilde tekfirle yorumlayan grup hangisidir?
+A) Mürcie
+*B) Hâricîler
+C) Eş'arîler
+D) Mâtürîdîler
+E) Zeydiyye
+= 2026 sorusunun konusudur.
+
+?? siyer | cahiliye-devletleri
+İslam öncesi Arap devletlerinden hangisi Bizans'ın etkisi altında, Suriye bölgesinde kurulmuş ve Hristiyanlığı benimsemiştir?
+A) Hîreliler (Lahmîler)
+*B) Gassânîler
+C) Nebatîler
+D) Himyerîler
+E) Kinde
+= Hîreliler Sâsânî etkisindeydi.
+
+?? siyer | cahiliye-devletleri
+Başkenti Petra olan ve Roma tarafından 106 yılında ortadan kaldırılan Arap devleti hangisidir?
+*A) Nebatîler
+B) Tedmür (Palmira)
+C) Gassânîler
+D) Hîreliler
+E) Main
+= 2026 sorusunun konusudur.
+
+?? siyer | kusay
+Kusay'ın Mekke'de düzenlediği görevlerden "hicâbe" neyi ifade eder?
+A) Hacılara su dağıtmak
+B) Fakir hacılara yemek vermek
+*C) Kâbe'nin anahtarını taşımak ve perdedarlığı
+D) Savaşta sancak taşımak
+E) Danışma meclisi başkanlığı
+= Sikâye su, rifâde yemek, livâ sancak, nedve meclistir.
+
+?? siyer | hicret
+Aşağıdaki olaylardan hangisi Medine döneminde yaşanmıştır?
+A) Habeşistan hicreti
+B) Hüzün yılı
+C) Akabe biatları
+D) İsrâ ve Mi'râc
+*E) Bedir Savaşı
+= Diğerleri Mekke döneminde gerçekleşmiştir.
+
+?? siyer | medine-vesikasi
+Medine Vesikası öncelikle hangi topluluklar arasındaki ilişkileri düzenlemiştir?
+A) Müslümanlar ile Mekkeli müşrikler
+*B) Medine'deki Müslümanlar ile Yahudiler
+C) Müslümanlar ile Bizans
+D) Evs ile Hazrec arasında yalnızca
+E) Müslümanlar ile Habeşistan
+= Medine'yi ortak savunulacak bir şehir olarak ilan etti (2024).
+
+?? siyer | ashab-i-suffe
+İlk İslam eğitim kurumu kabul edilen ve Mescid-i Nebevî'nin yanında barınan sahabelere verilen ad hangisidir?
+A) Muhacirûn
+B) Ensâr
+*C) Ashâb-ı Suffe
+D) Bedriyyûn
+E) Müellefe-i kulûb
+= Ebû Hüreyre de bu topluluktandır.
+
+?? siyer | gazveler
+Mûte Savaşı'nda sırasıyla şehit düşen komutanlardan sonra orduyu toparlayıp geri çeken komutan kimdir?
+A) Amr b. Âs
+*B) Hâlid b. Velîd
+C) Ebû Ubeyde b. Cerrâh
+D) Sa'd b. Ebû Vakkās
+E) Üsâme b. Zeyd
+= Sıra: Zeyd b. Hârise → Câfer b. Ebû Tâlib → Abdullah b. Revâha → Hâlid b. Velîd.
+
+?? siyer | gazveler
+Hendek Savaşı'nda Medine'nin etrafına hendek kazılmasını öneren sahabi kimdir?
+A) Ebû Zer el-Gıfârî
+B) Ammâr b. Yâsir
+*C) Selmân-ı Fârisî
+D) Bilâl-i Habeşî
+E) Huzeyfe b. Yemân
+= Hendek 5/627'de yapıldı.
+
+?? siyer | gazveler
+Ganimetlerden müellefe-i kulûba (kalpleri İslam'a ısındırılacak kimselere) pay verilmesiyle bilinen savaş hangisidir?
+A) Bedir
+B) Uhud
+C) Hayber
+*D) Huneyn
+E) Tebük
+= 2024 sorusunun konusudur.
+
+?? siyer | ebu-bekir
+Hz. Ebû Bekir döneminde Hâlid b. Velîd komutasında Bizans'a karşı kazanılan ve Suriye-Filistin'in kapısını açan savaş hangisidir?
+A) Kadisiye
+B) Yermük
+*C) Ecnâdeyn
+D) Nihâvend
+E) Mûte
+= Ecnâdeyn 13/634'te yapıldı (2026).
+
+?? siyer | omer
+Aşağıdakilerden hangisi Hz. Ömer döneminde gerçekleşmemiştir?
+A) Mısır'ın fethi
+B) Divan teşkilatının kurulması
+C) Hicri takvimin kabulü
+D) Kûfe ve Basra'nın kurulması
+*E) Kur'an'ın çoğaltılıp şehirlere gönderilmesi
+= Mushafın istinsahı Hz. Osman döneminde yapıldı.
+
+?? siyer | osman
+Hz. Osman döneminin önemli olaylarından biri hangisidir?
+A) Ridde savaşları
+*B) Kıbrıs'ın fethiyle başlayan deniz seferleri
+C) Cemel Vakası
+D) Mısır'ın fethi
+E) Divanın kurulması
+= Ridde savaşları Hz. Ebû Bekir, Cemel Hz. Ali, Mısır ve divan Hz. Ömer dönemindedir.
+
+?? siyer | tahkim
+Sıffîn'den sonraki tahkimde Hz. Ali'yi temsil eden hakem kimdir?
+A) Amr b. Âs
+*B) Ebû Mûsâ el-Eş'arî
+C) Abdullah b. Abbâs
+D) Talha b. Ubeydullah
+E) Ammâr b. Yâsir
+= Muâviye'yi Amr b. Âs temsil etti.
+
+?? siyer | cemel
+Müslümanlar arasındaki ilk büyük iç savaş kabul edilen olay hangisidir?
+*A) Cemel Vakası
+B) Sıffîn Savaşı
+C) Nehrevan
+D) Kerbelâ
+E) Harre Vakası
+= Cemel 36/656'da Basra yakınlarında yaşandı.
+
+?? siyer | emeviler
+Süfyânîler döneminin sona ermesiyle Emevî halifeliğinin Mervânîlere geçmesini sağlayan halife kimdir?
+A) I. Yezîd
+B) II. Muâviye
+*C) Mervân b. Hakem
+D) Abdülmelik b. Mervân
+E) Abdullah b. Zübeyr
+= II. Muâviye'nin ölümünün ardından Câbiye'de halife seçildi (64/684) — 2025 sorusunun konusu.
+
+?? siyer | emeviler
+Aşağıdakilerden hangisi Emevî döneminde yaşanmış bir olay değildir?
+A) Kerbelâ Vakası
+B) Harre Vakası
+C) Zeyd b. Ali isyanı
+D) Muhtâr es-Sekafî hareketi
+*E) Zenc isyanı
+= Zenc isyanı (255–270) Abbâsî dönemindedir (2026).
+
+?? siyer | mevali
+Emevî döneminde ikinci sınıf muamele görüp Abbâsî ihtilalini destekleyen, Abbâsî yönetiminden de memnun kalan grup hangisidir?
+A) Hâricîler
+*B) Mevâlî
+C) Kaysîler
+D) Zimmîler
+E) Ensâr
+= Mevâlî, Arap olmayan Müslümanlardır (2023).
+
+?? siyer | islam-devletleri
+Moğolları Aynicâlût'ta durduran ve Akka'yı alarak Haçlıların Suriye'deki varlığına son veren devlet hangisidir?
+A) Eyyûbîler
+*B) Memlükler
+C) Fâtımîler
+D) Selçuklular
+E) Ağlebîler
+= Osmanlı 1517'de Memlüklere son verdi.
+
+?? siyer | turk-islam-eserleri
+Atabetü'l-Hakâyık adlı eserin yazarı kimdir?
+A) Yusuf Has Hâcib
+B) Kaşgarlı Mahmud
+*C) Edib Ahmed Yüknekî
+D) Ahmed Yesevî
+E) Süleyman Hakîm Ata
+= Kutadgu Bilig Yusuf Has Hâcib'in, Dîvânu Lugâti't-Türk Kaşgarlı Mahmud'undur.
+
+?? siyer | abbasiler
+Beytü'l-hikme'nin geliştirilmesi ve mihnenin başlatılmasıyla tanınan Abbâsî halifesi kimdir?
+A) Mansûr
+B) Hârûnürreşîd
+*C) Me'mûn
+D) Mütevekkil
+E) Mu'tasım
+= Me'mûn döneminde tercüme faaliyetleri zirveye ulaştı.
+
+?? mezhep | imamiyye
+On iki imama inanan ve on ikinci imamın gaybette olduğunu kabul eden Şiî kol hangisidir?
+*A) İmâmiyye (İsnâaşeriyye)
+B) Zeydiyye
+C) İsmâilîyye
+D) Keysâniyye
+E) Nusayrîlik
+= Fıkhı Ca'ferî fıkhıdır.
+
+?? mezhep | ismaililik
+"Küni" ve "Kader" adlı iki ilk ilke anlayışı hangi mezhebin inanç sisteminde yer alır?
+A) Zeydiyye
+*B) İsmâilîlik
+C) İmâmiyye
+D) Dürzîlik
+E) Yezîdîlik
+= 2024 sorusunun konusudur.
+
+?? mezhep | nusayrilik
+Kitâbü'l-Mecmû' adlı metni olan ve Hz. Ali'ye uluhiyet atfeden fırka hangisidir?
+A) Dürzîlik
+B) Yezîdîlik
+*C) Nusayrîlik
+D) Zeydiyye
+E) Bahâîlik
+= Kod: "Nusayrî Mecmua toplar."
+
+?? mezhep | yezidilik
+Kitâbü'l-Cilve ve Mushaf-ı Reş hangi topluluğun kutsal metinleridir?
+A) Dürzîler
+*B) Yezîdîler
+C) Nusayrîler
+D) Bâbîler
+E) Kadiyânîler
+= Melek Tâvûs inancı Yezîdîliğin merkezindedir.
+
+?? mezhep | kadiyanilik
+Kadiyânîliğin 1914'te Kadiyan ve Lahor kollarına ayrılmasının temel sebebi nedir?
+A) Kutsal kitabın dili
+*B) Mirza Gulam Ahmed'in nebi olup olmadığı
+C) Halifenin kimliği
+D) Namaz vakitleri
+E) Hac yeri
+= Kadiyan kolu onu nebi, Lahor kolu yalnızca müceddid sayar (2026).
+
+?? mezhep | babilik-bahailik
+Kitâbü'l-Beyân hangi akımın kutsal kitabıdır?
+A) Kadiyânîlik
+B) Bahâîlik
+*C) Bâbîlik
+D) Dürzîlik
+E) Nusayrîlik
+= Bahâîliğin kitabı Kitâb-ı Akdes'tir.
+
+?? mezhep | batinilik
+İşârî tefsir ile Bâtınî yorum arasındaki temel fark nedir?
+A) Bâtınîler Kur'an'ı hiç yorumlamaz.
+*B) İşârî tefsir zâhirî anlamı kabul eder; Bâtınî yorum zâhiri iptal edebilir.
+C) İşârî tefsir yalnız fıkıh ayetleriyle ilgilenir.
+D) İkisi aynı şeydir.
+E) Bâtınî yorum yalnız Sünnî âlimlerce yapılır.
+= Bu yüzden Bâtınî yorumlar işârî tefsir sayılmaz.
+
+?? dinler | yeni-ahit
+Aşağıdakilerden hangisi Yeni Ahit'in bölümlerinden biri değildir?
+A) Dört İncil
+B) Resullerin İşleri
+C) Mektuplar
+D) Yuhanna'nın Vahyi
+*E) Konsil kararları
+= Yeni Ahit 27 kitaptan oluşur; konsil kararları içinde yer almaz (2024).
+
+?? dinler | mecusilik
+Ölülerini toprağı kirletmemek için "sessizlik kulesi" (dahme) üzerine bırakan dinin kutsal kitabı hangisidir?
+A) Ginza
+*B) Avesta
+C) Vedalar
+D) Tripitaka
+E) Talmud
+= Zerdüştlüğün kutsal kitabı Avesta'dır (2024).
+
+?? dinler | sabiilik
+Hz. Yahya'yı önemseyen, vaftizin merkezde olduğu ve kutsal kitabı Ginza olan din hangisidir?
+A) Mecûsîlik
+B) Maniheizm
+*C) Sâbiîlik (Mandeizm)
+D) Yezîdîlik
+E) Bahâîlik
+= Kur'an'da Sâbiîlerin adı üç yerde geçer.
+
+?? dinler | protestanlik
+Protestanlıkla ilgili aşağıdakilerden hangisi yanlıştır?
+A) Tek otorite olarak Kutsal Kitap'ı kabul eder.
+B) Papanın otoritesini reddeder.
+*C) Yedi sakramenti kabul eder.
+D) İbadette ana dil kullanılır.
+E) Din adamları evlenebilir.
+= Protestanlar iki sakrament (vaftiz ve evharistiya) kabul eder; yedi sakrament Katolikliğe aittir.
+
+?? dinler | yahudi-bayramlari
+Yahudilikte oruç tutulan "Kefaret günü" hangisidir?
+A) Roş Haşana
+*B) Yom Kippur
+C) Pesah
+D) Şavuot
+E) Hanuka
+= Roş Haşana yılbaşıdır ve şofar üflenir.

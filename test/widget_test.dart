@@ -4,12 +4,16 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:rehber_mbsts/app_state.dart';
 import 'package:rehber_mbsts/content.dart';
+import 'package:rehber_mbsts/reminder.dart';
 import 'package:rehber_mbsts/screens/area_screen.dart';
 import 'package:rehber_mbsts/screens/cards_screen.dart';
+import 'package:rehber_mbsts/screens/deneme_screen.dart';
 import 'package:rehber_mbsts/screens/entry_screen.dart';
 import 'package:rehber_mbsts/screens/home_screen.dart';
 import 'package:rehber_mbsts/screens/notebook_screen.dart';
 import 'package:rehber_mbsts/screens/quiz_screen.dart';
+import 'package:rehber_mbsts/screens/settings_screen.dart';
+import 'package:rehber_mbsts/store.dart';
 import 'package:rehber_mbsts/tts.dart';
 import 'package:rehber_mbsts/widgets/rich_body.dart';
 
@@ -97,5 +101,62 @@ void main() {
     await tester.pump();
     expect(find.text('Bildim'), findsOneWidget);
     expect(tester.takeException(), isNull);
+  });
+
+  test('deneme gerçek dağılımla 60 soru üretir', () async {
+    content = await Content.load();
+    final qs = buildDeneme();
+    expect(qs.length, 60);
+    for (final a in areas.where((a) => a.questions > 0)) {
+      expect(qs.where((q) => q.area == a.id).length, a.questions, reason: a.id);
+    }
+    expect(qs.map((q) => q.text).toSet().length, 60);
+  });
+
+  test('eski veri dosyası yeni alanlar olmadan okunur, deneme kaydı gidip gelir', () {
+    final s = Store();
+    s.replaceAllSync({'v': 1, 'notes': [], 'fav': ['adl']});
+    expect(s.denemeler, isEmpty);
+    expect(s.remindOn, isFalse);
+    expect(s.favorites.contains('adl'), isTrue);
+    final d = DenemeResult(1, 3000, {'fikih': [15, 3, 2], 'hadis': [5, 2, 0]});
+    final back = DenemeResult.fromJson(Map<String, dynamic>.from(d.toJson()));
+    expect(back.right, 20);
+    expect(back.wrong, 5);
+    expect(back.empty, 2);
+    expect(back.total, 27);
+    expect(daysToExam(DateTime(2027, 4, 3, 23)), 1);
+  });
+
+  testWidgets('deneme, sonuç, test menüsü ve ayarlar ekranları açılır', (tester) async {
+    content = (await tester.runAsync(() => Content.load()))!;
+    final tmp = Directory.systemTemp.createTempSync('rehber2');
+    store.dir = tmp;
+    store.imgDir = Directory('${tmp.path}/gorseller')..createSync();
+    tester.view.physicalSize = const Size(1080, 2340);
+    tester.view.devicePixelRatio = 3;
+    addTearDown(tester.view.reset);
+
+    await tester.pumpWidget(const MaterialApp(home: DenemeScreen()));
+    await tester.pump(const Duration(seconds: 2));
+    expect(find.text('Soru 1 / 60'), findsOneWidget);
+    await tester.tap(find.text('Sonraki'));
+    await tester.pump();
+    expect(find.text('Soru 2 / 60'), findsOneWidget);
+    expect(tester.takeException(), isNull);
+
+    final qs = buildDeneme();
+    final ans = List<int?>.generate(qs.length, (i) => i.isEven ? qs[i].answer : null);
+    final res = DenemeResult(DateTime.now().millisecondsSinceEpoch, 4000, {'fikih': [10, 5, 5]});
+    for (final w in <Widget>[
+      DenemeResultScreen(result: res, questions: qs, answers: ans),
+      const QuizMenuScreen(),
+      const SettingsScreen(),
+      const DenemeHistoryScreen(),
+    ]) {
+      await tester.pumpWidget(MaterialApp(home: w));
+      await tester.pump(const Duration(milliseconds: 100));
+      expect(tester.takeException(), isNull);
+    }
   });
 }

@@ -53,6 +53,9 @@ class Store extends ChangeNotifier {
   final Map<String, int> quizWrong = {}; // soru metni hash -> yanlış sayısı
   final List<String> history = [];
   double ttsRate = 0.5;
+  bool remindOn = false;
+  int remindH = 20, remindM = 30;
+  final List<DenemeResult> denemeler = [];
 
   File get _file => File('${dir.path}/rehber_veri.json');
 
@@ -98,6 +101,13 @@ class Store extends ChangeNotifier {
       ..clear()
       ..addAll(List<String>.from(j['hist'] ?? const []));
     ttsRate = (j['tts'] as num?)?.toDouble() ?? 0.5;
+    final rem = (j['rem'] as Map?) ?? const {};
+    remindOn = rem['on'] == true;
+    remindH = (rem['h'] as num?)?.toInt() ?? 20;
+    remindM = (rem['m'] as num?)?.toInt() ?? 30;
+    denemeler
+      ..clear()
+      ..addAll((j['dnm'] as List? ?? []).map((e) => DenemeResult.fromJson(e as Map<String, dynamic>)));
   }
 
   Map<String, dynamic> toJson() => {
@@ -111,6 +121,8 @@ class Store extends ChangeNotifier {
         'qw': quizWrong,
         'hist': history,
         'tts': ttsRate,
+        'rem': {'on': remindOn, 'h': remindH, 'm': remindM},
+        'dnm': denemeler.map((d) => d.toJson()).toList(),
       };
 
   Future<void> save() async {
@@ -251,9 +263,49 @@ class Store extends ChangeNotifier {
 
   bool isWrongBefore(Question q) => quizWrong.containsKey(qKey(q));
 
+  /// Deneme sonucunu kaydeder; yanlış ve boş soruları "Yanlışlarım"a ekler.
+  Future<void> addDeneme(DenemeResult d, List<Question> qs, List<int?> answers) async {
+    for (var i = 0; i < qs.length; i++) {
+      final k = qKey(qs[i]);
+      if (answers[i] == qs[i].answer) {
+        if (quizWrong.containsKey(k)) quizWrong[k] = (quizWrong[k]! - 1).clamp(0, 99);
+        if (quizWrong[k] == 0) quizWrong.remove(k);
+      } else {
+        quizWrong[k] = (quizWrong[k] ?? 0) + 1;
+      }
+    }
+    denemeler.insert(0, d);
+    if (denemeler.length > 50) denemeler.removeLast();
+    await save();
+  }
+
   // ---------------- yedek ----------------
+  @visibleForTesting
+  void replaceAllSync(Map<String, dynamic> j) => _fromJson(j);
+
   Future<void> replaceAll(Map<String, dynamic> j) async {
     _fromJson(j);
     await save();
   }
+}
+
+/// Bir deneme sınavının özeti. [areas]: alan -> [doğru, yanlış, boş]
+class DenemeResult {
+  final int time; // millisecondsSinceEpoch
+  final int seconds; // harcanan süre
+  final Map<String, List<int>> areas;
+  DenemeResult(this.time, this.seconds, this.areas);
+
+  int _sum(int i) => areas.values.fold(0, (a, v) => a + v[i]);
+  int get right => _sum(0);
+  int get wrong => _sum(1);
+  int get empty => _sum(2);
+  int get total => right + wrong + empty;
+
+  factory DenemeResult.fromJson(Map<String, dynamic> j) => DenemeResult(
+        (j['t'] as num).toInt(),
+        (j['s'] as num?)?.toInt() ?? 0,
+        (j['a'] as Map).map((k, v) => MapEntry(k as String, (v as List).map((x) => (x as num).toInt()).toList())),
+      );
+  Map<String, dynamic> toJson() => {'t': time, 's': seconds, 'a': areas};
 }
