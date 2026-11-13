@@ -2,16 +2,25 @@ import 'package:flutter/material.dart';
 
 import '../app_state.dart';
 import '../content.dart';
+import '../widgets/entry_icon.dart';
 import '../widgets/player_bar.dart';
 import 'entry_editor.dart';
 import 'quiz_screen.dart';
 
-class AreaScreen extends StatelessWidget {
+class AreaScreen extends StatefulWidget {
   final Area area;
   const AreaScreen({super.key, required this.area});
 
   @override
+  State<AreaScreen> createState() => _AreaScreenState();
+}
+
+class _AreaScreenState extends State<AreaScreen> {
+  bool _visual = true;
+
+  @override
   Widget build(BuildContext context) {
+    final area = widget.area;
     return ListenableBuilder(
       listenable: store,
       builder: (context, _) {
@@ -27,6 +36,11 @@ class AreaScreen extends StatelessWidget {
             foregroundColor: Colors.white,
             title: Text(area.name),
             actions: [
+              IconButton(
+                tooltip: _visual ? 'Liste görünümü' : 'Görsel kartlar',
+                icon: Icon(_visual ? Icons.view_list : Icons.grid_view),
+                onPressed: () => setState(() => _visual = !_visual),
+              ),
               if (entries.isNotEmpty) ListenButton(ids: [for (final e in entries) e.id], tooltip: 'Bu alanı baştan sona dinle'),
               if (hasQuiz)
                 IconButton(
@@ -67,7 +81,13 @@ class AreaScreen extends StatelessWidget {
                         child: Text(g.key.toUpperCase(),
                             style: TextStyle(fontSize: 12, letterSpacing: 1.1, fontWeight: FontWeight.w800, color: area.color)),
                       ),
-                      for (final e in g.value) _EntryTile(e: e, color: area.color),
+                      if (_visual)
+                        Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 12),
+                          child: VisualGrid(entries: g.value, onTap: (e) => openEntry(context, e.id)),
+                        )
+                      else
+                        for (final e in g.value) _EntryTile(e: e, color: area.color),
                     ],
                   ],
                 ),
@@ -88,7 +108,10 @@ class _EntryTile extends StatelessWidget {
     final notes = store.notesFor(e.id).length;
     return ListTile(
       onTap: () => openEntry(context, e.id),
-      leading: Icon(read ? Icons.check_circle : Icons.circle_outlined, color: read ? color : Colors.grey),
+      leading: Stack(clipBehavior: Clip.none, children: [
+        EntryIcon(entry: e, size: 42),
+        if (read) Positioned(right: -4, bottom: -4, child: Icon(Icons.check_circle, size: 16, color: color)),
+      ]),
       title: Row(children: [
         Flexible(child: Text(e.title, style: const TextStyle(fontWeight: FontWeight.w700))),
         if (e.custom) const Padding(padding: EdgeInsets.only(left: 6), child: Icon(Icons.person, size: 16)),

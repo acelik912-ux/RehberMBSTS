@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../app_state.dart';
 import '../content.dart';
 import '../store.dart';
+import '../widgets/entry_icon.dart';
 import '../widgets/player_bar.dart';
 import '../widgets/rich_body.dart';
 import 'entry_editor.dart';
@@ -100,6 +101,17 @@ class _EntryScreenState extends State<EntryScreen> {
                   padding: const EdgeInsets.only(top: 4),
                   child: Text('Diğer adları: ${e.aliases.join(', ')}', style: const TextStyle(fontSize: 13, fontStyle: FontStyle.italic)),
                 ),
+              Padding(
+                padding: const EdgeInsets.only(top: 10),
+                child: Row(children: [
+                  EntryIcon(entry: e, size: 64),
+                  const SizedBox(width: 12),
+                  Expanded(
+                    child: Text(e.hint.isEmpty ? e.title : e.hint,
+                        style: TextStyle(fontSize: 17, fontWeight: FontWeight.w800, color: area.color, height: 1.3)),
+                  ),
+                ]),
+              ),
               if (e.summary.isNotEmpty)
                 Container(
                   margin: const EdgeInsets.only(top: 10, bottom: 6),

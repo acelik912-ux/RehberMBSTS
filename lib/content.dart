@@ -39,6 +39,10 @@ class Entry {
   final List<String> images;
   final bool custom;
 
+  /// Küçük görsel (emoji) ve tek satırlık görsel ipucu.
+  final String icon;
+  final String hint;
+
   const Entry({
     required this.id,
     required this.title,
@@ -50,6 +54,8 @@ class Entry {
     this.body = '',
     this.images = const [],
     this.custom = false,
+    this.icon = '',
+    this.hint = '',
   });
 
   factory Entry.fromJson(Map<String, dynamic> j, {bool custom = false}) => Entry(
@@ -63,6 +69,8 @@ class Entry {
         body: (j['b'] ?? '') as String,
         images: List<String>.from(j['img'] ?? const []),
         custom: custom,
+        icon: (j['ic'] ?? '') as String,
+        hint: (j['ih'] ?? '') as String,
       );
 
   Map<String, dynamic> toJson() => {
@@ -75,6 +83,8 @@ class Entry {
         'o': summary,
         'b': body,
         'img': images,
+        if (icon.isNotEmpty) 'ic': icon,
+        if (hint.isNotEmpty) 'ih': hint,
       };
 
   Entry copyWith({String? body, String? summary, String? title, String? group, String? area}) => Entry(
@@ -88,6 +98,8 @@ class Entry {
         body: body ?? this.body,
         images: images,
         custom: custom,
+        icon: icon,
+        hint: hint,
       );
 }
 

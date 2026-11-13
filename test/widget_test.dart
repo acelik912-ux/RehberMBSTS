@@ -31,6 +31,8 @@ void main() {
       }
     }
     expect(broken, isEmpty, reason: broken.join('\n'));
+    final noIcon = c.entries.values.where((e) => e.icon.isEmpty || e.hint.isEmpty).map((e) => e.id).toList();
+    expect(noIcon, isEmpty, reason: 'görseli olmayan maddeler: $noIcon');
     for (final q in c.questions) {
       expect(q.answer, inInclusiveRange(0, q.options.length - 1));
       if (q.entryId.isNotEmpty) expect(c.entries.containsKey(q.entryId), isTrue, reason: q.text);

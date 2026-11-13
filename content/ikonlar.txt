@@ -1,0 +1,243 @@
+# Her madde için küçük görsel (emoji) ve tek satırlık görsel ipucu.
+# Biçim: id | emoji | ipucu
+fikih-usulu | 🧭 | Hükmün pusulası: deliller ve yöntem
+ser-i-hukum | ⚖️ | Allah'ın kullarına yönelik hitabı
+teklifi-hukum | 📋 | Emir, yasak, serbestlik: farzdan harama
+vazi-hukum | 🔗 | Sebep, şart, mâni' bağlantısı
+farz | 🧱 | Kesin delil; terk eden günahkâr
+vacip | 🌙 | Zannî delil: vitir, bayram, kurban
+sunnet-mustehap | 🌿 | Yapana sevap, terke ceza yok
+mubah | 🍃 | Serbest: yap ya da yapma
+mekruh | 😕 | Hoş görülmeyen: tahrîmen / tenzîhen
+haram | ⛔ | Kesin yasak
+icma | 🤝 | Müctehidlerin ittifakı
+kiyas | 🔁 | Şarap → diğer içkiler (illet: sarhoşluk)
+illet | 🎯 | Hükmün bağlandığı vasıf
+istihsan | 💡 | "Hanefî Hasta": kıyastan daha güzeline
+istislah | 🏛️ | Toplum yararı (Mâlikî)
+istishab | ⏸️ | Olan, olduğu gibi kalır
+sedd-i-zerai | 🚧 | Harama giden yolu kapat
+orf | 👥 | "Âdet hakemdir"
+amel-i-ehl-i-medine | 🕌 | Medine halkının uygulaması (Mâlikî)
+kavl-i-sahabi | 🗣️ | Sahabenin sözü delil mi?
+ser-u-men-kablena | 📜 | Önceki ümmetlerin şeriatı
+kulli-kaideler | 🧩 | Kısa formüller: "Yakîn şekle zâil olmaz"
+fikih-alt-alanlari | 🗂️ | Kavâid, furûk, edebü'l-kâdî…
+hanefi | 🟦 | Ebû Hanîfe · re'y · istihsan · Kûfe
+maliki | 🟩 | İmam Mâlik · Medine · Muvatta'
+safii | 🟨 | er-Risâle · usulün kurucusu
+hanbeli | 🟥 | Ahmed b. Hanbel · hadis ağırlıklı
+abdest | 💧 | Kahkaha: namaz + abdest bozulur
+cebire | 🩹 | Sargının çoğunu meshet
+sehiv-secdesi | 🔄 | Yanılgıya iki secde
+kaza-namazi | ⏪ | Kaçtığı hâl üzere kılınır
+mesbuk-lahik | 🏃 | Geç kalan · ara veren · baştan olan
+cem | 🔗 | Hanefî: yalnız Arafat ve Müzdelife
+kefen | 🤍 | Erkek 3 parça, kadın 5 parça
+zekat | 💰 | Nisap + artıcı mal + bir yıl
+havelan-i-havl | 📅 | Üzerinden bir yıl geçmeli
+osur | 🌾 | Yağmurla 1/10, masrafla 1/20
+hac | 🕋 | Rükün: Arafat + ziyaret tavafı
+hac-turleri | 🧳 | İfrad · temettu' · kırân
+tahallul | ✂️ | İhramdan çıkış: tıraş
+ihsar-fevat | 🚫 | Engel (ihsâr) · Arafat'ı kaçırma (fevât)
+kurban | 🐑 | Küçükbaş 1, büyükbaş 7 kişi
+adak | 🤲 | Cinsinden farz/vacip ibadet olmalı
+yemin | ✋ | Gamûs · lağv · münakit
+kefaret | 🔢 | Oruç: 1 – 60 – 60
+ibadette-vekalet | 👤 | Malîde evet, bedenîde hayır
+iddet | ⏳ | Ölüm zifafa bakmaz, boşanma bakar
+nikah | 💍 | Hanefî şahit: 2K + 1E
+hidane | 🧸 | Bakım anneye, velayet babaya
+miras | 🏠 | Kefen – Kredi – Kâğıt – Kardeş
+ashabul-feraiz-asabe | 👨‍👧 | Baba: hem pay sahibi hem asabe
+akit-turleri | 📝 | Hibe · âriyet · bey' · icâre
+sirketler | 🤝 | Dükkân · Zemin · Sulama · Cebi boş
+satis-turleri | 🏷️ | Selem: para peşin, mal vadeli
+muhayyerlik | 🔍 | Görme · ayıp · şart muhayyerliği
+mal-turleri | 🚰 | İrtifak: şirb, mecrâ, mürûr
+fuzuli | 🙋 | İzinsiz işlem: sahibin onayına bağlı
+ispat | 🧑‍⚖️ | İkrar · şehâdet · yemin · nükûl
+ceza-ilkeleri | ⚖️ | Had · kısas · ta'zîr
+fikih-kodlari | 🗝️ | Fıkıh kodlarının hepsi tek sayfada
+hadis | 📜 | Söz, fiil, takrir: Peygamber'e ait
+sunnet | 👣 | Peygamber'in yolu: kavlî, fiilî, takrîrî
+sened | ⛓️ | Ravi zinciri
+metin | 📄 | Zincirin taşıdığı söz
+ravi | 🧑‍🏫 | Hadisi aktaran kişi
+sahabe | 🌟 | Peygamber'i mümin olarak gören
+tabiun | 🌱 | Sahabeyi gören nesil
+kudsi | ✨ | Mana Allah'tan, lafız Peygamber'den
+merfu | ⬆️ | Peygamber'e ulaşan
+mevkuf | ⏹️ | Sahabede duran
+maktu | ✂️ | Tâbiûnda kesilen
+mutevatir | 🌊 | Yalanda birleşemeyecek kalabalık
+ahad | ☝️ | Tevatüre ulaşmayan haber
+meshur | 3️⃣ | En az üç ravi
+aziz | 2️⃣ | En az iki ravi
+garib | 1️⃣ | Tek ravi
+itibar | 🔎 | Destek rivayet arama
+mutabi | 👬 | Aynı sahabiden destek
+sahid | 👥 | Başka sahabiden destek
+sahih | ✅ | Beş şart tam
+hasen | 👍 | Sahih gibi, zabtı biraz hafif
+zayif | ⚠️ | En az bir şart eksik
+adalet | 🛡️ | Kişilik: güvenilir mi?
+zabt | 🧠 | Hafıza: doğru aktarıyor mu?
+muallak | 🪝 | Dipten asılı: müellif tarafı kopuk
+mursel | 🕊️ | Sahabi düştü: tepeden salıverildi
+munkati | ✂️ | Ortadan tek tek kopuk
+mudal | 🪢 | Ortadan yan yana 2+ kopuk
+mudelles | 🎭 | Kopukluk gizlenmiş
+mevzu | 🚫 | Uydurma: ravi yalancı
+metruk | 🗑️ | Yalanla itham edilen ravi
+munker | 👎 | Zayıf ravi, sağlama aykırı
+saz | 🦆 | Sika ravi, daha sikaya aykırı
+muallel | 🦠 | Gizli illet
+mudrec | ➕ | Metne ya da senede ekleme
+maklub | 🔃 | Yer değiştirme
+muztarib | 🌪️ | Denk ve çelişen rivayetler
+musahhaf | ✏️ | Nokta / hareke değişmiş
+ravi-tan | 🔟 | Adalet 5 + zabt 5 kusur
+cerh-tadil | ⚖️ | Raviyi tart: güvenilir mi?
+ricalul-hadis | 🧑‍🤝‍🧑 | Ravilerin hayatı ve tabakaları
+ilelul-hadis | 🔬 | Gizli kusurları arar
+garibul-hadis | 📖 | Zor kelimeleri açıklar
+muhtelifu-l-hadis | 🤼 | Çelişkili görüneni uzlaştır
+esbabu-vurud | 🎬 | Hadisin söylenme sebebi
+tahammul-yollari | 🎓 | Sabah Kahvesini İçen Mehmet…
+hadis-tarihi | 🗓️ | Hıfz → kitâbet → tedvîn → tasnîf
+sahife | 📃 | İlk yazılı defterler
+tedvin | 📚 | Resmî derleme
+omer-b-abdulaziz | 👑 | Tedvini emreden halife
+zuhri | ✍️ | İlk resmî derleyici
+kutub-i-sitte | 📚 | Bugün Mutlaka Ev Temizliği Ne İyi
+buhari | 🥇 | el-Câmiu's-sahîh
+muslim | 🥈 | Sahîh-i Müslim
+ebu-davud | ⚖️ | Sünen: ahkâm hadisleri
+tirmizi | 🏷️ | Hasen kavramı, derecelendirme
+nesai | 🔍 | Ravi seçiminde titiz
+ibn-mace | 6️⃣ | Kütüb-i Sitte'nin altıncısı
+muvatta | 🌴 | Medine ameli + hadis
+ahmed-b-hanbel | 📗 | el-Müsned
+tahric | 🧭 | Hadisin kaynağını göster
+cami | 🕌 | Sekiz konuyu toplayan kitap
+sunen | 📕 | Fıkıh bablarına göre
+musannef | 🗃️ | Hadis + sahabe ve tâbiûn görüşleri
+musned | 👤 | Sahabeye göre dizilim
+mucem | 🔤 | Alfabetik dizilim
+mustedrek | 📎 | Şartına uyup almadıklarını ekler
+mustahrec | 🔁 | Başka senetle yeniden rivayet
+zevaid | ➕ | Temel kitaplarda olmayanlar
+etraf | 🔑 | Hadisin baş kısmı + geçtiği yerler
+mevzuat-eserleri | 🚫 | Uydurmaları toplayan eserler
+erbaun | 4️⃣ | Kırk hadis
+serh | 💬 | Hadis açıklaması
+veda-hutbesi | 🏔️ | Arafat'ta, çok sahabiden: ferd değil
+hadis-kodlari | 🗝️ | Hadis kodlarının hepsi tek sayfada
+kelam | 💭 | İnancı akılla temellendirme ve savunma
+mesail-vesail | 🎯 | Asıl konular · araç bilgiler
+varlik-delilleri | 🗺️ | HİGİ TFKA: 8 delil
+hudus-delili | ⏳ | Kum saati: biri çevirmiş
+imkan-delili | ⚖️ | Dengedeki terazi kendiliğinden yatmaz
+gaye-nizam | 🎯 | Düzen ve amaç
+temanu | ☸️ | Gemide iki kaptan olmaz: birlik
+kabul-i-amme | 👨‍👩‍👧 | Bütün toplumlar inanmış
+ihtira-delili | 🌱 | Kuru tohumdan filiz
+fitrat-delili | ❤️ | Çaresiz anda "Allah'ım!"
+ahlak-delili | 🧭 | İçimizdeki hâkim (Kant)
+sifatlar | 🔆 | Vücûd, kıdem, bekâ…
+subuti-sifatlar | 💠 | Hayat, ilim, irade… tekvîn
+tekvin | 🛠️ | Mâtürîdî'nin sekizinci sıfatı
+iman | 💗 | Kalp ile tasdik
+mutezile | 🏛️ | Akılcılar: usûl-i hamse
+usul-i-hamse | 5️⃣ | Tevhid · adl · va'd · menzile · emr
+tevhid-mutezile | ☝️ | Sıfatlar zatın aynısı
+adl | ⚖️ | Kul fiilini kendi yaratır
+vad-vaid | 📣 | Vaatten de tehditten de dönülmez
+menzile | 🪜 | İki yer arası: fâsık
+emr-bil-maruf | 📢 | İyiliği emret, kötülükten alıkoy
+vasil-b-ata | 🚪 | "Bizden ayrıldı" (i'tezele)
+kadi-abdulcebbar | 📘 | el-Muğnî · Şerhu'l-usûl
+mihne | ⛓️ | Me'mûn başlattı, Mütevekkil bitirdi
+halku-l-kuran | 📖 | Kur'an mahlûk mu?
+memun | 👑 | Mihneyi başlatan halife
+esarilik | 🟠 | Kesb · haberî sıfatlar
+maturidilik | 🟢 | Akıl + tekvîn · Semerkant
+kesb | 🎒 | Allah yaratır, kul kazanır
+kader | 📜 | Takdir ve icra
+illiyet | 🔗 | Sebep-sonuç bağı (Gazzâlî eleştirir)
+gazali | 📗 | Tehâfüt · İhyâ · İlcâm
+ilcamul-avam | 🤐 | Müteşâbihte 7 vazife
+murcie | ⏸️ | Ameli ayır, hükmü ertele
+haricilik | ⚔️ | "Hüküm Allah'ındır": büyük günah = küfür
+kaderiyye | 🗽 | "Kendim yaptım": hür irade
+cehmiyye | 🔒 | "Cebren yaptırıldım"; sıfatları inkâr
+sia-kavramlari | 🗝️ | Nas · ismet · ric'at · takiye · bedâ
+beda | 🔄 | İrade değişti mi?
+takiye | 🙊 | İnancı gizleme
+imamet | 👑 | Devlet başkanlığı tartışması
+murtekib-i-kebire | ⚠️ | Büyük günah işleyenin durumu
+nun-sakin | 🔤 | İzhâr · idgam · iklâb · ihfâ
+mim-sakin | 👄 | Dudak harfi: ihfâ-i şefevî
+idgam | 🔀 | İki harf tek harf olur
+med | 〰️ | Uzatma: muttasıl / munfasıl
+vakf | ✋ | Durma işaretleri
+kuran-tarihi | 📚 | Ebû Bekir topladı, Osman çoğalttı
+tencim | 🧩 | Parça parça iniş
+harekeleme | ⚫ | Ebü'l-Esved nokta, Halîl hareke
+mekki-medeni | 🕋 | Sınır çizgisi: hicret
+kavimler | 🌋 | Âd–Hûd, Semûd–Sâlih, Medyen–Şuayb
+ashab-gruplari | 👥 | Kehf · Fîl · Uhdûd · Sebt
+kiraat | 🎙️ | SeDiM · 7 imam · Âh-Kûfe
+tefsir-ekolleri | 🏫 | A-Ü-M: Abbâs · Übey · Mes'ûd
+ibn-abbas | 🌙 | Tercümânü'l-Kur'ân
+rivayet-tefsiri | 📜 | Taberî · İbn Kesîr · Suyûtî
+dirayet-tefsiri | 🧠 | Keşşâf · Râzî · Beyzâvî
+isari-tefsir | 💫 | Zâhir kalır, işaret eklenir
+ilmi-tefsir | 🔭 | Bilimle açıklama
+israiliyat | 📕 | Ehl-i kitap rivayetleri
+ulumul-kuran | 🧰 | Rivayet · dirayet · karma ilimler
+esbab-i-nuzul | 🎬 | İniş sebebi
+nasih-mensuh | 🔁 | Kaldıran ve kaldırılan
+muhkem-mutesabih | 🔍 | Açık ve kapalı ayetler
+vucuh-nezair | 🎭 | Bir kelime, çok anlam
+mubhemat | ❓ | Adı verilmeyen kim?
+siyak-sibak | ↔️ | Önceki ve sonraki bağlam
+mezhebi-tefsir | 🏷️ | Mezhep gözlüğüyle yorum
+sunnetin-beyani | 🧩 | 4M → 4T: tebyîn, tafsîl, takyîd, tavzîh
+sahabe-tabiun-tefsiri | 👳 | Az ve yazısız · tam ve İsrâiliyatlı
+diger-tefsir-turleri | 🗂️ | Lügavî · ictimâî · konulu
+cahiliye-devletleri | 🏜️ | Gassânî · Hîre · Nebatî
+kusay | 🗝️ | Hicâbe · sikâye · rifâde
+hicret | 🐪 | 622: Mekke → Medine
+medine-vesikasi | 📜 | Medine ortak savunulur
+ashab-i-suffe | 🏫 | İlk eğitim kurumu
+gazveler | 🛡️ | 27 gazve, 9 çarpışma
+ebu-bekir | 1️⃣ | Ridde · Kur'an'ın cem'i
+omer | 2️⃣ | Divan · hicri takvim
+osman | 3️⃣ | Mushafı çoğaltma · deniz seferleri
+ali | 4️⃣ | Cemel · Sıffîn · Nehrevan
+cemel | 🐫 | İlk iç savaş
+siffin | ⚔️ | Mızraklarda mushaf
+tahkim | ⚖️ | Ebû Mûsâ – Amr b. Âs
+emeviler | 🟩 | Süfyânî → Mervânî
+mevali | 🧑‍🤝‍🧑 | Arap olmayan Müslümanlar
+abbasiler | ⬛ | Beytü'l-hikme · Bağdat
+islam-devletleri | 🗺️ | Memlük · Fâtımî · Selçuklu
+turk-islam-eserleri | 📗 | Kutadgu Bilig · Dîvânu Lugâti't-Türk
+mezhep-kavrami | 🌳 | Fikir, yorum, uygulama: 8 doğuş sebebi
+batinilik | 🕳️ | Zâhiri iptal eden yorum
+imamiyye | 🔢 | On iki imam · gaybet
+zeydiyye | 🗡️ | Masum yok, takiye yok
+ismaililik | 7️⃣ | Yedinci imam İsmail
+durzilik | ⛰️ | Hâkim bi-emrillah
+nusayrilik | 📘 | Kitâbü'l-Mecmû'
+yezidilik | 🦚 | Melek Tâvûs
+kadiyanilik | 🔀 | Kadiyan ve Lahor kolları
+babilik-bahailik | 🚪 | Bâb = kapı · Kitâb-ı Akdes
+protestanlik | ✝️ | Yalnız Kitap · iki sakrament
+yeni-ahit | 📖 | 27 kitap
+yahudi-bayramlari | 🕎 | Yom Kippur: oruç günü
+mecusilik | 🔥 | Avesta · sessizlik kulesi
+sabiilik | 💦 | Vaftiz · Hz. Yahya · Ginza

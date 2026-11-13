@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../app_state.dart';
 import '../content.dart';
 import '../store.dart';
+import '../widgets/entry_icon.dart';
 import '../widgets/rich_body.dart';
 
 /// Leitner usulü tekrar: kart önce terimi (ve varsa senin çağrışım resmini) gösterir,
@@ -119,6 +120,7 @@ class _CardsScreenState extends State<CardsScreen> {
                   child: Image.file(store.imageFile(cue), height: 170, fit: BoxFit.cover),
                 ),
               ),
+            Padding(padding: const EdgeInsets.only(bottom: 10), child: EntryIcon(entry: e, size: 72)),
             Text(e.title, textAlign: TextAlign.center, style: const TextStyle(fontSize: 30, fontWeight: FontWeight.w800, fontFamily: 'serif')),
             if (e.aliases.isNotEmpty) Text(e.aliases.join(' · '), style: const TextStyle(color: Colors.grey)),
           ]);
@@ -149,8 +151,14 @@ class _CardsScreenState extends State<CardsScreen> {
                 const Divider(),
                 if (_reverse)
                   Text(e.title, style: const TextStyle(fontSize: 26, fontWeight: FontWeight.w800, fontFamily: 'serif'))
-                else
+                else ...[
+                  if (e.hint.isNotEmpty)
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 8),
+                      child: Text('${e.icon} ${e.hint}', style: TextStyle(fontWeight: FontWeight.w800, color: a.color, fontSize: 16)),
+                    ),
                   RichBody(text: e.summary.isEmpty ? '(Özet yok — sayfayı aç.)' : e.summary, exists: entryExists, onLink: (x) => openEntry(context, x), fontSize: 17),
+                ],
                 TextButton.icon(onPressed: () => openEntry(context, id), icon: const Icon(Icons.open_in_new), label: const Text('Sayfayı aç')),
               ],
             ]),

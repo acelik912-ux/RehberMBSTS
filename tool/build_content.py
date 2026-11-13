@@ -97,9 +97,29 @@ def main():
                 errors.append(f'tekrarlanan id: {e["id"]}')
             if e['a'] not in AREAS:
                 errors.append(f'geçersiz alan: {e["id"]} {e["a"]}')
+            e['_f'] = f
             allent[e['id']] = e
-        (OUT / f'{f}.json').write_text(json.dumps(ents, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
         files.append(f'{f}.json')
+    icons = {}
+    for ln in (ROOT / 'content/ikonlar.txt').read_text(encoding='utf-8').splitlines():
+        if not ln.strip() or ln.startswith('#'):
+            continue
+        parts = [x.strip() for x in ln.split('|')]
+        if len(parts) != 3 or parts[0] not in allent:
+            errors.append(f'ikon satırı hatalı: {ln}')
+            continue
+        icons[parts[0]] = parts[1:]
+    for e in allent.values():
+        if e['id'] in icons:
+            e['ic'], e['ih'] = icons[e['id']]
+        else:
+            errors.append(f'ikonu yok: {e["id"]}')
+    byfile = {}
+    for e in allent.values():
+        byfile.setdefault(e.pop('_f'), []).append(e)
+    for f in FILES:
+        ents = byfile.get(f, [])
+        (OUT / f'{f}.json').write_text(json.dumps(ents, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
     for e in allent.values():
         for m in LINK.finditer(e['b'] + ' ' + e['o']):
             if not m.group(1).strip().startswith('http') and m.group(1).strip() not in allent:

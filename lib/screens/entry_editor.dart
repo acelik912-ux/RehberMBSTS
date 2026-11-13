@@ -20,6 +20,8 @@ class _EntryEditorState extends State<EntryEditor> {
   late final _group = TextEditingController(text: widget.existing?.group ?? 'Benim maddelerim');
   late final _summary = TextEditingController(text: widget.existing?.summary ?? '');
   late final _body = TextEditingController(text: widget.existing?.body ?? '');
+  late final _icon = TextEditingController(text: widget.existing?.icon ?? '');
+  late final _hint = TextEditingController(text: widget.existing?.hint ?? '');
   late String _area = widget.existing?.area ?? widget.areaId ?? 'hadis';
 
   bool get _isBuiltIn => widget.existing != null && !widget.existing!.custom;
@@ -30,6 +32,8 @@ class _EntryEditorState extends State<EntryEditor> {
     _group.dispose();
     _summary.dispose();
     _body.dispose();
+    _icon.dispose();
+    _hint.dispose();
     super.dispose();
   }
 
@@ -75,6 +79,8 @@ class _EntryEditorState extends State<EntryEditor> {
         summary: _summary.text.trim(),
         body: _body.text,
         custom: true,
+        icon: _icon.text.trim(),
+        hint: _hint.text.trim(),
       ));
     }
     if (mounted) Navigator.pop(context);
@@ -107,6 +113,28 @@ class _EntryEditorState extends State<EntryEditor> {
             const SizedBox(height: 10),
             TextField(controller: _group, decoration: const InputDecoration(labelText: 'Grup (ör. Kelam ekolleri)', border: OutlineInputBorder())),
             const SizedBox(height: 10),
+            Row(children: [
+              SizedBox(
+                width: 90,
+                child: TextField(
+                  controller: _icon,
+                  textAlign: TextAlign.center,
+                  style: const TextStyle(fontSize: 24),
+                  decoration: const InputDecoration(labelText: 'Simge', hintText: '🙂', border: OutlineInputBorder()),
+                ),
+              ),
+              const SizedBox(width: 8),
+              Expanded(
+                child: TextField(
+                  controller: _hint,
+                  decoration: const InputDecoration(labelText: 'Görsel ipucu (kısa)', border: OutlineInputBorder()),
+                ),
+              ),
+            ]),
+            const Padding(
+              padding: EdgeInsets.only(top: 4, bottom: 10),
+              child: Text('Simge için klavyenin emoji tuşunu kullan.', style: TextStyle(fontSize: 12, color: Colors.grey)),
+            ),
             TextField(
               controller: _summary,
               maxLines: 2,

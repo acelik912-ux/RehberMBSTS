@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../app_state.dart';
 import '../content.dart';
+import '../widgets/entry_icon.dart';
 
 /// Tüm maddelerde ve notlarda arama. pick=true ise seçilen maddenin id'sini geri döndürür.
 class SearchScreen extends StatefulWidget {
@@ -89,9 +90,9 @@ class _SearchScreenState extends State<SearchScreen> {
                     final e = res[i].$1;
                     final a = areaById(e.area);
                     return ListTile(
-                      leading: CircleAvatar(backgroundColor: a.color, radius: 8),
+                      leading: EntryIcon(entry: e, size: 38),
                       title: Text(e.title, style: const TextStyle(fontWeight: FontWeight.w700)),
-                      subtitle: Text('${a.name} · ${e.summary}', maxLines: 2, overflow: TextOverflow.ellipsis),
+                      subtitle: Text('${a.name} · ${e.hint.isNotEmpty ? e.hint : e.summary}', maxLines: 2, overflow: TextOverflow.ellipsis),
                       onTap: () => widget.pick ? Navigator.pop(context, e.id) : openEntry(context, e.id),
                     );
                   },

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../app_state.dart';
 import '../content.dart';
+import '../widgets/entry_icon.dart';
 import '../widgets/player_bar.dart';
 import 'entry_editor.dart';
 import 'note_editor.dart';
@@ -100,7 +101,7 @@ class NotebookScreen extends StatelessWidget {
         children: [
           for (final e in l)
             ListTile(
-              leading: CircleAvatar(backgroundColor: areaById(e.area).color, radius: 8),
+              leading: EntryIcon(entry: e, size: 38),
               title: Text(e.title, style: const TextStyle(fontWeight: FontWeight.w700)),
               subtitle: Text(e.summary, maxLines: 1, overflow: TextOverflow.ellipsis),
               onTap: () => openEntry(context, e.id),
