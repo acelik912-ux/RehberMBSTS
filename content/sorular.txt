@@ -2098,3 +2098,79 @@ C) Vefat eden eşin hatırasına saygı göstermek
 D) Boşanan eşlere yeniden düşünme fırsatı vermek
 *E) Mehrin ödenmesini kolaylaştırmak
 = Mehirle iddet arasında böyle bir amaç bağı yoktur.
+
+?? kelam | varlik-delilleri
+İbn Rüşd'e göre Kur'an'ın, halkın da anlayabileceği şekilde Allah'ın varlığını göstermek için kullandığı iki temel delil hangisidir?
+A) Hudûs ve imkân
+*B) İnâyet ve ihtirâ
+C) Temânu' ve fıtrat
+D) Kabûl-i âmme ve ahlak
+E) İmkân ve temânu'
+= İbn Rüşd el-Keşf an menâhici'l-edille'de kelamcıların hudûs delilini eleştirir.
+
+?? kelam | ihtira-delili
+"Kuru topraktaki bir tohumdan canlı bir bitkinin, mikroskobik bir hücreden insanın ortaya çıkması" örneği, Allah'ın varlığına dair hangi delille ilgilidir?
+A) Temânu'
+B) İmkân
+*C) İhtirâ
+D) Kabûl-i âmme
+E) Ahlak
+= İhtirâ delili hayatın ve canlıların örneksiz yaratılmasına dikkat çeker.
+
+?? kelam | temanu
+Aşağıdaki delillerden hangisi doğrudan Allah'ın varlığından çok birliğini (vahdaniyet) ispat etmeye yöneliktir?
+A) Hudûs
+B) İmkân
+C) İnâyet
+*D) Temânu'
+E) Fıtrat
+= "Gökte ve yerde Allah'tan başka ilahlar olsaydı ikisi de bozulurdu" (Enbiyâ 22).
+
+?? kelam | fitrat-delili
+"Hiçbir dini eğitim almamış bir insanın büyük bir tehlike anında kendiliğinden yüce bir güce sığınıp dua etmesi" aşağıdaki delillerden hangisine örnektir?
+A) Hudûs
+*B) Fıtrat
+C) İmkân
+D) Temânu'
+E) İhtirâ
+= Dayanakları: Rûm 30 ve A'râf 172 (elest).
+
+?? kelam | imkan-delili
+Allah'ın varlığına dair delillerle ilgili,
+I. Hudûs delili âlemin sonradan var olmasından hareket eder.
+II. İmkân delilini en sistemli biçimde İbn Sînâ işlemiştir.
+III. Gaye ve nizam delili evrendeki düzen ve amaçlılığa dayanır.
+ifadelerinden hangileri doğrudur?
+A) Yalnız I
+B) Yalnız III
+C) I ve II
+D) II ve III
+*E) I, II ve III
+= Üçü de doğrudur.
+
+?? kelam | varlik-delilleri
+Aşağıdaki delil–dayanak eşleştirmelerinden hangisi yanlıştır?
+A) Temânu' – Enbiyâ 22
+B) Fıtrat – Rûm 30
+C) İmkân – Vâcibü'l-vücûd kavramı
+*D) Hudûs – Bütün toplumların bir yaratıcıya inanması
+E) Ahlak – Kant
+= Bütün toplumların inancı kabûl-i âmme delilidir.
+
+?? kelam | gaye-nizam
+"Dünyanın güneşe olan uzaklığının ve atmosferdeki oksijen oranının canlı hayatı için tam gerektiği ölçüde olması" düşüncesi hangi delilin örneğidir?
+A) Hudûs
+B) İmkân
+*C) Gaye ve nizam (inâyet)
+D) Temânu'
+E) Kabûl-i âmme
+= Hassas denge ve amaçlılık, bilinçli bir düzenleyiciyi gösterir.
+
+?? kelam | ahlak-delili
+Teorik aklın Allah'ın varlığını kanıtlayamayacağını, ancak ahlaki hayatın Allah'ın varlığını zorunlu olarak gerektirdiğini savunan düşünür kimdir?
+A) İbn Sînâ
+B) Gazzâlî
+*C) Kant
+D) İbn Rüşd
+E) Fârâbî
+= Bu yaklaşım ahlak delili olarak bilinir.

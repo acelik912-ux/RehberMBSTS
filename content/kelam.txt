@@ -17,6 +17,25 @@ Temel inanç esaslarını bilmek herkese farz-ı ayındır; kelam ilminde derinl
 > 2026 sorusu: Cevher-araz ve sebr-taksim vesâildendir; meâd (ahiret) ise mesâildendir.
 %% Mesâil = **mesele** (ne?) · Vesâil = **vasıta** (nasıl kanıtlarım?).
 
+@@ varlik-delilleri | Allah'ın varlığının delilleri (genel bakış) | Allah'ın varlığının delilleri | deliller; isbât-ı vâcib; Allah'ın varlığı | 2023,2024,2026
+= Kelamcıların, filozofların ve Kur'an'ın Allah'ın varlığını ve birliğini göstermek için kullandığı akli ve fıtri delillerin toplu haritası.
+@img sema/varlik_delilleri.png
+## Tek bakışta
+- [[hudus-delili|Hudûs]]: Âlem sonradan oldu → bir muhdisi var. (kelamcılar)
+- [[imkan-delili|İmkân]]: Âlem mümkin → Vâcibü'l-vücûd gerekir. (Fârâbî, İbn Sînâ)
+- [[gaye-nizam|Gaye ve nizam (inâyet)]]: Düzen ve amaç → bilinçli düzenleyici.
+- [[ihtira-delili|İhtirâ]]: Hayat ve canlılar örneksiz yaratılmış → yaratıcı.
+- [[temanu|Temânu']]: Birden çok ilah olsaydı düzen bozulurdu → **birlik** delili.
+- [[fitrat-delili|Fıtrat]]: İnanma duygusu yaratılıştan gelir.
+- [[kabul-i-amme|Kabûl-i âmme]]: Bütün toplumların ortak inancı.
+- [[ahlak-delili|Ahlak]]: Ahlak yasası bir yasa koyucuyu gerektirir.
+## Kim hangi delili öne çıkardı?
+- **Kelamcılar** (Mutezile, Eş'arî, Mâtürîdî): en çok hudûs; vahdaniyet için temânu'.
+- **Filozoflar**: imkân (vâcib–mümkin ayrımı).
+- **İbn Rüşd** (el-Keşf an menâhici'l-edille): Kur'an'ın herkese hitap eden iki delili **inâyet** ve **ihtirâ**dır; kelamcıların hudûs delilini halk için fazla karmaşık bulur.
+!! Temânu' Allah'ın varlığını değil **birliğini** ispat eder. Seçeneklerde "varlık delili" diye sunulursa dikkat.
+%% Kod: "**HİGİ TFKA**" → Hudûs, İmkân, Gaye, İhtirâ, Temânu', Fıtrat, Kabûl-i âmme, Ahlak.
+
 @@ hudus-delili | Hudûs delili | Allah'ın varlığının delilleri | | 2024
 = Âlemin sonradan var olduğunu (hâdis), sonradan olan her şeyin bir var edicisi (muhdis) bulunması gerektiğini söyleyen delil.
 ## Akıl yürütme
@@ -26,26 +45,62 @@ Temel inanç esaslarını bilmek herkese farz-ı ayındır; kelam ilminde derinl
 Kelamcıların en çok kullandığı delildir; [[mesail-vesail|cevher–araz]] teorisine dayanır.
 > 2024 sorusu: "Allah vardı ve O'ndan önce hiçbir şey yoktu" hadisi ve âlemin yokluktan var edilmesi vurgusu → hudûs.
 %% Görsel: kum saati — bir anda başlamış, birisi çevirmiş.
+> Örnek düşünce: Boş bir arazide kendiliğinden kusursuz bir saray oluşmaz; sonradan var olan evren de bir var ediciye muhtaçtır.
+Bkz. [[varlik-delilleri]].
 
 @@ imkan-delili | İmkân delili | Allah'ın varlığının delilleri | vâcibü'l-vücûd |
 = Varlığı da yokluğu da mümkün olan şeylerin, varlığı zorunlu (vâcib) bir varlığa muhtaç olduğunu söyleyen delil.
 Varlıklar üçe ayrılır: **vâcib** (olmaması düşünülemez: Allah), **mümkin** (olabilir de olmayabilir de: âlem), **mümteni'** (olması imkânsız). Mümkin bir şeyi var olmaya tercih eden bir sebep gerekir; bu da Vâcibü'l-vücûd'dur.
-Özellikle İbn Sînâ ve sonraki kelamcılar kullanmıştır.
+Özellikle Fârâbî ve **İbn Sînâ** geliştirdi; Gazzâlî sonrası kelamcılar (Fahreddin Râzî vb.) de kullandı.
+> Örnek düşünce: Dengede duran bir terazinin kefelerinden biri kendiliğinden ağır basmaz; onu bir yana yatıran bir etken gerekir. Âlemin varlığını yokluğuna tercih eden de Vâcibü'l-vücûd'dur.
+!! Hudûs "başlangıç"tan, imkân "muhtaçlık"tan yola çıkar. İmkân delili âlem ezelî olsa bile işler; bu yüzden filozoflar onu tercih etti.
+Bkz. [[varlik-delilleri]].
 
 @@ gaye-nizam | Gaye ve nizam (inâyet) delili | Allah'ın varlığının delilleri | inâyet delili; düzen delili | 2026
 = Evrendeki düzen, uyum ve amaçlılığın bilinçli bir yaratıcıyı gösterdiğini söyleyen delil.
 > 2026 sorusu: Gazzâlî'nin "herkesin yararlandığı su" örneği → gaye-nizam delili.
 Kur'an'da göklerin, yerin, gece-gündüzün düzenine dikkat çeken ayetler bu delile örnektir.
+- **İnâyet**: Her şeyin insanın ve canlıların yararına uygun yaratılması (gece–gündüz, mevsimler, yağmur).
+- Dünyanın güneşe uzaklığı, havadaki oksijen oranı gibi hassas dengeler rastlantıyla açıklanamaz.
+- İbn Rüşd bunu [[ihtira-delili|ihtirâ]] ile birlikte Kur'an'ın iki temel delili sayar.
+Bkz. [[varlik-delilleri]].
 
 @@ temanu | Temânu' delili | Allah'ın varlığının delilleri | | 2023
 = Birden fazla ilah olsaydı iradeleri çatışır ve âlemin düzeni bozulurdu diyerek Allah'ın birliğini (vahdaniyet) kanıtlayan delil.
 **Kök:** "birbirine engel olmak".
 Dayanağı: "Eğer yerde ve gökte Allah'tan başka ilahlar olsaydı ikisi de bozulup gitmişti" (Enbiyâ 22); İsrâ 42.
-> 2023 sorusu: İsrâ 42 → temânu'.
+> 2023 sorusu: İsrâ 42 → temânu'. Diğer dayanak: Mü'minûn 91.
+%% Akılda: Bir gemide iki kaptan, bir ülkede iki mutlak hükümdar olmaz.
+!! Temânu' **vahdaniyet** (birlik) delilidir.
+Bkz. [[varlik-delilleri]].
 
 @@ kabul-i-amme | Kabûl-i âmme delili | Allah'ın varlığının delilleri | consensus gentium |
 = Tarih boyunca bütün toplumların bir yaratıcıya inanmış olmasını Allah'ın varlığına delil sayan görüş.
-Yakın delil: **fıtrat** (insanın içinde inanma duygusu bulunması) ve **ahlak** delili (ahlak yasasının bir koyucusu olması).
+Bilinen hiçbir toplumun bir yüce varlık inancı olmadan yaşamadığı söylenir; "Tapınaksız şehir görülmemiştir" sözü bu delilin özetidir.
+Yakın deliller: [[fitrat-delili|fıtrat]] ve [[ahlak-delili|ahlak]]. Bkz. [[varlik-delilleri]].
+
+@@ ihtira-delili | İhtirâ delili | Allah'ın varlığının delilleri | yaratma delili; ihtirâ' |
+= Varlıkların, özellikle hayatın ve canlıların yoktan ve örneksiz yaratılmış olmasından Allah'ın varlığına ulaşan delil.
+**Kök:** "icat etmek, benzeri olmadan yaratmak".
+- İbn Rüşd'e göre Kur'an'ın [[gaye-nizam|inâyet]] ile birlikte kullandığı iki temel delilden biridir.
+- Cansız topraktan bitkinin, mikroskobik hücreden insanın oluşması; hayatın kendiliğinden ortaya çıkmaması bu delilin örnekleridir.
+- Dayanak ayetlerden: "Allah'tan başka taptıklarınız bir sinek bile yaratamaz" (Hac 73), "Yaratılış bakımından siz mi daha zorsunuz, yoksa gök mü?" (Nâziât 27).
+%% Akılda: Kuru tohum + toprak → çiçek. İhtirâ = **hayatın** icadı; inâyet = **düzenin** amacı.
+Bkz. [[varlik-delilleri]].
+
+@@ fitrat-delili | Fıtrat delili | Allah'ın varlığının delilleri | inanma ihtiyacı; elest |
+= İnsanın yaratılışında bir yaratıcıya inanma ve O'na sığınma eğilimi bulunduğunu, bunun sonradan öğretilmediğini söyleyen delil.
+- **Rûm 30**: Allah'ın insanları üzerinde yarattığı fıtrat.
+- **A'râf 172**: "Ben sizin Rabbiniz değil miyim?" sorusuna "Evet" denmesi (elest bezmi).
+- Hadis: "Her çocuk fıtrat üzere doğar…"
+- Hiç din eğitimi almamış birinin bile büyük bir tehlike anında içten gelen bir duayla yardım istemesi bu delile örnek verilir (bkz. Ankebût 65: gemide sıkışınca dini Allah'a halis kılarak dua edenler).
+Bkz. [[kabul-i-amme]], [[varlik-delilleri]].
+
+@@ ahlak-delili | Ahlak delili | Allah'ın varlığının delilleri | vicdan delili; Kant |
+= İnsandaki evrensel ahlak yasasının ve iyiliğin karşılık bulma beklentisinin, bir yasa koyucuyu ve ahireti gerektirdiğini söyleyen delil.
+- Batı düşüncesinde **Kant** ile özdeşleşir: Teorik akıl Allah'ın varlığını ispat edemez ama ahlak (pratik akıl) Allah'ın varlığını ve ruhun ölümsüzlüğünü zorunlu olarak kabul eder.
+- Vicdanın iyiyi emredip kötüyü yasaklaması, bu sesin kaynağı sorusunu doğurur.
+Bkz. [[varlik-delilleri]].
 
 @@ sifatlar | Zâtî (selbî) sıfatlar | Sıfatlar | vücûd; kıdem; bekâ; vahdâniyet; muhâlefetün li'l-havâdis; kıyâm bi-nefsihî | 2024
 = Allah'ın zatına ait olup O'na yakışmayanları nefyeden altı sıfat.
