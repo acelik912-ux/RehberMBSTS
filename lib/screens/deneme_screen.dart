@@ -253,8 +253,9 @@ class _DenemeResultScreenState extends State<DenemeResultScreen> {
           const SizedBox(height: 14),
           Row(children: [
             Expanded(child: Text('Cevap anahtarı', style: Theme.of(context).textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w800))),
+            const SizedBox(width: 6),
             FilterChip(
-              label: const Text('Yalnız yanlış/boş'),
+              label: const Text('Yanlış/boş'),
               selected: _onlyMistakes,
               onSelected: (v) => setState(() => _onlyMistakes = v),
             ),
@@ -291,13 +292,22 @@ class DenemeSummary extends StatelessWidget {
         padding: const EdgeInsets.all(14),
         child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
           Row(children: [
-            Text('${r.right}', style: const TextStyle(fontSize: 44, fontWeight: FontWeight.w900)),
-            Text(' / ${r.total}', style: const TextStyle(fontSize: 22, fontWeight: FontWeight.w600)),
-            const Spacer(),
-            Column(crossAxisAlignment: CrossAxisAlignment.end, children: [
-              Text('%$pct başarı', style: const TextStyle(fontWeight: FontWeight.w800)),
-              Text('Süre: ${mmss(r.seconds)}', style: const TextStyle(color: Colors.grey)),
-            ]),
+            Expanded(
+              child: FittedBox(
+                fit: BoxFit.scaleDown,
+                alignment: Alignment.centerLeft,
+                child: Row(crossAxisAlignment: CrossAxisAlignment.baseline, textBaseline: TextBaseline.alphabetic, children: [
+                  Text('${r.right}', style: const TextStyle(fontSize: 44, fontWeight: FontWeight.w900)),
+                  Text(' / ${r.total}', style: const TextStyle(fontSize: 22, fontWeight: FontWeight.w600)),
+                ]),
+              ),
+            ),
+            Flexible(
+              child: Column(crossAxisAlignment: CrossAxisAlignment.end, children: [
+                Text('%$pct başarı', textAlign: TextAlign.right, style: const TextStyle(fontWeight: FontWeight.w800)),
+                Text('Süre: ${mmss(r.seconds)}', textAlign: TextAlign.right, style: const TextStyle(color: Colors.grey)),
+              ]),
+            ),
           ]),
           const Text('Yanlış doğruyu götürmez: net = doğru sayısı.', style: TextStyle(fontSize: 12, color: Colors.grey)),
           const SizedBox(height: 10),

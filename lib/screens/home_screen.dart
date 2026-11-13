@@ -206,7 +206,7 @@ class _Countdown extends StatelessWidget {
             style: const TextStyle(fontWeight: FontWeight.w800),
           ),
         ),
-        if (last != null) Text('Son deneme: ${last.right}/${last.total}', style: const TextStyle(fontWeight: FontWeight.w600)),
+        if (last != null) Flexible(child: Text('Son deneme: ${last.right}/${last.total}', textAlign: TextAlign.right, style: const TextStyle(fontWeight: FontWeight.w600))),
       ]),
     );
   }
