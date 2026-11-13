@@ -330,6 +330,25 @@ Kelamda [[illiyet]] eleştirisi, [[gaye-nizam]] örnekleri ve son eseri [[ilcamu
 - **Necedât**, **Sufriyye** (daha ılımlı).
 - **İbâdiyye**: Günümüzde Umman ve Kuzey Afrika'da yaşayan ılımlı kol.
 > Tefsirde: Mâide 44'ü ("…hükmetmeyenler kâfirlerdir") günahkâr Müslümanları da kapsayacak şekilde yorumlarlar (2026 sorusu).
+## İbâziyye (2027 hazırlığı için)
+- Abdullah b. İbâz'a nispet edilir; Hâricîliğin **en ılımlı** ve günümüze ulaşan koludur.
+- Büyük günah işleyeni **kâfir ilan etmez** (nimete karşı nankörlük anlamında "küfrân-ı nimet" der).
+- Kuzey Afrika'da **Rüstemîler Devleti**'ni kurdular; bugün özellikle **Umman**'da yaşarlar.
+- Hâricîlik ilk **siyasi ve itikadi** fırkadır: Sıffîn (657) → Tahkim (657) → ayrılık ve Nehrevan (658).
+- Görüşleri: amel imanın parçasıdır; büyük günah işleyen dinden çıkar; siyasi ayrılıkları inanç ayrılığına dönüştürürler (tekfir).
+%% Hâricîlere tepki olarak doğan fırka: **Mürcie** ([[murcie]]).
+
+@@ kaderiyye | Kaderiyye | Diğer fırkalar | Ma'bed el-Cühenî; Gaylân ed-Dımaşkî; kaderin inkârı |
+= İnsanın hür ve bağımsız iradesiyle hareket ettiğini, fiillerini kendi gücüyle yaptığını savunan ve kaderi (ilahi takdiri) reddeden ilk dönem ekolü.
+- Temel ilke: **hür irade + sorumluluk**. İnsan kendi fiilinin yaratıcısıdır.
+- Öncüler: **Ma'bed el-Cühenî** (kader konusunu ilk kez açıkça tartışan), **Gaylân ed-Dımaşkî** (görüşü yayan; Hişâm b. Abdülmelik döneminde öldürüldü).
+- Ortaya çıkışı: Cemel ve Sıffîn sonrası iç çatışmalar; Emevîlerin zulümlerini "kader" ile meşrulaştırmasına tepki.
+- Görüşleri daha sonra [[mutezile]]ye geçti; Mutezile'ye bu yüzden "Kaderiyye" de denir.
+## Cebriyye ile karşılaştırma
+- **Kaderiyye**: İnsan tam özgür → **sorumluluk** vurgusu.
+- **Cebriyye** ([[cehmiyye|Cehmiyye]]): İnsanın seçimi, özgürlüğü ve kudreti yoktur; fiilleri yaratan Allah'tır → **mecburiyet**. Ca'd b. Dirhem, Cehm b. Safvân.
+%% "**Kaderiyye = Kendim yaptım**, **Cebriyye = Cebren yaptırıldım**."
+Bkz. [[kader]], [[kesb]].
 
 @@ cehmiyye | Cehmiyye | Diğer fırkalar | Muattıla; Cehm b. Safvân | 2024
 = Cehm b. Safvân'a (ö. 128/746) nispet edilen, sıfatları inkâr eden ve insan iradesini reddeden fırka.
@@ -337,6 +356,7 @@ Kelamda [[illiyet]] eleştirisi, [[gaye-nizam]] örnekleri ve son eseri [[ilcamu
 - **Cebrî**dirler: İnsanın fiillerinde iradesi yoktur ([[kader]]).
 - Cennet ve cehennemin sonlu olduğunu ileri sürdüler.
 > 2024 sorusu: "Muattıla" nitelemesi → Cehmiyye.
+- Cebrî düşünce ilk kez **Ca'd b. Dirhem**'de görüldü; Cehm b. Safvân bunu sistemleştirdi. Emevî yönetiminin politikalarını meşrulaştırmaya yaradığı ileri sürülür. Karşıtı: [[kaderiyye]].
 
 @@ sia-kavramlari | Şia kavramları | Diğer fırkalar | Şîa; ismet; gaybet; mehdî; ric'at; tevellî; teberrî | 2024
 = Şiî inancında öne çıkan temel kavramlar.

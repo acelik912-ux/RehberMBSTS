@@ -173,6 +173,10 @@ Zayıflık iki ana sebepten doğar:
 - **Ravide kusur** (ta'n): adaletle ilgili ([[mevzu]], [[metruk]]) veya zabtla ilgili ([[muallel]], [[mudrec]], [[maklub]], [[muztarib]], [[musahhaf]], [[saz]], [[munker]]).
 > 2026 sorusu: "Muztarib, muallel, münker, şâz, maklûb" listesi için doğru başlık: **Ravideki kusur açısından zayıf hadisler.**
 !! Zayıf hadis uydurma ([[mevzu]]) değildir; çoğunluğa göre fezâil (amellerin fazileti) konusunda şartlı olarak rivayet edilebilir.
+## Görsel haritalar
+@img sema/hadis_kopukluk.png
+@img sema/ravi_tan.png
+Ayrıntı: [[ravi-tan|Ravideki 10 kusur]] · Kodların hepsi: [[hadis-kodlari]].
 
 @@ adalet | Adalet (ravide) | Sıhhatine göre | adl ravi |
 = Ravinin dürüst, takvalı ve güvenilir kişiliğe sahip olması.
@@ -204,7 +208,8 @@ Zabtı biraz hafif olan ravinin hadisi [[hasen]], zabtı bozuk olanınki [[zayif
 Bazen senedin tamamı atılıp doğrudan "Peygamber şöyle buyurdu" denir.
 > Örnek: [[buhari]]nin bab başlıklarında senedsiz aktardığı rivayetler (ta'lîkât).
 !! Karıştırma: [[mursel]] en üstten (sahabe) düşer; muallak en alttan (musannif tarafı) düşer.
-@img sema/sened_zinciri.png
+@img sema/hadis_kopukluk.png
+%% Akılda: alt ucu boş, asılı ip. "**Mual**lim dipte."
 
 @@ mursel | Mürsel | Sened kopukluğu | irsâl |
 = Tâbiînin, aradaki sahabeyi söylemeden doğrudan "Resulullah şöyle dedi" demesi.
@@ -215,6 +220,8 @@ Bazen senedin tamamı atılıp doğrudan "Peygamber şöyle buyurdu" denir.
 - İmam Şâfiî, başka yollarla desteklenirse kabul eder.
 > Örnek: Saîd b. el-Müseyyeb'in "Resulullah buyurdu ki…" diye başlayan rivayetleri.
 !! 2024 sorusu: Mürsel bir hadisi müsned (kesintisiz) gibi rivayet etmek bir [[muallel|illet]] örneğidir.
+%% Akılda: tepeden salıverilen kuş. "**Mür**şit tepede."
+@img sema/hadis_kopukluk.png
 
 @@ munkati | Munkatı' | Sened kopukluğu | inkıtâ' |
 = Senedin ortasından (sahabeden sonraki tabakalardan) bir ravinin düşmesiyle oluşan hadis.
@@ -222,12 +229,16 @@ Bazen senedin tamamı atılıp doğrudan "Peygamber şöyle buyurdu" denir.
 Farklı yerlerden birer ravi düşmesi de munkatı' sayılır.
 Örnek: Bir ravinin hiç görüşmediği bir hocadan doğrudan rivayet etmesi.
 !! Klasik karıştırma: [[maktu]] (tâbiûn sözü) — aynı kök, farklı kavram. Art arda iki ravi düşerse [[mudal]] olur.
+%% Akılda: tek tek kesik ip; düşenler **yan yana değil**.
+@img sema/hadis_kopukluk.png
 
 @@ mudal | Mu'dal | Sened kopukluğu | i'dâl |
 = Senedin ortasından art arda iki veya daha fazla ravinin düşmesiyle oluşan hadis.
 **Kök:** ʿ-d-l "zorlaştırmak, yormak" → iki halka birden eksik; izini sürmek **zor**.
 > Örnek: İmam [[muvatta|Mâlik]]'in "Ebû Hüreyre'den bana ulaştı ki…" demesi (Mâlik ile Ebû Hüreyre arasında iki ravi vardır).
 %% Munkatı' = 1 kopuk halka · Mu'dal = yan yana 2+ kopuk halka.
+%% Akılda: çözülmez düğüm; **yan yana iki halka** yok.
+@img sema/hadis_kopukluk.png
 
 @@ mudelles | Müdelles | Sened kopukluğu | tedlîs; tedlîsü'l-isnâd; tedlîsü'ş-şüyûh |
 = Ravinin senetteki bir kusuru gizleyerek rivayet ettiği hadis.
@@ -236,6 +247,9 @@ Farklı yerlerden birer ravi düşmesi de munkatı' sayılır.
 - **Tedlîsü'l-isnâd**: Ravi, görüştüğü bir hocadan **duymadığı** bir hadisi "an fülân" (falandan) gibi duymuş izlenimi veren belirsiz bir ifadeyle aktarır. "Haddesenâ" (bize anlattı) demez.
 - **Tedlîsü'ş-şüyûh**: Hocasını tanınmasın diye bilinmeyen bir lakap veya künyeyle anar.
 Tedlis yapan ravinin, açıkça "işittim" demediği rivayetleri şüpheli sayılır.
+- **Mürsel-i hafî**: Ravi, aynı dönemde yaşadığı (muâsır) ama **hiç görüşmediği** birinden duymuş gibi rivayet eder. Tedlîste görüşme vardır, mürsel-i hafîde yoktur.
+%% Akılda: makyajlı yüz — kusur var ama gizli. "**Müd**elles maskeli."
+@img sema/hadis_kopukluk.png
 
 @@ mevzu | Mevzû (uydurma) hadis | Ravideki kusur | vaz'; uydurma |
 = Hz. Peygamber'in söylemediği halde yalan yere ona nispet edilen söz.
@@ -311,6 +325,26 @@ Karşıtı, yani tercih edilen rivayet **mahfûz** adını alır.
 !! 2023 tuzağı: Bu tür hataya "mevkuf" denmez. Doğrusu musahhaf/muharref.
 %% Musahhaf = **nokta** değişti · Muharref = **hareke** değişti · [[maklub]] = **yer** değişti.
 
+@@ ravi-tan | Ravideki 10 kusur (ta'nü'r-râvî) | Ravideki kusur | ta'n; adalete yönelik kusurlar; zabta yönelik kusurlar | 2026
+= Raviyi güvenilmez kılan, beşi adalete (kişilik) beşi zabta (hafıza) yönelik on kusur ve doğurdukları zayıf hadis türleri.
+@img sema/ravi_tan.png
+## I. Adalete yönelik
+- **Kizb** (yalancılık): Ravi hadiste yalan söylemiştir → [[mevzu|mevzû]].
+- **İttihâm bi'l-kizb**: Günlük hayatta yalancı bilinir, hadiste yalanı sabit değildir → [[metruk|metrûk]].
+- **Fısk**: Dinin emirlerine aykırı yaşar → [[munker|münker]].
+- **Cehâlet**: Ravinin kimliği veya güvenilirliği bilinmez → **mechûl** (adı geçmiyorsa **mübhem**).
+- **Bid'at**: Sapkın görüş sahibidir; kendi görüşünün propagandasını yapmıyorsa çoğunluk rivayetini kabul eder.
+%% "**K**ötü **İ**nsan **F**ırsatı **C**ebinde **B**ekler" → Kizb · İttihâm · Fısk · Cehâlet · Bid'at
+## II. Zabta yönelik
+- **Fuhşu'l-galat** (kesretü'l-galat): Çok fazla hata → münker.
+- **Gaflet**: Aşırı dalgınlık, dikkatsizlik → münker.
+- **Vehm**: Senet veya metinde yanılma; sonradan, rivayet yolları toplanınca fark edilir → [[muallel]].
+- **Muhâlefetü's-sikât**: Güvenilir ravilere aykırılık → [[saz|şâz]], [[munker|münker]], [[mudrec|müdrec]], [[maklub|maklûb]], [[muztarib|muztarib]], [[musahhaf|musahhaf/muharref]].
+- **Sû'-i hıfz**: Zayıf hafıza; sürekliyse rivayeti kabul edilmez, sonradan olmuşsa (yaşlılık vb.) ravi **muhtalit** sayılır.
+%% "**F**azla **G**afil **V**ezir **M**illeti **S**attı" → Fuhş · Gaflet · Vehm · Muhâlefet · Sû'-i hıfz
+!! 2026: Muztarib, muallel, münker, şâz, maklûb listesinin başlığı → **ravideki kusur** sebebiyle zayıf hadisler. Senedde kopukluk (mürsel, munkatı', mu'dal, muallak, müdelles) ayrı başlıktır.
+Bkz. [[adalet]], [[zabt]], [[zayif]].
+
 @@ cerh-tadil | Cerh ve ta'dîl | Hadis ilimleri | el-cerh ve't-ta'dîl | 2026
 = Ravileri kusurlu (cerh) veya güvenilir (ta'dîl) olarak niteleyen, öncelikle senedle ilgilenen ilim.
 **Cerh**: yaralamak → ravinin kusurunu ortaya koymak. **Ta'dîl**: âdil olduğunu belirtmek.
@@ -362,6 +396,11 @@ Kur'an'daki karşılığı [[esbab-i-nuzul]]dür.
 - **Vicâde**: Birinin el yazısı hadis sahifesi **bulunur**. (vecd = bulmak)
 !! 2023 tuzağı: "Vasiyye = 'Benim rivayetlerim işte bunlardır' sözü" → bu i'lâm'dır. "Semâ = talebeye izin vermek" → bu icâzettir. Doğru eşleşme yalnızca münâvele idi.
 @img sema/tahammul.png
+## Yeni kod
+%% "**S**abah **K**ahvesini **İ**çen **M**ehmet **M**ektubu **İ**lk **V**apurda **V**erdi" → Semâ · Kırâat · İcâzet · Münâvele · Mükâtebe · İ'lâm · Vasiyyet · Vicâde.
+- **İmlâ**: Hoca okur, öğrenci yazar. Yazdıran hocaya **mümlî**, yazan öğrenciye **müstemlî** denir.
+- En makbul iki yol: **semâ** ve **kırâat**. İ'lâm, vasiyyet ve vicâde ile rivayeti âlimlerin çoğu yeterli görmez; vicâdede "haddesenî" denmez, "falanın yazısında buldum" denir.
+@img sema/tahammul_kod.png
 
 @@ hadis-tarihi | Hadis tarihinin dönemleri | Hadis tarihi | hıfz; kitâbet; tedvîn; tasnîf | 2024
 = Hadislerin ezberlenmesinden kitaplarda tasnifine kadar geçirdiği aşamalar.
@@ -534,3 +573,11 @@ Veda Hutbesi tek bir metin olarak değil, onu dinleyen çok sayıda sahabinin ak
 ## İçeriğinden öne çıkanlar
 Can, mal ve namus dokunulmazlığı; cahiliye faizinin ve kan davalarının kaldırılması; kadınların hakları; Kur'an'a ve sünnete sarılma; insanların eşitliği.
 Bkz. [[mutevatir]], [[meshur]].
+
+@@ hadis-kodlari | Hadis kod kartları (son tekrar) | Temel kavramlar | kodlar; hafıza kodları; hadis şifreleri |
+= Hadis usulünün en çok sorulan konularını tek sayfada toplayan hafıza kodları.
+@img sema/hadis_kodlari.png
+@img sema/hadis_kopukluk.png
+@img sema/ravi_tan.png
+@img sema/tahammul_kod.png
+> Kullanım: Her kodu söyle, sonra kapatıp açılımını yaz. Yazamadığın kodun maddesine dön: [[merfu]], [[meshur]], [[mutabi]], [[zayif]], [[ravi-tan]], [[tahammul-yollari]], [[kutub-i-sitte]].

@@ -401,6 +401,31 @@ Bkz. [[kefaret]].
 - 2024: Ric'î boşanma iddetinde koca ölürse kadın vefat iddetine geçer.
 - 2024: Fâsid nikâhta zifaf olduysa iddet beklenir.
 @img sema/iddet.png
+@img sema/iddet_akis.png
+
+@@ nikah | Nikâh akdi ve şartları | Aile ve miras | evlilik akdi; icap ve kabul; şahit; veli; alenilik; ikrah | 2026
+= Evliliği kuran akit; rüknü, kuruluş (in'ikad) şartları ve geçerlilik (sıhhat) şartları mezheplere göre farklılık gösterir.
+@img sema/nikah_sartlari.png
+## Rükün
+- **Hanefî**: Yalnızca **icap ve kabul** (irade beyanı).
+- **Şâfiî**: İcap-kabule ek olarak eşler, veli ve iki şahit de rükündür.
+## Kuruluş (in'ikad) şartları
+- **Ehliyet**: Akıl; ehliyetsiz kimsenin nikâhını velisi yapar.
+- **İrade beyanı** aynı mecliste ve usulüne uygun olmalı.
+- **Veli**: Hanefîler dışındaki mezheplere göre kadının velisinin izni şarttır. Hanefî'de akıllı ve ergen kadın velisiz evlenebilir; denk olmayan evliliğe velinin itiraz hakkı vardır (İmam Muhammed bu konuda cumhurla aynı görüştedir).
+- **Evlenme engeli** bulunmamalı.
+- **Fâsid şart** bulunmamalı: belli bir süre için kıyılan (mut'a, muvakkat) nikâh geçerli değildir.
+## Geçerlilik: alenilik ve şahitler
+- **Hanefî**: İki erkek **veya bir erkek ve iki kadın** (ÖSYM sordu). **Cumhur**: İki erkek.
+- Şahitler Müslüman, akıllı ve ergen olmalı. Hanefî'ye göre şahitlerin adaletli olması şart değildir.
+- **Mâlikî**: Esas olan evliliğin **ilanı**dır; şahitler bulunsa bile "gizli kalsın" şartıyla kıyılan nikâh geçersizdir. Hanbelîler gizlemeyi mekruh sayar ama nikâhı geçerli görür.
+## İkrah (zorlama)
+- **Cumhur**: Zorla kıyılan nikâh geçersizdir ("Ümmetimden hata, unutma ve zorlama kaldırılmıştır").
+- **Hanefî**: Geçerlidir; zorlananın rızası yoktur ama seçimi (ihtiyar) vardır. Dayanak: "Üç şeyin ciddisi de ciddidir, şakası da ciddidir: nikâh, boşama ve ric'at" (Ebû Dâvûd, Talâk; Tirmizî, Talâk).
+%% Hanefî şahit: "**2K + 1E** = şahitlik tamam" · Cumhur: "**2E**"
+%% Kuruluş şartları: "**E**v **İ**çin **V**eli **E**vet **F**ermanı" → Ehliyet · İrade (tek meclis) · Veli · Engel yok · Fâsid şart yok
+%% Hanefî'nin üç farkı: "**Velisiz olur, kadın şahit olur, zorla olur.**"
+Bkz. [[iddet]], [[hidane]], [[fikih-kodlari]].
 
 @@ hidane | Hidâne ve velayet | Aile ve miras | hidâne; velâyet; vesâyet; nafaka | 2023
 = Hidâne: küçük çocuğun bakım ve terbiyesini üstlenme hakkı; öncelikle annenindir.
@@ -517,3 +542,10 @@ Fuzûlînin işlemi, adına işlem yapılan kişinin **onayına bağlı** (mevku
 - **Genellik / eşitlik** (2024): Kimseye ayrıcalık yok — Mahzûmlu kadının hırsızlık vakasında Peygamber: "Kızım Fâtıma çalsaydı onun da elini keserdim."
 - **Şahsîlik**: Kimse başkasının suçundan sorumlu tutulmaz.
 - Suç ile ceza arasında denge; şüphe hâlinde had cezası düşer.
+
+@@ fikih-kodlari | Fıkıh kod kartları (son tekrar) | Usul: deliller | kodlar; hafıza kodları; fıkıh şifreleri |
+= Sınavın üçte birini oluşturan fıkıhta en çok sorulan konuların hafıza kodları tek sayfada.
+@img sema/fikih_kodlari.png
+@img sema/nikah_sartlari.png
+@img sema/iddet_akis.png
+> Kullanım: Kodu oku, kapat, açılımını yaz. Takıldığın kodun maddesine git: [[teklifi-hukum]], [[istihsan]], [[abdest]], [[hac]], [[kefaret]], [[kurban]], [[iddet]], [[nikah]], [[miras]], [[sirketler]], [[akit-turleri]].

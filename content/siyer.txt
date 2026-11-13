@@ -49,6 +49,15 @@ Medine'yi ortak savunulacak bir şehir ilan etti; anlaşmazlıklarda son merci H
 - **Tebük** (9/630): Son sefer.
 %% Mûte kodu: "Zeyd Câfer'le Revâha'ya, Hâlid kurtardı" (Z-C-R-H).
 @img sema/arabistan.png
+## Gazve ve seriyye
+- **Gazve**: Hz. Peygamber'in bizzat sevk ve idare ettiği sefer. **Seriyye**: Bir sahabinin komutasında gönderilen birlik. Asker sayısı, hareket amacı ve çarpışma olup olmaması bu ayrımı değiştirmez.
+- Vâkıdî ve İbn Sa'd'a göre **27 gazve** vardır; bunların yalnızca **9**'unda çarpışma olmuştur. Bu konudaki eserlere **megâzî** denir (Vâkıdî, Kitâbü'l-Megâzî).
+- Gazvelerin amacı: can, mal ve inanç güvenliğini korumak, zulmü ve saldırıları önlemek, tebliğin önündeki engelleri kaldırmak.
+- İlkeler: sivillere dokunulmaz; yağma ve tahrip yasaktır; esirlere iyi davranılır; antlaşmalara sadakat esastır.
+- Ayetler: **Hac 39** (saldırıya uğrayanlara ilk savaş izni), **Bakara 190** (size savaşanlarla savaşın, haddi aşmayın), **Bakara 193** (fitne kalmayıncaya kadar), **Tevbe 52** (iki güzel sonuç: şehitlik veya zafer).
+- **3 Bedir**: I. Bedir (Safevân, takip) · II. Büyük Bedir (çarpışma; ÖSYM sordu) · III. Bedrülmev'id (randevu, savaş olmadı).
+%% 9 çarpışmalı gazve: "**B**ir **U**zun **H**ikâye: **K**ız **M**ektebe **H**ediye **M**ektup **H**ızlıca **T**aşıdı" → Bedir · Uhud · Hendek · Kurayza · Mustalik · Hayber · Mekke · Huneyn · Tâif
+@img sema/gazveler.png
 
 @@ ebu-bekir | Hz. Ebû Bekir | Dört Halife | | 2023,2026
 = İlk halife (11–13/632–634).
@@ -128,6 +137,24 @@ Hârûnürreşîd, [[memun]] (Beytü'l-hikme, [[mihne]]), Mu'tasım dönemleri p
 
 @area mezhep
 
+@@ mezhep-kavrami | Mezhep kavramı ve mezheplerin doğuş sebepleri | Mezhepler tarihine giriş | ehl-i sünnet; ehl-i bid'at; ehl-i hevâ; mübtedia; fırka |
+= Dinin anlaşılması ve yorumlanmasındaki farklılıklardan doğan fikir ve uygulamaların kurumsallaşmış hâli.
+## İlgili kavramlar
+- **Ehl-i sünnet**: Kendilerini bu adla tanımlayan geniş Müslüman toplulukları.
+- **Ehl-i bid'at, ashâbü'l-bida', mübtedia**: Ehl-i sünnet geleneğinde farklı itikadi görüşlere sahip gruplar için kullanılan adlar.
+- **Ehl-i hevâ, ashâbü'l-ehvâ**: Sünnet çizgisinde görülmeyenler için kullanılan nitelemeler.
+## Ortaya çıkış sebepleri (8)
+1. İnsan unsuru (farklı anlayış ve mizaçlar)
+2. Müteşâbih ayetlerin farklı yorumlanması
+3. Sünnet ve hadislerdeki rivayet farklılıkları
+4. Diğer dinler ve felsefi düşüncelerle tartışmalar
+5. Müslümanların karşılaştığı yeni olaylar
+6. Allah'ın isim ve sıfatları, peygamberlerin sıfatları ve ismeti hakkında farklı yorumlar
+7. Devlet başkanlarının idari ve siyasi tercihleri
+8. Siyasi mücadeleler ve imamet tartışmaları
+%% Kod: "**İ-M-S-D-Y-İ-D-S**" → "**İ**nsan **M**ütevazı **S**ünnetle **D**ost; **Y**eni **İ**simler **D**evleti **S**arsar".
+Bkz. [[haricilik]], [[sia-kavramlari]], [[mutezile]].
+
 @@ batinilik | Bâtınîlik | Bâtınî fırkalar | |
 = Dini metinlerin zâhirî (görünen) anlamının arkasında gizli bir bâtın (iç) anlam olduğunu ileri sürüp asıl olanın bu iç anlam olduğunu söyleyen akımların ortak adı.
 [[ismaililik]], [[durzilik]], [[nusayrilik]] bu çizgidedir. Bâtınî yorum [[isari-tefsir]]den farklıdır: işârî tefsir zâhiri kabul eder, Bâtınîlik onu iptal edebilir.
@@ -135,6 +162,7 @@ Hârûnürreşîd, [[memun]] (Beytü'l-hikme, [[mihne]]), Mu'tasım dönemleri p
 @@ imamiyye | İmâmiyye (İsnâaşeriyye) | Şiî fırkalar | On iki imam; Ca'feriyye |
 = On iki imama inanan, Şia'nın en kalabalık kolu.
 İmamet nasla Hz. Ali ve soyuna aittir; on ikinci imam Muhammed el-Mehdî gaybettedir. Fıkhı Ca'ferî fıkhıdır. Bugün İran, Irak, Lübnan ve Azerbaycan'da yaygındır. Kavramlar: [[sia-kavramlari]].
+- Temel kavramlar: **vasiyet/nas** (imamın nasla belirlenmesi), **ismet** (imamların hata ve günahtan korunmuşluğu), **ric'at** (bazı kişilerin kıyamet öncesi dünyaya dönüşü), **takiye**, **bedâ**. Fark için: [[zeydiyye]].
 
 @@ zeydiyye | Zeydiyye | Şiî fırkalar | Zeyd b. Ali | 2026
 = Zeyd b. Ali'nin (ö. 122/740) imametini kabul eden, Ehl-i sünnete en yakın Şiî kol.
@@ -142,6 +170,12 @@ Hârûnürreşîd, [[memun]] (Beytü'l-hikme, [[mihne]]), Mu'tasım dönemleri p
 - İmam Hz. Fâtıma soyundan olmalı ve kılıçla hakkını aramalıdır.
 - **İtikatta Mutezile'ye**, **fıkıhta Hanefî**lere yakındır (2026).
 - Bugün Yemen'de yaşar.
+## İmâmiyye ile farkı (ÖSYM sordu)
+- **İmamın masumiyeti**: İmâmiyye'ye göre imam nasla belirlenir ve masumdur; Zeydiyye'ye göre imamlar **masum değildir**.
+- **Takiye**: İmâmiyye'de önemli bir kavramdır; Zeydiyye'de **caiz değildir**.
+- **İmamet ve soy**: İmâmiyye Hz. Ali ve Ehl-i beyt; Zeydiyye **Hz. Fâtıma soyu** vurgusu yapar.
+- **İlk iki halife**: İmâmiyye Hz. Ali'nin imamet hakkının gasp edildiğini söyler; Zeydiyye Hz. Ebû Bekir ve Ömer'in halifeliğini **caiz** görür.
+%% Zeydiyye: "**Masum yok, takiye yok, Ebû Bekir-Ömer tamam.**"
 
 @@ ismaililik | İsmâilîlik | Şiî fırkalar | Seb'iyye; Küni; Kader; Fâtımîler | 2024
 = İmametin Ca'fer es-Sâdık'tan sonra büyük oğlu İsmail'e geçtiğini kabul eden Bâtınî Şiî kol.

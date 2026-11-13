@@ -86,6 +86,28 @@ Bkz. [[esbab-i-nuzul]].
 - Ashâb-ı Sebt: Cumartesi yasağını çiğneyenler.
 - **Ashâb-ı Meymene** (2023): Ahirette sağdakiler — kınanan bir grup değildir.
 
+@@ kiraat | Kıraat ve kırâat-i seb'a | Kur'an tarihi | kıraat imamları; yedi kıraat; şâz kıraat; Hafs; Âsım; İbn Mücâhid |
+= Kur'an'ın Hz. Peygamber'den nakledilen farklı okunuş tarzları; sahih kıraatin üç şartı ve yedi (on) kıraat imamı.
+@img sema/kiraat.png
+## Terimler
+- **Kıraat imamı**: Yaygın yedi veya on kıraatin dayandırıldığı otorite âlim.
+- **Ravi**: Kıraati imamdan alıp nakleden âlim. **Rivayet**: Bir imamın ravilerinin birbirine göre farklı naklettiği okuyuş.
+- **Tarik**: Raviden alan kimseye nispet edilen kıraat. **Vecih**: Okuyucunun tercihine bağlı okuyuş farkları.
+## Sahih kıraatin 3 şartı
+1. **Senet**: Sahih ve kesintisiz senetle Hz. Peygamber'e ulaşmalı.
+2. **Dil**: Arap dili kurallarına uymalı.
+3. **Mushaf**: Hz. Osman'ın mushaflarının yazımına aykırı olmamalı.
+%% "**SeDiM**" → Senet · Dil · Mushaf
+- Sahih kıraatler senet bakımından **mütevâtir** veya **meşhur**dur. !! Meşhur kıraat, sahih olmayanlardan değildir (ÖSYM tuzağı).
+- Sahih olmayanlar: **şâz** (senedi sağlam değil), **müdrec** (sahabenin açıklama notunun Kur'an sanılması), **mevzû** (uydurma).
+## Yedi imam
+- Medine: **Nâfi'** · Mekke: **İbn Kesîr** · Basra: **Ebû Amr** · Şam: **İbn Âmir** · Kûfe: **Âsım, Hamza, Kisâî**.
+- On'a tamamlayanlar: Ebû Ca'fer (Medine), Ya'kûb (Basra), Halef (Kûfe).
+- Bugün en yaygın okuyuş: **Âsım kıraati, Hafs rivayeti**.
+%% "Kûfe'de üç: **Âh-K**ûfe" → **Â**sım, **H**amza, **K**isâî · Diğer dört şehre birer imam.
+- Yedili tasnifi **İbn Mücâhid** (Kitâbü's-Seb'a) yaptı; **Dânî** (et-Teysîr) ve **Şâtıbî** (Şâtıbiyye) yerleştirdi. Bu seçim, sahih okuyuşların yalnız yedi olduğu anlamına gelmez.
+Bkz. [[kuran-tarihi]], [[harekeleme]].
+
 @area tefsir
 
 @@ tefsir-ekolleri | Sahabe tefsir ekolleri | Tefsir ekolleri | Mekke ekolü; Medine ekolü; Kûfe ekolü | 2023,2026
@@ -108,6 +130,8 @@ Peygamber'in "Allah'ım onu dinde fakih kıl ve ona te'vili öğret" duasına ma
 - Ebü'l-Leys es-Semerkandî, Bahrü'l-ulûm: rivayet, dirayet, kıraat ve işârî yorum içerir; **bilimsel (ilmî) yönü yoktur** (2024).
 !! Rivayet tefsirinde "değişen örfle yeniden değerlendirme" aranmaz; bu dirayet yaklaşımıdır (2026).
 Bkz. [[israiliyat]], [[dirayet-tefsiri]].
+- Başvurduğu kaynaklar: Kur'an, sünnet, sahabe ve tâbiûn görüşleri; temel yazılı kaynağı hadis mecmualarıdır.
+%% Rivayet üçlüsü: "**Taberî – İbn Kesîr – Suyûtî**" → Câmiu'l-beyân · Tefsîrü'l-Kur'âni'l-azîm · ed-Dürrü'l-mensûr
 
 @@ dirayet-tefsiri | Dirayet tefsiri | Tefsir çeşitleri | re'y tefsiri | 2023
 = Dil, akıl, içtihat ve diğer ilimleri kullanarak Kur'an'ı açıklayan tefsir.
@@ -120,6 +144,8 @@ Bkz. [[israiliyat]], [[dirayet-tefsiri]].
 - **Ferrâ, Meâni'l-Kur'ân**: İlk dilbilimsel tefsirlerden (2026).
 - [[kadi-abdulcebbar]], Müteşâbihü'l-Kur'ân (Mutezilî).
 - **Elmalılı Hamdi Yazır, Hak Dini Kur'an Dili** (Türkçe; Hamidullah değil! — 2023).
+- Müfessir rivayetle yetinmez, daha etkindir; içtihat eder, yeni sorunlara çözüm arar. Delile dayalı akli yorum yasak değildir.
+> Örnek: Hz. Ömer, Nasr suresine İbn Abbâs'ın "Peygamber'in vefatının yaklaştığını haber veriyor" şeklindeki yorumunu beğenmişti.
 
 @@ isari-tefsir | İşârî tefsir | Tefsir çeşitleri | sûfî tefsir | 2024
 = Ayetlerin zâhirî anlamını kabul ederek, sûfîlerin kalbine doğan iç (işârî) anlamları açıklayan tefsir.
@@ -130,6 +156,7 @@ Bkz. [[israiliyat]], [[dirayet-tefsiri]].
 - ✘ "Vecd hâlinde yapılmalı" veya "bütün sûfîler aynı yoruma ulaşmalı" şart değildir.
 Eserler: Kuşeyrî, Letâifü'l-işârât; Sülemî, Hakâiku't-tefsîr.
 !! Bâtınîlerin zâhiri yok sayan yorumları işârî tefsir değildir ([[batinilik]]).
+- Diğer adları: remzî tefsir, tasavvufî tefsir. Temsilciler: **Sülemî**, **Kuşeyrî**, **İsmail Hakkı Bursevî** (Rûhu'l-beyân).
 
 @@ ilmi-tefsir | İlmî ve modern tefsir | Tefsir çeşitleri | Tantâvî Cevherî; el-Menâr; Fazlurrahman | 2024,2026
 = Ayetleri bilimsel bulgular ışığında yorumlayan (ilmî) ve çağdaş sorunlara cevap arayan (modern) tefsir yaklaşımları.
@@ -151,6 +178,11 @@ Kur'an ve sahih sünnete uygun olanlar kabul, aykırı olanlar red edilir; hakk�
 - **Hurûf-ı mukattaa**: Sure başlarındaki harfler; Hz. Ebû Bekir "Kur'an'ın sırrı" demiştir (2024).
 - **Münâsebât** (ayetler arası ilişki), **Aksâm** (yeminler), **Emsâl** (meseller), **Kasas** (kıssalar), **İ'câz**.
 %% Hadis ilimleriyle eşleştir: Garîbü'l-Kur'an ↔ [[garibul-hadis]] · Esbâb-ı nüzûl ↔ [[esbabu-vurud]].
+## Üç gruba ayırma (sınıflama)
+- **Rivayet ağırlıklı ilimler** (nakle dayanır): Esbâb-ı nüzûl (senet ve metin incelenir), fezâil, [[kiraat|kıraat]], kasas, Kur'an tarihi (nüzul, yazım, cem, çoğaltma, noktalama, harekeleme), [[mekki-medeni|Mekkî-Medenî]] (temel ayrım: **hicret**), nâsih-mensûh, resmü'l-mushaf (Hz. Osman mushaflarının imla ve yazım özellikleri).
+- **Dirayet ağırlıklı ilimler** (dil ve tasnife dayanır): Aksâmü'l-Kur'an (yeminler), emsâl (meseller), i'râb (gramer ve cümle yapısı), garîb, vücûh ve nezâir.
+- **Karma ilimler** (nakil + yorum): Ahkâmü'l-Kur'an, i'câz, muhkem-müteşâbih, münâsebât (ayet ve sureler arası bağ), müşkil, tefsir ve te'vil, üslûb.
+%% "**Rivayet = ne oldu, ne geldi?** · **Dirayet = nasıl söylendi?** · **Karma = ne demek, nasıl uygulanır?**"
 
 @@ esbab-i-nuzul | Esbâb-ı nüzûl | Kur'an ilimleri | sebeb-i nüzûl | 2024
 = Bir ayetin inmesine sebep olan olay veya soru.
@@ -182,3 +214,49 @@ Selef müteşâbihleri tevil etmeden kabul etmiş; halef ve [[kadi-abdulcebbar|M
 = Ayetlerin bir mezhebin görüşlerini destekleyecek şekilde yorumlanması.
 > 2026: Mâide 44'ü ("Allah'ın indirdiğiyle hükmetmeyenler kâfirlerdir") günah işleyen Müslümanları da kapsayacak şekilde tekfirle yorumlayan → [[haricilik|Haricî]] müfessirler.
 [[kadi-abdulcebbar]] Mutezilî, Nesefî Mâtürîdî, Râzî Eş'arî bakışla tefsir yazmıştır.
+
+@@ sunnetin-beyani | Sünnetin Kur'an'ı açıklaması (4M → 4T) | Kur'an ilimleri | mücmelin tebyîni; mübhemin tafsîli; mutlakın takyîdi; müşkilin tavzîhi; orta namaz | 2023,2024
+= Kur'an'daki mücmel, mübhem, mutlak ve müşkil ifadelerin Hz. Peygamber'in açıklamalarıyla tebyîn, tafsîl, takyîd ve tavzîh edilmesi.
+@img sema/sunnet_4t.png
+## 1. Mücmelin tebyîni
+Lafzın kendisinden kaynaklanan kapalılık; ne kastedildiğini gösteren yeterli bir karine yoktur. Namaz, zekât, hac, diyet ve kısas emirlerinin nasıl uygulanacağını sünnet açıklamıştır. Kelime örnekleri: "as'ase" (Tekvîr 17), "helû'" (Meâric 19).
+## 2. Mübhemin tafsîli
+Kur'an'da kim veya ne olduğu açıkça söylenmeyen bir ifadenin ayrıntılandırılması; temel kaynak Hz. Peygamber'in açıklamalarıdır.
+- **Bakara 238**: "Orta namaza dikkat edin" → **ikindi namazı** (ÖSYM sordu).
+- **Fâtiha**: Nimet verilenler → peygamberler, sıddîklar, şehitler, salihler (Nisâ 69); gazaba uğrayanlar ve sapanlar hadiste Yahudiler ve Hristiyanlar olarak açıklanmıştır.
+- **Abese 1-2**: Âmâ → **Abdullah b. Ümmü Mektûm**.
+- Hz. Âdem'in eşi → **Havva** (ÖSYM sordu).
+## 3. Mutlakın takyîdi
+- **Müzzemmil 20** "Kur'an'dan kolayınıza geleni okuyun" + hadis "Fâtiha'sız namaz olmaz".
+- **Mâide 38** "Hırsızın elini kesin" + hadis: el **bilekten** kesilir.
+## 4. Müşkilin tavzîhi
+İlk bakışta çelişki veya uyumsuzluk var gibi görünen ifadedeki güçlüğün giderilmesi.
+- **Meryem 71** "Sizden oraya varmayacak (vürûd) kimse yoktur" ↔ müminlerin cennete gireceğini bildiren ayetler. Çözüm: varmak ile orada azap görmek aynı değildir; ateş müminlere, Hz. İbrahim'e olduğu gibi serin ve esenlik olacaktır.
+%% **Mü**cmel-**Teb**yîn · **Müb**hem-**Taf**sîl · **Mut**lak-**Tak**yîd · **Müş**kil-**Tav**zîh
+%% Ayırt et: **Mübhem = isim yok** (kim?) · **Mücmel = yöntem yok** (nasıl?).
+Bkz. [[mubhemat]], [[muhkem-mutesabih]], [[ulumul-kuran]].
+
+@@ sahabe-tabiun-tefsiri | Sahabe ve tâbiûn dönemi tefsiri | Tefsir ekolleri | sahabe tefsiri; tâbiûn tefsiri; hükmen merfû; Mukātil b. Süleyman |
+= Sahabe ve tâbiûn dönemlerinde tefsirin kapsamı, kaynakları ve özellikleri.
+## Sahabe dönemi
+- Sahabenin bir kısmı Allah'ın muradına kendi tercihini karıştırma endişesiyle **ihtiyatlı** davrandı; bir kısmı nakil bulamayınca **kendi içtihadıyla** tefsir etti.
+- **Kapsam**: Kur'an'ın tamamı tefsir edilmedi. **İhtilaf**: Çeşitlilik (tenevvu') var, zıtlık yok. **Tedvin**: Tefsir henüz yazıya geçirilmedi. Ayetlerin **iniş sebeplerini** açıkladılar.
+- Kaynaklar: Kur'an, sünnet, şiirle istişhad, (az miktarda) İsrâiliyat, içtihat.
+- **Bağlayıcılık**: İçtihada kapalı bilgi (nüzul sebebi gibi) **hükmen merfû** sayılır; içtihada açık yorumları bağlayıcı değildir, aralarında tercih yapılır.
+## Tâbiûn dönemi
+- Kur'an'ın **tamamı** tefsire konu oldu; açıklamalar genişledi, fıkhi izahlar arttı.
+- Şiirle istişhad sürdü; **İsrâiliyat** daha geniş yer aldı.
+- Aktarım yine sözlüydü (tedvin edilmedi); ayetlerin tefsirinde **kıyasa** başvuruldu.
+- Kaynak değeri: Tâbiûnun ittifak ettiği görüşün güvenilirliği yüksektir; ihtilaf ettiklerinde tercih yapılır, içtihada açık meselede hata ihtimali vardır.
+- İlk tam tefsirlerden biri: **Mukātil b. Süleyman**.
+%% Sahabe: "**Az, ihtilafsız, yazısız, sebepli**" · Tâbiûn: "**Tam, geniş, İsrâiliyatlı, kıyaslı**"
+Bkz. [[tefsir-ekolleri]], [[israiliyat]].
+
+@@ diger-tefsir-turleri | Lügavî, mezhebî, ictimâî ve konulu tefsir | Tefsir çeşitleri | lügavî tefsir; filolojik tefsir; mezhebî tefsir; ictimâî tefsir; konulu tefsir; ahkâm tefsiri |
+= Rivayet, dirayet, işârî ve ilmî tefsir dışında kalan başlıca tefsir türleri.
+- **Lügavî (filolojik)**: Lafız ve cümlelerin anlamı, Kur'an'ın üslubu, dil incelikleri ve metnin bütünlüğü. Eser başlıkları: **İ'râbü'l-Kur'ân, Garîbü'l-Kur'ân, Meâni'l-Kur'ân** (ör. Ferrâ).
+- **Mezhebî**: Müfessirin kendi mezhebinin inançlarına ve konularına ağırlık verdiği yorumlar. Bkz. [[mezhebi-tefsir]].
+- **Çağdaş mezhebî akım**: Batılı devletlerin sömürge faaliyetleri döneminde İslam toplumunun durumunu dert edinen yorumlar.
+- **İctimâî**: Toplumsal meseleleri Kur'an ışığında inceler; muhatapların sosyal, bireysel ve toplumsal ihtiyaçlarını ve güncel hayatı merkeze alır.
+- **İlim ve konu merkezli (ihtisas) tefsir**: Belli konuları merkeze alır → **ahkâm tefsirleri** ve **konulu tefsirler**.
+Bkz. [[rivayet-tefsiri]], [[dirayet-tefsiri]], [[isari-tefsir]], [[ilmi-tefsir]].

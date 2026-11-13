@@ -2174,3 +2174,335 @@ B) Gazzâlî
 D) İbn Rüşd
 E) Fârâbî
 = Bu yaklaşım ahlak delili olarak bilinir.
+
+?? hadis | mudal
+Bir hadisin senedinde ortadan peş peşe iki ravinin düştüğü, başka bir hadisin senedinde ise yalnızca sahabinin anılmadığı tespit edilmiştir. Bu iki hadis sırasıyla hangisidir?
+A) Munkatı' – Muallak
+*B) Mu'dal – Mürsel
+C) Muallak – Mu'dal
+D) Mürsel – Munkatı'
+E) Müdelles – Mürsel
+= Ortadan yan yana 2+ düşme mu'dal, sahabinin düşmesi mürseldir.
+
+?? hadis | muallak
+Bir müellifin, hadisi kendisinden yukarıya doğru bir veya daha fazla raviyi atarak, hatta bazen doğrudan "Resûlullah buyurdu ki" diyerek kitabına alması hangi hadis türünü oluşturur?
+A) Mürsel
+B) Munkatı'
+*C) Muallak
+D) Mevkûf
+E) Müdrec
+= Muallakta kopukluk senedin başında (müellif tarafında) olur; Buhârî'nin ta'lîkleri örnektir.
+
+?? hadis | mudelles
+Bir ravinin, aynı dönemde yaşadığı halde hiç görüşmediği birinden onu dinlemiş izlenimi verecek şekilde rivayette bulunmasına ne ad verilir?
+A) Tedlîsü'ş-şüyûh
+*B) Mürsel-i hafî
+C) İdrâc
+D) Teslîs
+E) İ'tibâr
+= Görüşme varsa tedlîsü'l-isnâd, hiç görüşme yoksa mürsel-i hafî söz konusudur.
+
+?? hadis | ravi-tan
+Aşağıdakilerden hangisi ravinin adaletine değil zabtına yönelik kusurlardandır?
+A) Kizb
+B) Fısk
+C) Cehâlet
+*D) Vehm
+E) Bid'at
+= Zabt kusurları: fuhşu'l-galat, gaflet, vehm, muhâlefetü's-sikât, sû'-i hıfz.
+
+?? hadis | ravi-tan
+Ravinin rivayetinde yanılmasından kaynaklanan ve ancak bütün rivayet yolları karşılaştırıldığında uzmanlarca fark edilebilen kusur aşağıdaki hadis türlerinden hangisini doğurur?
+A) Metrûk
+B) Mevzû
+*C) Muallel
+D) Mechûl
+E) Mürsel
+= Vehim (yanılma) gizli bir illettir ve muallel hadisi doğurur.
+
+?? hadis | ravi-tan
+Ravi kusurları ile ortaya çıkan hadis türleri eşleştirmelerinden hangisi yanlıştır?
+A) Kizb – Mevzû
+B) İttihâm bi'l-kizb – Metrûk
+C) Fuhşu'l-galat – Münker
+*D) Cehâlet – Mütevâtir
+E) Muhâlefetü's-sikât – Şâz
+= Kimliği veya güvenilirliği bilinmeyen ravinin rivayeti mechûl veya mübhem olur.
+
+?? hadis | tahammul-yollari
+Hocanın hadisleri okuyup öğrencilerin bunları yazması yöntemine imlâ denir. Bu yöntemde hadisi yazdıran hoca ile yazan öğrenciye sırasıyla ne ad verilir?
+A) Müstemlî – Mümlî
+*B) Mümlî – Müstemlî
+C) Vâcid – Mümlî
+D) Râvî – Müstahric
+E) Mücîz – Mücâz
+= Yazdıran mümlî, yazan müstemlîdir.
+
+?? hadis | tahammul-yollari
+Hadis tahammül yollarıyla ilgili,
+I. Semâ'da öğrenci okur, hoca dinler.
+II. Münâvelede hoca kitabını öğrencisine elden verir.
+III. Vicâdede ravi bulduğu yazılı hadisi "haddesenî" diyerek aktarır.
+ifadelerinden hangileri doğrudur?
+A) Yalnız I
+*B) Yalnız II
+C) I ve II
+D) II ve III
+E) I, II ve III
+= Semâ'da hoca okur, öğrenci dinler; vicâdede "falanın yazısında buldum" denir.
+
+?? hadis | tahammul-yollari
+Aşağıdaki tahammül yollarından hangisi güçten zayıfa sıralamada en üstte yer alır?
+*A) Semâ'
+B) İcâzet
+C) Münâvele
+D) Mükâtebe
+E) Vicâde
+= Kod: "Sabah Kahvesini İçen Mehmet Mektubu İlk Vapurda Verdi".
+
+?? fikih | nikah
+Hanefî mezhebine göre nikâh akdinde şahitlikle ilgili aşağıdakilerden hangisi doğrudur?
+A) Yalnızca iki kadının şahitliği yeterlidir.
+*B) İki erkek veya bir erkek ve iki kadın şahit yeterlidir.
+C) Şahitlerin adaletli olması şarttır.
+D) Şahit yerine ilan yeterlidir.
+E) En az dört şahit gerekir.
+= Cumhura göre iki erkek şahit şarttır.
+
+?? fikih | nikah
+Şahitler huzurunda kıyılmış olsa bile "gizli tutulması" şart koşulan nikâhı geçersiz sayan mezhep hangisidir?
+A) Hanefî
+*B) Mâlikî
+C) Şâfiî
+D) Hanbelî
+E) Zâhirî
+= Mâlikîlerde esas olan evliliğin ilanıdır.
+
+?? fikih | nikah
+Zorlama (ikrah) altında kıyılan nikâhı geçerli sayan Hanefî mezhebinin dayanaklarından biri aşağıdaki hadislerden hangisidir?
+A) "Ameller niyetlere göredir."
+B) "Velisiz nikâh olmaz."
+*C) "Üç şeyin ciddisi de şakası da ciddidir: nikâh, boşama ve ric'at."
+D) "Ümmetimden hata, unutma ve zorlama kaldırılmıştır."
+E) "Nikâhı ilan edin."
+= D şıkkı cumhurun ikrahla nikâhı geçersiz sayarken dayandığı hadistir.
+
+?? fikih | nikah
+Mezheplerin nikâh görüşleriyle ilgili aşağıdaki ifadelerden hangisi yanlıştır?
+A) Hanefîlere göre nikâhın rüknü icap ve kabuldür.
+B) Hanefîlere göre akıllı ve ergen kadın velisiz evlenebilir.
+C) Şâfiîlere göre veli ve şahitler de nikâhın rüknüdür.
+*D) Hanefîlere göre belli bir süre için kıyılan nikâh geçerlidir.
+E) Cumhura göre kadının velisinin izni nikâhın şartıdır.
+= Süreli (muvakkat, mut'a) nikâh hiçbir Sünnî mezhebe göre geçerli değildir.
+
+?? fikih | iddet
+Kocası vefat eden ve hamile olan bir kadının iddeti ne zaman sona erer?
+A) Dört ay on gün dolunca
+B) Üç hayız görünce
+*C) Doğum yapınca
+D) Bir yıl sonra
+E) Doğum ile dört ay on günden hangisi sonra gelirse
+= Talâk 4. ayete göre hamile kadının iddeti doğumla biter (çoğunluk görüşü).
+
+?? tefsir | sunnetin-beyani
+"Namazları ve orta namazı koruyun" (Bakara 238) ayetindeki "orta namaz"ın ikindi namazı olarak açıklanması, sünnetin Kur'an'ı açıklama yollarından hangisine örnektir?
+A) Mücmelin tebyîni
+*B) Mübhemin tafsîli
+C) Mutlakın takyîdi
+D) Müşkilin tavzîhi
+E) Âmmın tahsîsi
+= Kim veya ne olduğu belirtilmeyen ifadenin açıklanması mübhemin tafsîlidir.
+
+?? tefsir | sunnetin-beyani
+"Hırsızlık yapan erkek ve kadının ellerini kesin" (Mâide 38) ayetindeki elin bilekten kesileceğinin hadisle bildirilmesi hangi kavramla ifade edilir?
+A) Mübhemin tafsîli
+B) Müşkilin tavzîhi
+*C) Mutlakın takyîdi
+D) Neshin beyanı
+E) Mücmelin tebyîni
+= "El" kelimesi mutlaktır; sünnet ona sınır getirmiştir.
+
+?? tefsir | sunnetin-beyani
+Kur'an'da namaz, zekât ve haccın emredilip nasıl yapılacağının Hz. Peygamber'in uygulamasıyla açıklanması aşağıdakilerden hangisine örnektir?
+*A) Mücmelin tebyîni
+B) Mübhemin tafsîli
+C) Mutlakın takyîdi
+D) Müşkilin tavzîhi
+E) Muhkemin te'vili
+= Mücmelde kapalılık lafzın kendisinden kaynaklanır; yöntem sünnetle öğrenilir.
+
+?? tefsir | sunnetin-beyani
+"Sizden oraya varmayacak hiç kimse yoktur" (Meryem 71) ayeti ile müminlerin cennete gireceğini bildiren ayetler arasındaki görünen güçlüğün giderilmesi hangi kavramla ilgilidir?
+A) Mücmelin tebyîni
+B) Mübhemin tafsîli
+C) Mutlakın takyîdi
+*D) Müşkilin tavzîhi
+E) Nâsih-mensûh
+= Vürûd (varmak) ile azap görmek aynı şey değildir.
+
+?? tefsir | sunnetin-beyani
+Aşağıdakilerden hangisi mübhemin tafsîline örnek değildir?
+A) Abese suresindeki âmânın Abdullah b. Ümmü Mektûm olduğunun belirtilmesi
+B) Hz. Âdem'in eşinin adının Havva olarak açıklanması
+C) Fâtiha'daki "nimet verilenler"in Nisâ 69'daki gruplarla açıklanması
+*D) "Kur'an'dan kolayınıza geleni okuyun" emrinin "Fâtiha'sız namaz olmaz" hadisiyle sınırlanması
+E) Bakara 238'deki orta namazın ikindi olarak belirlenmesi
+= D şıkkı mutlakın takyîdine örnektir.
+
+?? kuran | kiraat
+Aşağıdakilerden hangisi bir kıraatin sahih kabul edilmesi için aranan şartlardan biri değildir?
+A) Sahih ve kesintisiz senetle Hz. Peygamber'e ulaşması
+B) Arap dili kurallarına uygun olması
+C) Hz. Osman mushaflarının yazımına aykırı olmaması
+*D) Kıraat-i seb'a imamlarından birine ait olması
+E) Senedinin sahih olması
+= Şartlar: senet, dil, mushaf (SeDiM). Yedi imamdan olmak şart değildir.
+
+?? kuran | kiraat
+Kıraat-i seb'a imamlarıyla şehirleri eşleştirmelerinden hangisi yanlıştır?
+A) Nâfi' – Medine
+B) İbn Kesîr – Mekke
+C) Ebû Amr – Basra
+D) İbn Âmir – Şam
+*E) Âsım – Basra
+= Âsım, Hamza ve Kisâî Kûfe'nin imamlarıdır.
+
+?? kuran | kiraat
+Meşhur okuyuşlardan yedisini seçerek "kıraat-i seb'a" sistemini oluşturan âlim kimdir?
+A) Dânî
+B) Şâtıbî
+*C) İbn Mücâhid
+D) İbnü'l-Cezerî
+E) Ebû Ubeyd
+= Dânî ve Şâtıbî bu tasnifin yerleşmesini sağlamıştır.
+
+?? kuran | kiraat
+Sahabenin tefsir amacıyla ayet aralarına yazdığı açıklamaların bazı ravilerce Kur'an'dan sanılıp aktarılmasıyla oluşan sahih olmayan kıraat hangisidir?
+A) Şâz
+*B) Müdrec
+C) Mevzû
+D) Meşhur
+E) Mütevâtir
+= Meşhur ve mütevâtir kıraatler sahihtir.
+
+?? kuran | ulumul-kuran
+Kur'an ilimleri "rivayet ağırlıklı", "dirayet ağırlıklı" ve "karma" olarak sınıflandırıldığında aşağıdakilerden hangisi rivayet ağırlıklı ilimlerden biridir?
+A) Aksâmü'l-Kur'ân
+B) Emsâlü'l-Kur'ân
+C) İ'râbü'l-Kur'ân
+*D) Esbâb-ı nüzûl
+E) İ'câzü'l-Kur'ân
+= Esbâb-ı nüzûlde rivayetlerin senet ve metni incelenir.
+
+?? tefsir | sahabe-tabiun-tefsiri
+Sahabe dönemi tefsiri ile ilgili aşağıdakilerden hangisi yanlıştır?
+A) Kur'an'ın tamamı tefsir edilmemiştir.
+B) Yorumlar arasında zıtlıktan çok çeşitlilik vardır.
+C) Tefsir henüz yazıya geçirilmemiştir.
+*D) İsrâiliyat, tâbiûn dönemine göre daha geniş yer tutmuştur.
+E) Ayetlerin iniş sebepleri açıklanmıştır.
+= İsrâiliyat tâbiûn döneminde daha geniş yer almıştır.
+
+?? tefsir | sahabe-tabiun-tefsiri
+Sahabenin içtihada kapalı konulardaki (örneğin ayetin iniş sebebi gibi) tefsir rivayetleri hadis usulünde hangi hükümdedir?
+A) Mevkûf ve bağlayıcı değil
+*B) Hükmen merfû
+C) Maktû'
+D) Mürsel
+E) Şâz
+= İçtihada açık yorumlar ise bağlayıcı değildir ve aralarında tercih yapılır.
+
+?? tefsir | isari-tefsir
+Aşağıdakilerden hangisi işârî tefsirin temsilcilerinden biri değildir?
+A) Sülemî
+B) Kuşeyrî
+C) İsmail Hakkı Bursevî
+*D) İbn Kesîr
+E) Necmeddîn-i Kübrâ
+= İbn Kesîr rivayet tefsirinin temsilcisidir.
+
+?? tefsir | diger-tefsir-turleri
+Toplumsal meseleleri Kur'an ışığında inceleyen; muhatapların sosyal ve bireysel ihtiyaçlarını ve güncel hayatı merkeze alan tefsir türü hangisidir?
+A) İşârî
+B) Lügavî
+*C) İctimâî
+D) Rivayet
+E) Mezhebî
+= İ'râbü'l-Kur'ân, Garîbü'l-Kur'ân ve Meâni'l-Kur'ân başlıklı eserler ise lügavî tefsire örnektir.
+
+?? siyer | gazveler
+Gazve ve seriyye ayrımında esas alınan ölçüt hangisidir?
+A) Asker sayısı
+B) Çarpışma olup olmaması
+C) Seferin süresi
+*D) Hz. Peygamber'in sefere bizzat katılıp katılmaması
+E) Düşmanın Müslüman olup olmaması
+= Hz. Peygamber'in bizzat katıldığı sefere gazve, bir sahabinin komutasındakine seriyye denir.
+
+?? siyer | gazveler
+Müslümanlara ilk savaş izninin verildiği ayet hangisidir?
+*A) Hac 39
+B) Bakara 190
+C) Bakara 193
+D) Tevbe 52
+E) Enfâl 60
+= "Kendilerine savaş açılanlara, zulme uğradıkları için savaş izni verildi."
+
+?? siyer | gazveler
+Aşağıdaki gazvelerden hangisinde çarpışma olmamıştır?
+A) Uhud
+B) Hendek
+C) Huneyn
+*D) Tebük
+E) Hayber
+= Tebük Hz. Peygamber'in son gazvesidir; çarpışma olmadan dönülmüştür.
+
+?? siyer | gazveler
+Hz. Peygamber'in gazvelerini konu edinen eserlere ne ad verilir?
+A) Tabakât
+*B) Megâzî
+C) Delâil
+D) Şemâil
+E) Ensâb
+= En bilinen örnek Vâkıdî'nin Kitâbü'l-Megâzî'sidir.
+
+?? mezhep | zeydiyye
+Zeydiyye'yi İmâmiyye'den ayıran özelliklerle ilgili,
+I. İmamların masum olduğunu kabul etmezler.
+II. Takiyyeyi caiz görmezler.
+III. Hz. Ebû Bekir ve Ömer'in halifeliğini meşru sayarlar.
+ifadelerinden hangileri doğrudur?
+A) Yalnız I
+B) I ve II
+C) I ve III
+D) II ve III
+*E) I, II ve III
+= Zeydiyye "efdal varken mefdûlün imameti caizdir" der.
+
+?? mezhep | mezhep-kavrami
+Ehl-i sünnet geleneğinde farklı itikadi görüşlere sahip gruplar için kullanılan adlardan biri değildir?
+A) Ehl-i bid'at
+B) Ashâbü'l-bida'
+C) Mübtedia
+D) Ehl-i hevâ
+*E) Ehl-i hadis
+= Ehl-i hadis Ehl-i sünnet içindeki bir çizgidir.
+
+?? kelam | kaderiyye
+İnsanın fiillerini kendi hür iradesi ve gücüyle yaptığını savunarak kader konusunu ilk tartışanlar arasında yer alan isimler hangileridir?
+A) Ca'd b. Dirhem – Cehm b. Safvân
+*B) Ma'bed el-Cühenî – Gaylân ed-Dımaşkî
+C) Vâsıl b. Atâ – Amr b. Ubeyd
+D) Ebü'l-Hüzeyl – Nazzâm
+E) Mukātil b. Süleyman – Hişâm b. Hakem
+= Ca'd b. Dirhem ve Cehm b. Safvân ise Cebriyye'nin öncüleridir.
+
+?? kelam | haricilik
+İbâziyye ile ilgili aşağıdakilerden hangisi yanlıştır?
+A) Hâricîliğin günümüze ulaşan koludur.
+B) Hâricî kollar içinde en ılımlısıdır.
+C) Kuzey Afrika'da Rüstemîler Devleti'ni kurmuşlardır.
+D) Günümüzde özellikle Umman'da yaşarlar.
+*E) Büyük günah işleyeni dinden çıkmış kâfir sayarlar.
+= İbâzîler büyük günah işleyeni kâfir ilan etmez.
