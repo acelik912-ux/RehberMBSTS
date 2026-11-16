@@ -11,6 +11,7 @@ import 'package:rehber_mbsts/screens/deneme_screen.dart';
 import 'package:rehber_mbsts/screens/entry_screen.dart';
 import 'package:rehber_mbsts/hafiza.dart';
 import 'package:rehber_mbsts/screens/home_screen.dart';
+import 'package:rehber_mbsts/screens/gorsel_soru_screen.dart';
 import 'package:rehber_mbsts/screens/kapali_sema_screen.dart';
 import 'package:rehber_mbsts/screens/saray_screen.dart';
 import 'package:rehber_mbsts/screens/notebook_screen.dart';
@@ -206,6 +207,7 @@ void main() {
     final c = await Content.load();
     final h = await Hafiza.load();
     expect(h.duraklar.length, 10);
+    expect(buildGorselSorular(h).length, 10);
     expect(h.semalar, isNotEmpty);
     for (final t in h.turlar) {
       expect(c.entries.containsKey(t.entryId), isTrue, reason: t.id);
@@ -244,6 +246,7 @@ void main() {
       KapaliSemaScreen(sema: h.semalar.first),
       const SarayScreen(),
       SarayTurScreen(tur: h.turlar.first, duraklar: h.duraklar),
+      const GorselSoruScreen(),
     ]) {
       await tester.pumpWidget(MaterialApp(home: w));
       await tester.pump(const Duration(milliseconds: 200));

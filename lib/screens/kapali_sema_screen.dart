@@ -5,6 +5,7 @@ import '../content.dart';
 import '../hafiza.dart';
 import '../tts.dart';
 import '../widgets/read_bar.dart';
+import 'gorsel_soru_screen.dart';
 
 /// Kapalı şema: şemadaki terimler kapatılır; kutuyu önce aklından söyle, sonra aç.
 class KapaliSemaListScreen extends StatelessWidget {
@@ -29,6 +30,12 @@ class KapaliSemaListScreen extends StatelessWidget {
                     style: TextStyle(fontSize: 13.5, height: 1.4),
                   ),
                   const SizedBox(height: 10),
+                  FilledButton.icon(
+                    onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const GorselSoruScreen())),
+                    icon: const Icon(Icons.quiz),
+                    label: const Text('Çoktan seçmeli sına (10 soru)'),
+                  ),
+                  const SizedBox(height: 8),
                   for (final s in list)
                     Builder(builder: (context) {
                       final known = [for (var i = 0; i < s.boxes.length; i++) store.visual['${s.id}|$i'] == true].where((x) => x).length;

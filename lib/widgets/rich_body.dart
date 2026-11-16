@@ -50,11 +50,34 @@ class _RichBodyState extends State<RichBody> {
     );
   }
 
+  static final _mezhep = RegExp(r'(Hanef[iî]|M[âa]lik[iî]|[ŞS][âa]fi[iî]|Hanbel[iî])[^\s,.;:()]*');
+
+  /// Mezhep adları renk koduyla gösterilir: Hanefî mavi, Mâlikî yeşil, Şâfiî sarı, Hanbelî kırmızı.
+  List<InlineSpan> _plain(String t) {
+    final out = <InlineSpan>[];
+    var i = 0;
+    for (final m in _mezhep.allMatches(t)) {
+      if (m.start > i) out.add(TextSpan(text: t.substring(i, m.start)));
+      final k = m.group(1)!.toLowerCase();
+      final (dot, col) = k.startsWith('hanef')
+          ? ('🔵', const Color(0xFF2B5FA8))
+          : k.startsWith('m')
+              ? ('🟢', const Color(0xFF3F7A3A))
+              : k.startsWith('hanb')
+                  ? ('🔴', const Color(0xFFB3402F))
+                  : ('🟡', const Color(0xFFB8860B));
+      out.add(TextSpan(text: '$dot${m.group(0)}', style: TextStyle(color: col, fontWeight: FontWeight.w700)));
+      i = m.end;
+    }
+    if (i < t.length) out.add(TextSpan(text: t.substring(i)));
+    return out;
+  }
+
   List<InlineSpan> _spans(String s, TextStyle base, Color linkColor) {
     final out = <InlineSpan>[];
     var i = 0;
     for (final m in _inline.allMatches(s)) {
-      if (m.start > i) out.add(TextSpan(text: s.substring(i, m.start)));
+      if (m.start > i) out.addAll(_plain(s.substring(i, m.start)));
       if (m.group(4) != null) {
         out.add(_urlSpan(m.group(4)!, m.group(4)!.length > 40 ? 'bağlantıyı aç' : m.group(4)!, linkColor));
       } else if (m.group(2) != null && m.group(2)!.trim().startsWith('http')) {
@@ -83,7 +106,7 @@ class _RichBodyState extends State<RichBody> {
       }
       i = m.end;
     }
-    if (i < s.length) out.add(TextSpan(text: s.substring(i)));
+    if (i < s.length) out.addAll(_plain(s.substring(i)));
     return out;
   }
 

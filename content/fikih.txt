@@ -587,3 +587,20 @@ Fuzûlînin işlemi, adına işlem yapılan kişinin **onayına bağlı** (mevku
 @img sema/nikah_sartlari.png
 @img sema/iddet_akis.png
 > Kullanım: Kodu oku, kapat, açılımını yaz. Takıldığın kodun maddesine git: [[teklifi-hukum]], [[istihsan]], [[abdest]], [[hac]], [[kefaret]], [[kurban]], [[iddet]], [[nikah]], [[miras]], [[sirketler]], [[akit-turleri]].
+
+@@ sayi-sekilleri | Sayıları şekle çevir: rakam kancaları | Hafıza teknikleri | rakam kodu; sayı şekilleri; kanca sistemi |
+= Sınavda sayılar (4 ay 10 gün, 7 şavt, 5 şart, 10 kusur) en çabuk unutulan bilgidir. Her rakama bir şekil bağlarsan sayı sahnenin içinde durur.
+## Rakam kancaları (hep aynı)
+- **0** 🥯 simit · **1** 🕯️ mum · **2** 🦢 kuğu · **3** 🔺 üçgen çadır · **4** ⛵ yelkenli (dört köşe yelken)
+- **5** 🖐️ el (beş parmak) · **6** 🍒 kiraz salkımı (altı tane) · **7** 🌈 gökkuşağı (yedi renk) · **8** ⛄ kardan adam (iki yuvarlak) · **9** 🎈 balon (yuvarlak baş, ince ip) · **10** 🎳 lobut ve top
+## Nasıl kullanılır?
+- Ezberleyeceğin sayıyı kancasıyla sahnenin içine koy; sayı gelince şekil gözünün önüne gelir.
+- İki rakamlı sayıda iki şekli yan yana koy: **10** = mum + simit.
+%% Sayıyı değil sahnedeki şekillerin adedini hatırla: yedi renk, beş parmak, altı kiraz.
+## Örnekler (içerikteki gerçek sayılar)
+&& 🕯️🥯 + ⛵ | Vefat iddeti: bir mumun ve simidin (**10 gün**) yanında dört yelkenli (**4 ay**) bekliyor; yelkenlilerin hepsi yas siyahına bürünmüş. Zifaf olmasa da bu bekleyiş değişmez. → [[iddet]]
+&& 🌈 | Hacda yedi renkli gökkuşağının altında hacı yedi tur dönüyor (**tavaf**), yedi çakıl taşı atıyor (**cemre**) ve yedi kez koşuyor (**sa'y**). Yedi kancası = haccın "7"leri. → [[hac]]
+&& 🖐️ | Sahih hadisin beş şartı bir elin beş parmağında: ittisâl, adalet, zabt, şâz olmama, illet olmama. → [[sahih]]
+&& 🍒 | Kutub-i sitte: bir kiraz salkımında altı kiraz, her kiraz bir kitap. → [[kutub-i-sitte]]
+&& ⛄ | Tahammül yolları: kardan adamın iki yuvarlağı ve her yuvarlakta dört düğme = sekiz yol. → [[tahammul-yollari]]
+&& 🎳 | Ravideki kusurlar: on lobutun beşi adalet tarafında, beşi zabt tarafında devriliyor. → [[ravi-tan]]
