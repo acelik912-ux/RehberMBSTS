@@ -1,0 +1,114 @@
+# Cami hafıza sarayı: 10 sabit durak ve bu duraklara yerleştirilen listeler (turlar).
+# Durak:  @durak no | simge | ad | kısa tarif
+# Tur:    @tur id | başlık | alan | simge | başrol | ana madde id
+# Öğe:    durak no | bilgi | madde id | sahne
+
+@durak 1 | 🗼 | Minare | Uzaktan ilk görünen yer; şerefesi ve hoparlörü var.
+@durak 2 | 🚪 | Avlu kapısı | Avluya girilen büyük kapı.
+@durak 3 | ⛲ | Şadırvan | Avlunun ortasında, musluklarından su akan çeşme.
+@durak 4 | 🏛️ | Son cemaat yeri | Kapının önündeki sütunlu revak; ne içerisi ne dışarısı.
+@durak 5 | 👟 | Ayakkabılık | Girişteki ahşap raflar.
+@durak 6 | 🎙️ | Müezzin mahfili | Müezzinin durduğu yükseltilmiş bölme.
+@durak 7 | 📖 | Kürsü | Vaazın verildiği yer.
+@durak 8 | 🪜 | Minber | Hutbenin okunduğu merdivenli yer.
+@durak 9 | 🕌 | Mihrap | İmamın durduğu, kıbleyi gösteren niş.
+@durak 10 | 🔵 | Kubbe | Başını kaldırınca gördüğün tavan ve avize.
+
+@tur fer-i-deliller | Fer'î deliller (8) | fikih | 🧭 | Her durakta bir delil ve onu en çok kullanan âlim | fikih-usulu
+1 | İstihsan | istihsan | Minarede Ebû Hanîfe: kıyas merdiveni dümdüz yukarı çıkıyor ama o "daha güzeli var" deyip şerefeye açılan yan kapıdan giriyor. Kuraldan, daha güçlü bir delille ayrılıyor.
+2 | İstislah (mesâlih-i mürsele) | istislah | Avlu kapısında İmam Mâlik düzen kuruyor: asılı bir levha yok ama herkesin yararına "sağdan girin, soldan çıkın" diyor.
+3 | İstishâb | istishab | Şadırvanda abdest almış adam heykel gibi donmuş. "Bozuldu mu?" şüphesi musluklardan damlıyor ama kesin delil yok: abdesti duruyor.
+4 | Örf ve âdet | orf | Revakta herkes yıllardır aynı sütunun dibine oturuyor; yeni gelen de sormadan oraya oturuyor. Âdet hakemdir.
+5 | Sedd-i zerâi' | sedd-i-zerai | Ayakkabılığın önüne bir set çekilmiş: çamur içeri taşınmasın diye yol baştan kapatılıyor. Harama götüren yol kapanır.
+6 | Amel-i ehl-i Medîne | amel-i-ehl-i-medine | Mahfilde bütün Medine halkı hep bir ağızdan aynı şekilde kamet getiriyor; tek başına farklı okuyan birinin sesi duyulmuyor. Yaygın uygulama, tek kişinin haberine tercih edilir.
+7 | Kavl-i sahâbî | kavl-i-sahabi | Kürsüde bir sahabi kendi içtihadını anlatıyor; Hanefî ve Mâlikî dinleyiciler not alıyor.
+8 | Şer'u men kablenâ | ser-u-men-kablena | Minberin basamaklarında önceki peygamberler sıralanmış; en üstte Hz. Musa asasıyla koyun güdüyor. Çobanlığı mehir sayılmıştı.
+
+@tur hac-akisi | Haccın akışı (10 adım) | fikih | 🕋 | Beyazlar içinde bir hacı; durak sırası = gün sırası | hac
+1 | İhram | hac | Minare iki parça dikişsiz beyaz beze sarılmış; hoparlörden "Lebbeyk" yükseliyor. İhram haccın şartıdır.
+2 | Minâ'ya çıkış (8 Zilhicce) | hac | Avlu kapısının önüne çadırlar kurulmuş; kapının üstünde kocaman bir "8" yazıyor.
+3 | Arafat vakfesi (9 Zilhicce) | hac | Şadırvan bir tepeye dönüşmüş; hacılar çevresinde ayakta, elleri açık bekliyor. Öğle ile ikindi aynı musluktan birlikte akıyor (cem-i takdim). Rükün!
+4 | Müzdelife vakfesi | hac | Revakta gece olmuş; hacılar yerden çakıl topluyor. Akşam ile yatsı yan yana saf tutmuş (cem-i te'hir).
+5 | Büyük cemreye taş | hac | Ayakkabılığın en büyük gözüne art arda yedi çakıl taşı atılıyor.
+6 | Kurban | hac | Mahfilin korkuluğuna bir koç bağlanmış; müezzin "şükür" diye sesleniyor (temettu' ve kırân haccında).
+7 | Tıraş: ilk tahallül | tahallul | Kürsünün önünde berber makasını vuruyor: ihramın birinci kilidi açılıyor, eşle ilişki yasağı duruyor.
+8 | Ziyaret tavafı: büyük tahallül | tahallul | Hacılar minberin çevresinde yedi kez dönüyor; yedinci turda ikinci kilit de düşüyor. Rükün!
+9 | Üç cemreye taş (11–13 Zilhicce) | hac | Mihrabın önünde yan yana üç sütun; üç gün boyunca her birine yedişer taş atılıyor.
+10 | Veda tavafı | hac | Kubbenin altında son bir dönüş; hacılar yukarı bakıp el sallayarak ayrılıyor.
+
+@tur satis-turleri-turu | Satış türleri (9) | fikih | 🏷️ | Cami çevresinde kurulmuş bir pazar | satis-turleri
+1 | Selem | satis-turleri | Minarenin dibinde çiftçiye parayı bugün sayıyorsun; buğday çuvalları hasatta şerefeden iple indirilecek. Para peşin, mal vadeli.
+2 | İstisnâ' | satis-turleri | Avlu kapısını marangoz ölçüyor: kapı henüz yok, siparişle yapılacak.
+3 | Murâbaha | satis-turleri | Şadırvanın yanındaki tezgâhta etiket: "Bana 10'a geldi, kârım 2, satışı 12." Maliyet ve kâr açıkça söyleniyor.
+4 | Tevliye | satis-turleri | Revaktaki seccadeci "Kaça aldıysam ona veriyorum" diyor: kâr yok, zarar yok.
+5 | Vazîa | satis-turleri | Ayakkabılıkta indirim: ayakkabılar alış fiyatının altında, satıcı zararına satıyor.
+6 | Arâyâ | satis-turleri | Mahfile doğru eğilmiş daldaki yaş hurmaları, ihtiyaç sahibi biri bir avuç kuru hurmayla değişiyor. Az miktar için tanınmış ruhsat.
+7 | Müzâbene | satis-turleri | Kürsüdeki vaiz uyarıyor: "Daldaki yaş hurmayı kuru hurmayla tahminen değişmek yasak!" Az önceki arâyâ bunun istisnasıydı.
+8 | Teâtî | satis-turleri | Minberin alt basamağındaki tezgâha parayı bırakıp ekmeği alıyorsun; tek kelime konuşulmuyor, satış tamam.
+9 | Îne | satis-turleri | Mihrabın önünde imam uyarıyor: "Vadeli 120'ye alıp aynı kişiye peşin 100'e geri satmak, faize kılıftır."
+
+@tur tahammul | Tahammül yolları (8) | hadis | 🎓 | Bir hoca ve talebesi; güçlüden zayıfa | tahammul-yollari
+1 | Semâ' | tahammul-yollari | Hoca minareden hadis okuyor; aşağıda talebe elini kulağına siper etmiş dinliyor. Hoca okur, talebe dinler.
+2 | Kırâat (arz) | tahammul-yollari | Bu kez talebe avlu kapısında yüksek sesle okuyor; hoca her doğru cümlede tokmağı bir kez vuruyor. Talebe okur, hoca onaylar.
+3 | İcâzet | tahammul-yollari | Şadırvanda hoca ıslak eliyle talebenin elini sıkıp bir izin kâğıdı veriyor: "Benden rivayet edebilirsin."
+4 | Münâvele | tahammul-yollari | Revakta hoca kendi kitabını talebenin eline tutuşturuyor. Elden verme.
+5 | Mükâtebe | tahammul-yollari | Ayakkabılığın bir gözü posta kutusu olmuş; hocanın yazıp gönderdiği mektup talebeyi bekliyor.
+6 | İ'lâm | tahammul-yollari | Hoca mahfilden duyuruyor: "Şu kitaptakiler benim rivayetlerimdir." Ama "rivayet et" demiyor.
+7 | Vasiyyet | tahammul-yollari | Yolculuğa çıkan hoca kitabını kürsünün üstüne bırakıyor: "Bu sana vasiyetimdir."
+8 | Vicâde | tahammul-yollari | Talebe minberin altında tozlu bir defter buluyor; yazı hocanın yazısı. Yalnızca "falanın yazısında buldum" diyebilir.
+
+@tur ravi-kusurlari | Ravideki 10 kusur | hadis | 🔟 | Kusurlu bir ravi; dışarıdaki 5 durak adalet, içerideki 5 durak zabt | ravi-tan
+1 | Kizb → mevzû | mevzu | Minareden biri kendi uydurduğu sözü "hadis" diye bağırıyor; söz yere düşüp dağılıyor.
+2 | İttihâm bi'l-kizb → metrûk | metruk | Avlu kapısında "çarşıda yalancı" diye bilinen adam: hadiste yalanı görülmemiş ama herkes yanından geçip gidiyor, terk edilmiş.
+3 | Fısk → münker | munker | Şadırvanın başında günahını açıktan işleyen ravi; getirdiği rivayeti kimse tanımıyor.
+4 | Cehâlet → mechûl | ravi-tan | Revakta yüzü örtülü biri oturuyor; kim olduğunu, güvenilir olup olmadığını bilen yok.
+5 | Bid'at | ravi-tan | Ayakkabılıkta kimsenin tanımadığı tuhaf bir ayakkabı: sahibi kendi yolunun propagandasını yapmıyorsa içeri alınıyor.
+6 | Fuhşu'l-galat → münker | munker | Mahfilde okuyan kişi her cümlede yanılıyor; hata üstüne hata.
+7 | Gaflet → münker | munker | Kürsüde dalgın biri, önüne konan her kâğıdı bakmadan okuyor.
+8 | Vehm → muallel | muallel | Minberde biri basamak var sanıp boşluğa basıyor. Hata uzaktan görünmüyor; bütün basamaklar tek tek sayılınca anlaşılıyor.
+9 | Muhâlefetü's-sikât → şâz, münker | saz | Mihrabın önünde herkes kıbleye dönmüş; bir kişi başka yöne durmuş. Güvenilir çoğunluğa aykırı.
+10 | Sû'-i hıfz | ravi-tan | Kubbedeki yazının harfleri tek tek dökülüyor: ravinin hafızası da böyle dökülmüş.
+
+@tur sahih-sartlari | Sahih hadisin 5 şartı | hadis | ✅ | Hadisi taşıyan bir zincir; kod: İnce Adam Zor Şeyi İster | sahih
+1 | İttisâl | sahih | Minarenin tepesinden yere kadar tek bir zincir sarkıyor; hiçbir halkası eksik değil. Sened kesintisiz.
+2 | Adalet | adalet | Avlu kapısındaki bekçi girenlerin kişiliğine bakıyor: yalancıyı ve günahı açıktan işleyeni içeri almıyor.
+3 | Zabt | zabt | Şadırvandaki kova ağzına kadar dolu ve tek damla sızdırmıyor: ravi duyduğunu eksiksiz taşıyor.
+4 | Şâz olmamak | saz | Revakta herkes aynı yöne saf tutmuş; safı bozup ters duran kimse yok.
+5 | İllet olmamak | muallel | Ayakkabılıkta ayakkabının tabanı çevrilip bakılıyor: dışı sağlam görünen ayakkabıda gizli delik yok.
+
+@tur varlik-delilleri-turu | Allah'ın varlığının delilleri (8) | kelam | 🗺️ | Düşünen bir yolcu; sıra: HİGİ TFKA | varlik-delilleri
+1 | Hudûs | hudus-delili | Minare gözünün önünde taş taş yükseliyor: dün yoktu, bugün var. Sonradan olanın bir ustası olmalı.
+2 | İmkân | imkan-delili | Avlu kapısı ne açık ne kapalı, tam ortada dengede duruyor; onu bir yana iten biri gerek. Vâcibü'l-vücûd.
+3 | Gaye ve nizam | gaye-nizam | Şadırvanın muslukları eşit aralıklı, su tam abdest alınacak ölçüde akıyor: bu düzen tesadüf olamaz.
+4 | İhtirâ | ihtira-delili | Revağın kuru taş döşemesinden gözünün önünde yemyeşil bir filiz fışkırıyor: cansızdan canlı.
+5 | Temânu' | temanu | İki görevli aynı ayakkabıyı ayrı raflara koymak için çekiştiriyor, raf yıkılıyor. İki ayrı irade olsaydı düzen bozulurdu: birlik delili.
+6 | Fıtrat | fitrat-delili | Mahfilde hiç ders almamış küçük bir çocuk, korkunca kendiliğinden "Allah'ım!" diye sesleniyor.
+7 | Kabûl-i âmme | kabul-i-amme | Kürsünün önünde dünyanın bütün milletlerinden insanlar oturuyor; hepsi aynı anda başıyla onaylıyor.
+8 | Ahlak | ahlak-delili | Minberin tepesinde bir terazi ve içinden gelen ses: "İyilik de kötülük de karşılıksız kalmaz."
+
+@tur usul-i-hamse-turu | Usûl-i hamse (Mutezile'nin 5 esası) | kelam | 5️⃣ | Vâsıl b. Atâ camiyi geziyor; kod: TAV-ME | usul-i-hamse
+1 | Tevhid | tevhid-mutezile | Minarenin tepesinde tek bir alem var; Vâsıl yanına başka hiçbir şey konmasına izin vermiyor. Zattan ayrı ezelî sıfat kabul etmez.
+2 | Adl | adl | Avlu kapısında terazi tutan bekçi: "İçeri kendi ayağınla girdin, hesabını da sen verirsin." Kul fiilini kendisi yaratır.
+3 | el-Va'd ve'l-vaîd | vad-vaid | Şadırvanın iki musluğu: biri ödül, biri ceza. İkisi de söz verildiği gibi akıyor; hiçbiri kapatılmıyor.
+4 | el-Menzile beyne'l-menzileteyn | menzile | Büyük günah işleyen adam ne içeride ne dışarıda: tam eşikte, son cemaat yerinde kalmış. Ne mümin ne kâfir: fâsık.
+5 | Emr bi'l-ma'rûf | emr-bil-maruf | Ayakkabılıkta görevli herkese sesleniyor: "Düzgün koy, başkasınınkini ezme!" İyiliği emret, kötülükten alıkoy.
+
+@tur ilcam-vazifeler | Müteşâbihte 7 vazife (İlcâmü'l-avâm) | kelam | 🤐 | Müteşâbih bir ayet duyan sıradan mümin | ilcamul-avam
+1 | Takdîs | ilcamul-avam | Minareye bakan adam "O hiçbir şeye benzemez" deyip bakışını indiriyor: Allah'ı cisimden tenzih ediyor.
+2 | Tasdîk | ilcamul-avam | Avlu kapısından girerken deftere imza atıyor: "Peygamber ne dediyse, kastettiği anlamda doğrudur."
+3 | İ'tirâf bi'l-acz | ilcamul-avam | Şadırvanda avucuyla denizi ölçmeye çalışıyor, olmuyor: "Aklım buna yetmez" diyor.
+4 | Sükût | ilcamul-avam | Revakta parmağını dudağına götürüyor: soru sormuyor, tartışmaya girmiyor.
+5 | İmsâk | ilcamul-avam | Ayakkabısını olduğu gibi rafa koyuyor, bağcığına bile dokunmuyor: lafzı değiştirmiyor, başka dile çevirmiyor.
+6 | Keff | ilcamul-avam | Mahfilde zihninin sesini de kısıyor: içinden bile kurcalamıyor.
+7 | Teslîm | ilcamul-avam | Emaneti kürsüdeki âlime bırakıyor: "Gerçek anlamını Allah, Resulü ve ilimde derinleşenler bilir."
+
+@tur gazveler-turu | Çarpışma olan 9 gazve | siyer | 🛡️ | Bir süvari; sıra: Bir Uzun Hikâye… | gazveler
+1 | Bedir (2/624) | gazveler | Minarenin tepesinde dolunay (bedir) parlıyor; az sayıda Müslüman büyük orduyu yeniyor.
+2 | Uhud (3/625) | gazveler | Avlu kapısını tutması gereken okçular yerlerini bırakıp ganimete koşuyor; kapı açık kalıyor.
+3 | Hendek (5/627) | gazveler | Selmân-ı Fârisî şadırvanın çevresine hendek kazıyor; düşman suyun başına geçemiyor.
+4 | Benî Kurayza (5/627) | gazveler | Revakta antlaşma kâğıdını arkadan yırtan müttefik: Hendek'teki ihanetin hesabı soruluyor.
+5 | Benî Mustalik (Müreysî') | gazveler | Ayakkabılığın yanında Müreysî' kuyusu; baskın su başında yapılıyor.
+6 | Hayber (7/628) | gazveler | Mahfil bir kale burcuna dönüşmüş; sancağı Hz. Ali alıyor ve kale düşüyor.
+7 | Mekke'nin fethi (8/630) | gazveler | Kürsüden genel af ilan ediliyor: "Bugün size kınama yok."
+8 | Huneyn (8/630) | gazveler | Minberin basamaklarında ganimet dağıtılıyor; kalbi ısındırılacak olanlara (müellefe-i kulûb) büyük pay veriliyor.
+9 | Tâif (8/630) | gazveler | Mihrabın önünde yüksek surlar; kuşatma uzuyor, fetih olmadan dönülüyor.

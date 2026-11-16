@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 /// Madde metnini çizer.
-/// Satır biçimleri:  "## Başlık", "- madde", "> ipucu kutusu", "!! tuzak kutusu", "%% akılda tut kutusu".
+/// Satır biçimleri:  "## Başlık", "- madde", "> ipucu kutusu", "!! tuzak kutusu", "%% akılda tut kutusu", "&& emoji | sahne kutusu".
 /// Satır içi: **kalın**, [[madde-id]] veya [[madde-id|görünen yazı]] (dokununca o maddeye gider).
 class RichBody extends StatefulWidget {
   final String text;
@@ -136,6 +136,25 @@ class _RichBodyState extends State<RichBody> {
         kids.add(_box(line.substring(3), dark ? const Color(0xFF3A1F1B) : const Color(0xFFF8E6E2), const Color(0xFFC0503C), 'DİKKAT / TUZAK', base, link));
       } else if (line.startsWith('%% ')) {
         kids.add(_box(line.substring(3), dark ? const Color(0xFF3A2F17) : const Color(0xFFF7EEDB), const Color(0xFFB9862F), 'AKILDA TUT', base, link));
+      } else if (line.startsWith('&& ')) {
+        final parts = line.substring(3).split(' | ');
+        final strip = parts.length > 1 ? parts.first.trim() : '';
+        final text = parts.length > 1 ? parts.sublist(1).join(' | ') : parts.first;
+        kids.add(Container(
+          margin: const EdgeInsets.symmetric(vertical: 6),
+          padding: const EdgeInsets.fromLTRB(12, 8, 12, 10),
+          decoration: BoxDecoration(
+            color: dark ? const Color(0xFF2A2140) : const Color(0xFFF1EBFA),
+            borderRadius: const BorderRadius.horizontal(right: Radius.circular(10)),
+            border: const Border(left: BorderSide(color: Color(0xFF7A4E9A), width: 4)),
+          ),
+          child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+            const Text('🎬 SAHNE', style: TextStyle(fontSize: 11, letterSpacing: 1.2, fontWeight: FontWeight.w800, color: Color(0xFF7A4E9A))),
+            if (strip.isNotEmpty)
+              Padding(padding: const EdgeInsets.symmetric(vertical: 4), child: Text(strip, style: const TextStyle(fontSize: 28, height: 1.25))),
+            _rich(text, base, link),
+          ]),
+        ));
       } else {
         kids.add(Padding(padding: const EdgeInsets.only(bottom: 4), child: _rich(line, base, link)));
       }

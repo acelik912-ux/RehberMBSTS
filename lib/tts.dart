@@ -151,6 +151,9 @@ String speechText(Entry e, {List<String> notes = const []}) {
       b.writeln('Dikkat: ${clean(l.substring(3))}.');
     } else if (l.startsWith('%% ')) {
       b.writeln('Akılda tut: ${clean(l.substring(3))}.');
+    } else if (l.startsWith('&& ')) {
+      final i = l.indexOf(' | ');
+      b.writeln('Sahne: ${clean(i < 0 ? l.substring(3) : l.substring(i + 3))}.');
     } else {
       b.writeln('${clean(l)}.');
     }

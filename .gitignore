@@ -18,3 +18,4 @@ linux/
 macos/
 windows/
 /content/*.pyc
+__pycache__/

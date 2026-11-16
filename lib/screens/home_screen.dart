@@ -7,6 +7,8 @@ import '../tts.dart';
 import '../widgets/read_bar.dart';
 import 'area_screen.dart';
 import 'cards_screen.dart';
+import 'kapali_sema_screen.dart';
+import 'saray_screen.dart';
 import 'notebook_screen.dart';
 import 'quiz_screen.dart';
 import 'search_screen.dart';
@@ -91,6 +93,28 @@ class HomeScreen extends StatelessWidget {
                     sub: '${store.notes.length} not',
                     color: const Color(0xFF0F5C63),
                     onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const NotebookScreen())),
+                  ),
+                ),
+              ]),
+              const SizedBox(height: 10),
+              Row(children: [
+                Expanded(
+                  child: _Action(
+                    icon: Icons.visibility_off,
+                    label: 'Kapalı şema',
+                    sub: 'terimi kapat, hatırla',
+                    color: const Color(0xFF7A4E9A),
+                    onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const KapaliSemaListScreen())),
+                  ),
+                ),
+                const SizedBox(width: 10),
+                Expanded(
+                  child: _Action(
+                    icon: Icons.mosque,
+                    label: 'Cami sarayı',
+                    sub: '10 durak, hep aynı rota',
+                    color: const Color(0xFF2B4C7E),
+                    onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const SarayScreen())),
                   ),
                 ),
               ]),

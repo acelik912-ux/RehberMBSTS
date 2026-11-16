@@ -9,7 +9,10 @@ import 'package:rehber_mbsts/screens/area_screen.dart';
 import 'package:rehber_mbsts/screens/cards_screen.dart';
 import 'package:rehber_mbsts/screens/deneme_screen.dart';
 import 'package:rehber_mbsts/screens/entry_screen.dart';
+import 'package:rehber_mbsts/hafiza.dart';
 import 'package:rehber_mbsts/screens/home_screen.dart';
+import 'package:rehber_mbsts/screens/kapali_sema_screen.dart';
+import 'package:rehber_mbsts/screens/saray_screen.dart';
 import 'package:rehber_mbsts/screens/notebook_screen.dart';
 import 'package:rehber_mbsts/screens/quiz_screen.dart';
 import 'package:rehber_mbsts/screens/settings_screen.dart';
@@ -197,5 +200,62 @@ void main() {
     await tester.pump();
     expect(find.text('Sesle not al'), findsOneWidget);
     expect(tester.takeException(), isNull);
+  });
+
+  test('görsel hafıza içeriği tutarlı, eski veri yeni alan olmadan okunur', () async {
+    final c = await Content.load();
+    final h = await Hafiza.load();
+    expect(h.duraklar.length, 10);
+    expect(h.semalar, isNotEmpty);
+    for (final t in h.turlar) {
+      expect(c.entries.containsKey(t.entryId), isTrue, reason: t.id);
+      expect(t.items, isNotEmpty);
+      for (final o in t.items) {
+        expect(o.stop, inInclusiveRange(1, 10));
+        expect(c.entries.containsKey(o.entryId), isTrue, reason: '${t.id} ${o.info}');
+      }
+    }
+    for (final s in h.semalar) {
+      expect(s.boxes, isNotEmpty, reason: s.id);
+      for (final b in s.boxes) {
+        expect(b.rects, isNotEmpty, reason: '${s.id} ${b.text}');
+        if (b.entryId.isNotEmpty) expect(c.entries.containsKey(b.entryId), isTrue, reason: '${s.id} ${b.entryId}');
+      }
+    }
+    final st = Store();
+    st.replaceAllSync({'v': 1, 'notes': []});
+    expect(st.visual, isEmpty);
+    st.replaceAllSync({'v': 1, 'vk': {'a|0': true, 'b|1': false}});
+    expect(st.visual['a|0'], isTrue);
+    expect(st.toJson()['vk'], {'a|0': true, 'b|1': false});
+  });
+
+  testWidgets('kapalı şema ve cami sarayı ekranları açılır, bilemedim kart ekler', (tester) async {
+    content = (await tester.runAsync(() => Content.load()))!;
+    final h = (await tester.runAsync(() => Hafiza.load()))!;
+    final tmp = Directory.systemTemp.createTempSync('rehber3');
+    store.dir = tmp;
+    store.imgDir = Directory('${tmp.path}/gorseller')..createSync();
+    tester.view.physicalSize = const Size(1080, 2340);
+    tester.view.devicePixelRatio = 3;
+    addTearDown(tester.view.reset);
+    for (final w in <Widget>[
+      const KapaliSemaListScreen(),
+      KapaliSemaScreen(sema: h.semalar.first),
+      const SarayScreen(),
+      SarayTurScreen(tur: h.turlar.first, duraklar: h.duraklar),
+    ]) {
+      await tester.pumpWidget(MaterialApp(home: w));
+      await tester.pump(const Duration(milliseconds: 200));
+      expect(tester.takeException(), isNull);
+    }
+    // Sına: bilemedim dersen maddenin kartı eklenir.
+    await tester.pumpWidget(MaterialApp(home: SarayTurScreen(tur: h.turlar.first, duraklar: h.duraklar)));
+    await tester.tap(find.text('Sına'));
+    await tester.pump();
+    await tester.scrollUntilVisible(find.text('Bilemedim'), 200, scrollable: find.byType(Scrollable).last);
+    await tester.tap(find.text('Bilemedim'));
+    await tester.pump();
+    expect(store.cards.containsKey(h.turlar.first.items.first.entryId), isTrue);
   });
 }

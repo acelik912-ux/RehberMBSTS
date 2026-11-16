@@ -56,6 +56,7 @@ class Store extends ChangeNotifier {
   bool remindOn = false;
   int remindH = 20, remindM = 30;
   final List<DenemeResult> denemeler = [];
+  final Map<String, bool> visual = {}; // kapalı şema kutusu / saray durağı -> bildim mi
 
   File get _file => File('${dir.path}/rehber_veri.json');
 
@@ -108,6 +109,9 @@ class Store extends ChangeNotifier {
     denemeler
       ..clear()
       ..addAll((j['dnm'] as List? ?? []).map((e) => DenemeResult.fromJson(e as Map<String, dynamic>)));
+    visual
+      ..clear()
+      ..addAll(((j['vk'] as Map?) ?? const {}).map((k, v) => MapEntry(k as String, v == true)));
   }
 
   Map<String, dynamic> toJson() => {
@@ -123,6 +127,7 @@ class Store extends ChangeNotifier {
         'tts': ttsRate,
         'rem': {'on': remindOn, 'h': remindH, 'm': remindM},
         'dnm': denemeler.map((d) => d.toJson()).toList(),
+        'vk': visual,
       };
 
   Future<void> save() async {
@@ -225,6 +230,15 @@ class Store extends ChangeNotifier {
   void addCards(Iterable<String> ids) {
     for (final id in ids) {
       cards.putIfAbsent(id, () => CardState(1, today()));
+    }
+    save();
+  }
+
+  /// Görsel yoklamada (kapalı şema, saray) bir kutuyu işaretler; bilinmeyen madde tekrar kartlarına girer.
+  void markVisual(String key, bool known, String entryId) {
+    visual[key] = known;
+    if (!known && entryId.isNotEmpty) {
+      cards.putIfAbsent(entryId, () => CardState(1, today()));
     }
     save();
   }

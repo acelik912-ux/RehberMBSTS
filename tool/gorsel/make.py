@@ -177,3 +177,45 @@ kodpage('fikih_kodlari','Fıkıh: kod kartları','Sınavın üçte biri fıkıh 
 ('Ortaklıklar','Mu<b>d</b>ârebe = <b>D</b>ükkân parası · Mü<b>z</b>âraa = <b>Z</b>emin · Mü<b>s</b>âkât = <b>S</b>ulama · Vü<b>c</b>ûh = <b>C</b>epte para yok, itibar var'),
 ('Akitler','Karşılıksız + mülk = <b>hibe</b> · Karşılıksız + kullanım = <b>âriyet</b> · Bedelli + mülk = <b>bey\'</b> · Bedelli + kullanım = <b>icâre</b>'),
 ],'#3f7a3a','#ecf6ea')
+
+# ---------- K. Cami hafıza sarayı: kroki ve 10 durak
+dur=[(1,'🗼','Minare','Uzaktan ilk görünen yer'),(2,'🚪','Avlu kapısı','Avluya girilen büyük kapı'),(3,'⛲','Şadırvan','Avlunun ortasındaki çeşme'),
+(4,'🏛️','Son cemaat yeri','Kapının önündeki sütunlu revak'),(5,'👟','Ayakkabılık','Girişteki ahşap raflar'),(6,'🎙️','Müezzin mahfili','Müezzinin durduğu bölme'),
+(7,'📖','Kürsü','Vaazın verildiği yer'),(8,'🪜','Minber','Hutbenin okunduğu yer'),(9,'🕌','Mihrap','İmamın durduğu niş'),(10,'🔵','Kubbe','Başını kaldırınca gördüğün tavan')]
+pos={1:(150,300),2:(386,530),3:(386,430),4:(292,307),5:(326,262),6:(540,240),7:(279,69),8:(489,78),9:(386,34),10:(386,160)}
+def badge(n):
+    x,y=pos[n]
+    return f'<circle cx="{x}" cy="{y}" r="15" fill="#7a4e9a" stroke="#fff" stroke-width="2.5"/><text x="{x}" y="{y+5}" font-size="14" font-weight="800" text-anchor="middle" fill="#fff">{n}</text>'
+route=' '.join(f'{pos[n][0]},{pos[n][1]}' for n in [2,3,4]) + ' 386,292 ' + ' '.join(f'{pos[n][0]},{pos[n][1]}' for n in [5,6,7,8,9,10])
+cols=''.join(f'<circle cx="{x}" cy="330" r="6" fill="#b9a27a"/>' for x in (196,262,328,444,510,576))
+svg=f'''<svg viewBox="0 0 772 570" width="772" height="570" style="display:block;background:#fbf8f1;border-radius:12px;border:1.5px solid #d9cfb8">
+<rect x="116" y="330" width="540" height="200" fill="#eef3e6" stroke="#8a7a55" stroke-width="3"/>
+<rect x="358" y="524" width="56" height="12" fill="#fbf8f1"/>
+<rect x="176" y="284" width="420" height="46" fill="#f3e9d2" stroke="#8a7a55" stroke-width="2"/>{cols}
+<rect x="176" y="34" width="420" height="250" fill="#fff" stroke="#5a4a2a" stroke-width="4"/>
+<rect x="364" y="278" width="44" height="12" fill="#fff"/>
+<path d="M356 34 A30 30 0 0 1 416 34" fill="#e9f0fb" stroke="#2b4c7e" stroke-width="3"/>
+<circle cx="386" cy="160" r="80" fill="none" stroke="#2b4c7e" stroke-width="2" stroke-dasharray="6,5"/>
+<rect x="262" y="52" width="34" height="34" rx="4" fill="#fcefe6" stroke="#c4632b" stroke-width="2"/>
+<path d="M476 50 h26 v60 h-26 Z M476 65 h26 M476 80 h26 M476 95 h26" fill="#ecf6ea" stroke="#3f7a3a" stroke-width="2"/>
+<rect x="500" y="214" width="80" height="52" rx="4" fill="#f3ecf8" stroke="#7a4e9a" stroke-width="2"/>
+<rect x="296" y="253" width="60" height="18" rx="3" fill="#f8f2df" stroke="#8a6d1c" stroke-width="2"/>
+<circle cx="386" cy="430" r="32" fill="#e7f4f5" stroke="#2c7c86" stroke-width="3"/><circle cx="386" cy="430" r="12" fill="#bfe3e6"/>
+<circle cx="150" cy="300" r="20" fill="#f3e9d2" stroke="#5a4a2a" stroke-width="3"/>
+<path d="M150 322 Q96 560 386 560 L386 540" fill="none" stroke="#c79a1e" stroke-width="2.5" stroke-dasharray="7,6"/>
+<polyline points="{route}" fill="none" stroke="#c79a1e" stroke-width="2.5" stroke-dasharray="7,6"/>
+<text x="386" y="20" font-size="12" text-anchor="middle" fill="#555">▲ kıble</text>
+<text x="640" y="350" font-size="12" text-anchor="end" fill="#6b7a55">avlu</text>
+<text x="590" y="52" font-size="12" text-anchor="end" fill="#777">harim (içerisi)</text>
+{''.join(badge(n) for n in range(1,11))}
+</svg>'''
+leg=''.join(f'<div class="dk"><span class="no">{n}</span><span class="em">{e}</span><div><b class="dn">{t}</b><br><span class="dd">{d}</span></div></div>' for n,e,t,d in dur)
+body=f'''<style>.dk{{display:flex;gap:8px;align-items:center;border:1.5px solid #d6c9e3;border-radius:10px;padding:6px 9px;background:#faf6fd}}
+.no{{flex:0 0 26px;height:26px;border-radius:50%;background:#7a4e9a;color:#fff;font-weight:800;display:flex;align-items:center;justify-content:center;font-size:13px}}
+.em{{font-size:22px}}.dn{{font-size:14.5px;color:#4a2f63}}.dd{{font-size:11.5px;color:#555}}</style>
+<h1>Cami hafıza sarayı: 10 durak</h1><div class="sub">Rota hep aynı: önce uzaktan minareyi gör, avludan geç, içeri gir. İçeride <b>cuma sırası</b>: vaaz (kürsü) → hutbe (minber) → namaz (mihrap). En son başını kaldır: kubbe.</div>
+{svg}
+<div class="grid" style="margin-top:10px">{leg}</div>
+<div class="code"><b>Nasıl kullanılır?</b> Ezberleyeceğin listenin her öğesini sırayla bir durağa koy ve orada <b>abartılı, hareketli</b> bir sahne kur. Hatırlamak için gözünü kapat, camiyi minareden kubbeye yürü; her durakta sahneyi gör.<br>
+<b>Kod — sıra:</b> "<b>M</b>inareyi gör, <b>A</b>vludan gir, <b>Ş</b>adırvanda dur, <b>S</b>on cemaatte bekle, <b>A</b>yakkabını çıkar; <b>M</b>ahfil, <b>K</b>ürsü, <b>M</b>inber, <b>M</b>ihrap, <b>K</b>ubbe."</div>'''
+page('saray_rota',body,h='#7a4e9a',hs='#f3ecf8')

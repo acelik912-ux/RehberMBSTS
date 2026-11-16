@@ -85,6 +85,35 @@ def parse_questions():
     return out
 
 
+def parse_saray(allent, errors):
+    """content/saray.txt -> assets/content/saray.json (duraklar + turlar)."""
+    duraklar, turlar, cur = [], [], None
+    for raw in (ROOT / 'content/saray.txt').read_text(encoding='utf-8').splitlines():
+        ln = raw.strip()
+        if not ln or ln.startswith('#'):
+            continue
+        if ln.startswith('@durak '):
+            n, ic, t, d = [x.strip() for x in ln[7:].split('|', 3)]
+            duraklar.append({'n': int(n), 'ic': ic, 't': t, 'd': d})
+        elif ln.startswith('@tur '):
+            i, t, a, ic, role, e = [x.strip() for x in ln[5:].split('|', 5)]
+            if e not in allent:
+                errors.append(f'saray turu maddesi yok: {i} -> {e}')
+            if a not in AREAS:
+                errors.append(f'saray turu alanı: {i} -> {a}')
+            cur = {'id': i, 't': t, 'a': a, 'ic': ic, 'r': role, 'e': e, 'o': []}
+            turlar.append(cur)
+        else:
+            n, info, eid, sahne = [x.strip() for x in ln.split('|', 3)]
+            if cur is None or not n.isdigit() or not 1 <= int(n) <= len(duraklar):
+                errors.append(f'saray satırı hatalı: {ln[:50]}')
+                continue
+            if eid not in allent:
+                errors.append(f'saray maddesi yok: {cur["id"]} -> {eid}')
+            cur['o'].append({'n': int(n), 'b': info, 'e': eid, 's': sahne})
+    return {'d': duraklar, 'r': turlar}
+
+
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
     allent = {}
@@ -135,8 +164,9 @@ def main():
             errors.append(f'soru maddesi yok: {q["e"]}')
         if q['a'] not in AREAS:
             errors.append(f'soru alanı: {q["a"]}')
+    (OUT / 'saray.json').write_text(json.dumps(parse_saray(allent, errors), ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
     (OUT / 'sorular.json').write_text(json.dumps(qs, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
-    (OUT / 'index.json').write_text(json.dumps({'files': files, 'questions': 'sorular.json'}, ensure_ascii=False), encoding='utf-8')
+    (OUT / 'index.json').write_text(json.dumps({'files': files, 'questions': 'sorular.json', 'saray': 'saray.json', 'maskeler': 'maskeler.json'}, ensure_ascii=False), encoding='utf-8')
     by = {}
     for e in allent.values():
         by[e['a']] = by.get(e['a'], 0) + 1
