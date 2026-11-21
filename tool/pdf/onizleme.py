@@ -28,9 +28,10 @@ def phrase_card(c, n=None, photo=False):
     num = f'<span class="num">{n}</span>' if n else ''
     ph = '<div class="addp">🖼️ Kendi resmini ekle</div>' if photo else ''
     return (f'<div class="card"><div class="row"><span>{num}<span class="em">{c["e"]}</span></span><span class="sp">▶️</span></div>'
-            f'<div class="tr">{c["t"]}</div>{blocks(c)}<div class="hook">🎬 {c["k"]}</div>{ph}</div>')
+            f'<div class="tr">{c["t"]}</div>{blocks(c)}{('<div class="hook">🎬 ' + c["k"] + '</div>') if c["k"] else ''}{ph}</div>')
 
 G = {g['id']: g for g in dil['g']}
+NW = sum(len(g['c']) for g in dil['g'])
 FL = ['🇧🇦', '🇬🇧', '🇸🇦']
 screens = []
 screens.append(phone('Rehber MBSTS', '''
@@ -40,8 +41,8 @@ screens.append(phone('Rehber MBSTS', '''
 <div class="a wide" style="background:#b8860b">🌍<b>Dil bölümü</b><i>Boşnakça · İngilizce · Arapça cümleler, görsel kancalarla</i></div>
 <div class="sec">Alanlar</div><div class="grid"><div>📿 Fıkıh</div><div>📖 Hadis</div><div>☪️ Kelam</div><div>📚 Kur'an</div></div>'''))
 def gl(gid):
-    g = G[gid]; return f'<div class="li"><span style="font-size:26px">{g["ic"]}</span><div><b>{g["t"]}</b><br><small>{len(g["c"])} {"sahne" if g["b"]=="A" else "kelime"} · 0 bildim</small></div><span>›</span></div>'
-screens.append(phone('Dil bölümü', '<p class="note">🇧🇦 Boşnakça · 🇬🇧 İngilizce · 🇸🇦 Arapça — her cümle ve kelime üçü alt alta.</p><b>A · En çok kullanılan cümleler</b>' + ''.join(gl(x) for x in ['a1','a2','a3']) + '<b>B · En çok kullanılan kelimeler</b>' + ''.join(gl(x) for x in ['b1','b2'])))
+    g = G[gid]; return f'<div class="li"><span style="font-size:26px">{g["ic"]}</span><div><b>{g["t"]}</b><br><small>{len(g["c"])} {"sahne" if g["b"]=="A" else "kalıp" if g["b"]=="K" else "kelime"} · 0 bildim</small></div><span>›</span></div>'
+screens.append(phone('Dil bölümü', '<p class="note">🇧🇦 Boşnakça · 🇬🇧 İngilizce · 🇸🇦 Arapça — her satır üç dil alt alta.</p><div class="two"><div class="btn">📡 Tanı testi</div><div class="btn o">🗺️ Eksik haritası</div></div><div class="btn o" style="margin-top:0">🔁 Dil tekrarı · bugün 20 kart</div><b>A · Cümleler (hikâye)</b>' + gl('a1') + '<b>K · Konuşmayı başlatan kalıplar</b>' + gl('k1') + '<b>B · Bağlaç, ek, zamir, fiil</b>' + gl('b2') + '<b>C · Günlük kelime havuzu</b>' + gl('c-yiyecek')))
 a1 = G['a1']['c']
 screens.append(phone('🛬 Saraybosna\'ya iniş · Gez', '<div class="seg"><b>Gez</b><span>Sına</span></div><div class="story">🛬 ' + G['a1']['s'] + '</div>' + phrase_card(a1[0], 1) + '<div style="text-align:center">⬇️</div>' + phrase_card(a1[1], 2)))
 a5 = G['a5']['c']
@@ -72,6 +73,28 @@ screens.append(phone('Sayıları şekle çevir', '''<div class="card"><b>Rakam k
 <div class="scene"><small>🎬 SAHNE</small><div style="font-size:26px">🕯️🥯 + ⛵</div>Vefat iddeti: mumun ve simidin (10 gün) yanında dört yelkenli (4 ay) bekliyor.</div>
 <div class="scene"><small>🎬 SAHNE</small><div style="font-size:26px">🌈</div>Hacda yedi renkli gökkuşağının altında hacı yedi tur dönüyor, yedi taş atıyor, yedi kez koşuyor.</div>'''))
 
+cy = G['c-yiyecek']['c']
+cs = G['c-fiil1']['c']
+tani = cs[0]
+screens.append(phone('Tanı testi', f'''<small>7 / 30</small><div style="text-align:center;font-size:56px">{tani["e"]}</div><div style="text-align:center;font-size:21px;font-weight:800">{tani["t"]}</div><p class="note" style="text-align:center">Üç dilde söylemeyi dene.</p>{blocks(tani)}<p><b>Bilmediklerine dokun (kırmızı olur):</b></p><div class="chips"><u>🇧🇦 Boşnakça</u><u style="background:#f3c9c2">🇬🇧 İngilizce</u><u style="background:#f3c9c2">🇸🇦 Arapça</u></div><div class="btn">Sonraki</div>'''))
+def bar(k, u, n):
+    t = k + u + n
+    return f'<div style="display:flex;height:10px;border-radius:5px;overflow:hidden;flex:1"><i style="flex:{k};background:#3f7a3a"></i><i style="flex:{u};background:#b3402f"></i><i style="flex:{n};background:#ddd"></i></div>'
+rows = [('🔢 Sayılar', 14, 3, 3), ('⏰ Zaman', 12, 4, 4), ('🍽️ Yiyecekler', 18, 5, 2), ('🏃 Fiiller 1', 9, 10, 6), ('🕌 Din', 13, 3, 2), ('🛍️ Para', 6, 8, 3)]
+hm = ''
+for fl, nm, mul in [('🇧🇦 Boşnakça', 0, 1), ('🇬🇧 İngilizce', 1, 0), ('🇸🇦 Arapça', 2, 2)]:
+    hm += f'<b style="display:block;margin-top:8px">{fl}: 74 bildim · 38 eksik · 410 taranmadı</b>'
+    for r, (t, k, u, n) in enumerate(rows):
+        kk, uu, nn = max(k - mul * 2, 1), u + mul * 2, n
+        hm += f'<div style="display:flex;gap:6px;align-items:center;margin-top:5px"><span style="width:92px;font-size:10px">{t}</span>{bar(kk, uu, nn)}</div>'
+screens.append(phone('Eksik haritası', '<small>🟢 biliyorum · 🔴 bilmiyorum · ⚪ taranmadı</small>' + hm))
+tk = cs[11]
+screens.append(phone('Dil tekrarı', f'''<small>3 / 20 · kutu 1</small><div style="text-align:center;font-size:54px">{tk["e"]}</div><div style="text-align:center;font-size:21px;font-weight:800">{tk["t"]}</div><p style="text-align:center">🇸🇦 Arapça nasıl denir?</p><div class="btn">👁️ Cevabı göster</div>{blocks(tk, 2)}<div class="two"><div class="btn o">Bilemedim</div><div class="btn">Bildim</div></div><p class="note">Bilemediğin hemen yarın; bildikçe 1 → 3 → 7 → 21 → 45 gün aralıkla geri gelir.</p>'''))
+screens.append(phone('🍽️ Yiyecekler · kelime kartı', '<div class="seg"><b>Gez</b><span>Sına</span></div>' + ''.join(phrase_card(x) for x in [cy[17], cy[23]])))
+tn = G['c-tanidik']['c']
+k1 = G['k1']['c']
+screens.append(phone('🎁 Tanıdık · 🆘 Kalıplar', '<div class="seg"><b>Gez</b><span>Sına</span></div>' + phrase_card(tn[0]) + phrase_card(k1[0])))
+
 css = '''@page{size:A4 landscape;margin:8mm}*{box-sizing:border-box}body{font-family:"Noto Sans","DejaVu Sans",sans-serif;margin:0;background:#fff;color:#222}
 h1{font-size:22px;margin:0 0 4px}.cap{font-size:12px;color:#555;margin-bottom:8px}.pg{page-break-after:always;display:flex;gap:14px;justify-content:center}
 .ph{width:305px;height:560px;border:6px solid #222;border-radius:26px;overflow:hidden;background:#faf8f4;position:relative;flex:none}
@@ -94,10 +117,11 @@ h1{font-size:22px;margin:0 0 4px}.cap{font-size:12px;color:#555;margin-bottom:8p
 .scene{background:#f1ebfa;border-left:4px solid #7a4e9a;padding:8px;border-radius:0 8px 8px 0;margin:7px 0;font-size:12px;line-height:1.4}
 .lb{display:flex;align-items:flex-start;gap:6px;border-radius:8px;padding:5px 7px;margin-top:5px}.l0{background:#2b5fa81a}.l1{background:#b3402f1a}.l2{background:#3f7a3a1a}.fl{font-size:17px}.num{display:inline-block;width:20px;height:20px;border-radius:10px;background:#7a4e9a;color:#fff;text-align:center;font-size:11px;line-height:20px;margin-right:6px}.story{background:#fff3cd;border-radius:8px;padding:7px;font-size:11.5px;margin-bottom:6px}.opt{border:1px solid #999;border-radius:8px;padding:8px;margin:5px 0;background:#fff}.opt.ok{background:#dcebd8}'''
 caps = [
- ('Ana sayfa, dil bölümü ve hikâye', 'Dil bölümü iki bölüm: A (cümleler, hikâye sırasıyla) ve B (kelimeler). Her satırda üç dil alt alta.', [0, 1, 2]),
- ('Dua cümleleri, bağlaç/ek ve sına', 'Arapça harekeli ve sağdan sola. Sına modunda emoji + Türkçe gelir, üç dili (ya da seçtiğin tek dili) sen söylersin.', [3, 4, 5]),
- ('Kapalı şema, cami sarayı, görselden soru', 'Kapalı şema ve cami sarayı gerçek şema görsellerinden çizildi.', [7, 8, 10]),
- ('Fıkıh sahneleri, mezhep renkleri, sayı şekilleri', 'Sahne kutusu, mezhep renk kodu ve rakam kancaları.', [9, 11, 6]),
+ ('Dil bölümü: kalıplar, tanı ve eksik haritası', f'Toplam {NW} satır: 30 hikâyeli cümle, 26 kurtarıcı kalıp, 78 dil bilgisi kelimesi, {NW-134} günlük kelime. Önce tanı testiyle eksiklerin bulunur. (Eksik haritasındaki sayılar örnektir.)', [1, 12, 13]),
+ ('Dil tekrarı, kelime kartı, tanıdık kelimeler', 'Bilemediklerin aralıklı tekrar kartı olur. Her kelime üç dilde alt alta, emoji ve kanca ile.', [14, 15, 16]),
+ ('Hikâye, sına ve resim ekleme', 'A bölümü hikâye sırasıyla, sına modunda tek dil seçilebilir; resim düğmesi her satırda.', [2, 5, 6]),
+ ('Ana sayfa, kapalı şema, cami sarayı', 'Önceki sürümlerden gelen ekranlar.', [0, 7, 8]),
+ ('Görselden soru, fıkıh sahnesi, sayı şekilleri', 'Önceki sürümlerden gelen ekranlar.', [10, 9, 11]),
 ]
 html = f'<html><head><meta charset="utf-8"><style>{css}</style></head><body>'
 html += '<div class="pg" style="flex-direction:column;align-items:center;justify-content:center;height:190mm"><h1 style="font-size:34px">Rehber MBSTS · Yeni ekranlar önizlemesi</h1><div class="cap" style="font-size:15px;max-width:600px;text-align:center">Bu sayfalar telefon ekranlarının çizimidir, APK değildir. Yazılar, görseller ve düzen uygulamadaki gerçek içerikten üretildi; ufak görünüm farkları olabilir.</div></div>'

@@ -5,6 +5,7 @@ import '../dil.dart';
 import '../tts.dart';
 import '../widgets/photo_bar.dart';
 import '../widgets/read_bar.dart';
+import 'dil_tani_screen.dart';
 
 const _arabicFonts = ['Noto Naskh Arabic', 'Droid Arabic Naskh', 'Amiri', 'Traditional Arabic', 'Geeza Pro'];
 const _langColors = [Color(0x1A2B5FA8), Color(0x1AB3402F), Color(0x1A3F7A3A)];
@@ -70,6 +71,30 @@ class DilScreen extends StatelessWidget {
                 animation: store,
                 builder: (context, _) => ListView(padding: const EdgeInsets.all(14), children: [
                   const Text('🇧🇦 Boşnakça · 🇬🇧 İngilizce · 🇸🇦 Arapça — her cümle ve kelime üçü alt alta, okunuşu, kancası ve görseliyle.', style: TextStyle(fontSize: 13.5, height: 1.4)),
+                  const SizedBox(height: 10),
+                  Row(children: [
+                    Expanded(
+                      child: FilledButton.icon(
+                        onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const DilTaniScreen())),
+                        icon: const Icon(Icons.radar),
+                        label: const Text('Tanı testi'),
+                      ),
+                    ),
+                    const SizedBox(width: 8),
+                    Expanded(
+                      child: OutlinedButton.icon(
+                        onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const DilHaritaScreen())),
+                        icon: const Icon(Icons.map),
+                        label: const Text('Eksik haritası'),
+                      ),
+                    ),
+                  ]),
+                  const SizedBox(height: 8),
+                  FilledButton.tonalIcon(
+                    onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const DilTekrarScreen())),
+                    icon: const Icon(Icons.replay),
+                    label: Text('Dil tekrarı · bugün ${store.dueDil().length} kart'),
+                  ),
                   for (final b in v.bolumler) ...[
                     const SizedBox(height: 14),
                     Text(b.title, style: Theme.of(context).textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w800)),
@@ -79,7 +104,7 @@ class DilScreen extends StatelessWidget {
                         child: ListTile(
                           leading: Text(g.icon, style: const TextStyle(fontSize: 30)),
                           title: Text(g.title, style: const TextStyle(fontWeight: FontWeight.w700)),
-                          subtitle: Text('${g.items.length} ${g.sirali ? 'sahne' : 'kelime'} · ${g.items.where((c) => store.visual['dil:${c.id}'] == true).length} bildim'),
+                          subtitle: Text('${g.items.length} ${g.bolum == 'A' ? 'sahne' : g.bolum == 'K' ? 'kalıp' : 'kelime'} · ${g.items.where((c) => store.visual['dil:${c.id}'] == true).length} bildim'),
                           trailing: const Icon(Icons.chevron_right),
                           onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => DilCalisScreen(grup: g))),
                         ),
@@ -129,7 +154,11 @@ class _DilCalisScreenState extends State<DilCalisScreen> {
       });
 
   void _mark(bool ok) {
-    store.markVisual('dil:${_deck[_i].id}', ok, '');
+    final id = _deck[_i].id;
+    store.visual['dil:$id'] = ok;
+    for (var l = 0; l < 3; l++) {
+      if (_focus == null || _focus == l) store.dilMark(id, l, ok);
+    }
     setState(() {
       ok ? _right++ : _wrong++;
       _i++;
@@ -199,11 +228,12 @@ class _DilCalisScreenState extends State<DilCalisScreen> {
             Text(c.turkish, style: const TextStyle(fontSize: 16.5, fontWeight: FontWeight.w800)),
             LangBlocks(c: c),
             const SizedBox(height: 8),
-            Container(
-              padding: const EdgeInsets.all(8),
-              decoration: BoxDecoration(color: const Color(0x1AFFC83D), borderRadius: BorderRadius.circular(8)),
-              child: Text('🎬 ${c.hook}', style: const TextStyle(fontSize: 13.5, height: 1.35)),
-            ),
+            if (c.hook.isNotEmpty)
+              Container(
+                padding: const EdgeInsets.all(8),
+                decoration: BoxDecoration(color: const Color(0x1AFFC83D), borderRadius: BorderRadius.circular(8)),
+                child: Text('🎬 ${c.hook}', style: const TextStyle(fontSize: 13.5, height: 1.35)),
+              ),
             PhotoBar(slot: 'd:${c.id}', label: 'Kendi resmini ekle'),
           ]),
         ),
@@ -243,7 +273,7 @@ class _DilCalisScreenState extends State<DilCalisScreen> {
       if (_shown) ...[
         LangBlocks(c: c, only: _focus),
         const SizedBox(height: 6),
-        Text('🎬 ${c.hook}', style: const TextStyle(fontSize: 13.5, height: 1.35)),
+        if (c.hook.isNotEmpty) Text('🎬 ${c.hook}', style: const TextStyle(fontSize: 13.5, height: 1.35)),
       ],
       const SizedBox(height: 10),
       Row(children: [

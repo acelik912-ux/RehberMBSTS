@@ -12,6 +12,7 @@ import 'package:rehber_mbsts/screens/entry_screen.dart';
 import 'package:rehber_mbsts/dil.dart';
 import 'package:rehber_mbsts/hafiza.dart';
 import 'package:rehber_mbsts/screens/dil_screen.dart';
+import 'package:rehber_mbsts/screens/dil_tani_screen.dart';
 import 'package:rehber_mbsts/screens/home_screen.dart';
 import 'package:rehber_mbsts/screens/gorsel_soru_screen.dart';
 import 'package:rehber_mbsts/screens/kapali_sema_screen.dart';
@@ -266,8 +267,8 @@ void main() {
 
   testWidgets('dil bölümü açılır, üç dil alt alta; eklenen resim verisi korunur', (tester) async {
     final v = (await tester.runAsync(() => DilVeri.load()))!;
-    expect(v.bolumler.length, 2);
-    expect(v.count, greaterThan(80));
+    expect(v.bolumler.length, 4);
+    expect(v.count, greaterThan(500));
     for (final g in v.gruplar) {
       expect(g.items, isNotEmpty);
       for (final c in g.items) {
@@ -286,14 +287,23 @@ void main() {
       DilCalisScreen(grup: v.gruplar.first),
       DilCalisScreen(grup: v.gruplar.first, sinaBasla: true),
       DilCalisScreen(grup: v.of('B').first),
+      DilCalisScreen(grup: v.of('C').first, sinaBasla: true),
+      const DilTaniScreen(),
+      const DilHaritaScreen(),
+      const DilTekrarScreen(),
     ]) {
       await tester.pumpWidget(MaterialApp(home: w));
       await tester.pump(const Duration(milliseconds: 200));
       expect(tester.takeException(), isNull);
     }
+    store.dilMark(v.of('C').first.items.first.id, 2, false);
+    expect(store.dueDil(), isNotEmpty);
+    expect(store.toJson()['wc'], isA<Map>());
+    store.dilGrade(store.dueDil().first, true);
     store.attachImage('d:x', 'a.png');
     expect(store.toJson()['att'], {'d:x': ['a.png']});
     store.replaceAllSync({'v': 1});
     expect(store.attach, isEmpty);
+    expect(store.dilCards, isEmpty);
   });
 }

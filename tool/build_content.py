@@ -136,6 +136,26 @@ def parse_dil():
                 raise SystemExit('dil satırı 9 alan olmalı: ' + ln[:50])
             em, tr, bs, bo, en, eo, ar, ao, k = f
             cur['c'].append({'id': f"{cur['id']}-{len(cur['c']) + 1}", 'e': em, 't': tr, 'bs': bs, 'bo': bo, 'en': en, 'eo': eo, 'ar': ar, 'ao': ao, 'k': k})
+    # Günlük kelime havuzu (content/kelime.txt): her tema bir grup, bölüm C.
+    sys.path.insert(0, str(ROOT / 'tool'))
+    from translit import bs_oku
+    bolumler.append({'id': 'C', 't': 'C · Günlük kelime havuzu', 'd': 'Tema tema günlük kelimeler: üç dil alt alta, bs okunuşu ve görseller.'})
+    tema = None
+    for raw in (ROOT / 'content/kelime.txt').read_text(encoding='utf-8').splitlines():
+        ln = raw.strip()
+        if not ln or ln.startswith('#'):
+            continue
+        if ln.startswith('@tema '):
+            i, t, ic, nt = [x.strip() for x in ln[6:].split('|', 3)]
+            tema = {'id': i, 'b': 'C', 't': t, 'ic': ic, 's': nt, 'c': []}
+            gruplar.append(tema)
+        else:
+            f = [x.strip() for x in ln.split('|')]
+            if len(f) not in (7, 8) or not all(f[:7]):
+                raise SystemExit('kelime satırı 7-8 alan olmalı: ' + ln[:50])
+            em, tr, bs, en, eo, ar, ao = f[:7]
+            k = f[7] if len(f) == 8 else ''
+            tema['c'].append({'id': f"{tema['id']}-{len(tema['c']) + 1}", 'e': em, 't': tr, 'bs': bs, 'bo': bs_oku(bs), 'en': en, 'eo': eo, 'ar': ar, 'ao': ao, 'k': k})
     return {'b': bolumler, 'g': gruplar}
 
 

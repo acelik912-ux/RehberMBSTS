@@ -57,6 +57,7 @@ class Store extends ChangeNotifier {
   int remindH = 20, remindM = 30;
   final List<DenemeResult> denemeler = [];
   final Map<String, List<String>> attach = {}; // yer anahtarı (ör. e:abdest, d:bs-selam-1) -> eklenen resim dosyaları
+  final Map<String, CardState> dilCards = {}; // 'satırId|dilNo' -> aralıklı tekrar kartı
   final Map<String, bool> visual = {}; // kapalı şema kutusu / saray durağı -> bildim mi
 
   File get _file => File('${dir.path}/rehber_veri.json');
@@ -110,6 +111,9 @@ class Store extends ChangeNotifier {
     denemeler
       ..clear()
       ..addAll((j['dnm'] as List? ?? []).map((e) => DenemeResult.fromJson(e as Map<String, dynamic>)));
+    dilCards
+      ..clear()
+      ..addAll(((j['wc'] as Map?) ?? const {}).map((k, v) => MapEntry(k as String, CardState.fromJson(v as Map<String, dynamic>))));
     attach
       ..clear()
       ..addAll(((j['att'] as Map?) ?? const {}).map((k, v) => MapEntry(k as String, List<String>.from(v as List))));
@@ -133,6 +137,7 @@ class Store extends ChangeNotifier {
         'dnm': denemeler.map((d) => d.toJson()).toList(),
         'vk': visual,
         'att': attach,
+        'wc': dilCards.map((k, v) => MapEntry(k, v.toJson())),
       };
 
   Future<void> save() async {
@@ -263,6 +268,30 @@ class Store extends ChangeNotifier {
     if (!known && entryId.isNotEmpty) {
       cards.putIfAbsent(entryId, () => CardState(1, today()));
     }
+    save();
+  }
+
+  /// Dil satırında bir dili işaretler (dil: 0 Boşnakça, 1 İngilizce, 2 Arapça). Bilinmeyen tekrar kartına girer.
+  void dilMark(String id, int dil, bool known) {
+    visual['dl:$id:$dil'] = known;
+    if (!known) dilCards.putIfAbsent('$id|$dil', () => CardState(1, today()));
+    save();
+  }
+
+  List<String> dueDil() {
+    final t = today();
+    final l = dilCards.entries.where((e) => e.value.due <= t).map((e) => e.key).toList();
+    l.sort((a, b) => dilCards[a]!.box.compareTo(dilCards[b]!.box));
+    return l;
+  }
+
+  void dilGrade(String key, bool known) {
+    final c = dilCards[key];
+    if (c == null) return;
+    c.box = known ? (c.box + 1).clamp(1, 5) : 1;
+    c.due = today() + (known ? boxDays[c.box] : 0);
+    final p = key.split('|');
+    visual['dl:${p[0]}:${p[1]}'] = known;
     save();
   }
 

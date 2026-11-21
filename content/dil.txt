@@ -4,6 +4,34 @@
 # satır: emoji | Türkçe | Boşnakça | okunuşu | İngilizce | okunuşu | Arapça (harekeli) | okunuşu | kanca (görsel bağ)
 @bolum A | A · En çok kullanılan cümleler | Her grup tek bir hikâye: sahneler arka arkaya gelir, cümleleri sahne sırasıyla öğren.
 @bolum B | B · En çok kullanılan kelimeler | Bağlaçlar, ekler, zamirler, fiiller ve sık kelimeler; hepsi üç dilde alt alta.
+@bolum K | K · Konuşmayı başlatan kalıplar | Konuşurken takıldığında kurtaran 26 kalıp. Önce bunları ezberle, sohbet başlar.
+@grup k1 | K | Kurtarıcı kalıplar | 🆘 | Kelimeyi bulamadığında, anlamadığında ya da konuşmayı başlatırken kullanacağın kalıplar.
+🙋 | Bir şey sorabilir miyim? | Mogu li nešto pitati? | mogu li neşto pitati | Can I ask something? | ken ay ask samthing | هَلْ يُمْكِنُنِي أَنْ أَسْأَلَ شَيْئًا؟ | hel yumkinunî en es'ele şey'en | Elini havaya kaldırıp söz istiyorsun.
+🤷 | Anlamadım. | Nisam razumio. | nisam razumio | I didn't understand. | ay didınt andırstend | لَمْ أَفْهَمْ. | lem efhem | Kaşların çatık, başını sallıyorsun.
+🔁 | Tekrar eder misiniz? | Možete li ponoviti? | mojete li ponoviti | Could you repeat that? | kud yu ripiit dat | هَلْ يُمْكِنُكَ أَنْ تُعِيدَ؟ | hel yumkinuke en tu'îde | Elinle "tekrar" diye daire çiziyorsun.
+🐢 | Daha yavaş konuşur musunuz? | Možete li govoriti sporije? | mojete li govoriti sporiye | Could you speak more slowly? | kud yu spiik mor slouli | هَلْ يُمْكِنُكَ أَنْ تَتَكَلَّمَ بِبُطْءٍ؟ | hel yumkinuke en tetekellem bi-butın | Kaplumbağa gibi yavaşla.
+🗣️ | Bunu … dilinde nasıl söylerim? | Kako se ovo kaže na …? | kako se ovo kaje na | How do you say this in …? | hau du yu sey dis in | كَيْفَ أَقُولُ هٰذَا بِـ…؟ | keyfe ekûlu hâzâ bi | Bir nesneyi gösterip soruyorsun.
+😵 | Kelimeyi bulamıyorum. | Ne mogu se sjetiti riječi. | ne mogu se syetiti riyeçi | I can't find the word. | ay kant faynd dı vörd | لَا أَسْتَطِيعُ إِيجَادَ الْكَلِمَةِ. | lâ estetî'u îcâde'l-kelime | Kelime kutuya düşmüş, bulamıyorsun.
+❓ | … ne demek? | Šta znači …? | şta znaçi | What does … mean? | vot daz … miin | مَاذَا تَعْنِي …؟ | mâzâ ta'nî | Bilmediğin kelimeyi parmakla gösteriyorsun.
+✍️ | Nasıl yazılır? | Kako se piše? | kako se piše | How do you spell it? | hau du yu spel it | كَيْفَ تُكْتَبُ؟ | keyfe tuktebu | Kalemle havada yazıyorsun.
+📚 | Biraz konuşuyorum, öğreniyorum. | Govorim malo, učim. | govorim malo uçim | I speak a little, I'm learning. | ay spiik ı litıl aym lörning | أَتَكَلَّمُ قَلِيلًا وَأَتَعَلَّمُ. | etekellemu kalîlen ve eteallem | Elinde defterle gülümsüyorsun.
+🙇 | Affedersiniz. | Izvinite. | izvinite | Excuse me. | ikskyuz mi | عَفْوًا. | afven | Kalabalıkta hafif eğilip geçiyorsun.
+😔 | Özür dilerim. | Žao mi je. | jao mi ye | I'm sorry. | aym sori | أَنَا آسِف. | enâ âsif | Elini kalbine koyuyorsun.
+🙏 | Lütfen. | Molim. | molim | Please. | pliiz | مِنْ فَضْلِكَ. | min fadlik | İki elin birleşik.
+🙌 | Teşekkür ederim. | Hvala. | hvala | Thank you. | thenk yu | شُكْرًا. | şukran | Elini göğsüne koyup başını eğiyorsun.
+😊 | Rica ederim. | Nema na čemu. | nema na çemu | You're welcome. | yor velkım | عَفْوًا. | afven | Karşındaki teşekkür edince gülümsüyorsun.
+✅ | Evet, tabii. | Da, naravno. | da naravno | Yes, of course. | yes ov kors | نَعَمْ، طَبْعًا. | ne'am tab'an | Yeşil tik.
+🚫 | Hayır, teşekkürler. | Ne, hvala. | ne hvala | No, thank you. | nou thenk yu | لَا، شُكْرًا. | lâ şukran | Avucunla nazikçe durdur.
+⏱️ | Bir dakika lütfen. | Samo trenutak, molim. | samo trenutak molim | Just a moment, please. | cast ı moumınt pliiz | لَحْظَةً مِنْ فَضْلِكَ. | lahzaten min fadlik | Bir parmağını kaldırıyorsun.
+🤔 | Bilmiyorum. | Ne znam. | ne znam | I don't know. | ay dont nou | لَا أَعْرِفُ. | lâ a'rifu | Omuz silkiyorsun.
+💭 | Sen ne düşünüyorsun? | Šta ti misliš? | şta ti mişliş | What do you think? | vot du yu think | مَا رَأْيُكَ؟ | mâ ra'yuk | Düşünce balonu karşındakinin başında.
+🆘 | Bana yardım edebilir misiniz? | Možete li mi pomoći? | mojete li mi pomoçi | Can you help me? | ken yu help mi | هَلْ يُمْكِنُكَ مُسَاعَدَتِي؟ | hel yumkinuke musâ'adetî | Uzanan bir el.
+🏷️ | Benim adım … | Zovem se … | zovem se | My name is … | may neym iz | اِسْمِي … | ismî | Yakana isim kartı takılı.
+👋 | Nasılsın? İyiyim, ya sen? | Kako si? Dobro, a ti? | kako si dobro a ti | How are you? Fine, and you? | hau ar yu fayn end yu | كَيْفَ حَالُكَ؟ بِخَيْرٍ، وَأَنْتَ؟ | keyfe hâluk bi-hayr ve ente | Karşılıklı gülümsüyorsunuz.
+💡 | Anladım. | Razumio sam. | razumio sam | I understand. / Got it. | ay andırstend | فَهِمْتُ. | fehimtu | Ampul yandı.
+⏰ | Saat kaç? | Koliko je sati? | koliko ye sati | What time is it? | vot taym iz it | كَمِ السَّاعَةُ؟ | kemi's-sâa | Bileğindeki saati gösteriyorsun.
+📦 | Bu ne? | Šta je ovo? | şta ye ovo | What is this? | vot iz dis | مَا هٰذَا؟ | mâ hâzâ | Parmağınla bir nesneyi gösteriyorsun.
+👋 | Hoşça kalın, görüşürüz. | Doviđenja. | dovicenya | Goodbye. | gudbay | مَعَ السَّلَامَةِ. | me'a's-selâme | El sallıyorsun.
 @grup a1 | A | Saraybosna'ya iniş | 🛬 | Ayşe uçaktan iniyor: pasaport, bavul, taksi, otel. Hikâye bu sırayla ilerler.
 🛬 | Merhaba, ben Ayşe. | Zdravo, ja sam Ayša. | zdravo, ya sam ayşa | Hello, I'm Ayşe. | helo, aym ayşe | مَرْحَبًا، أَنَا عَائِشَة. | merhaben, enâ âişe | Uçaktan iner inmez gülümseyen biri el sallıyor: "merhaba, ben…".
 🛂 | Pasaportum burada. | Ovdje je moj pasoš. | ovdye ye moy pasoş | Here is my passport. | hiır iz may paspört | هٰذَا جَوَازُ سَفَرِي. | hâzâ cevâzü seferî | Memur masasında pasaportu uzatıyorsun: "burada".

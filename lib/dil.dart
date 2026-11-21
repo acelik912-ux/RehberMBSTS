@@ -43,14 +43,26 @@ class DilVeri {
 
   int get count => gruplar.fold(0, (a, g) => a + g.items.length);
   List<DilGrup> of(String bolum) => gruplar.where((g) => g.bolum == bolum).toList();
+  List<Cumle> get all => [for (final g in gruplar) ...g.items];
+  Cumle? byId(String id) {
+    for (final g in gruplar) {
+      for (final c in g.items) {
+        if (c.id == id) return c;
+      }
+    }
+    return null;
+  }
 
   static DilVeri? _cache;
 
   static Future<DilVeri> load() async {
     if (_cache != null) return _cache!;
     final j = jsonDecode(await rootBundle.loadString('assets/content/dil.json')) as Map<String, dynamic>;
+    const sira = 'AKBC';
+    final bolumler = [for (final b in j['b'] as List) DilBolum(b['id'] as String, b['t'] as String, b['d'] as String)]
+      ..sort((a, b) => sira.indexOf(a.id).compareTo(sira.indexOf(b.id)));
     return _cache = DilVeri(
-      [for (final b in j['b'] as List) DilBolum(b['id'] as String, b['t'] as String, b['d'] as String)],
+      bolumler,
       [
         for (final g in j['g'] as List)
           DilGrup(g['id'] as String, g['b'] as String, g['t'] as String, g['ic'] as String, g['s'] as String, [

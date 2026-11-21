@@ -1,0 +1,550 @@
+# Günlük kelime havuzu. Boşnakça okunuşu otomatik üretilir.
+# @tema id | Başlık | emoji | kısa not
+# satır: emoji | Türkçe | Boşnakça | İngilizce | İng. okunuş | Arapça (harekeli) | Arap. okunuş | kanca (isteğe bağlı)
+@tema c-sayilar | Sayılar | 🔢 | Önce 1-10, sonra onluklar. Bu kelimeler her konuşmada çıkar.
+0️⃣ | sıfır | nula | zero | zirou | صِفْر | sıfr
+1️⃣ | bir | jedan | one | van | وَاحِد | vâhid
+2️⃣ | iki | dva | two | tu | اثْنَان | isnân
+3️⃣ | üç | tri | three | thri | ثَلَاثَة | selâse
+4️⃣ | dört | četiri | four | for | أَرْبَعَة | erbea
+5️⃣ | beş | pet | five | fayv | خَمْسَة | hamse
+6️⃣ | altı | šest | six | siks | سِتَّة | sitte
+7️⃣ | yedi | sedam | seven | sevın | سَبْعَة | seb'a
+8️⃣ | sekiz | osam | eight | eyt | ثَمَانِيَة | semâniye
+9️⃣ | dokuz | devet | nine | nayn | تِسْعَة | tis'a
+🔟 | on | deset | ten | ten | عَشَرَة | aşara
+🔢 | yirmi | dvadeset | twenty | tventi | عِشْرُون | işrûn
+🔢 | otuz | trideset | thirty | thörti | ثَلَاثُون | selâsûn
+🔢 | elli | pedeset | fifty | fifti | خَمْسُون | hamsûn
+💯 | yüz | sto | hundred | handrıd | مِئَة | mie
+🔝 | bin | hiljadu | thousand | thauzınd | أَلْف | elf
+1️⃣ | birinci | prvi | first | först | أَوَّل | evvel
+🔢 | yarım | pola | half | haf | نِصْف | nısf
+➕ | fazla | više | more | mor | أَكْثَر | ekser
+➖ | az / daha az | manje | less | les | أَقَلّ | ekall
+@tema c-zaman | Zaman | ⏰ | Gün, saat, hafta ve zaman zarfları.
+⏰ | saat | sat | hour / clock | auır / klok | سَاعَة | sâa
+⏱️ | dakika | minuta | minute | minit | دَقِيقَة | dakîka
+📅 | gün | dan | day | dey | يَوْم | yevm
+📆 | hafta | sedmica | week | vik | أُسْبُوع | usbû'
+🗓️ | ay | mjesec | month | manth | شَهْر | şehr
+🎆 | yıl | godina | year | yiır | سَنَة | sene
+🌅 | sabah | jutro | morning | morning | صَبَاح | sabâh
+🌞 | öğle | podne | noon | nun | ظُهْر | zuhr
+🌇 | akşam | večer | evening | ivning | مَسَاء | mesâ
+🌙 | gece | noć | night | nayt | لَيْل | leyl
+📍 | bugün | danas | today | tudey | الْيَوْم | el-yevm
+⏮️ | dün | jučer | yesterday | yestırdey | أَمْس | emsi
+⏭️ | yarın | sutra | tomorrow | tumorou | غَد | gad
+⏳ | şimdi | sada | now | nau | الْآن | el-ân
+🔙 | sonra | poslije | later | leytır | بَعْد | ba'd
+⏪ | önce | prije | before | bifor | قَبْل | kabl
+🔁 | her zaman | uvijek | always | olveyz | دَائِمًا | dâimen
+🚫 | asla | nikad | never | nevır | أَبَدًا | ebeden
+🔂 | bazen | ponekad | sometimes | samtaymz | أَحْيَانًا | ahyânen
+⚡ | hemen | odmah | immediately | imidiitli | فَوْرًا | fevren
+🐢 | geç | kasno | late | leyt | مُتَأَخِّر | muteahhir
+🐇 | erken | rano | early | örli | مُبَكِّر | mubekkir
+@tema c-gunler | Günler ve aylar | 🗓️ | Haftanın yedi günü ve ayların adları.
+1️⃣ | pazartesi | ponedjeljak | Monday | mandey | الِاثْنَيْن | el-isneyn
+2️⃣ | salı | utorak | Tuesday | tyuzdey | الثُّلَاثَاء | es-sulâsâ
+3️⃣ | çarşamba | srijeda | Wednesday | venzdey | الْأَرْبِعَاء | el-erbiâ
+4️⃣ | perşembe | četvrtak | Thursday | thörzdey | الْخَمِيس | el-hamîs
+🕌 | cuma | petak | Friday | fraydey | الْجُمُعَة | el-cumua | Müslümanlar için kutlu gün.
+6️⃣ | cumartesi | subota | Saturday | seturdey | السَّبْت | es-sebt
+7️⃣ | pazar | nedjelja | Sunday | sandey | الْأَحَد | el-ehad
+❄️ | ocak | januar | January | cenyueri | يَنَايِر | yenâyir
+💘 | şubat | februar | February | februeri | فِبْرَايِر | fibrâyir
+🌱 | mart | mart | March | març | مَارِس | mâris
+🌷 | nisan | april | April | eypril | أَبْرِيل | ebrîl
+🌹 | mayıs | maj | May | mey | مَايُو | mâyû
+☀️ | haziran | juni | June | cun | يُونِيُو | yûniyû
+🏖️ | temmuz | juli | July | culay | يُولِيُو | yûliyû
+🍉 | ağustos | august | August | ogıst | أُغُسْطُس | ugustus
+🍂 | eylül | septembar | September | septembır | سِبْتَمْبَر | sibtember
+🎃 | ekim | oktobar | October | oktoubır | أُكْتُوبَر | uktûber
+🍁 | kasım | novembar | November | novembır | نُوفَمْبَر | nûfember
+🎄 | aralık | decembar | December | disembır | دِيسَمْبَر | dîsember
+@tema c-aile | Aile ve insanlar | 👨‍👩‍👧 | Yakınlarını anlatmak için en çok kullanılan kelimeler.
+👩 | anne | majka | mother | madır | أُمّ | umm
+👨 | baba | otac | father | fadır | أَب | eb
+👶 | çocuk | dijete | child | çayld | طِفْل | tıfl
+👦 | oğul | sin | son | san | اِبْن | ibn
+👧 | kız | kći | daughter | dotır | اِبْنَة | ibne
+👫 | kardeş (erkek) | brat | brother | bradır | أَخ | eh
+👭 | kardeş (kız) | sestra | sister | sistır | أُخْت | uht
+👴 | dede | djed | grandfather | grendfadır | جَدّ | ced
+👵 | nine | baka | grandmother | grendmadır | جَدَّة | cedde
+🤵 | koca | muž | husband | hazbınd | زَوْج | zevc
+👰 | karı | žena | wife / woman | vayf / vumın | زَوْجَة | zevce
+🧔 | adam | muškarac | man | men | رَجُل | recül
+🧍 | insan | čovjek | person | pörsın | إِنْسَان | insân
+🤝 | arkadaş | prijatelj | friend | frend | صَدِيق | sadîk
+👪 | aile | porodica | family | femıli | عَائِلَة | âile
+🏠 | komşu | komšija | neighbor | neybır | جَار | câr
+👥 | herkes | svi | everyone | evriivan | الْجَمِيع | el-cemî'
+🧑‍🏫 | öğretmen | učitelj | teacher | tiçır | مُعَلِّم | muallim
+🧑‍⚕️ | doktor | doktor | doctor | doktır | طَبِيب | tabîb
+👮 | polis | policajac | police officer | polîs ofisır | شُرْطِيّ | şurtî
+🧑‍🍳 | aşçı | kuhar | cook | kuk | طَبَّاخ | tabbâh
+🧒 | bebek | beba | baby | beybi | رَضِيع | radî'
+👦 | oğlan | dječak | boy | boy | وَلَد | veled
+👧 | kız çocuğu | djevojčica | girl | görl | بِنْت | bint
+🌍 | misafir | gost | guest | gest | ضَيْف | dayf
+@tema c-beden | Beden ve organlar | 🫀 | Sağlık ve günlük konuşmada vücut kelimeleri.
+🧠 | baş | glava | head | hed | رَأْس | ra's
+👀 | göz | oko | eye | ay | عَيْن | ayn
+👂 | kulak | uho | ear | iır | أُذُن | uzun
+👃 | burun | nos | nose | nouz | أَنْف | enf
+👄 | ağız | usta | mouth | maus | فَم | fem
+🦷 | diş | zub | tooth | tuuth | سِنّ | sinn
+👅 | dil | jezik | tongue | tang | لِسَان | lisân
+💇 | saç | kosa | hair | her | شَعْر | şa'r
+😀 | yüz | lice | face | feys | وَجْه | vech
+🧣 | boyun | vrat | neck | nek | رَقَبَة | rakabe
+💪 | omuz | rame | shoulder | şoldır | كَتِف | ketif
+🦾 | kol | ruka | arm / hand | arm / hend | يَد | yed
+✋ | parmak | prst | finger | fingır | إِصْبَع | usba'
+🫁 | göğüs | grudi | chest | çest | صَدْر | sadr
+🫀 | kalp | srce | heart | hart | قَلْب | kalb
+🫃 | karın | stomak | stomach | stamık | بَطْن | batn
+🦵 | bacak | noga | leg | leg | رِجْل | ricl
+🦶 | ayak | stopalo | foot | fut | قَدَم | kadem
+🩸 | kan | krv | blood | blad | دَم | dem
+🦴 | kemik | kost | bone | boun | عَظْم | azm
+🧍 | sırt | leđa | back | bek | ظَهْر | zahr
+@tema c-yiyecek | Yiyecekler | 🍽️ | Sofrada, markette ve restoranda sık geçen yiyecekler.
+🍞 | ekmek | hljeb | bread | bred | خُبْز | hubz
+🧈 | tereyağı | maslac | butter | batır | زُبْدَة | zubde
+🧀 | peynir | sir | cheese | çiiz | جُبْن | cubn
+🥚 | yumurta | jaje | egg | eg | بَيْضَة | beyda
+🥛 | süt | mlijeko | milk | milk | حَلِيب | halîb
+🍚 | pirinç | riža | rice | rays | أَرُزّ | ruzz
+🍝 | makarna | tjestenina | pasta | pasta | مَعْكَرُونَة | mekarûne
+🍗 | tavuk | piletina | chicken | çikın | دَجَاج | decâc
+🥩 | et | meso | meat | miit | لَحْم | lahm
+🐟 | balık | riba | fish | fiş | سَمَك | semek
+🍅 | domates | paradajz | tomato | tomeytou | طَمَاطِم | temâtım
+🥒 | salatalık | krastavac | cucumber | kyukambır | خِيَار | hiyâr
+🥔 | patates | krompir | potato | poteytou | بَطَاطَا | batâta
+🧅 | soğan | luk | onion | anyın | بَصَل | basal
+🧄 | sarımsak | bijeli luk | garlic | garlik | ثُوم | sûm
+🥕 | havuç | šargarepa | carrot | kerıt | جَزَر | cezer
+🍎 | elma | jabuka | apple | epıl | تُفَّاح | tuffâh
+🍌 | muz | banana | banana | bınana | مَوْز | mevz
+🍊 | portakal | narandža | orange | orınc | بُرْتُقَال | burtukâl
+🍇 | üzüm | grožđe | grapes | greyps | عِنَب | ineb
+🍉 | karpuz | lubenica | watermelon | votırmelın | بِطِّيخ | bittîh
+🍯 | bal | med | honey | hani | عَسَل | asel
+🧂 | tuz | sol | salt | solt | مِلْح | milh
+🍬 | şeker | šećer | sugar | şugır | سُكَّر | sukker | Türkçe şeker ≈ Arapça sukker ≈ Boşnakça šećer.
+🥣 | çorba | supa | soup | sup | شُورْبَة | şûrbe | Türkçe çorba ≈ Arapça şûrbe.
+🍰 | tatlı | slastica | dessert | dizört | حَلْوَى | halvâ
+@tema c-icecek | İçecekler ve mutfak | ☕ | Sipariş verirken lazım olanlar.
+💧 | su | voda | water | votır | مَاء | mâ'
+☕ | kahve | kafa | coffee | kofi | قَهْوَة | kahve | Türkçe kahve, Arapça kahve'den gelir.
+🍵 | çay | čaj | tea | tii | شَاي | şây
+🧃 | meyve suyu | sok | juice | cus | عَصِير | asîr
+🥤 | gazoz | gazirano piće | soda | soudı | صُودَا | sûdâ
+🥛 | bardak | čaša | glass | glas | كَأْس | ke's
+🍽️ | tabak | tanjir | plate | pleyt | صَحْن | sahn
+🥄 | kaşık | žlica | spoon | spun | مِلْعَقَة | mil'aka
+🍴 | çatal | viljuška | fork | fork | شَوْكَة | şevke
+🔪 | bıçak | nož | knife | nayf | سِكِّين | sikkîn
+🫖 | demlik | čajnik | teapot | tiipot | إِبْرِيق | ibrîk
+🍳 | tava | tiganj | pan | pen | مِقْلَاة | miklâ
+🥘 | tencere | lonac | pot | pot | قِدْر | kidr
+🧊 | buz | led | ice | ays | ثَلْج | selc
+🔥 | sıcak | vruće | hot | hot | حَارّ | hârr
+🧊 | soğuk | hladno | cold | kould | بَارِد | bârid
+😋 | aç | gladan | hungry | hangri | جَائِع | câi'
+🥵 | susamış | žedan | thirsty | thörsti | عَطْشَان | atşân
+🍽️ | doymuş | sit | full | ful | شَبْعَان | şeb'ân
+🍽️ | yemek (öğün) | jelo / obrok | meal | miil | وَجْبَة | vacbe
+🌅 | kahvaltı | doručak | breakfast | brekfıst | فَطُور | futûr
+🌞 | öğle yemeği | ručak | lunch | lanç | غَدَاء | gadâ
+🌆 | akşam yemeği | večera | dinner | dinır | عَشَاء | aşâ
+@tema c-renkler | Renkler ve biçimler | 🎨 | Tarif ederken en çok lazım olanlar.
+🔴 | kırmızı | crvena | red | red | أَحْمَر | ahmer
+🔵 | mavi | plava | blue | blu | أَزْرَق | ezrak
+🟢 | yeşil | zelena | green | griin | أَخْضَر | ahdar
+🟡 | sarı | žuta | yellow | yelou | أَصْفَر | asfer
+⚫ | siyah | crna | black | blek | أَسْوَد | esved
+⚪ | beyaz | bijela | white | vayt | أَبْيَض | ebyad
+🟤 | kahverengi | smeđa | brown | braun | بُنِّيّ | bunnî
+🟠 | turuncu | narandžasta | orange | orınc | بُرْتُقَالِيّ | burtukâlî
+🟣 | mor | ljubičasta | purple | pörpıl | بَنَفْسَجِيّ | benefsecî
+🩶 | gri | siva | gray | grey | رَمَادِيّ | remâdî
+⭕ | yuvarlak | okruglo | round | raund | مُدَوَّر | mudevver
+⬛ | kare | kvadrat | square | skver | مُرَبَّع | murabba'
+@tema c-ev | Ev ve eşyalar | 🏠 | Evde, otelde ve misafirlikte duyduğun kelimeler.
+🏠 | ev | kuća | house / home | haus / houm | بَيْت | beyt
+🚪 | kapı | vrata | door | dor | بَاب | bâb
+🪟 | pencere | prozor | window | vindou | نَافِذَة | nâfize
+🛏️ | yatak | krevet | bed | bed | سَرِير | serîr
+🛋️ | koltuk | fotelja | sofa / armchair | soufa | أَرِيكَة | erîke
+🪑 | sandalye | stolica | chair | çer | كُرْسِيّ | kursî
+🛠️ | masa | stol | table | teybıl | طَاوِلَة | tâvile
+🚿 | banyo | kupatilo | bathroom | basrum | حَمَّام | hammâm
+🚽 | tuvalet | toalet | toilet | toylit | مِرْحَاض | mirhâd
+🍳 | mutfak | kuhinja | kitchen | kiçın | مَطْبَخ | matbah
+🛋️ | oda | soba | room | rum | غُرْفَة | gurfe
+🔑 | anahtar | ključ | key | kii | مِفْتَاح | miftâh
+💡 | lamba | lampa | lamp | lemp | مِصْبَاح | misbâh
+🪞 | ayna | ogledalo | mirror | mirır | مِرْآة | mir'ât
+📺 | televizyon | televizor | television | televijın | تِلْفَاز | tilfâz
+🧊 | buzdolabı | frižider | fridge | fric | ثَلَّاجَة | sellâce
+🧼 | sabun | sapun | soap | soup | صَابُون | sâbûn
+🧻 | havlu | peškir | towel | tauıl | مِنْشَفَة | minşefe
+🛏️ | yastık | jastuk | pillow | pilou | وِسَادَة | visâde | Boşnakça jastuk ≈ Türkçe yastık.
+🧹 | süpürge | metla | broom | brum | مِكْنَسَة | miknese
+🪣 | kova | kanta | bucket | bakıt | دَلْو | delv | Boşnakça kanta, Türkçe kova gibi gündelik.
+📦 | eşya | stvar | thing / item | thing | شَيْء | şey'
+📱 | telefon | telefon | phone | foun | هَاتِف | hâtif
+🔌 | elektrik | struja | electricity | ilektrisiti | كَهْرَبَاء | kehrebâ
+@tema c-giyim | Giyim | 👕 | Alışverişte ve hava durumunda lazım olanlar.
+👕 | tişört | majica | t-shirt | ti-şört | قَمِيص | kamîs
+👖 | pantolon | pantalone | trousers | trauzırz | بَنْطَلُون | bentalûn
+👗 | elbise | haljina | dress | dres | فُسْتَان | fustân
+🧥 | ceket | jakna | jacket | cekıt | سُتْرَة | sutre
+🧣 | atkı | šal | scarf | skarf | وِشَاح | vişâh
+🧤 | eldiven | rukavice | gloves | glavz | قُفَّازَات | kuffâzât
+🧦 | çorap | čarape | socks | soks | جَوَارِب | cevârib
+👟 | ayakkabı | cipele | shoes | şuuz | حِذَاء | hizâ'
+🎩 | şapka | šešir | hat | het | قُبَّعَة | kubbea
+👓 | gözlük | naočale | glasses | glasız | نَظَّارَة | nazzâra
+👜 | çanta | torba | bag | beg | حَقِيبَة | hakîbe
+🧕 | başörtüsü | marama | headscarf | hedskarf | حِجَاب | hicâb
+💍 | yüzük | prsten | ring | ring | خَاتَم | hâtem
+⌚ | saat (kol) | sat | watch | voç | سَاعَة يَد | sâat yed
+@tema c-ulasim | Ulaşım ve yol | 🚌 | Yol sormak ve bilet almak için.
+🚗 | araba | auto | car | kar | سَيَّارَة | seyyâre
+🚌 | otobüs | autobus | bus | bas | حَافِلَة | hâfile
+🚆 | tren | voz | train | treyn | قِطَار | kıtâr
+✈️ | uçak | avion | plane | pleyn | طَائِرَة | tâire
+🚕 | taksi | taksi | taxi | teksi | تَاكْسِي | tâksî
+🚲 | bisiklet | bicikl | bicycle | baysikıl | دَرَّاجَة | derrâce
+🚢 | gemi | brod | ship | şip | سَفِينَة | sefîne
+🛣️ | yol | put | road / way | roud / vey | طَرِيق | tarîk
+🚏 | durak | stanica | stop / station | stop / steyşın | مَحَطَّة | mahatta
+🎫 | bilet | karta | ticket | tikıt | تَذْكِرَة | tezkire
+🗺️ | harita | mapa | map | mep | خَرِيطَة | harîta
+➡️ | sağ | desno | right | rayt | يَمِين | yemîn
+⬅️ | sol | lijevo | left | left | يَسَار | yesâr
+⬆️ | düz | ravno | straight | streyt | مُسْتَقِيم | müstakîm
+🔃 | dön | skrenuti | turn | törn | اِنْعَطِفْ | in'atıf
+📍 | yakın | blizu | near | niır | قَرِيب | karîb
+🔭 | uzak | daleko | far | far | بَعِيد | be'îd
+🛑 | dur | stani | stop | stop | قِفْ | kıf
+⛽ | benzin | benzin | petrol / gas | petrıl / ges | بَنْزِين | benzîn
+🅿️ | park | parking | parking | parking | مَوْقِف | mevkıf
+@tema c-sehir | Şehir ve yerler | 🏙️ | Gittiğin yerleri adlandırmak için.
+🏙️ | şehir | grad | city | siti | مَدِينَة | medîne
+🏘️ | köy | selo | village | vilic | قَرْيَة | karye
+🕌 | cami | džamija | mosque | mosk | مَسْجِد | mescid
+🏪 | dükkân | prodavnica | shop | şop | مَحَلّ | mahall
+🛒 | market | market | supermarket | supırmarkıt | سُوبَرْمَارْكِت | sûbermarket
+🏬 | çarşı / pazar | čaršija / pijaca | market / bazaar | markıt / bazar | سُوق | sûk | Çarşı = Boşnakça čaršija, Saraybosna Başçarşı'sı gibi.
+🏥 | hastane | bolnica | hospital | hospitıl | مُسْتَشْفَى | mustaşfâ
+💊 | eczane | apoteka | pharmacy | farmısi | صَيْدَلِيَّة | saydeliyye
+🏦 | banka | banka | bank | benk | بَنْك | bank
+✉️ | postane | pošta | post office | poust ofis | مَكْتَب الْبَرِيد | mektebü'l-berîd
+🏫 | okul | škola | school | skul | مَدْرَسَة | medrese
+🎓 | üniversite | univerzitet | university | yunivörsiti | جَامِعَة | câmia
+🏨 | otel | hotel | hotel | houtel | فُنْدُق | funduk
+🍴 | restoran | restoran | restaurant | restırınt | مَطْعَم | mat'am
+🌳 | park | park | park | park | حَدِيقَة | hadîka
+🌉 | köprü | most | bridge | bric | جِسْر | cisr | Mostar şehri "most" (köprü) kelimesinden gelir.
+🏛️ | müze | muzej | museum | myuziyım | مَتْحَف | mathaf
+📚 | kütüphane | biblioteka | library | laybreri | مَكْتَبَة | mektebe
+🏖️ | deniz | more | sea | sii | بَحْر | bahr
+⛰️ | dağ | planina | mountain | mauntın | جَبَل | cebel
+🌊 | nehir | rijeka | river | rivır | نَهْر | nehr
+🛣️ | cadde | ulica | street | striit | شَارِع | şâri'
+@tema c-doga | Doğa ve hava | 🌦️ | Hava durumu ve doğa.
+☀️ | güneş | sunce | sun | san | شَمْس | şems
+🌙 | ay | mjesec | moon | mun | قَمَر | kamer
+⭐ | yıldız | zvijezda | star | star | نَجْم | necm
+☁️ | bulut | oblak | cloud | klaud | سَحَاب | sehâb
+🌧️ | yağmur | kiša | rain | reyn | مَطَر | matar
+❄️ | kar | snijeg | snow | snou | ثَلْج | selc
+🌬️ | rüzgâr | vjetar | wind | vind | رِيح | rîh
+🌫️ | sis | magla | fog | fog | ضَبَاب | dabâb
+⛈️ | fırtına | oluja | storm | storm | عَاصِفَة | âsıfe
+🌡️ | hava | vrijeme | weather | vedır | طَقْس | taks
+🔥 | ateş | vatra | fire | fayır | نَار | nâr
+🌍 | dünya | svijet | world | vörld | عَالَم | âlem
+🌱 | ağaç | drvo | tree | trii | شَجَرَة | şecere
+🌸 | çiçek | cvijet | flower | flauır | زَهْرَة | zehre
+🌿 | ot | trava | grass | gras | عُشْب | uşb
+🪨 | taş | kamen | stone | stoun | حَجَر | hacer
+🏖️ | kum | pijesak | sand | send | رَمْل | raml
+🌅 | doğu | istok | east | iist | شَرْق | şark
+🌇 | batı | zapad | west | vest | غَرْب | garb
+🧭 | kuzey | sjever | north | north | شَمَال | şemâl
+🧭 | güney | jug | south | sauth | جَنُوب | cenûb
+@tema c-hayvan | Hayvanlar | 🐾 | Çocuklara ve hikâyelere lazım olan hayvanlar.
+🐶 | köpek | pas | dog | dog | كَلْب | kelb
+🐱 | kedi | mačka | cat | ket | قِطَّة | kıtta
+🐎 | at | konj | horse | hors | حِصَان | hısân
+🐄 | inek | krava | cow | kau | بَقَرَة | bakare
+🐑 | koyun | ovca | sheep | şiip | خَرُوف | harûf
+🐐 | keçi | koza | goat | gout | مَاعِز | mâ'iz
+🐓 | tavuk | kokoš | hen | hen | دَجَاجَة | decâce
+🐦 | kuş | ptica | bird | börd | طَائِر | tâir
+🐟 | balık | riba | fish | fiş | سَمَكَة | semeke
+🦅 | kartal | orao | eagle | iigıl | نَسْر | nesr
+🐍 | yılan | zmija | snake | sneyk | ثُعْبَان | su'bân
+🐘 | fil | slon | elephant | elifınt | فِيل | fîl
+🦁 | aslan | lav | lion | layın | أَسَد | esed
+🐫 | deve | kamila | camel | kemıl | جَمَل | cemel
+🐜 | karınca | mrav | ant | ent | نَمْلَة | nemle
+🐝 | arı | pčela | bee | bii | نَحْلَة | nahle
+@tema c-is | İş ve okul | 💼 | Çalışma ve okul hayatında geçen kelimeler.
+💼 | iş | posao | job / work | cob / vörk | عَمَل | amel
+🏢 | ofis | ured | office | ofis | مَكْتَب | mektep
+📚 | kitap | knjiga | book | buk | كِتَاب | kitâb
+✏️ | kalem | olovka | pen / pencil | pen / pensıl | قَلَم | kalem | Türkçe kalem, Arapça kalem'den.
+📝 | defter | bilježnica | notebook | noutbuk | دَفْتَر | defter | Türkçe defter, Arapça defter ile aynı kök.
+📄 | kâğıt | papir | paper | peypır | وَرَقَة | verake
+📖 | ders | lekcija | lesson | lesın | دَرْس | ders | Türkçe ders, Arapça ders'ten.
+📝 | sınav | ispit | exam | igzem | اِمْتِحَان | imtihân | Türkçe imtihan ≈ Arapça imtihân.
+🧑‍🎓 | öğrenci | student | student | styudınt | طَالِب | tâlib
+❓ | soru | pitanje | question | kvesçın | سُؤَال | su'âl | Türkçe sual ≈ Arapça su'âl.
+💡 | cevap | odgovor | answer | ensır | جَوَاب | cevâb | Türkçe cevap ≈ Arapça cevâb.
+💻 | bilgisayar | računar | computer | kımpyutır | حَاسُوب | hâsûb
+📧 | e-posta | e-pošta | email | iimeyl | بَرِيد إِلِكْتْرُونِيّ | berîd iliktrûnî
+📞 | arama | poziv | call | kol | مُكَالَمَة | mukâleme
+💬 | mesaj | poruka | message | mesic | رِسَالَة | risâle | Türkçe risale ≈ Arapça risâle.
+🗣️ | dil (konuşma) | jezik | language | lenguic | لُغَة | luğa | Türkçe lügat ≈ Arapça luğa.
+✍️ | yazı | tekst | text | tekst | نَصّ | nass
+📅 | toplantı | sastanak | meeting | miiting | اجْتِمَاع | ictimâ'
+🤝 | yardım | pomoć | help | help | مُسَاعَدَة | musâ'ade
+@tema c-para | Para ve alışveriş | 💰 | Pazarlık ve ödeme.
+💰 | para | novac | money | mani | مَال | mâl | Türkçe mal ≈ Arapça mâl (zenginlik).
+💵 | nakit | gotovina | cash | keş | نَقْد | nakd | Türkçe nakit ≈ Arapça nakd.
+💳 | kart | kartica | card | kard | بِطَاقَة | bitâka
+🧾 | hesap / fatura | račun | bill / receipt | bil / risiit | فَاتُورَة | fâtûre
+🏷️ | fiyat | cijena | price | prays | سِعْر | si'r
+💲 | pahalı | skupo | expensive | ikspensiv | غَالٍ | gâlin
+🪙 | ucuz | jeftino | cheap | çiip | رَخِيص | rahîs
+🆓 | bedava | besplatno | free | frii | مَجَّانًا | mecceanen
+🔄 | indirim | popust | discount | diskaunt | خَصْم | hasm
+🛍️ | almak (satın) | kupiti | to buy | tu bay | يَشْتَرِي | yeşterî
+🏪 | satmak | prodati | to sell | tu sel | يَبِيعُ | yebî'u
+💱 | bozuk para | sitniš | change | çeync | فَكَّة | fekke
+🔢 | numara | broj | number | nambır | رَقْم | rakm
+🧺 | sepet | korpa | basket | baskıt | سَلَّة | selle
+🏧 | kalan | ostatak | remainder | rimeyndır | بَاقِي | bâkî | Türkçe baki ≈ Arapça bâkî.
+🛍️ | torba | kesa | bag | beg | كِيس | kîs | Türkçe kese ≈ Arapça kîs.
+🎁 | hediye | poklon | gift | gift | هَدِيَّة | hediyye | Türkçe hediye ≈ Arapça hediyye.
+@tema c-saglik | Sağlık | 🏥 | Doktorda ve eczanede lazım olanlar.
+🤒 | hasta | bolestan | sick | sik | مَرِيض | marîd
+🤕 | ağrı | bol | pain | peyn | أَلَم | elem
+🤧 | nezle | prehlada | cold | kould | زُكَام | zukâm
+🌡️ | ateş (hastalık) | temperatura | fever | fiivır | حُمَّى | humma
+😷 | öksürük | kašalj | cough | kof | سُعَال | su'âl
+🤮 | kusmak | povraćati | to vomit | tu vomit | يَتَقَيَّأُ | yetekayye'u
+🤢 | mide bulantısı | mučnina | nausea | nozya | غَثَيَان | gaseyân
+💊 | ilaç | lijek | medicine | medsın | دَوَاء | devâ'
+💉 | iğne | injekcija | injection | incekşın | حُقْنَة | hukne
+🩹 | yara | rana | wound | vund | جُرْح | curh
+🦷 | diş ağrısı | zubobolja | toothache | tuuthayk | أَلَم الْأَسْنَان | elemü'l-esnân
+🏥 | acil | hitno | emergency | imörcınsi | طَوَارِئ | tavârî
+🚑 | ambulans | hitna pomoć | ambulance | embyulıns | إِسْعَاف | is'âf
+😴 | uyku | san | sleep | sliip | نَوْم | nevm
+💤 | yorgun | umoran | tired | tayırd | تَعْبَان | te'bân
+😮‍💨 | nefes | dah | breath | breth | نَفَس | nefes
+🩺 | muayene | pregled | examination | igzemineyşın | فَحْص | fahs
+🍵 | alerji | alergija | allergy | elırci | حَسَاسِيَّة | hasâsiyye
+🧘 | sağlıklı | zdrav | healthy | helthi | صِحِّيّ | sıhhî | Türkçe sıhhi ≈ Arapça sıhhî.
+@tema c-fiil1 | Günlük fiiller 1 | 🏃 | Boşnakça mastar (-ti / -ći), İngilizce "to …", Arapça sözlük biçimi (geçmiş zaman 3. tekil eril).
+🚶 | gitmek | ići | to go | tu gou | ذَهَبَ | zehebe
+🔙 | gelmek | doći | to come | tu kam | جَاءَ | câe
+🌱 | olmak | biti | to be | tu bii | كَانَ | kâne
+🎒 | sahip olmak | imati | to have | tu hev | مَلَكَ | meleke
+🔨 | yapmak | raditi | to do / make | tu du / meyk | فَعَلَ | fe'ale
+👀 | görmek | vidjeti | to see | tu sii | رَأَى | ra'â
+👂 | duymak | čuti | to hear | tu hiır | سَمِعَ | semia
+🧠 | bilmek | znati | to know | tu nou | عَرَفَ | arafe
+🤔 | düşünmek | misliti | to think | tu think | فَكَّرَ | fekkere
+🗣️ | söylemek | reći | to say | tu sey | قَالَ | kâle
+💬 | konuşmak | govoriti | to speak | tu spiik | تَكَلَّمَ | tekellime
+🙏 | istemek | željeti / htjeti | to want | tu vont | أَرَادَ | erâde
+❓ | sormak | pitati | to ask | tu ask | سَأَلَ | se'ele
+💡 | anlamak | razumjeti | to understand | tu andırstend | فَهِمَ | fehime
+🎁 | vermek | dati | to give | tu giv | أَعْطَى | a'tâ
+✋ | almak | uzeti | to take | tu teyk | أَخَذَ | ehaze
+📬 | getirmek | donijeti | to bring | tu bring | أَحْضَرَ | ahdara
+🔍 | aramak | tražiti | to look for | tu luk for | بَحَثَ | behase
+🔎 | bulmak | naći | to find | tu faynd | وَجَدَ | vecede
+📌 | koymak | staviti | to put | tu put | وَضَعَ | vada'a
+🚪 | açmak | otvoriti | to open | tu oupın | فَتَحَ | fetehe
+🔒 | kapatmak | zatvoriti | to close | tu klouz | أَغْلَقَ | agleka
+▶️ | başlamak | početi | to start | tu start | بَدَأَ | bede'e
+⏹️ | bitirmek | završiti | to finish | tu finiş | أَنْهَى | enhâ
+⏳ | beklemek | čekati | to wait | tu veyt | اِنْتَظَرَ | intezare
+@tema c-fiil2 | Günlük fiiller 2 | 🏃 | Yaşam, ev ve ilişkiler için fiiller.
+🍽️ | yemek | jesti | to eat | tu iit | أَكَلَ | ekele
+🥤 | içmek | piti | to drink | tu drink | شَرِبَ | şeribe
+😴 | uyumak | spavati | to sleep | tu sliip | نَامَ | nâme
+⏰ | uyanmak | probuditi se | to wake up | tu veyk ap | اِسْتَيْقَظَ | istayhaza
+🏃 | koşmak | trčati | to run | tu ran | رَكَضَ | rakada
+🚶 | yürümek | hodati | to walk | tu vok | مَشَى | meşâ
+🪑 | oturmak | sjediti | to sit | tu sit | جَلَسَ | celese
+🧍 | kalkmak | ustati | to stand up | tu stend ap | قَامَ | kâme
+🏠 | kalmak / oturmak (yaşamak) | živjeti | to live | tu liv | سَكَنَ | seken
+💼 | çalışmak | raditi | to work | tu vörk | عَمِلَ | amile
+📖 | okumak | čitati | to read | tu riid | قَرَأَ | kare'e
+✍️ | yazmak | pisati | to write | tu rayt | كَتَبَ | ketebe
+📚 | öğrenmek | učiti | to learn | tu lörn | تَعَلَّمَ | teallame
+🧑‍🏫 | öğretmek | podučavati | to teach | tu tiiç | عَلَّمَ | allame
+🛍️ | satın almak | kupiti | to buy | tu bay | اِشْتَرَى | iştarâ
+💰 | ödemek | platiti | to pay | tu pey | دَفَعَ | defe'a
+❤️ | sevmek | voljeti | to love | tu lav | أَحَبَّ | ehabbe
+😊 | beğenmek | sviđati se | to like | tu layk | أَعْجَبَهُ | a'cebehu
+🤝 | tanışmak | upoznati | to meet | tu miit | تَعَارَفَ | teârafe
+📞 | aramak (telefon) | nazvati | to call | tu kol | اِتَّصَلَ | ittasale
+🚗 | sürmek | voziti | to drive | tu drayv | قَادَ | kâde
+✈️ | uçmak | letjeti | to fly | tu flay | طَارَ | târe
+🛌 | dinlenmek | odmarati se | to rest | tu rest | اِسْتَرَاحَ | istarâhe
+🙏 | dua etmek | moliti | to pray | tu prey | صَلَّى | sallâ
+😂 | gülmek | smijati se | to laugh | tu laf | ضَحِكَ | dahike
+😢 | ağlamak | plakati | to cry | tu kray | بَكَى | bekâ
+🤲 | yardım etmek | pomoći | to help | tu help | سَاعَدَ | sâ'ade
+@tema c-sifat | Sıfatlar (zıt çiftler) | ↔️ | Zıt anlamlıları birlikte öğren: biri akılda kalınca diğeri gelir.
+🐘 | büyük | velik | big | big | كَبِير | kebîr
+🐜 | küçük | mali | small | smol | صَغِير | sagîr
+👍 | iyi | dobar | good | gud | جَيِّد | cey-yid
+👎 | kötü | loš | bad | bed | سَيِّء | sey-yi'
+🆕 | yeni | nov | new | nyu | جَدِيد | cedîd
+🏚️ | eski | star | old | ould | قَدِيم | kadîm
+🔥 | sıcak | topao | hot | hot | حَارّ | hârr
+🧊 | soğuk | hladan | cold | kould | بَارِد | bârid
+🐇 | hızlı | brz | fast | fast | سَرِيع | serî'
+🐢 | yavaş | spor | slow | slou | بَطِيء | batî'
+🪶 | hafif | lagan | light | layt | خَفِيف | hafîf
+🪨 | ağır | težak | heavy | hevi | ثَقِيل | sakîl
+📏 | uzun | dug | long / tall | long / tol | طَوِيل | tavîl
+📐 | kısa | kratak | short | şort | قَصِير | kasîr
+🌞 | kolay | lak | easy | iizi | سَهْل | sehl
+🧗 | zor | težak | difficult | difikılt | صَعْب | sa'b
+🧼 | temiz | čist | clean | kliin | نَظِيف | nezîf
+🗑️ | kirli | prljav | dirty | dörti | وَسِخ | vesıh
+💰 | zengin | bogat | rich | riç | غَنِيّ | ganî
+🪙 | fakir | siromašan | poor | pur | فَقِير | fakîr
+😊 | mutlu | sretan | happy | hepi | سَعِيد | sa'îd
+😢 | üzgün | tužan | sad | sed | حَزِين | hazîn
+🌟 | güzel | lijep | beautiful | byutifıl | جَمِيل | cemîl
+😖 | çirkin | ružan | ugly | agli | قَبِيح | kabîh
+🔑 | doğru | tačan | correct | kırekt | صَحِيح | sahîh
+❌ | yanlış | pogrešan | wrong | rong | خَطَأ | hata'
+🤫 | sessiz | tih | quiet | kvayıt | هَادِئ | hâdi'
+🔊 | gürültülü | glasan | loud | laud | صَاخِب | sâhıb
+🌑 | karanlık | taman | dark | dark | مُظْلِم | muzlim
+💡 | aydınlık | svijetao | bright | brayt | مُضِيء | mudî'
+🆓 | boş | prazan | empty | empti | فَارِغ | fârig
+🧺 | dolu | pun | full | ful | مَلِيء | melî'
+@tema c-edat | Yer-yön ve edatlar | 📍 | Cümleyi kuran küçük ama çok önemli kelimeler.
+🏠 | içinde | u | in | in | فِي | fî
+📍 | üstünde | na | on | on | عَلَى | alâ
+⬇️ | altında | ispod | under | andır | تَحْتَ | tahte
+🧲 | yanında | pored | next to | nekst tu | بِجَانِب | bi-cânib
+🔙 | arkasında | iza | behind | bihaynd | خَلْفَ | halfe
+➡️ | önünde | ispred | in front of | in frant ov | أَمَامَ | emâme
+↔️ | arasında | između | between | bitviin | بَيْنَ | beyne
+🏃 | -e doğru | prema | to / towards | tu / tovordz | إِلَى | ilâ
+🏠 | -den | iz / od | from | fram | مِنْ | min
+🤝 | ile | sa | with | vit | مَعَ | me'a
+🚫 | -siz | bez | without | vithaut | بِدُونِ | bi-dûni
+🎁 | için | za | for | for | لِ | li
+⏰ | -e kadar | do | until | antil | حَتَّى | hattâ
+🌍 | etrafında | oko | around | ıraund | حَوْلَ | havle
+🏠 | dışarıda | vani | outside | autsayd | خَارِجَ | hâric
+🚪 | içeride | unutra | inside | insayd | دَاخِلَ | dâhil
+📍 | burada | ovdje | here | hiır | هُنَا | hunâ
+🔭 | orada | tamo | there | der | هُنَاكَ | hunâk
+⬆️ | yukarı | gore | up | ap | فَوْقَ | fevke
+⬇️ | aşağı | dolje | down | daun | أَسْفَلَ | esfele
+@tema c-duygu | Duygular ve düşünceler | 💭 | Kendini ifade etmek için.
+😊 | mutluluk | sreća | happiness | hepinıs | سَعَادَة | se'âde
+😢 | üzüntü | tuga | sadness | sednıs | حُزْن | huzn
+😡 | kızgın | ljut | angry | engri | غَاضِب | gâdıb
+😨 | korku | strah | fear | fiır | خَوْف | havf
+😍 | aşk / sevgi | ljubav | love | lav | حُبّ | hubb
+🙏 | umut | nada | hope | houp | أَمَل | emel
+😌 | huzur | mir | peace | piis | سَلَام | selâm
+🕊️ | sabır | strpljenje | patience | peyşıns | صَبْر | sabr
+💪 | güç | snaga | strength | strengs | قُوَّة | kuvve
+🧐 | merak | znatiželja | curiosity | kyuriyasıti | فُضُول | fudûl
+😳 | utanç | sram | shame | şeym | خَجَل | hacel
+😮 | şaşkın | iznenađen | surprised | sırprayzd | مُتَفَاجِئ | mutefâci'
+😟 | endişe | briga | worry | vöri | قَلَق | kalak
+🤗 | teşekkür | hvala | thanks | thenks | شُكْر | şukr | Türkçe şükür ≈ Arapça şukr.
+🙏 | özür | izvinjenje | apology | ıpolıci | اعْتِذَار | i'tizâr | Türkçe itizar ≈ Arapça i'tizâr.
+🤲 | af | oprost | forgiveness | fırgivnıs | عَفْو | afv | Türkçe af ≈ Arapça afv.
+❓ | belki | možda | maybe | meybi | رُبَّمَا | rubbemâ
+✅ | tabii | naravno | of course | ov kors | طَبْعًا | tab'an
+@tema c-din | Din ve ibadet | 🕌 | Camide ve günlük dini sohbette geçen sözler.
+🕌 | cami | džamija | mosque | mosk | مَسْجِد | mescid
+🤲 | dua | dova | prayer / supplication | prayır / sapliykeyşın | دُعَاء | duâ' | Boşnakça dova ≈ Türkçe dua.
+🙏 | namaz | namaz | prayer | prayır | صَلَاة | salât | Boşnakça namaz ≈ Türkçe namaz.
+🚿 | abdest | abdest | ablution | ablüşın | وُضُوء | vudû'
+🌙 | oruç | post | fasting | fastıng | صَوْم | savm
+🌙 | Ramazan | Ramazan | Ramadan | ramadan | رَمَضَان | ramadân
+🕋 | Kâbe | Kaba | Kaaba | kaaba | الْكَعْبَة | el-ka'be
+🕋 | hac | hadž | pilgrimage | pilgrimic | حَجّ | hacc
+💰 | zekât | zekat | zakat | zekât | زَكَاة | zekât
+📖 | Kur'an | Kur'an | Quran | kuran | قُرْآن | kur'ân
+🧔 | peygamber | vjerovjesnik | prophet | profit | نَبِيّ | nebî
+🌟 | Allah | Allah | Allah | allah | اللّٰه | allâh
+🕌 | ezan | ezan | call to prayer | kol tu prayır | أَذَان | ezân
+🧎 | secde | sedžda | prostration | prostreyşın | سُجُود | sucûd
+🕌 | imam | imam | imam | imam | إِمَام | imâm
+🎉 | bayram | bajram | Eid / festival | iid | عِيد | îd | Boşnakça bajram ≈ Türkçe bayram.
+🕊️ | dua et (Allah'a) | dova | supplication | sapliykeyşın | دُعَاء | duâ'
+📿 | tespih | tespih | prayer beads | prayır biidz | سُبْحَة | subha
+@tema c-seyahat | Seyahat ve otel | 🧳 | Havalimanı, otel ve rezervasyon.
+✈️ | havalimanı | zračna luka | airport | erpört | مَطَار | matâr
+🛂 | pasaport | pasoš | passport | paspört | جَوَاز سَفَر | cevâz sefer
+🧳 | bavul | kofer | suitcase | sutkeys | حَقِيبَة | hakîbe
+🏨 | otel | hotel | hotel | houtel | فُنْدُق | funduk
+🛏️ | rezervasyon | rezervacija | reservation | rezırveyşın | حَجْز | hacz
+🔑 | oda anahtarı | ključ sobe | room key | rum kii | مِفْتَاح الْغُرْفَة | miftâhu'l-gurfe
+🪪 | kimlik | lična karta | ID card | ay-di kard | بَطَاقَة هُوِيَّة | bitâka huviyye
+🎫 | uçak bileti | avionska karta | plane ticket | pleyn tikıt | تَذْكِرَة طَيَرَان | tezkire tayerân
+🛬 | iniş | slijetanje | landing | lending | هُبُوط | hubût
+🛫 | kalkış | polijetanje | take-off | teykof | إِقْلَاع | iklâ'
+🗺️ | tatil | odmor | holiday | holidey | عُطْلَة | utle
+🏖️ | plaj | plaža | beach | biiç | شَاطِئ | şâti'
+📸 | fotoğraf | fotografija | photo | foutou | صُورَة | sûra
+🧳 | gezgin / turist | turist | tourist | turist | سَائِح | sâih
+🌍 | ülke | zemlja | country | kantri | بَلَد | beled
+🇹🇷 | Türkiye | Turska | Turkey | törki | تُرْكِيَا | türkiyâ
+🇧🇦 | Bosna | Bosna | Bosnia | bosniya | الْبُوسْنَة | el-bûsne
+🇸🇦 | Arabistan | Saudijska Arabija | Saudi Arabia | saudi eyribiya | السُّعُودِيَّة | es-suûdiyye
+@tema c-tanidik | Tanıdık kelimeler (zaten biliyorsun) | 🎁 | Türkçeyle ortak köklü kelimeler: Boşnakçada Osmanlıdan kalanlar, Arapçadan Türkçeye girenler.
+🍬 | şeker | šećer | sugar | şugır | سُكَّر | sukker | Üçü de aynı yoldan: şeker, šećer, sukker.
+☕ | kahve | kafa | coffee | kofi | قَهْوَة | kahve | İngilizce coffee Türkçe kahve'den.
+🏬 | çarşı | čaršija | bazaar | bazar | سُوق | sûk | Čaršija = Türkçe çarşı.
+🛏️ | yastık | jastuk | pillow | pilou | وِسَادَة | visâde | Jastuk = Türkçe yastık.
+🏡 | avlu | avlija | courtyard | kortyard | فِنَاء | fînâ' | Avlija = Türkçe avlu.
+🥛 | yoğurt | jogurt | yogurt | yogırt | زَبَادِي | zebâdî | İngilizce yogurt Türkçe yoğurt'tan.
+🍰 | baklava | baklava | baklava | baklava | بَقْلَاوَة | baklâve
+🍖 | kebap | ćevapi | kebab | kebab | كَبَاب | kebâb | Ćevapi = Türkçe kebapçık.
+🥘 | tavuk güveç | đuveč | casserole | kesıroul | طَاجِن | tâcin | Đuveč = Türkçe güveç.
+🧿 | merak | merak | curiosity | kyuriyasıti | فُضُول | fudûl | Boşnakça merak = Türkçe merak.
+🚪 | hadi | hajde | come on | kam on | هَيَّا | hayyâ | Hajde = Türkçe hadi.
+🕰️ | saat | sat | hour | auır | سَاعَة | sâa | Sat = Türkçe saat.
+🗣️ | dua | dova | prayer | prayır | دُعَاء | duâ' | Boşnakça dova ≈ Türkçe dua.
+💎 | hayat | život | life | layf | حَيَاة | hayât | Türkçe hayat = Arapça hayât.
+🤝 | dost | prijatelj | friend | frend | صَدِيق | sadîk
+📜 | kitap | knjiga | book | buk | كِتَاب | kitâb | Türkçe kitap = Arapça kitâb.
+🌍 | dünya | svijet | world | vörld | دُنْيَا | dünyâ | Türkçe dünya = Arapça dünyâ.
+⏳ | zaman | vrijeme | time | taym | زَمَن | zemen | Türkçe zaman = Arapça zemen.
+💡 | akıl | razum | mind | maynd | عَقْل | akl | Türkçe akıl = Arapça akl.
+📍 | mekân | mjesto | place | pleys | مَكَان | mekân | Türkçe mekân = Arapça mekân.
+🤲 | şükür | zahvalnost | gratitude | gretıtyud | شُكْر | şukr | Türkçe şükür = Arapça şukr.
+🧠 | fikir | ideja | idea | aydiya | فِكْرَة | fikre | Türkçe fikir = Arapça fikr.
+🌹 | gül | ruža | rose | rouz | وَرْد | verd
+🌸 | bahçe | bašča | garden | gardın | حَدِيقَة | hadîka | Bašča = Türkçe bahçe.
