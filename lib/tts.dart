@@ -123,6 +123,30 @@ class Reader extends ChangeNotifier {
     await playItems(queue, start: (index - 1).clamp(0, queue.length - 1));
   }
 
+  /// Yabancı dildeki bir cümleyi o dilin sesiyle okur; sonra Türkçeye döner.
+  /// Cihazda istenen ses yoksa [fallback] denenir (ör. Boşnakça yoksa Hırvatça).
+  Future<void> sayPhrase(String text, String locale, {String? fallback}) async {
+    await _init();
+    _session++;
+    playing = false;
+    notifyListeners();
+    try {
+      await _tts.stop();
+      var loc = locale;
+      if (await _tts.isLanguageAvailable(loc) != true && fallback != null) loc = fallback;
+      await _tts.setLanguage(loc);
+      await _tts.setSpeechRate(rate < 0.45 ? rate : 0.4);
+      await _tts.speak(text);
+    } catch (e) {
+      debugPrint('tts phrase: $e');
+    } finally {
+      try {
+        await _tts.setLanguage('tr-TR');
+        await _tts.setSpeechRate(rate);
+      } catch (_) {}
+    }
+  }
+
   Future<void> stop() async {
     _session++;
     playing = false;

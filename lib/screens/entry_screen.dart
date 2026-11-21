@@ -7,6 +7,7 @@ import '../tts.dart';
 import '../widgets/entry_icon.dart';
 import '../widgets/player_bar.dart';
 import '../widgets/read_bar.dart';
+import '../widgets/photo_bar.dart';
 import '../widgets/rich_body.dart';
 import 'entry_editor.dart';
 import 'note_editor.dart';
@@ -140,6 +141,7 @@ class _EntryScreenState extends State<EntryScreen> {
               const SizedBox(height: 4),
               RichBody(text: e.body, exists: entryExists, onLink: (id) => openEntry(context, id)),
               for (final img in e.images) _AssetImage(path: img),
+              PhotoBar(slot: 'e:${e.id}'),
               const SizedBox(height: 18),
               _SectionTitle(icon: Icons.sticky_note_2, text: 'Notlarım (${notes.length})', color: area.color),
               if (notes.isEmpty)

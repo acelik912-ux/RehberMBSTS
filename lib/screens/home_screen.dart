@@ -7,6 +7,7 @@ import '../tts.dart';
 import '../widgets/read_bar.dart';
 import 'area_screen.dart';
 import 'cards_screen.dart';
+import 'dil_screen.dart';
 import 'kapali_sema_screen.dart';
 import 'saray_screen.dart';
 import 'notebook_screen.dart';
@@ -118,6 +119,14 @@ class HomeScreen extends StatelessWidget {
                   ),
                 ),
               ]),
+              const SizedBox(height: 10),
+              _Action(
+                icon: Icons.translate,
+                label: 'Dil bölümü',
+                sub: 'Boşnakça · İngilizce · Arapça cümleler, görsel kancalarla',
+                color: const Color(0xFFB8860B),
+                onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const DilScreen())),
+              ),
               const SizedBox(height: 18),
               Text('Alanlar', style: Theme.of(context).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w800)),
               const SizedBox(height: 8),

@@ -56,6 +56,7 @@ class Store extends ChangeNotifier {
   bool remindOn = false;
   int remindH = 20, remindM = 30;
   final List<DenemeResult> denemeler = [];
+  final Map<String, List<String>> attach = {}; // yer anahtarı (ör. e:abdest, d:bs-selam-1) -> eklenen resim dosyaları
   final Map<String, bool> visual = {}; // kapalı şema kutusu / saray durağı -> bildim mi
 
   File get _file => File('${dir.path}/rehber_veri.json');
@@ -109,6 +110,9 @@ class Store extends ChangeNotifier {
     denemeler
       ..clear()
       ..addAll((j['dnm'] as List? ?? []).map((e) => DenemeResult.fromJson(e as Map<String, dynamic>)));
+    attach
+      ..clear()
+      ..addAll(((j['att'] as Map?) ?? const {}).map((k, v) => MapEntry(k as String, List<String>.from(v as List))));
     visual
       ..clear()
       ..addAll(((j['vk'] as Map?) ?? const {}).map((k, v) => MapEntry(k as String, v == true)));
@@ -128,6 +132,7 @@ class Store extends ChangeNotifier {
         'rem': {'on': remindOn, 'h': remindH, 'm': remindM},
         'dnm': denemeler.map((d) => d.toJson()).toList(),
         'vk': visual,
+        'att': attach,
       };
 
   Future<void> save() async {
@@ -188,6 +193,24 @@ class Store extends ChangeNotifier {
     ..sort((a, b) => b.created.compareTo(a.created));
 
   File imageFile(String name) => File('${imgDir.path}/$name');
+
+  /// Klavyeden (Gboard vb.) veya panodan gelen resim baytlarını kaydeder.
+  Future<String> importBytes(List<int> bytes, [String ext = '.png']) async {
+    final name = 'g${DateTime.now().microsecondsSinceEpoch}$ext';
+    await imageFile(name).writeAsBytes(bytes);
+    return name;
+  }
+
+  void attachImage(String slot, String name) {
+    attach.putIfAbsent(slot, () => []).add(name);
+    save();
+  }
+
+  void detachImage(String slot, String name) {
+    attach[slot]?.remove(name);
+    if (attach[slot]?.isEmpty ?? false) attach.remove(slot);
+    save();
+  }
 
   Future<String> importImage(String path) async {
     final ext = path.contains('.') ? path.substring(path.lastIndexOf('.')) : '.jpg';

@@ -1,0 +1,95 @@
+# Dil bölümü. Biçim:
+# @dil id | Ad | bayrak | ses (TTS yerel ayarı) | yön (ltr/rtl) | not
+# @kat id | Başlık | emoji
+# emoji | cümle | okunuş | Türkçe | kanca (Türkçe ses benzetmesi / sahne)
+@dil bs | Boşnakça | 🇧🇦 | bs-BA | ltr | Sesli okuma cihazda Boşnakça yoksa Hırvatça sesle okunur.
+@kat bs-selam | Selamlaşma | 👋
+☀️🙋 | Dobar dan | dobar dan | İyi günler | "Dobar" = "dobra" gibi: dobra bir gün dilersin.
+🌅☕ | Dobro jutro | dobro yutro | Günaydın | Sabah kahveni "yutuyorsun": yutro.
+🌆🌙 | Dobro veče | dobro veçe | İyi akşamlar | "Veçe" akşam yemeği saati: akşam "veçe" olur.
+😴🌙 | Laku noć | laku noç | İyi geceler | Yatmadan "lokum" ye, "laku" noç.
+👋 | Zdravo | zdravo | Merhaba | "Zdrav" = sağlıklı: sağlıkla selam.
+👋🚪 | Doviđenja | dovicenya | Görüşürüz / hoşça kal | "Do vi-denya": "do" = kadar, "vi-denya" = görüşme: görüşmeye kadar.
+@kat bs-tanisma | Tanışma ve nezaket | 🤝
+🙂❓ | Kako si? | kako si | Nasılsın? | "Kako" = kakao: kakao gibi tatlı, nasılsın?
+👍🙏 | Dobro sam, hvala. | dobro sam, hvala | İyiyim, teşekkürler. | "Hvala" = "Hı, vala (valla)": teşekkür ederim valla.
+🏷️❓ | Kako se zoveš? | kako se zoveş | Adın ne? | "Zove" = çağırır: seni nasıl çağırıyorlar?
+🏷️👤 | Zovem se … | zovem se | Benim adım … | "Zovem" = beni çağırırlar.
+🤝😊 | Drago mi je. | drago mi ye | Memnun oldum. | "Drago" = ejderha (dragon) gibi sıkı sıkı el sıkıştım, memnun.
+🙏 | Molim | molim | Lütfen / rica ederim | "Molim" = mola ver, lütfen.
+😅 | Izvini | izvini | Pardon / özür dilerim | "İz-vini": izin ver, özür dilerim.
+@kat bs-aliveris | Alışveriş ve yemek | 🛒
+💰❓ | Koliko košta? | koliko koşta | Ne kadar? | "Koşta": parayı koştur, kaç para?
+💧🙋 | Želim vodu. | jelim vodu | Su istiyorum. | "Vodu" = voda: votka da bir "su"dur (küçük su).
+☕1️⃣ | Jednu kafu, molim. | yednu kafu molim | Bir kahve lütfen. | "Kafu" = kafein: bir kafu (kahve).
+🧾 | Račun, molim. | raçun molim | Hesap lütfen. | "Raçun" = hesap makinesi: rakam hesap.
+😋 | Ukusno je! | ukusno ye | Lezzetli! | "Ukus" = tat: ağzımda tat var, lezzetli.
+@kat bs-yol | Yol ve yardım | 🧭
+📍❓ | Gdje je …? | gdye ye | … nerede? | "Gdje" yolcunun sorusu: g-dye? Gittiğim yer nerede?
+🚻❓ | Gdje je toalet? | gdye ye toalet | Tuvalet nerede? | "Toalet" Türkçe gibi.
+🆘 | Pomozite mi, molim. | pomozite mi molim | Yardım edin lütfen. | "Pomoz-" = yardım kökü: pomoz → imdat pompası.
+🤷 | Ne razumijem. | ne razumiyem | Anlamıyorum. | "Razumiyem": razı olmuyorum, anlamıyorum.
+⬅️➡️⬆️ | Lijevo, desno, ravno | liyevo, desno, ravno | Sol, sağ, düz | "Desno" = "dost" sağ elim; "ravno" = rahat düz yol.
+@dil en | İngilizce | 🇬🇧 | en-US | ltr | Okunuş Türkçe okunuşa yakın verildi.
+@kat en-selam | Selamlaşma | 👋
+🌅☕ | Good morning. | gud morning | Günaydın. | "Gud" = güt: güt güt sabah.
+☀️ | Good afternoon. | gud aftırnun | İyi günler (öğleden sonra). | "After noon": öğlenin arkası.
+🌆 | Good evening. | gud ivning | İyi akşamlar. | "İvning": eve gidiş.
+😴🌙 | Good night. | gud nayt | İyi geceler. | "Nayt" = gece: "nayt" yazılışı night, okunuşu naytlı gece.
+👋🚪 | See you later. | si yu leytır | Sonra görüşürüz. | "Si yu" = "sen gör": seni daha sonra görürüm.
+@kat en-tanisma | Tanışma ve nezaket | 🤝
+🙂❓ | How are you? | hav ar yu | Nasılsın? | "Hav" = hav hav: köpek gibi neşeli misin?
+👍🙏 | I'm fine, thank you. | aym fayn, tenk yu | İyiyim, teşekkürler. | "Tenk yu" = "tank yu" gibi: tankı geri veriyorum, sağ ol.
+🏷️❓ | What's your name? | vots yor neym | Adın ne? | "Neym" = name = nime: adın ne?
+🏷️👤 | My name is … | may neym iz | Benim adım … | "May neym iz": benim ismim.
+🤝😊 | Nice to meet you. | nays tu mit yu | Tanıştığımıza memnun oldum. | "Nays" = nice: naylon gibi hoş, "mit" = buluşma.
+🇹🇷 | I'm from Turkey. | aym from törki | Türkiye'denim. | "From" = fırın: fırından geldim.
+🤷 | I don't understand. | ay dont andırstend | Anlamıyorum. | "Dont" = don't (yapma): bir şey yapamıyorum, anlamıyorum.
+🔁 | Could you repeat that? | kud yu ripit dat | Tekrar eder misiniz? | "Ripit" = repeat: ri-pit, pit tekrar.
+@kat en-aliveris | Alışveriş ve yemek | 🛒
+💰❓ | How much is this? | hav maç iz dis | Bu ne kadar? | "Maç" = maç bileti ne kadar?
+☕1️⃣ | I'd like a coffee, please. | ayd layk ı kofi pliz | Bir kahve lütfen. | "Layk" = like: likit kahve.
+🧾 | Can I have the bill, please? | ken ay hev dı bil pliz | Hesabı alabilir miyim? | "Bil" = bill = bilanço.
+😋 | It's delicious. | itsi dilişıs | Çok lezzetli. | "Dilişıs" = delicious: dili şişirir.
+🚻❓ | Where is the bathroom? | ver iz dı basrum | Tuvalet nerede? | "Ver" = "nerede": ver-iz? Tuvalet "nerde-dir"?
+@kat en-yol | Yol ve yardım | 🧭
+📍❓ | Where is the station? | ver iz dı steyşın | İstasyon nerede? | "Steyşın" = istasyon.
+⬅️ | Turn left. | törn left | Sola dön. | "Left" = sol: "lift" gibi sola çek.
+⬆️ | Go straight ahead. | go streyt ıhed | Dümdüz git. | "Streyt" = straight: sıra düz.
+😟 | I'm lost. | aym lost | Kayboldum. | "Lost" = kayıp: "lost" = losta (kayboldum).
+🆘 | Can you help me? | ken yu help mi | Bana yardım eder misin? | "Help" yardım: "hel(p)" = elim uzat.
+@dil ar | Arapça | 🇸🇦 | ar-SA | rtl | Arapça yazı sağdan sola okunur.
+@kat ar-selam | Selamlaşma | 👋
+🕊️👋 | السلام عليكم | es-selâmu aleyküm | Selam (barış üzerinize olsun) | "Es-selâm" = selamet, "aleyküm" = üzerinize.
+🤝 | وعليكم السلام | ve aleykümü's-selâm | Aleyküm selam | Selama aynı selamla karşılık: "ve" = ve sizin üzerinize de.
+🌅 | صباح الخير | sabâhu'l-hayr | Günaydın | "Sabâh" = sabah, "hayr" = hayır (iyilik).
+🌆 | مساء الخير | mesâu'l-hayr | İyi akşamlar | "Mesâ" = mesai sonrası akşam, "hayr" = iyilik.
+👋🚪 | مع السلامة | mea's-selâme | Güle güle / selametle | "Mea" = ile, "selâme" = selamet: selametle.
+👋 | مرحبا | merhaben | Merhaba | "Merhaba" Türkçe'ye girmiş zaten.
+@kat ar-tanisma | Tanışma ve nezaket | 🤝
+🙂❓ | كيف حالك؟ | keyfe hâluk | Nasılsın? | "Keyf" = keyif, "hâl" = hâl: keyfin hâli nasıl?
+👍🙏 | أنا بخير، شكرا | enâ bi-hayr, şükran | İyiyim, teşekkürler | "Şükran" = şükür: şükür iyiyim.
+🏷️❓ | ما اسمك؟ | mâsmuk | Adın ne? | "İsm" = isim: ismin ne?
+🏷️👤 | اسمي … | ismî | Benim adım … | "İsmî" = ismim.
+🤝😊 | تشرفنا | teşerrafnâ | Memnun oldum | "Teşerruf" = şeref duymak: şerefyap oldum.
+🇹🇷 | أنا من تركيا | enâ min Türkiyâ | Türkiye'denim | "Min" = den/dan: "min Türkiyâ" = Türkiye'den.
+@kat ar-dua | Dua ve dini ifadeler | 🕌
+📖 | بسم الله | bismillâh | Allah'ın adıyla | Başlarken söylenir: "bismi" = adıyla.
+🙌 | الحمد لله | el-hamdü lillâh | Hamd Allah'a mahsustur | "Hamd" = övgü: hamdolsun.
+🔮 | إن شاء الله | in şâ'allâh | Allah dilerse | "İn şâ" = dilerse: gelecek için söylenir.
+🌟 | ما شاء الله | mâ şâ'allâh | Allah ne güzel yaratmış | "Mâ şâ" = Allah'ın dilediği: hayranlık.
+🤲 | جزاك الله خيرا | cezâke'llâhu hayran | Allah hayırla karşılık versin | "Cezâ" = karşılık, "hayr" = iyilik.
+✨ | سبحان الله | sübhânallâh | Allah her türlü eksiklikten uzaktır | "Sübhân" = tespih: sübhânallah çek.
+@kat ar-aliveris | Alışveriş ve yemek | 🛒
+💰❓ | بكم هذا؟ | bikem hâzâ | Bu ne kadar? | "Kem" = kaç: bi-kem = kaça?
+💧🙋 | أريد ماء | urîdu mâ'en | Su istiyorum | "Urîdu" = irade: su iradem. "Mâ" = su.
+🙏 | من فضلك | min fadlik | Lütfen | "Fadl" = fazilet / lütuf: lütfen.
+🙌 | شكرا | şükran | Teşekkürler | "Şükran" = şükür.
+😊 | عفوا | afven | Rica ederim / af | "Afv" = af: affedersiniz, rica ederim.
+😋 | هذا لذيذ | hâzâ lezîz | Bu lezzetli | "Lezîz" = lezzetli: lezzet kökü.
+@kat ar-yol | Yol ve yardım | 🧭
+📍❓ | أين المسجد؟ | eyne'l-mescid | Cami nerede? | "Eyne" = nerede, "mescid" = mescit.
+➡️⬅️ | يمين، يسار | yemîn, yesâr | Sağ, sol | "Yemîn" = yemin ettiğin sağ el.
+⬆️ | مستقيم | müstakîm | Düz | "Müstakîm" = doğru yol: sırât-ı müstakîm.
+🆘 | ساعدني من فضلك | sâ'idnî min fadlik | Bana yardım et lütfen | "Sâ'id" = yardım eden: saidnî = bana yardım et.
+🤷 | لا أفهم | lâ efhem | Anlamıyorum | "Lâ" = hayır, "efhem" = fehmetmek: anlamak.

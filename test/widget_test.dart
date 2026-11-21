@@ -9,7 +9,9 @@ import 'package:rehber_mbsts/screens/area_screen.dart';
 import 'package:rehber_mbsts/screens/cards_screen.dart';
 import 'package:rehber_mbsts/screens/deneme_screen.dart';
 import 'package:rehber_mbsts/screens/entry_screen.dart';
+import 'package:rehber_mbsts/dil.dart';
 import 'package:rehber_mbsts/hafiza.dart';
+import 'package:rehber_mbsts/screens/dil_screen.dart';
 import 'package:rehber_mbsts/screens/home_screen.dart';
 import 'package:rehber_mbsts/screens/gorsel_soru_screen.dart';
 import 'package:rehber_mbsts/screens/kapali_sema_screen.dart';
@@ -260,5 +262,34 @@ void main() {
     await tester.tap(find.text('Bilemedim'));
     await tester.pump();
     expect(store.cards.containsKey(h.turlar.first.items.first.entryId), isTrue);
+  });
+
+  testWidgets('dil bölümü açılır, cümleler sınanır; eklenen resim verisi korunur', (tester) async {
+    final dl = (await tester.runAsync(() => Dil.load()))!;
+    expect(dl.length, 3);
+    for (final d in dl) {
+      expect(d.count, greaterThan(15));
+    }
+    final tmp = Directory.systemTemp.createTempSync('rehber4');
+    store.dir = tmp;
+    store.imgDir = Directory('${tmp.path}/gorseller')..createSync();
+    tester.view.physicalSize = const Size(1080, 2340);
+    tester.view.devicePixelRatio = 3;
+    addTearDown(tester.view.reset);
+    for (final w in <Widget>[
+      const DilScreen(),
+      DilKategorilerScreen(dil: dl.first),
+      DilCalisScreen(dil: dl.last, kat: dl.last.categories.first),
+      DilCalisScreen(dil: dl.last, kat: dl.last.categories.first, sinaBasla: true),
+    ]) {
+      await tester.pumpWidget(MaterialApp(home: w));
+      await tester.pump(const Duration(milliseconds: 200));
+      expect(tester.takeException(), isNull);
+    }
+    store.attachImage('d:x', 'a.png');
+    final j = store.toJson();
+    expect(j['att'], {'d:x': ['a.png']});
+    store.replaceAllSync({'v': 1});
+    expect(store.attach, isEmpty);
   });
 }

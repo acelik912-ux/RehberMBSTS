@@ -114,6 +114,29 @@ def parse_saray(allent, errors):
     return {'d': duraklar, 'r': turlar}
 
 
+def parse_dil():
+    """content/dil.txt -> assets/content/dil.json (diller, kategoriler, cümleler)."""
+    diller, cur, cat = [], None, None
+    for raw in (ROOT / 'content/dil.txt').read_text(encoding='utf-8').splitlines():
+        ln = raw.strip()
+        if not ln or ln.startswith('#'):
+            continue
+        if ln.startswith('@dil '):
+            i, ad, bay, ses, yon, nt = [x.strip() for x in ln[5:].split('|', 5)]
+            cur = {'id': i, 'ad': ad, 'bay': bay, 'ses': ses, 'rtl': yon == 'rtl', 'not': nt, 'k': []}
+            diller.append(cur)
+        elif ln.startswith('@kat '):
+            i, t, e = [x.strip() for x in ln[5:].split('|', 2)]
+            cat = {'id': i, 't': t, 'ic': e, 'c': []}
+            cur['k'].append(cat)
+        else:
+            em, nat, oku, tr, kanca = [x.strip() for x in ln.split('|', 4)]
+            if not (em and nat and oku and tr and kanca):
+                raise SystemExit('dil satırı eksik: ' + ln[:40])
+            cat['c'].append({'id': f"{cat['id']}-{len(cat['c']) + 1}", 'e': em, 'n': nat, 'o': oku, 't': tr, 'k': kanca})
+    return diller
+
+
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
     allent = {}
@@ -165,6 +188,7 @@ def main():
         if q['a'] not in AREAS:
             errors.append(f'soru alanı: {q["a"]}')
     (OUT / 'saray.json').write_text(json.dumps(parse_saray(allent, errors), ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
+    (OUT / 'dil.json').write_text(json.dumps(parse_dil(), ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
     (OUT / 'sorular.json').write_text(json.dumps(qs, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
     (OUT / 'index.json').write_text(json.dumps({'files': files, 'questions': 'sorular.json', 'saray': 'saray.json', 'maskeler': 'maskeler.json'}, ensure_ascii=False), encoding='utf-8')
     by = {}

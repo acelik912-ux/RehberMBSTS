@@ -4,6 +4,7 @@ import '../app_state.dart';
 import '../content.dart';
 import '../hafiza.dart';
 import '../tts.dart';
+import '../widgets/photo_bar.dart';
 import '../widgets/read_bar.dart';
 import 'entry_screen.dart' show showImage;
 
@@ -147,6 +148,7 @@ class _SarayTurScreenState extends State<SarayTurScreen> {
                 Text(o.info, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w800, color: Color(0xFF7A4E9A))),
                 const SizedBox(height: 4),
                 Text(o.scene, style: const TextStyle(fontSize: 14.5, height: 1.45)),
+                PhotoBar(slot: 'saray:${t.id}|${o.stop}', label: 'Kendi resmini ekle'),
                 if (entryExists(o.entryId))
                   Align(alignment: Alignment.centerRight, child: TextButton(onPressed: () => openEntry(context, o.entryId), child: const Text('Maddeye git'))),
               ]),
