@@ -19,7 +19,7 @@ def blocks(c, only=None):
     for i, (k, o) in enumerate([('bs', 'bo'), ('en', 'eo'), ('ar', 'ao')]):
         if only is not None and only != i: continue
         rtl = i == 2
-        st = 'font-size:23px;direction:rtl;text-align:right;line-height:1.9' if rtl else 'font-size:14.5px;font-weight:800'
+        st = 'font-family:AmiriQuran;font-size:27px;direction:rtl;text-align:right;line-height:2.0' if rtl else 'font-size:14.5px;font-weight:800'
         out += (f'<div class="lb l{i}"><span class="fl">{FL[i]}</span><div style="flex:1;text-align:{"right" if rtl else "left"}"><div style="{st}">{c[k]}</div>'
                 f'<div class="rd">🔊 {c[o]}</div></div><span class="sp">🔊</span></div>')
     return out
@@ -95,7 +95,8 @@ tn = G['c-tanidik']['c']
 k1 = G['k1']['c']
 screens.append(phone('🎁 Tanıdık · 🆘 Kalıplar', '<div class="seg"><b>Gez</b><span>Sına</span></div>' + phrase_card(tn[0]) + phrase_card(k1[0])))
 
-css = '''@page{size:A4 landscape;margin:8mm}*{box-sizing:border-box}body{font-family:"Noto Sans","DejaVu Sans",sans-serif;margin:0;background:#fff;color:#222}
+FONT = base64.b64encode((root / 'assets/fonts/AmiriQuran-Regular.ttf').read_bytes()).decode()
+css = '''@font-face{font-family:AmiriQuran;src:url(data:font/ttf;base64,''' + FONT + ''')}@page{size:A4 landscape;margin:8mm}*{box-sizing:border-box}body{font-family:"Noto Sans","DejaVu Sans",sans-serif;margin:0;background:#fff;color:#222}
 h1{font-size:22px;margin:0 0 4px}.cap{font-size:12px;color:#555;margin-bottom:8px}.pg{page-break-after:always;display:flex;gap:14px;justify-content:center}
 .ph{width:305px;height:560px;border:6px solid #222;border-radius:26px;overflow:hidden;background:#faf8f4;position:relative;flex:none}
 .bar{background:#2b4c7e;color:#fff;padding:9px 12px;font-weight:700;font-size:14px}.scr{padding:9px;font-size:12px;height:510px;overflow:hidden}
@@ -127,7 +128,13 @@ html = f'<html><head><meta charset="utf-8"><style>{css}</style></head><body>'
 html += '<div class="pg" style="flex-direction:column;align-items:center;justify-content:center;height:190mm"><h1 style="font-size:34px">Rehber MBSTS · Yeni ekranlar önizlemesi</h1><div class="cap" style="font-size:15px;max-width:600px;text-align:center">Bu sayfalar telefon ekranlarının çizimidir, APK değildir. Yazılar, görseller ve düzen uygulamadaki gerçek içerikten üretildi; ufak görünüm farkları olabilir.</div></div>'
 for t, c, idx in caps:
     html += f'<div><h1>{t}</h1><div class="cap">{c}</div><div class="pg">' + ''.join(screens[i] for i in idx) + '</div></div>'
-html += '</body></html>'
+samples = [G['a5']['c'][3], G['a5']['c'][4], G['a1']['c'][0], G['c-din']['c'][5], G['c-din']['c'][9], G['k1']['c'][0]]
+html += '<div><h1>Arapça yazı: Kur\'ân-ı Kerîm hattı (Amiri Quran)</h1><div class="cap">Uygulamada tüm Arapça yazılar bu harekeli nesih yazı tipiyle gösterilir (SIL Açık Yazı Tipi Lisansı).</div><div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">'
+for c in samples:
+    html += f'<div class="card"><div class="tr">{c["t"]}</div><div style="font-family:AmiriQuran;font-size:44px;direction:rtl;text-align:right;line-height:2.1">{c["ar"]}</div><div class="rd">🔊 {c["ao"]}</div></div>'
+html += '</div></div></body></html>'
+html = html.replace('</body></html></body></html>', '</body></html>')
+html += ''
 (out / 'onizleme.html').write_text(html, encoding='utf-8')
 
 async def main():

@@ -7,7 +7,8 @@ import '../widgets/photo_bar.dart';
 import '../widgets/read_bar.dart';
 import 'dil_tani_screen.dart';
 
-const _arabicFonts = ['Noto Naskh Arabic', 'Droid Arabic Naskh', 'Amiri', 'Traditional Arabic', 'Geeza Pro'];
+/// Kur'ân-ı Kerîm yazısı gibi harekeli nesih: Amiri Quran (SIL Open Font License, assets/fonts/OFL.txt).
+const arapcaYazi = TextStyle(fontFamily: 'AmiriQuran', fontSize: 30, height: 2.0);
 const _langColors = [Color(0x1A2B5FA8), Color(0x1AB3402F), Color(0x1A3F7A3A)];
 
 Future<void> _say(Cumle c, int i) {
@@ -40,7 +41,7 @@ class LangBlocks extends StatelessWidget {
                         c.texts[i],
                         textDirection: dilTanimlari[i].rtl ? TextDirection.rtl : TextDirection.ltr,
                         style: dilTanimlari[i].rtl
-                            ? const TextStyle(fontSize: 26, height: 1.9, fontWeight: FontWeight.w600, fontFamilyFallback: _arabicFonts)
+                            ? arapcaYazi
                             : const TextStyle(fontSize: 17.5, fontWeight: FontWeight.w800, height: 1.3),
                       ),
                       Text('🔊 ${c.readings[i]}', style: const TextStyle(fontSize: 12.5, color: Color(0xFF7A4E9A), fontWeight: FontWeight.w600)),

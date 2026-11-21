@@ -30,3 +30,8 @@ flutter:
   assets:
     - assets/content/
     - assets/sema/
+    - assets/fonts/OFL.txt
+  fonts:
+    - family: AmiriQuran
+      fonts:
+        - asset: assets/fonts/AmiriQuran-Regular.ttf
