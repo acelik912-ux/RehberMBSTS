@@ -264,11 +264,16 @@ void main() {
     expect(store.cards.containsKey(h.turlar.first.items.first.entryId), isTrue);
   });
 
-  testWidgets('dil bölümü açılır, cümleler sınanır; eklenen resim verisi korunur', (tester) async {
-    final dl = (await tester.runAsync(() => Dil.load()))!;
-    expect(dl.length, 3);
-    for (final d in dl) {
-      expect(d.count, greaterThan(15));
+  testWidgets('dil bölümü açılır, üç dil alt alta; eklenen resim verisi korunur', (tester) async {
+    final v = (await tester.runAsync(() => DilVeri.load()))!;
+    expect(v.bolumler.length, 2);
+    expect(v.count, greaterThan(80));
+    for (final g in v.gruplar) {
+      expect(g.items, isNotEmpty);
+      for (final c in g.items) {
+        expect(c.texts.length, 3);
+        expect(c.readings.every((x) => x.isNotEmpty), isTrue, reason: c.id);
+      }
     }
     final tmp = Directory.systemTemp.createTempSync('rehber4');
     store.dir = tmp;
@@ -278,17 +283,16 @@ void main() {
     addTearDown(tester.view.reset);
     for (final w in <Widget>[
       const DilScreen(),
-      DilKategorilerScreen(dil: dl.first),
-      DilCalisScreen(dil: dl.last, kat: dl.last.categories.first),
-      DilCalisScreen(dil: dl.last, kat: dl.last.categories.first, sinaBasla: true),
+      DilCalisScreen(grup: v.gruplar.first),
+      DilCalisScreen(grup: v.gruplar.first, sinaBasla: true),
+      DilCalisScreen(grup: v.of('B').first),
     ]) {
       await tester.pumpWidget(MaterialApp(home: w));
       await tester.pump(const Duration(milliseconds: 200));
       expect(tester.takeException(), isNull);
     }
     store.attachImage('d:x', 'a.png');
-    final j = store.toJson();
-    expect(j['att'], {'d:x': ['a.png']});
+    expect(store.toJson()['att'], {'d:x': ['a.png']});
     store.replaceAllSync({'v': 1});
     expect(store.attach, isEmpty);
   });

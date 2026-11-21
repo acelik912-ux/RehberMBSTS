@@ -115,26 +115,28 @@ def parse_saray(allent, errors):
 
 
 def parse_dil():
-    """content/dil.txt -> assets/content/dil.json (diller, kategoriler, cümleler)."""
-    diller, cur, cat = [], None, None
+    """content/dil.txt -> assets/content/dil.json (bölümler, gruplar, üç dilli satırlar)."""
+    bolumler, gruplar, cur = [], [], None
     for raw in (ROOT / 'content/dil.txt').read_text(encoding='utf-8').splitlines():
         ln = raw.strip()
         if not ln or ln.startswith('#'):
             continue
-        if ln.startswith('@dil '):
-            i, ad, bay, ses, yon, nt = [x.strip() for x in ln[5:].split('|', 5)]
-            cur = {'id': i, 'ad': ad, 'bay': bay, 'ses': ses, 'rtl': yon == 'rtl', 'not': nt, 'k': []}
-            diller.append(cur)
-        elif ln.startswith('@kat '):
-            i, t, e = [x.strip() for x in ln[5:].split('|', 2)]
-            cat = {'id': i, 't': t, 'ic': e, 'c': []}
-            cur['k'].append(cat)
+        if ln.startswith('@bolum '):
+            i, t, d = [x.strip() for x in ln[7:].split('|', 2)]
+            bolumler.append({'id': i, 't': t, 'd': d})
+        elif ln.startswith('@grup '):
+            i, b, t, ic, st = [x.strip() for x in ln[6:].split('|', 4)]
+            if b not in [x['id'] for x in bolumler]:
+                raise SystemExit('dil grubunun bölümü yok: ' + ln[:40])
+            cur = {'id': i, 'b': b, 't': t, 'ic': ic, 's': st, 'c': []}
+            gruplar.append(cur)
         else:
-            em, nat, oku, tr, kanca = [x.strip() for x in ln.split('|', 4)]
-            if not (em and nat and oku and tr and kanca):
-                raise SystemExit('dil satırı eksik: ' + ln[:40])
-            cat['c'].append({'id': f"{cat['id']}-{len(cat['c']) + 1}", 'e': em, 'n': nat, 'o': oku, 't': tr, 'k': kanca})
-    return diller
+            f = [x.strip() for x in ln.split('|')]
+            if len(f) != 9 or not all(f):
+                raise SystemExit('dil satırı 9 alan olmalı: ' + ln[:50])
+            em, tr, bs, bo, en, eo, ar, ao, k = f
+            cur['c'].append({'id': f"{cur['id']}-{len(cur['c']) + 1}", 'e': em, 't': tr, 'bs': bs, 'bo': bo, 'en': en, 'eo': eo, 'ar': ar, 'ao': ao, 'k': k})
+    return {'b': bolumler, 'g': gruplar}
 
 
 def main():

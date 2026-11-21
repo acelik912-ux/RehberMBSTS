@@ -6,7 +6,51 @@ import '../tts.dart';
 import '../widgets/photo_bar.dart';
 import '../widgets/read_bar.dart';
 
-String _fallback(String voice) => voice.startsWith('bs') ? 'hr-HR' : voice;
+const _arabicFonts = ['Noto Naskh Arabic', 'Droid Arabic Naskh', 'Amiri', 'Traditional Arabic', 'Geeza Pro'];
+const _langColors = [Color(0x1A2B5FA8), Color(0x1AB3402F), Color(0x1A3F7A3A)];
+
+Future<void> _say(Cumle c, int i) {
+  final d = dilTanimlari[i];
+  return reader.sayPhrase(c.texts[i], d.voice, fallback: d.fallback);
+}
+
+/// Bir satırın üç dilini alt alta gösterir. [only] verilirse yalnız o dil (sınav odağı).
+class LangBlocks extends StatelessWidget {
+  final Cumle c;
+  final int? only;
+  const LangBlocks({super.key, required this.c, this.only});
+
+  @override
+  Widget build(BuildContext context) => Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
+        for (var i = 0; i < 3; i++)
+          if (only == null || only == i)
+            Container(
+              margin: const EdgeInsets.only(top: 6),
+              padding: const EdgeInsets.fromLTRB(10, 6, 4, 6),
+              decoration: BoxDecoration(color: _langColors[i], borderRadius: BorderRadius.circular(8)),
+              child: Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                Text(dilTanimlari[i].flag, style: const TextStyle(fontSize: 20)),
+                const SizedBox(width: 8),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: dilTanimlari[i].rtl ? CrossAxisAlignment.end : CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        c.texts[i],
+                        textDirection: dilTanimlari[i].rtl ? TextDirection.rtl : TextDirection.ltr,
+                        style: dilTanimlari[i].rtl
+                            ? const TextStyle(fontSize: 26, height: 1.9, fontWeight: FontWeight.w600, fontFamilyFallback: _arabicFonts)
+                            : const TextStyle(fontSize: 17.5, fontWeight: FontWeight.w800, height: 1.3),
+                      ),
+                      Text('🔊 ${c.readings[i]}', style: const TextStyle(fontSize: 12.5, color: Color(0xFF7A4E9A), fontWeight: FontWeight.w600)),
+                    ],
+                  ),
+                ),
+                IconButton(visualDensity: VisualDensity.compact, onPressed: () => _say(c, i), icon: const Icon(Icons.volume_up, size: 20), tooltip: 'Dinle'),
+              ]),
+            ),
+      ]);
+}
 
 class DilScreen extends StatelessWidget {
   const DilScreen({super.key});
@@ -14,31 +58,33 @@ class DilScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Readable(
         label: 'Dil bölümü',
-        items: () => [ReadItem('Dil bölümü', 'Boşnakça, İngilizce ve Arapça cümleleri görsellerle ezberle.')],
+        items: () => [ReadItem('Dil bölümü', 'Boşnakça, İngilizce ve Arapça cümle ve kelimeler, üç dil alt alta, görsel hikâyelerle.')],
         child: Scaffold(
           appBar: AppBar(title: const Text('Dil bölümü')),
-          body: FutureBuilder<List<Dil>>(
-            future: Dil.load(),
+          body: FutureBuilder<DilVeri>(
+            future: DilVeri.load(),
             builder: (context, snap) {
               if (!snap.hasData) return const Center(child: CircularProgressIndicator());
+              final v = snap.data!;
               return AnimatedBuilder(
                 animation: store,
                 builder: (context, _) => ListView(padding: const EdgeInsets.all(14), children: [
-                  const Text(
-                    'Her cümlenin görseli, okunuşu ve Türkçe ses benzetmesi (kanca) var. Önce gez, sonra kapatıp sına; hoparlörle doğru söylenişi dinle.',
-                    style: TextStyle(fontSize: 13.5, height: 1.4),
-                  ),
-                  const SizedBox(height: 10),
-                  for (final d in snap.data!)
-                    Card(
-                      child: ListTile(
-                        leading: Text(d.flag, style: const TextStyle(fontSize: 34)),
-                        title: Text(d.name, style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 17)),
-                        subtitle: Text('${d.count} cümle · ${d.all.where((c) => store.visual['dil:${c.id}'] == true).length} bildim'),
-                        trailing: const Icon(Icons.chevron_right),
-                        onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => DilKategorilerScreen(dil: d))),
+                  const Text('🇧🇦 Boşnakça · 🇬🇧 İngilizce · 🇸🇦 Arapça — her cümle ve kelime üçü alt alta, okunuşu, kancası ve görseliyle.', style: TextStyle(fontSize: 13.5, height: 1.4)),
+                  for (final b in v.bolumler) ...[
+                    const SizedBox(height: 14),
+                    Text(b.title, style: Theme.of(context).textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w800)),
+                    Text(b.desc, style: const TextStyle(fontSize: 12.5, color: Colors.grey)),
+                    for (final g in v.of(b.id))
+                      Card(
+                        child: ListTile(
+                          leading: Text(g.icon, style: const TextStyle(fontSize: 30)),
+                          title: Text(g.title, style: const TextStyle(fontWeight: FontWeight.w700)),
+                          subtitle: Text('${g.items.length} ${g.sirali ? 'sahne' : 'kelime'} · ${g.items.where((c) => store.visual['dil:${c.id}'] == true).length} bildim'),
+                          trailing: const Icon(Icons.chevron_right),
+                          onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => DilCalisScreen(grup: g))),
+                        ),
                       ),
-                    ),
+                  ],
                 ]),
               );
             },
@@ -47,51 +93,10 @@ class DilScreen extends StatelessWidget {
       );
 }
 
-class DilKategorilerScreen extends StatelessWidget {
-  final Dil dil;
-  const DilKategorilerScreen({super.key, required this.dil});
-
-  @override
-  Widget build(BuildContext context) => Readable(
-        label: dil.name,
-        items: () => [ReadItem(dil.name, dil.note)],
-        child: Scaffold(
-          appBar: AppBar(title: Text('${dil.flag} ${dil.name}')),
-          body: AnimatedBuilder(
-            animation: store,
-            builder: (context, _) => ListView(padding: const EdgeInsets.all(14), children: [
-              Text(dil.note, style: const TextStyle(fontSize: 12.5, color: Colors.grey)),
-              const SizedBox(height: 8),
-              for (final k in dil.categories)
-                Card(
-                  child: ListTile(
-                    leading: Text(k.icon, style: const TextStyle(fontSize: 28)),
-                    title: Text(k.title, style: const TextStyle(fontWeight: FontWeight.w700)),
-                    subtitle: Text('${k.phrases.length} cümle · ${k.phrases.where((c) => store.visual['dil:${c.id}'] == true).length} bildim'),
-                    trailing: const Icon(Icons.chevron_right),
-                    onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => DilCalisScreen(dil: dil, kat: k))),
-                  ),
-                ),
-              const SizedBox(height: 6),
-              FilledButton.icon(
-                onPressed: () => Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (_) => DilCalisScreen(dil: dil, kat: DilKategori('${dil.id}-hepsi', 'Tüm cümleler', '📚', dil.all), sinaBasla: true)),
-                ),
-                icon: const Icon(Icons.psychology),
-                label: const Text('Hepsinden sına'),
-              ),
-            ]),
-          ),
-        ),
-      );
-}
-
 class DilCalisScreen extends StatefulWidget {
-  final Dil dil;
-  final DilKategori kat;
+  final DilGrup grup;
   final bool sinaBasla;
-  const DilCalisScreen({super.key, required this.dil, required this.kat, this.sinaBasla = false});
+  const DilCalisScreen({super.key, required this.grup, this.sinaBasla = false});
 
   @override
   State<DilCalisScreen> createState() => _DilCalisScreenState();
@@ -99,17 +104,21 @@ class DilCalisScreen extends StatefulWidget {
 
 class _DilCalisScreenState extends State<DilCalisScreen> {
   late bool _quiz = widget.sinaBasla;
+  late bool _shuffle = !widget.grup.sirali;
   bool _onlyUnknown = false;
-  bool _reverse = false; // false: Türkçe+görsel -> cümleyi hatırla; true: cümle -> Türkçe
+  int? _focus; // null: üç dil, 0..2: tek dil
   int _i = 0;
   bool _shown = false;
   int _right = 0, _wrong = 0;
   late List<Cumle> _deck = _makeDeck();
 
+  DilGrup get g => widget.grup;
+
   List<Cumle> _makeDeck() {
-    var l = [...widget.kat.phrases];
+    var l = [...g.items];
     if (_onlyUnknown) l = l.where((c) => store.visual['dil:${c.id}'] != true).toList();
-    return l..shuffle();
+    if (_shuffle) l.shuffle();
+    return l;
   }
 
   void _restart() => setState(() {
@@ -128,16 +137,21 @@ class _DilCalisScreenState extends State<DilCalisScreen> {
     });
   }
 
-  void _say(Cumle c) => reader.sayPhrase(c.native, widget.dil.voice, fallback: _fallback(widget.dil.voice));
-
-  TextDirection get _dir => widget.dil.rtl ? TextDirection.rtl : TextDirection.ltr;
+  Future<void> _sayAll(Cumle c) async {
+    for (var i = 0; i < 3; i++) {
+      await _say(c, i);
+    }
+  }
 
   @override
   Widget build(BuildContext context) => Readable(
-        label: widget.kat.title,
-        items: () => [for (final c in widget.kat.phrases) ReadItem(c.turkish, '${c.turkish}. Okunuşu: ${c.reading}. ${c.hook}')],
+        label: g.title,
+        items: () => [
+          ReadItem(g.title, g.story),
+          for (final c in g.items) ReadItem(c.turkish, '${c.turkish}. ${c.hook}'),
+        ],
         child: Scaffold(
-          appBar: AppBar(title: Text('${widget.dil.flag} ${widget.kat.title}', style: const TextStyle(fontSize: 16))),
+          appBar: AppBar(title: Text('${g.icon} ${g.title}', style: const TextStyle(fontSize: 16))),
           body: Column(children: [
             Padding(
               padding: const EdgeInsets.fromLTRB(14, 8, 14, 0),
@@ -159,79 +173,77 @@ class _DilCalisScreenState extends State<DilCalisScreen> {
       );
 
   Widget _gez() => ListView(padding: const EdgeInsets.all(12), children: [
-        for (final c in widget.kat.phrases)
-          Card(
-            child: Padding(
-              padding: const EdgeInsets.all(14),
-              child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
-                Row(children: [
-                  Text(c.emoji, style: const TextStyle(fontSize: 34)),
-                  const Spacer(),
-                  if (store.visual['dil:${c.id}'] == true) const Icon(Icons.check_circle, color: Color(0xFF3F7A3A), size: 20),
-                  IconButton(onPressed: () => _say(c), icon: const Icon(Icons.volume_up), tooltip: 'Dinle'),
-                ]),
-                Text(c.native, textDirection: _dir, textAlign: widget.dil.rtl ? TextAlign.right : TextAlign.left, style: TextStyle(fontSize: widget.dil.rtl ? 28 : 22, fontWeight: FontWeight.w800, height: 1.3)),
-                const SizedBox(height: 4),
-                Text('🔊 ${c.reading}', style: const TextStyle(fontSize: 14.5, color: Color(0xFF7A4E9A), fontWeight: FontWeight.w600)),
-                Text(c.turkish, style: const TextStyle(fontSize: 15.5, fontWeight: FontWeight.w700)),
-                const SizedBox(height: 6),
-                Container(
-                  padding: const EdgeInsets.all(8),
-                  decoration: BoxDecoration(color: const Color(0x1AFFC83D), borderRadius: BorderRadius.circular(8)),
-                  child: Text('💡 ${c.hook}', style: const TextStyle(fontSize: 13.5, height: 1.35)),
-                ),
-                PhotoBar(slot: 'd:${c.id}', label: 'Kendi resmini ekle'),
-              ]),
-            ),
-          ),
+        Container(
+          padding: const EdgeInsets.all(10),
+          decoration: BoxDecoration(color: const Color(0x1AFFC83D), borderRadius: BorderRadius.circular(10)),
+          child: Text('${g.icon} ${g.story}', style: const TextStyle(fontSize: 13.5, height: 1.4)),
+        ),
+        for (var n = 0; n < g.items.length; n++) ...[
+          if (g.sirali && n > 0) const Center(child: Text('⬇️', style: TextStyle(fontSize: 18))),
+          _card(g.items[n], n),
+        ],
       ]);
 
-  Widget _sina() {
-    if (_deck.isEmpty) {
-      return const Center(child: Padding(padding: EdgeInsets.all(20), child: Text('Bilmediğin cümle kalmadı. Aşağıdan "Hepsi"ni seçebilirsin.', textAlign: TextAlign.center)));
-    }
-    if (_i >= _deck.length) {
-      return Center(
+  Widget _card(Cumle c, int n) => Card(
         child: Padding(
-          padding: const EdgeInsets.all(20),
-          child: Column(mainAxisSize: MainAxisSize.min, children: [
-            Text('Bitti: $_right bildim, $_wrong bilemedim.', style: const TextStyle(fontSize: 17, fontWeight: FontWeight.w800)),
-            const SizedBox(height: 12),
-            FilledButton(onPressed: _restart, child: const Text('Tekrar karıştır')),
+          padding: const EdgeInsets.all(12),
+          child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
+            Row(children: [
+              if (g.sirali) CircleAvatar(radius: 12, backgroundColor: const Color(0xFF7A4E9A), child: Text('${n + 1}', style: const TextStyle(color: Colors.white, fontSize: 12, fontWeight: FontWeight.w800))),
+              if (g.sirali) const SizedBox(width: 8),
+              Text(c.emoji, style: const TextStyle(fontSize: 32)),
+              const Spacer(),
+              if (store.visual['dil:${c.id}'] == true) const Icon(Icons.check_circle, color: Color(0xFF3F7A3A), size: 20),
+              IconButton(onPressed: () => _sayAll(c), icon: const Icon(Icons.play_circle_outline), tooltip: 'Üçünü sırayla dinle'),
+            ]),
+            Text(c.turkish, style: const TextStyle(fontSize: 16.5, fontWeight: FontWeight.w800)),
+            LangBlocks(c: c),
+            const SizedBox(height: 8),
+            Container(
+              padding: const EdgeInsets.all(8),
+              decoration: BoxDecoration(color: const Color(0x1AFFC83D), borderRadius: BorderRadius.circular(8)),
+              child: Text('🎬 ${c.hook}', style: const TextStyle(fontSize: 13.5, height: 1.35)),
+            ),
+            PhotoBar(slot: 'd:${c.id}', label: 'Kendi resmini ekle'),
           ]),
         ),
       );
+
+  Widget _sina() {
+    if (_deck.isEmpty) {
+      return const Center(child: Padding(padding: EdgeInsets.all(20), child: Text('Bilmediğin satır kalmadı. "Yalnız bilemediklerim"i kapatabilirsin.', textAlign: TextAlign.center)));
+    }
+    final chips = Wrap(spacing: 8, runSpacing: 0, children: [
+      FilterChip(label: const Text('Karıştır'), selected: _shuffle, onSelected: (v) { _shuffle = v; _restart(); }),
+      FilterChip(label: const Text('Yalnız bilemediklerim'), selected: _onlyUnknown, onSelected: (v) { _onlyUnknown = v; _restart(); }),
+      for (final e in [(null, 'Üçü'), (0, '🇧🇦'), (1, '🇬🇧'), (2, '🇸🇦')])
+        ChoiceChip(label: Text(e.$2), selected: _focus == e.$1, onSelected: (_) => setState(() => _focus = e.$1)),
+    ]);
+    if (_i >= _deck.length) {
+      return ListView(padding: const EdgeInsets.all(14), children: [
+        chips,
+        const SizedBox(height: 20),
+        Center(child: Text('Bitti: $_right bildim, $_wrong bilemedim.', style: const TextStyle(fontSize: 17, fontWeight: FontWeight.w800))),
+        const SizedBox(height: 12),
+        Center(child: FilledButton(onPressed: _restart, child: const Text('Baştan'))),
+      ]);
     }
     final c = _deck[_i];
     return ListView(padding: const EdgeInsets.all(14), children: [
-      Wrap(spacing: 8, children: [
-        FilterChip(label: const Text('Yalnız bilemediklerim'), selected: _onlyUnknown, onSelected: (v) { _onlyUnknown = v; _restart(); }),
-        FilterChip(label: const Text('Cümle → Türkçe'), selected: _reverse, onSelected: (v) { _reverse = v; _restart(); }),
-      ]),
+      chips,
       const SizedBox(height: 8),
       Text('${_i + 1} / ${_deck.length}', style: const TextStyle(color: Colors.grey)),
-      const SizedBox(height: 10),
-      if (!_reverse) ...[
-        Center(child: Text(c.emoji, style: const TextStyle(fontSize: 56))),
-        Center(child: Text(c.turkish, textAlign: TextAlign.center, style: const TextStyle(fontSize: 20, fontWeight: FontWeight.w800))),
-        const SizedBox(height: 6),
-        const Center(child: Text('Bunu hedef dilde söyle (gözünün önüne sahneyi getir).', style: TextStyle(fontSize: 12.5, color: Colors.grey))),
-      ] else ...[
-        Center(child: Text(c.native, textDirection: _dir, textAlign: TextAlign.center, style: TextStyle(fontSize: widget.dil.rtl ? 32 : 24, fontWeight: FontWeight.w800))),
-        const SizedBox(height: 6),
-        const Center(child: Text('Türkçesi ne? Sonra görseli ve kancayı hatırla.', style: TextStyle(fontSize: 12.5, color: Colors.grey))),
-      ],
-      const SizedBox(height: 14),
+      const SizedBox(height: 8),
+      Center(child: Text(c.emoji, style: const TextStyle(fontSize: 56))),
+      Center(child: Text(c.turkish, textAlign: TextAlign.center, style: const TextStyle(fontSize: 20, fontWeight: FontWeight.w800))),
+      const SizedBox(height: 6),
+      const Center(child: Text('Önce kendin söyle (sahneyi gözünün önüne getir).', style: TextStyle(fontSize: 12.5, color: Colors.grey))),
+      const SizedBox(height: 12),
       FilledButton.icon(onPressed: () => setState(() => _shown = true), icon: const Icon(Icons.visibility), label: const Text('Cevabı göster')),
       if (_shown) ...[
-        const SizedBox(height: 12),
-        if (!_reverse)
-          Center(child: Text(c.native, textDirection: _dir, textAlign: TextAlign.center, style: TextStyle(fontSize: widget.dil.rtl ? 30 : 24, fontWeight: FontWeight.w800, color: const Color(0xFF7A4E9A)))),
-        if (_reverse) Center(child: Text('${c.emoji}  ${c.turkish}', style: const TextStyle(fontSize: 20, fontWeight: FontWeight.w800, color: Color(0xFF7A4E9A)))),
-        Center(child: Text('🔊 ${c.reading}', style: const TextStyle(fontSize: 15))),
+        LangBlocks(c: c, only: _focus),
         const SizedBox(height: 6),
-        Text('💡 ${c.hook}', style: const TextStyle(fontSize: 13.5, height: 1.35)),
-        Align(alignment: Alignment.centerLeft, child: TextButton.icon(onPressed: () => _say(c), icon: const Icon(Icons.volume_up), label: const Text('Dinle'))),
+        Text('🎬 ${c.hook}', style: const TextStyle(fontSize: 13.5, height: 1.35)),
       ],
       const SizedBox(height: 10),
       Row(children: [

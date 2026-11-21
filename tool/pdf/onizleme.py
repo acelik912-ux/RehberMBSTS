@@ -14,14 +14,24 @@ def b64(name):
 def phone(title, body, extra=''):
     return f'<div class="ph"><div class="bar">{title}</div><div class="scr">{body}</div>{extra}</div>'
 
-def phrase_card(c, rtl=False, photo=True):
-    sz = 'font-size:26px;direction:rtl;text-align:right' if rtl else 'font-size:21px'
-    ph = '<div class="addp">🖼️ Kendi resmini ekle</div>' if photo else ''
-    return (f'<div class="card"><div class="row"><span class="em">{c["e"]}</span><span class="sp">🔊</span></div>'
-            f'<div class="nat" style="{sz}">{c["n"]}</div><div class="rd">🔊 {c["o"]}</div><div class="tr">{c["t"]}</div>'
-            f'<div class="hook">💡 {c["k"]}</div>{ph}</div>')
+def blocks(c, only=None):
+    out = ''
+    for i, (k, o) in enumerate([('bs', 'bo'), ('en', 'eo'), ('ar', 'ao')]):
+        if only is not None and only != i: continue
+        rtl = i == 2
+        st = 'font-size:23px;direction:rtl;text-align:right;line-height:1.9' if rtl else 'font-size:14.5px;font-weight:800'
+        out += (f'<div class="lb l{i}"><span class="fl">{FL[i]}</span><div style="flex:1;text-align:{"right" if rtl else "left"}"><div style="{st}">{c[k]}</div>'
+                f'<div class="rd">🔊 {c[o]}</div></div><span class="sp">🔊</span></div>')
+    return out
 
-bs, en, ar = dil
+def phrase_card(c, n=None, photo=False):
+    num = f'<span class="num">{n}</span>' if n else ''
+    ph = '<div class="addp">🖼️ Kendi resmini ekle</div>' if photo else ''
+    return (f'<div class="card"><div class="row"><span>{num}<span class="em">{c["e"]}</span></span><span class="sp">▶️</span></div>'
+            f'<div class="tr">{c["t"]}</div>{blocks(c)}<div class="hook">🎬 {c["k"]}</div>{ph}</div>')
+
+G = {g['id']: g for g in dil['g']}
+FL = ['🇧🇦', '🇬🇧', '🇸🇦']
 screens = []
 screens.append(phone('Rehber MBSTS', '''
 <div class="cd">📅 4 Nisan 2027 sınavına <b>134 gün</b></div>
@@ -29,17 +39,20 @@ screens.append(phone('Rehber MBSTS', '''
 <div class="acts"><div class="a" style="background:#7a4e9a">🙈<b>Kapalı şema</b><i>terimi kapat, hatırla</i></div><div class="a" style="background:#2b4c7e">🕌<b>Cami sarayı</b><i>10 durak, hep aynı rota</i></div></div>
 <div class="a wide" style="background:#b8860b">🌍<b>Dil bölümü</b><i>Boşnakça · İngilizce · Arapça cümleler, görsel kancalarla</i></div>
 <div class="sec">Alanlar</div><div class="grid"><div>📿 Fıkıh</div><div>📖 Hadis</div><div>☪️ Kelam</div><div>📚 Kur'an</div></div>'''))
-screens.append(phone('Dil bölümü', '<p class="note">Her cümlenin görseli, okunuşu ve Türkçe ses benzetmesi (kanca) var. Önce gez, sonra kapatıp sına; hoparlörle doğru söylenişi dinle.</p>' + ''.join(
-    f'<div class="li"><span style="font-size:32px">{d["bay"]}</span><div><b>{d["ad"]}</b><br><small>{sum(len(k["c"]) for k in d["k"])} cümle · 0 bildim</small></div><span>›</span></div>' for d in dil)))
-screens.append(phone('🇧🇦 Selamlaşma', '<div class="seg"><b>Gez</b><span>Sına</span></div>' + ''.join(phrase_card(c, photo=(i == 1)) for i, c in enumerate(bs['k'][0]['c'][:3]))))
-screens.append(phone('🇸🇦 Dua ve dini ifadeler', '<div class="seg"><b>Gez</b><span>Sına</span></div>' + ''.join(phrase_card(c, rtl=True, photo=False) for c in ar['k'][2]['c'][:3])))
-c = en['k'][1]['c'][1]
-screens.append(phone('🇬🇧 Tanışma · Sına', f'''<div class="seg"><span>Gez</span><b>Sına</b></div><div class="chips"><u>Yalnız bilemediklerim</u><u>Cümle → Türkçe</u></div>
-<small>2 / 8</small><div style="text-align:center;font-size:56px">{c["e"]}</div><div style="text-align:center;font-size:20px;font-weight:800">{c["t"]}</div>
-<p class="note" style="text-align:center">Bunu hedef dilde söyle (gözünün önüne sahneyi getir).</p><div class="btn">👁️ Cevabı göster</div>
-<div style="text-align:center;font-size:24px;font-weight:800;color:#7a4e9a;margin-top:10px">{c["n"]}</div><div style="text-align:center">🔊 {c["o"]}</div>
-<div class="hook">💡 {c["k"]}</div><div class="two"><div class="btn o">Bilemedim</div><div class="btn">Bildim</div></div>'''))
-screens.append(phone('Resim ekle (her yerde)', '''<div class="card"><div class="row"><span class="em">🙏</span><span class="sp">🔊</span></div><div class="nat">Molim</div><div class="tr">Lütfen / rica ederim</div>
+def gl(gid):
+    g = G[gid]; return f'<div class="li"><span style="font-size:26px">{g["ic"]}</span><div><b>{g["t"]}</b><br><small>{len(g["c"])} {"sahne" if g["b"]=="A" else "kelime"} · 0 bildim</small></div><span>›</span></div>'
+screens.append(phone('Dil bölümü', '<p class="note">🇧🇦 Boşnakça · 🇬🇧 İngilizce · 🇸🇦 Arapça — her cümle ve kelime üçü alt alta.</p><b>A · En çok kullanılan cümleler</b>' + ''.join(gl(x) for x in ['a1','a2','a3']) + '<b>B · En çok kullanılan kelimeler</b>' + ''.join(gl(x) for x in ['b1','b2'])))
+a1 = G['a1']['c']
+screens.append(phone('🛬 Saraybosna\'ya iniş · Gez', '<div class="seg"><b>Gez</b><span>Sına</span></div><div class="story">🛬 ' + G['a1']['s'] + '</div>' + phrase_card(a1[0], 1) + '<div style="text-align:center">⬇️</div>' + phrase_card(a1[1], 2)))
+a5 = G['a5']['c']
+screens.append(phone('🕌 Camide ve dualarda', '<div class="seg"><b>Gez</b><span>Sına</span></div>' + phrase_card(a5[1], 2, photo=True) + '<div style="text-align:center">⬇️</div>' + phrase_card(a5[3], 4)))
+b1 = G['b1']['c']; b2 = G['b2']['c']
+screens.append(phone('🔗 Bağlaçlar · 🧩 Ekler', '<div class="seg"><b>Gez</b><span>Sına</span></div>' + phrase_card(b1[2]) + phrase_card(b2[2])))
+c = a1[2]
+screens.append(phone('Sına', f'''<div class="seg"><span>Gez</span><b>Sına</b></div><div class="chips"><u>Karıştır</u><u>Yalnız bilemediklerim</u><u><b>Üçü</b></u><u>🇧🇦</u><u>🇬🇧</u><u>🇸🇦</u></div>
+<small>3 / 6</small><div style="text-align:center;font-size:52px">{c["e"]}</div><div style="text-align:center;font-size:19px;font-weight:800">{c["t"]}</div>
+<p class="note" style="text-align:center">Önce kendin söyle (sahneyi gözünün önüne getir).</p><div class="btn">👁️ Cevabı göster</div>{blocks(c)}<div class="two"><div class="btn o">Bilemedim</div><div class="btn">Bildim</div></div>'''))
+screens.append(phone('Resim ekle (her yerde)', f'''<div class="card"><div class="row"><span class="em">{a1[1]["e"]}</span></div><div class="tr">{a1[1]["t"]}</div>
 <div class="thumbs"><i>🖼️</i><i>📷</i></div><div class="addp">🖼️ Kendi resmini ekle (2)</div></div>
 <div class="sheet"><div>🖼️ Telefondan seç (galeri)</div><div>📷 Kamerayla çek</div><div>⌨️ Klavyeden ekle (resim / çıkartma / pano)</div></div>
 <div class="dlg"><b>Klavyeden resim ekle</b><small>Kutuya dokun, klavyenin resim / çıkartma / GIF düğmesinden seç. Panodaki resmi basılı tutup yapıştır.</small><div class="inp">Resmi buraya gönder…</div><small><b>1 resim eklendi.</b></small></div>'''))
@@ -79,12 +92,12 @@ h1{font-size:22px;margin:0 0 4px}.cap{font-size:12px;color:#555;margin-bottom:8p
 .inp{border:1px solid #888;border-radius:6px;padding:12px 6px;color:#888}
 .img{position:relative}.img img,img.w{width:100%;display:block;border-radius:6px}.mk{position:absolute;background:#7a4e9a;border-radius:2px}.mk.cur{border:2px solid #ffc83d}
 .scene{background:#f1ebfa;border-left:4px solid #7a4e9a;padding:8px;border-radius:0 8px 8px 0;margin:7px 0;font-size:12px;line-height:1.4}
-.opt{border:1px solid #999;border-radius:8px;padding:8px;margin:5px 0;background:#fff}.opt.ok{background:#dcebd8}'''
+.lb{display:flex;align-items:flex-start;gap:6px;border-radius:8px;padding:5px 7px;margin-top:5px}.l0{background:#2b5fa81a}.l1{background:#b3402f1a}.l2{background:#3f7a3a1a}.fl{font-size:17px}.num{display:inline-block;width:20px;height:20px;border-radius:10px;background:#7a4e9a;color:#fff;text-align:center;font-size:11px;line-height:20px;margin-right:6px}.story{background:#fff3cd;border-radius:8px;padding:7px;font-size:11.5px;margin-bottom:6px}.opt{border:1px solid #999;border-radius:8px;padding:8px;margin:5px 0;background:#fff}.opt.ok{background:#dcebd8}'''
 caps = [
- ('Ana sayfa ve dil bölümü', 'Ana sayfada yeni düğmeler. Dil bölümünde üç dil, her birinde kategoriler.', [0, 1, 2]),
- ('Arapça, sına ve resim ekleme', 'Arapça sağdan sola yazılır; "Sına" modunda görsel ve Türkçe karşılık gelir, cümleyi sen söylersin. Resim düğmesi her cümlede ve her madde sayfasında var.', [3, 4, 5]),
- ('Kapalı şema, cami sarayı, görselden soru', 'Kapalı şema ve cami sarayı gerçek şema görsellerinden çizildi.', [6, 7, 9]),
- ('Fıkıh sahneleri, mezhep renkleri, sayı şekilleri', 'Sahne kutusu, mezhep renk kodu ve rakam kancaları.', [8, 10]),
+ ('Ana sayfa, dil bölümü ve hikâye', 'Dil bölümü iki bölüm: A (cümleler, hikâye sırasıyla) ve B (kelimeler). Her satırda üç dil alt alta.', [0, 1, 2]),
+ ('Dua cümleleri, bağlaç/ek ve sına', 'Arapça harekeli ve sağdan sola. Sına modunda emoji + Türkçe gelir, üç dili (ya da seçtiğin tek dili) sen söylersin.', [3, 4, 5]),
+ ('Kapalı şema, cami sarayı, görselden soru', 'Kapalı şema ve cami sarayı gerçek şema görsellerinden çizildi.', [7, 8, 10]),
+ ('Fıkıh sahneleri, mezhep renkleri, sayı şekilleri', 'Sahne kutusu, mezhep renk kodu ve rakam kancaları.', [9, 11, 6]),
 ]
 html = f'<html><head><meta charset="utf-8"><style>{css}</style></head><body>'
 html += '<div class="pg" style="flex-direction:column;align-items:center;justify-content:center;height:190mm"><h1 style="font-size:34px">Rehber MBSTS · Yeni ekranlar önizlemesi</h1><div class="cap" style="font-size:15px;max-width:600px;text-align:center">Bu sayfalar telefon ekranlarının çizimidir, APK değildir. Yazılar, görseller ve düzen uygulamadaki gerçek içerikten üretildi; ufak görünüm farkları olabilir.</div></div>'
