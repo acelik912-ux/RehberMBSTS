@@ -123,7 +123,7 @@ class HomeScreen extends StatelessWidget {
               _Action(
                 icon: Icons.translate,
                 label: 'Dil bölümü',
-                sub: '650 satır: cümle, kalıp, 500+ kelime · tanı testi · tekrar',
+                sub: '1100+ satır: cümle, kalıp, 900+ kelime · tanı testi · tekrar',
                 color: const Color(0xFFB8860B),
                 onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const DilScreen())),
               ),

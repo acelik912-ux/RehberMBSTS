@@ -548,3 +548,506 @@
 🧠 | fikir | ideja | idea | aydiya | فِكْرَة | fikre | Türkçe fikir = Arapça fikr.
 🌹 | gül | ruža | rose | rouz | وَرْد | verd
 🌸 | bahçe | bašča | garden | gardın | حَدِيقَة | hadîka | Bašča = Türkçe bahçe.
+
+@tema c-meslek | Meslekler | 👷 | Kendini ve başkalarını tanıtırken: "Ben … yım" kalıbıyla kullan.
+👩‍⚕️ | hemşire | medicinska sestra | nurse | nörs | مُمَرِّضَة | mumerrıda
+📐 | mühendis | inženjer | engineer | encinîır | مُهَنْدِس | muhendis
+⚖️ | avukat | advokat | lawyer | loyır | مُحَامٍ | muhâm
+🪖 | asker | vojnik | soldier | souldcır | جُنْدِيّ | cundî
+🧑‍🌾 | çiftçi | poljoprivrednik | farmer | farmır | فَلَّاح | fellâh
+🛠️ | işçi | radnik | worker | vörkır | عَامِل | âmil
+🚖 | şoför | vozač | driver | drayvır | سَائِق | sâik
+🤵 | garson | konobar | waiter | veytır | نَادِل | nâdil
+🏪 | satıcı | prodavač | seller | selır | بَائِع | bâi'
+💈 | berber | brijač | barber | barbır | حَلَّاق | hallâk
+🧵 | terzi | krojač | tailor | teylır | خَيَّاط | hayyât
+🥖 | fırıncı | pekar | baker | beykır | خَبَّاز | habbâz
+🥩 | kasap | mesar | butcher | buçır | جَزَّار | cezzâr
+🎣 | balıkçı | ribar | fisherman | fişırmın | صَيَّاد | sayyâd
+🖌️ | ressam | slikar | painter | peyntır | رَسَّام | ressâm
+✍️ | yazar | pisac | writer | raytır | كَاتِب | kâtib
+📰 | gazeteci | novinar | journalist | cörnılist | صَحَفِيّ | sahafî
+👨‍⚖️ | hâkim | sudija | judge | cac | قَاضٍ | kâdî
+📣 | müezzin | mujezin | muezzin | muezin | مُؤَذِّن | muezzin
+📜 | müftü | muftija | mufti | maftî | مُفْتٍ | müftî
+🎓 | profesör | profesor | professor | prıfesır | أُسْتَاذ | ustâz
+💊 | eczacı | farmaceut | pharmacist | farmısist | صَيْدَلِيّ | saydalî
+🦷 | dişçi | zubar | dentist | dentist | طَبِيب أَسْنَان | tabîbu esnân
+👔 | müdür | direktor | manager | menıcır | مُدِير | müdîr
+🗂️ | sekreter | sekretar | secretary | sekrıteri | سِكْرِتِير | sekritîr
+🧮 | muhasebeci | računovođa | accountant | ıkauntınt | مُحَاسِب | muhâsib
+💡 | elektrikçi | električar | electrician | ilektrişın | كَهْرَبَائِيّ | kehrebâî
+🚰 | tesisatçı | vodoinstalater | plumber | plamır | سَبَّاك | sebbâk
+🪚 | marangoz | stolar | carpenter | karpıntır | نَجَّار | neccâr
+🔧 | tamirci | mehaničar | mechanic | mıkanik | مِيكَانِيكِيّ | mîkânîkî
+👨‍✈️ | pilot | pilot | pilot | paylıt | طَيَّار | tayyâr
+⚓ | kaptan | kapetan | captain | keptın | قُبْطَان | kubtân
+🧳 | tüccar | trgovac | merchant | mörçınt | تَاجِر | tâcir
+🔬 | bilim insanı | naučnik | scientist | sayıntist | عَالِم | âlim
+🎭 | sanatçı | umjetnik | artist | artist | فَنَّان | fennân
+🎤 | şarkıcı | pjevač | singer | singır | مُغَنٍّ | mugannî
+🏅 | sporcu | sportista | athlete | etlît | رِيَاضِيّ | riyâdî
+
+@tema c-mutfak | Mutfak ve pişirme | 🍳 | Sofra eşyaları, mutfak fiilleri ve tarif kelimeleri.
+🥄 | kaşık | kašika | spoon | spûn | مِلْعَقَة | mil'aka
+🍵 | fincan | šolja | cup | kap | فِنْجَان | fincân
+🫗 | sürahi | bokal | jug | cag | إِبْرِيق | ibrîk
+♨️ | fırın | pećnica | oven | avın | فُرْن | furn
+🔥 | ocak | šporet | stove | stouv | مَوْقِد | mevkıd
+🥘 | tepsi | tepsija | tray | treyy | صِينِيَّة | sîniyye
+🧑‍🍳 | pişirmek | kuhati | to cook | tu kuk | طَبَخَ | tabaha
+🍟 | kızartmak | pržiti | to fry | tu fray | قَلَى | kalâ
+✂️ | kesmek | rezati | to cut | tu kat | قَطَعَ | kata'a
+🔪 | doğramak | sjeckati | to chop | tu çop | فَرَمَ | ferame
+🥄 | karıştırmak | miješati | to stir | tu stör | حَرَّكَ | harrake
+🧼 | yıkamak | prati | to wash | tu voş | غَسَلَ | gasele
+🍊 | soymak | guliti | to peel | tu pîl | قَشَّرَ | kaşşere
+🌡️ | ısıtmak | grijati | to heat | tu hît | سَخَّنَ | sahhane
+❄️ | soğutmak | hladiti | to cool | tu kûl | بَرَّدَ | berrade
+🫗 | dökmek | sipati | to pour | tu pôr | سَكَبَ | sekebe
+➕ | eklemek | dodati | to add | tu ed | أَضَافَ | edâfe
+✅ | pişmiş | kuhan | cooked | kukt | مَطْبُوخ | matbûh
+🥩 | çiğ | sirov | raw | ro | نِيء | nî'
+🍤 | kızarmış | pržen | fried | frayd | مَقْلِيّ | makliyy
+🍖 | ızgara | roštilj | grill | gril | شِوَاء | şivâ'
+📖 | tarif | recept | recipe | resıpi | وَصْفَة | vasfe
+🧾 | malzemeler | sastojci | ingredients | ingrîdiyıntz | مُكَوِّنَات | mukevvinât
+🍛 | porsiyon | porcija | portion | pôrşın | حِصَّة | hısse
+🫒 | sıvı yağ | ulje | oil | oyl | زَيْت | zeyt
+🍶 | sirke | sirće | vinegar | vinigır | خَلّ | hall
+🌶️ | baharat | začin | spice | spays | تَوَابِل | tevâbil
+🥫 | sos | umak | sauce | sos | صَلْصَة | salsa
+🫓 | hamur | tijesto | dough | dou | عَجِين | acîn
+🌾 | un | brašno | flour | flauır | دَقِيق | dakîk
+🍞 | maya | kvasac | yeast | yîst | خَمِيرَة | hamîra
+
+@tema c-meyve | Meyve ve sebzeler | 🍎 | Pazarda ve manavda: önce meyveler, sonra sebzeler.
+🍇 | meyve | voće | fruit | frut | فَاكِهَة | fâkihe
+🥦 | sebze | povrće | vegetable | vecıtıbıl | خُضْرَوَات | hudravât
+🍐 | armut | kruška | pear | per | كُمَّثْرَى | kummesrâ
+🍋 | limon | limun | lemon | lemın | لَيْمُون | leymûn
+🍓 | çilek | jagoda | strawberry | stroberi | فَرَاوِلَة | ferâvile
+🍒 | kiraz | trešnja | cherry | çeri | كَرَز | keraz
+🍑 | şeftali | breskva | peach | piç | خَوْخ | havh
+🧡 | kayısı | kajsija | apricot | eypırikat | مِشْمِش | mişmiş
+🟣 | erik | šljiva | plum | plam | إِجَّاص | iccâs
+🫐 | incir | smokva | fig | fig | تِين | tîn
+❤️ | nar | nar | pomegranate | pomgranıt | رُمَّان | rummân
+🍈 | kavun | dinja | melon | melın | شَمَّام | şemmâm
+🌴 | hurma | hurma | date | deyt | تَمْر | temr
+🫒 | zeytin | maslina | olive | olîv | زَيْتُون | zeytûn
+🌰 | ceviz | orah | walnut | volnat | جَوْز | cevz
+🥜 | badem | badem | almond | amınd | لَوْز | levz
+🌰 | fındık | lješnjak | hazelnut | heyzılnat | بُنْدُق | bunduk
+🥜 | yer fıstığı | kikiriki | peanut | pînat | فُول سُودَانِيّ | fûl sûdânî
+🫑 | biber | paprika | pepper | pepır | فِلْفِل | filfil
+🍆 | patlıcan | patlidžan | eggplant | egplent | بَاذِنْجَان | bâzincân
+🥬 | ıspanak | spanać | spinach | spinıç | سَبَانِخ | sebânih
+🥬 | marul | zelena salata | lettuce | letis | خَس | hass
+🥬 | lahana | kupus | cabbage | kebic | مَلْفُوف | melfûf
+🥦 | karnabahar | karfiol | cauliflower | koliflauır | قَرْنَبِيط | karnabît
+🌽 | mısır | kukuruz | corn | korn | ذُرَة | zura
+🫘 | fasulye | grah | bean | bîn | فَاصُولْيَا | fâsûlyâ
+🫘 | mercimek | leća | lentil | lentıl | عَدَس | ades
+🧆 | nohut | slanutak | chickpea | çikpî | حِمَّص | himmas
+🟢 | bezelye | grašak | pea | pî | بَازِلَّاء | bâzillâ'
+🍄 | mantar | gljiva | mushroom | maşrum | فُطْر | futr
+🌿 | nane | nana | mint | mint | نَعْنَاع | na'nâ'
+🌱 | maydanoz | peršun | parsley | parsli | بَقْدُونِس | bakdûnis
+
+@tema c-okul | Okul ve eğitim | 🏫 | Derste, sınavda ve kütüphanede lazım olanlar.
+🪑 | sınıf | razred | class | klas | صَفّ | saff
+📘 | ders | čas | lesson | lesın | دَرْس | ders
+🧒 | öğrenci | učenik | student | styudınt | طَالِب | tâlib
+📚 | ödev | domaća zadaća | homework | houmvörk | وَاجِب | vâcib
+📓 | defter | sveska | notebook | noutbuk | دَفْتَر | defter
+✏️ | kurşun kalem | olovka | pencil | pensıl | قَلَم رَصَاص | kalem rasâs
+🖊️ | tükenmez kalem | hemijska olovka | pen | pen | قَلَم | kalem
+🧽 | silgi | gumica | eraser | ireysır | مِمْحَاة | mimhât
+📏 | cetvel | lenjir | ruler | rulır | مِسْطَرَة | mistara
+🧑‍🏫 | tahta | tabla | board | bord | سَبُّورَة | sebbûra
+📖 | sözlük | rječnik | dictionary | dikşıneri | قَامُوس | kâmûs
+🔤 | harf | slovo | letter | letır | حَرْف | harf
+💬 | kelime | riječ | word | vörd | كَلِمَة | kelime
+📃 | cümle | rečenica | sentence | sentıns | جُمْلَة | cumle
+📄 | sayfa | stranica | page | peyc | صَفْحَة | safha
+💯 | not | ocjena | grade | greyd | دَرَجَة | derece
+📜 | diploma | diploma | diploma | diplouma | شَهَادَة | şehâde
+🎁 | burs | stipendija | scholarship | skolırşip | مِنْحَة | minha
+🧮 | hesaplamak | računati | to calculate | tu kelkyuleyt | حَسَبَ | hasebe
+🎨 | çizmek | crtati | to draw | tu dro | رَسَمَ | resame
+🔁 | ezberlemek | naučiti napamet | to memorize | tu memoraiz | حَفِظَ | hafiza
+♻️ | tekrar etmek | ponoviti | to repeat | tu ripît | كَرَّرَ | kerrere
+🫥 | unutmak | zaboraviti | to forget | tu fırget | نَسِيَ | nesiye
+🧩 | hatırlamak | sjetiti se | to remember | tu rimembır | تَذَكَّرَ | tezekkere
+✔️ | doğru | tačno | correct | kırekt | صَحِيح | sahîh
+✖️ | yanlış | pogrešno | wrong | rong | خَطَأ | hata'
+🏖️ | tatil | raspust | holiday | holidey | عُطْلَة | utle
+➗ | matematik | matematika | maths | mes | رِيَاضِيَّات | riyâdiyyât
+🏺 | tarih | historija | history | histıri | تَارِيخ | târîh
+🌍 | coğrafya | geografija | geography | cieografi | جُغْرَافِيَا | cuğrâfiyâ
+🔭 | bilim | nauka | science | sayıns | عِلْم | ilm
+
+@tema c-teknoloji | Telefon ve teknoloji | 📱 | Telefonda, internette ve ekranda her gün duyduğun kelimeler.
+🌐 | internet | internet | internet | intırnet | إِنْتَرْنِت | intirnet
+🔑 | şifre | lozinka | password | pasvörd | كَلِمَةُ السِّرّ | kelimetü's-sirr
+🖥️ | ekran | ekran | screen | skrîn | شَاشَة | şâşe
+⌨️ | klavye | tastatura | keyboard | kîbord | لَوْحَة مَفَاتِيح | levhatu mefâtîh
+🖱️ | fare | miš | mouse | maus | فَأْرَة | fe'ra
+🔌 | şarj aleti | punjač | charger | çarcır | شَاحِن | şâhin
+🔋 | pil | baterija | battery | betıri | بَطَّارِيَّة | battâriyye
+📷 | kamera | kamera | camera | kemıra | كَامِيرَا | kâmîrâ
+🎬 | video | video | video | vidiyou | فِيدْيُو | fîdiyû
+📲 | uygulama | aplikacija | app | ep | تَطْبِيق | tatbîk
+📁 | dosya | datoteka | file | fayl | مِلَفّ | milef
+⬇️ | indirmek | preuzeti | to download | tu daunloud | حَمَّلَ | hammele
+📤 | göndermek | poslati | to send | tu send | أَرْسَلَ | ersele
+📞 | aramak | nazvati | to call | tu kol | اِتَّصَلَ | ittasale
+📴 | kapatmak (cihazı) | isključiti | to turn off | tu törn of | أَطْفَأَ | atfe'a
+🖨️ | yazdırmak | štampati | to print | tu print | طَبَعَ | tabea
+🗑️ | silmek | izbrisati | to delete | tu dilît | حَذَفَ | hazafe
+🔗 | paylaşmak | podijeliti | to share | tu şer | شَارَكَ | şâreke
+🛜 | wifi | wifi | wifi | vayfay | وَاي فَاي | vây fây
+📶 | sinyal | signal | signal | signıl | إِشَارَة | işâre
+📻 | radyo | radio | radio | reydiyou | رَادْيُو | râdiyû
+📰 | haber | vijest | news | nyuz | خَبَر | haber
+📢 | reklam | reklama | advertisement | edvörtismınt | إِعْلَان | i'lân
+🎮 | oyun | igra | game | geym | لُعْبَة | lu'be
+🧭 | harita | karta | map | map | خَرِيطَة | harîta
+🔗 | bağlantı | link | link | link | رَابِط | râbit
+
+@tema c-spor | Spor ve boş zaman | ⚽ | Hobiler, spor ve hafta sonu planları.
+⚽ | futbol | fudbal | football | futbol | كُرَة الْقَدَم | kuratü'l-kadem
+🏀 | basketbol | košarka | basketball | basketbol | كُرَة السَّلَّة | kuratü's-selle
+🏊 | yüzmek | plivati | to swim | tu svim | سَبَحَ | sebeha
+🏐 | top | lopta | ball | bol | كُرَة | kure
+👥 | takım | tim | team | tîm | فَرِيق | ferîk
+🆚 | maç | utakmica | match | maç | مُبَارَاة | mubârât
+🏃 | oyuncu | igrač | player | pleyır | لَاعِب | lâ'ib
+📋 | antrenör | trener | coach | koç | مُدَرِّب | mudarrib
+🏆 | kazanmak | pobijediti | to win | tu vin | فَازَ | fâze
+😞 | kaybetmek | izgubiti | to lose | tu luz | خَسِرَ | hasire
+🏟️ | stadyum | stadion | stadium | steydiyım | مَلْعَب | mel'ab
+🤸 | spor | sport | sport | sport | رِيَاضَة | riyâda
+🚶 | yürüyüş | šetnja | walk | vok | مَشْي | meşy
+🎯 | okçuluk | streličarstvo | archery | arçıri | رِمَايَة | rimâye
+🏇 | binicilik | jahanje | horse riding | hors rayding | فُرُوسِيَّة | furûsiyye
+🎵 | müzik | muzika | music | myuzik | مُوسِيقَى | mûsîkâ
+🎶 | şarkı | pjesma | song | song | أُغْنِيَة | ugniye
+🖼️ | resim | slika | picture | pikçır | لَوْحَة | levha
+🎞️ | sinema | kino | cinema | sinıma | سِينِمَا | sînemâ
+🍿 | film | film | film | film | فِيلْم | film
+🚐 | gezi | izlet | trip | trip | رِحْلَة | rihle
+⛺ | kamp | kampovanje | camping | kemping | تَخْيِيم | tahyîm
+🧺 | piknik | piknik | picnic | piknik | نُزْهَة | nüzhe
+♟️ | satranç | šah | chess | çes | شِطْرَنْج | şatrenc
+🎉 | eğlenmek | zabavljati se | to have fun | tu hev fan | اِسْتَمْتَعَ | istemte'a
+🧶 | hobi | hobi | hobby | hobi | هِوَايَة | hivâye
+
+@tema c-hastane | Hastane ve hastalık | 🏥 | Doktora derdini anlatmak için belirtiler ve tedavi kelimeleri.
+🔪 | ameliyat | operacija | surgery | sörcıri | عَمَلِيَّة جِرَاحِيَّة | amelliyye cirâhiyye
+🌡️ | ateş | temperatura | fever | fîvır | حُمَّى | humma
+🤒 | grip | gripa | flu | flu | إِنْفِلُونْزَا | influenzâ
+🤕 | baş ağrısı | glavobolja | headache | hedeyk | صُدَاع | suda'
+🤢 | karın ağrısı | bol u stomaku | stomach ache | stamık eyk | أَلَمُ الْبَطْنِ | elemü'l-batn
+💊 | hap | tableta | pill | pil | حَبَّة | habbe
+🍯 | şurup | sirup | syrup | sirıp | شَرَاب | şerâb
+💉 | aşı | vakcina | vaccine | vaksîn | تَطْعِيم | tat'îm
+📝 | reçete | recept | prescription | priskripşın | وَصْفَة طِبِّيَّة | vasfe tıbbiyye
+🧪 | tahlil | analiza | test | test | تَحْلِيل | tahlîl
+🩻 | röntgen | rendgen | X-ray | eks rey | أَشِعَّة | eşi'a
+❤️‍🩹 | tansiyon | krvni pritisak | blood pressure | blad preşır | ضَغْط الدَّم | dağtu'd-dem
+🍬 | şeker hastalığı | dijabetes | diabetes | dayıbîtîs | سُكَّرِيّ | sukkerî
+🩼 | yaralı | povrijeđen | injured | incırd | مُصَاب | musâb
+✨ | iyileşmek | ozdraviti | to recover | tu rikavır | شُفِيَ | şufiye
+🚨 | acil servis | hitno | emergency | imörcınsi | طَوَارِئ | tavârî'
+😮‍💨 | nefes almak | disati | to breathe | tu brîd | تَنَفَّسَ | tenefese
+🌙 | uykusuzluk | nesanica | insomnia | insomniya | أَرَق | erak
+
+@tema c-ulke | Ülkeler ve milliyetler | 🗺️ | Nerelisin sorusunun cevabı ve dünya haritası.
+🇧🇦 | Bosna Hersek | Bosna i Hercegovina | Bosnia and Herzegovina | bosniya end herzıgovinıa | الْبُوسْنَة وَالْهَرْسَك | el-Busne ve'l-Hersek
+🌉 | Saraybosna | Sarajevo | Sarajevo | serayevo | سَرَايِيفُو | serâyîfû
+🇩🇪 | Almanya | Njemačka | Germany | cörmıni | أَلْمَانِيَا | almâniyâ
+🇫🇷 | Fransa | Francuska | France | frans | فَرَنْسَا | feransâ
+🇬🇧 | İngiltere | Engleska | England | ingland | إِنْجِلْتِرَا | ingiltirâ
+🇺🇸 | Amerika | Amerika | America | emerika | أَمْرِيكَا | emrîkâ
+🇷🇺 | Rusya | Rusija | Russia | raşa | رُوسِيَا | rûsiyâ
+🇨🇳 | Çin | Kina | China | çayna | الصِّين | es-sîn
+🇯🇵 | Japonya | Japan | Japan | cıpan | الْيَابَان | el-yâbân
+🇮🇳 | Hindistan | Indija | India | indiya | الْهِنْد | el-hind
+🇮🇹 | İtalya | Italija | Italy | itıli | إِيطَالِيَا | îtâliyâ
+🇪🇸 | İspanya | Španija | Spain | speyn | إِسْبَانِيَا | isbâniyâ
+🇬🇷 | Yunanistan | Grčka | Greece | grîs | الْيُونَان | el-yûnân
+🇪🇬 | Mısır | Egipat | Egypt | îcipt | مِصْر | mısr
+🇸🇦 | Suudi Arabistan | Saudijska Arabija | Saudi Arabia | saudi reybiya | السَّعُودِيَّة | es-suûdiyye
+🇸🇾 | Suriye | Sirija | Syria | siriya | سُورِيَا | sûriyâ
+🇮🇶 | Irak | Irak | Iraq | irak | الْعِرَاق | el-ırâk
+🇮🇷 | İran | Iran | Iran | iran | إِيرَان | îrân
+🇯🇴 | Ürdün | Jordan | Jordan | cordın | الْأُرْدُن | el-ürdün
+🇵🇸 | Filistin | Palestina | Palestine | pelistayn | فِلَسْطِين | filistîn
+🕌 | Kudüs | Jeruzalem | Jerusalem | cırusılım | الْقُدْس | el-kuds
+🕋 | Mekke | Meka | Mecca | meke | مَكَّة | mekke
+🌴 | Medine | Medina | Medina | medîne | الْمَدِينَة | el-medîne
+🌍 | Avrupa | Evropa | Europe | yurıp | أُورُوبَّا | ûrubbâ
+🌏 | Asya | Azija | Asia | eyjı | آسِيَا | âsiyâ
+🌍 | Afrika | Afrika | Africa | afrika | إِفْرِيقِيَا | ifrîkiyâ
+🇭🇷 | Hırvatistan | Hrvatska | Croatia | kroeyşa | كْرُوَاتِيَا | kurûâtiyâ
+🇷🇸 | Sırbistan | Srbija | Serbia | sörbiya | صِرْبِيَا | sırbiyâ
+🇲🇪 | Karadağ | Crna Gora | Montenegro | montenîgrou | الْجَبَلُ الْأَسْوَد | el-cebelü'l-esved
+🇽🇰 | Kosova | Kosovo | Kosovo | kosovo | كُوسُوفُو | kûsûfû
+🇦🇱 | Arnavutluk | Albanija | Albania | albeynya | أَلْبَانِيَا | albâniyâ
+🇲🇰 | Makedonya | Sjeverna Makedonija | North Macedonia | nors mesıdounya | مَقْدُونِيَا | makdûniyâ
+🇦🇹 | Avusturya | Austrija | Austria | ostriya | النَّمْسَا | en-nemsâ
+🇨🇭 | İsviçre | Švicarska | Switzerland | svitsırlınd | سُوِيسْرَا | suvîsrâ
+🇨🇦 | Kanada | Kanada | Canada | kenıda | كَنَدَا | kenedâ
+🧑 | Türk | Turčin | Turk | törk | تُرْكِيّ | turkî
+🧑 | Boşnak | Bošnjak | Bosnian | bozniyın | بُوسْنِيّ | busnî
+🧑 | Arap | Arap | Arab | erıb | عَرَبِيّ | arabî
+🧑 | Alman | Nijemac | German | cörmın | أَلْمَانِيّ | almânî
+🧑 | İngiliz | Englez | Englishman | ingliş | إِنْجِلِيزِيّ | inglîzî
+🧑 | Amerikalı | Amerikanac | American | emerikın | أَمْرِيكِيّ | emrîkî
+
+@tema c-fiil3 | Günlük fiiller 3 | 🏃 | Hareket, konuşma ve düşünme fiilleri. Arapçada geçmiş zaman 3. tekil eril verilir.
+🔍 | aramak (bir şeyi) | tražiti | to look for | tu luk for | بَحَثَ | bahase
+🎒 | taşımak | nositi | to carry | tu keri | حَمَلَ | hamele
+🪢 | çekmek | vući | to pull | tu pul | سَحَبَ | sehabe
+🫸 | itmek | gurati | to push | tu puş | دَفَعَ | defe'a
+🎾 | atmak | baciti | to throw | tu srou | رَمَى | remâ
+🧤 | yakalamak | uhvatiti | to catch | tu keç | أَمْسَكَ | emseke
+⬇️ | düşmek | pasti | to fall | tu fol | سَقَطَ | sekata
+🪑 | oturmak | sjesti | to sit | tu sit | جَلَسَ | celese
+✋ | durmak | stati | to stand | tu stend | وَقَفَ | vekafe
+🤾 | zıplamak | skočiti | to jump | tu camp | قَفَزَ | kafeze
+🚌 | binmek | popeti se | to get on | tu get on | رَكِبَ | rakibe
+🛬 | inmek | sići | to get off | tu get of | نَزَلَ | nezele
+🚪 | çıkmak | izaći | to go out | tu gou aut | خَرَجَ | harace
+➡️ | girmek | ući | to enter | tu entır | دَخَلَ | dehale
+↩️ | dönmek | vratiti se | to return | tu ritörn | رَجَعَ | rece'a
+🏠 | ziyaret etmek | posjetiti | to visit | tu vizit | زَارَ | zâre
+🤝 | buluşmak | sresti se | to meet | tu mît | قَابَلَ | kâbele
+👋 | tanışmak | upoznati se | to get to know | tu get tu nou | تَعَارَفَ | teârafe
+💌 | davet etmek | pozvati | to invite | tu invayt | دَعَا | deâ
+👍 | kabul etmek | prihvatiti | to accept | tu eksept | قَبِلَ | kabile
+👎 | reddetmek | odbiti | to refuse | tu rifyuz | رَفَضَ | refade
+✅ | izin vermek | dozvoliti | to allow | tu ılau | سَمَحَ | semeha
+🙏 | teşekkür etmek | zahvaliti | to thank | tu senk | شَكَرَ | şekere
+😔 | özür dilemek | ispričati se | to apologize | tu ıpolıcayz | اِعْتَذَرَ | i'tezere
+🤲 | affetmek | oprostiti | to forgive | tu fırgiv | غَفَرَ | gafere
+🤞 | söz vermek | obećati | to promise | tu promis | وَعَدَ | vea'de
+🤥 | yalan söylemek | lagati | to lie | tu lay | كَذَبَ | kezebe
+💬 | cevaplamak | odgovoriti | to answer | tu ansır | أَجَابَ | ecâbe
+📖 | anlatmak | pričati | to tell | tu tel | حَكَى | hakâ
+📣 | çağırmak | zvati | to call out | tu kol aut | نَادَى | nâdâ
+😤 | bağırmak | vikati | to shout | tu şaut | صَرَخَ | sarahe
+🤫 | fısıldamak | šaptati | to whisper | tu visper | هَمَسَ | hemese
+😊 | gülümsemek | osmjehnuti se | to smile | tu smayl | اِبْتَسَمَ | ibtesame
+😠 | nefret etmek | mrziti | to hate | tu heyt | كَرِهَ | kerihe
+😨 | korkmak | bojati se | to fear | tu fiır | خَافَ | hâfe
+⚖️ | karar vermek | odlučiti | to decide | tu disayd | قَرَّرَ | kararrara
+☝️ | seçmek | izabrati | to choose | tu çuz | اِخْتَارَ | ihtâre
+💪 | denemek | pokušati | to try | tu tray | حَاوَلَ | hâvele
+▶️ | devam etmek | nastaviti | to continue | tu kıntinyu | اِسْتَمَرَّ | istemerra
+🔄 | değiştirmek | promijeniti | to change | tu çeync | غَيَّرَ | gayyera
+🛠️ | yapmak | uraditi | to do | tu du | عَمِلَ | amile
+🌱 | yaratmak | stvoriti | to create | tu kriyeyt | خَلَقَ | haleka
+💥 | kırmak | slomiti | to break | tu breyk | كَسَرَ | kesera
+🔧 | tamir etmek | popraviti | to fix | tu fiks | أَصْلَحَ | eslaha
+🧹 | temizlemek | čistiti | to clean | tu klîn | نَظَّفَ | nezzafe
+🖌️ | boyamak | bojiti | to paint | tu peynt | لَوَّنَ | levvene
+🔢 | saymak | brojati | to count | tu kaunt | عَدَّ | adde
+📏 | ölçmek | mjeriti | to measure | tu mejır | قَاسَ | kâse
+⚖️ | tartmak | vagati | to weigh | tu vey | وَزَنَ | vezene
+🧺 | toplamak | skupljati | to gather | tu gedır | جَمَعَ | cema'a
+🙈 | saklamak | sakriti | to hide | tu hayd | أَخْفَى | ahfâ
+👉 | göstermek | pokazati | to show | tu şou | أَرَى | erâ
+🤚 | dokunmak | dodirnuti | to touch | tu taç | لَمَسَ | lemese
+👃 | koklamak | mirisati | to smell | tu smel | شَمَّ | şemme
+👅 | tatmak | kušati | to taste | tu teyst | ذَاقَ | zâka
+🕋 | inanmak | vjerovati | to believe | tu biliv | آمَنَ | âmene
+
+@tema c-sifat2 | Sıfatlar 2: karakter ve durum | 🌈 | İnsanı ve durumu anlatan sıfatlar; zıtlarıyla birlikte öğren.
+💪 | güçlü | jak | strong | strong | قَوِيّ | kaviyy
+🥀 | zayıf | slab | weak | wîk | ضَعِيف | daîf
+🧠 | akıllı | pametan | smart | smart | ذَكِيّ | zekiyy
+🙃 | aptal | glup | stupid | styupid | غَبِيّ | gabiyy
+🎁 | cömert | darežljiv | generous | cenırıs | كَرِيم | kerîm
+🤏 | cimri | škrt | stingy | stincî | بَخِيل | bahîl
+🦁 | cesur | hrabar | brave | breyv | شُجَاع | şucâ'
+🐭 | korkak | kukavica | cowardly | kauırdli | جَبَان | cebân
+🤝 | dürüst | pošten | honest | onist | صَادِق | sâdık
+🐜 | çalışkan | marljiv | hardworking | hardvörking | مُجْتَهِد | mücted
+🦥 | tembel | lijen | lazy | leyzi | كَسْلَان | keslân
+📢 | gürültülü | bučan | noisy | noyzi | صَاخِب | sâhıb
+😇 | nazik | ljubazan | kind | kaynd | لَطِيف | latîf
+😒 | kaba | grub | rude | rud | فَظّ | fazz
+🧘 | sabırlı | strpljiv | patient | peyşınt | صَبُور | sabûr
+📅 | meşgul | zauzet | busy | bizi | مَشْغُول | maşgûl
+🟢 | hazır | spreman | ready | redi | جَاهِز | câhiz
+🪶 | kolay | lahko | easy | îzi | سَهْل | sehl
+🧗 | zor | teško | difficult | difikılt | صَعْب | sa'b
+⭐ | önemli | važan | important | impôrtınt | مُهِمّ | mühimm
+📌 | gerekli | potreban | necessary | nesıseri | ضَرُورِيّ | darûriyy
+🟩 | mümkün | moguće | possible | posıbıl | مُمْكِن | mümkin
+🟥 | imkânsız | nemoguće | impossible | imposıbıl | مُسْتَحِيل | müstehîl
+🆓 | ücretsiz | besplatan | free of charge | frî ov çarc | مَجَّانِيّ | meccânî
+🌿 | doğal | prirodan | natural | neçırıl | طَبِيعِيّ | tabîiyy
+
+@tema c-zarf | Zarflar ve miktar | ➕ | Cümleye anlam katan küçük kelimeler: ne kadar, ne sıklıkla, ne zaman.
+➕ | çok | mnogo | much | maç | كَثِير | kesîr
+➖ | az | malo | few | fyu | قَلِيل | kalîl
+🤏 | biraz | malo | a little | ı litıl | قَلِيلًا | kalîlen
+💯 | hepsi | sve | all | ol | كُلّ | kull
+🚫 | hiçbir şey | ništa | nothing | nasing | لَا شَيْء | lâ şey'
+🧩 | bazı | neki | some | sam | بَعْض | ba'd
+🍕 | çeyrek | četvrtina | quarter | kvortır | رُبْع | rub'
+✌️ | iki kat | dvostruko | double | dabıl | ضِعْف | di'f
+⏸️ | hâlâ | još uvijek | still | stil | مَا زَالَ | mâ zâle
+✔️ | zaten | već | already | olredi | بِالْفِعْل | bil-fi'l
+💯 | kesinlikle | sigurno | definitely | definitli | بِالتَّأْكِيد | bit-te'kîd
+👌 | tabii ki | naravno | of course | ov kors | طَبْعًا | tab'an
+☝️ | sadece | samo | only | ounli | فَقَطْ | fakat
+🎯 | hatta | čak | even | îvın | حَتَّى | hattâ
+📍 | özellikle | posebno | especially | ispeşıli | خَاصَّةً | hâssatan
+📆 | genellikle | obično | usually | yujuıli | عَادَةً | âdeten
+🙅 | asla | nikada | never | nevır | أَبَدًا | ebeden
+🔁 | sık sık | često | often | ofın | كَثِيرًا | kesîran
+🌙 | nadiren | rijetko | rarely | rerli | نَادِرًا | nâdiran
+👫 | birlikte | zajedno | together | tugedır | مَعًا | me'an
+🧍 | yalnız | sam | alone | alone | وَحْدَهُ | vahdehu
+⚡ | çabucak | brzo | quickly | kvikli | بِسُرْعَة | bi-sür'a
+🐌 | yavaşça | polako | slowly | slouli | بِبُطْءٍ | bi-but'
+🔜 | neredeyse | skoro | almost | olmoust | تَقْرِيبًا | takrîben
+🎯 | tam olarak | tačno | exactly | igzektli | تَمَامًا | temâmen
+📈 | fazlasıyla | previše | too much | tu maç | كَثِيرًا جِدًّا | kesîran ciddan
+
+@tema c-toplum | Toplum ve devlet | 🏛️ | Haberde, resmî işlerde ve toplumsal hayatta geçen kelimeler.
+🏛️ | devlet | država | state | steyt | دَوْلَة | devle
+🏢 | hükümet | vlada | government | gavırmınt | حُكُومَة | hükûme
+🎖️ | başkan | predsjednik | president | prezidınt | رَئِيس | reîs
+🏘️ | belediye | općina | municipality | miyunisipaliti | بَلَدِيَّة | beledîyye
+📜 | kanun | zakon | law | lo | قَانُون | kânûn
+⚖️ | mahkeme | sud | court | kort | مَحْكَمَة | mahkeme
+🗳️ | seçim | izbori | election | ilekşın | اِنْتِخَابَات | intihâbât
+🧑‍🤝‍🧑 | vatandaş | građanin | citizen | sitizın | مُوَاطِن | muvâtın
+🛃 | vize | viza | visa | vîza | تَأْشِيرَة | te'şîra
+🚧 | sınır | granica | border | bordır | حَدّ | hadd
+⚔️ | savaş | rat | war | vor | حَرْب | harb
+🕊️ | barış | mir | peace | pîs | سَلَام | selâm
+🗽 | özgürlük | sloboda | freedom | frîdım | حُرِّيَّة | hurriyya
+🧾 | hak | pravo | right | rayt | حَقّ | hakk
+📌 | görev | dužnost | duty | dyuti | وَاجِب | vâcib
+⚖️ | adalet | pravda | justice | castis | عَدَالَة | adâle
+👥 | toplum | društvo | society | sısayıti | مُجْتَمَع | mucteme'
+🧑‍🧑‍🧒‍🧒 | halk | narod | people | pîpıl | شَعْب | şa'b
+💒 | düğün | svadba | wedding | vedin | عُرْس | urs
+⚰️ | cenaze | dženaza | funeral | fyunırıl | جَنَازَة | cenâze
+🎂 | doğum günü | rođendan | birthday | börsdey | عِيدُ مِيلَاد | îdu mîlâd
+🤲 | bağış | donacija | donation | dounayşın | تَبَرُّع | teberru'
+🍞 | sadaka | milostinja | charity | çeriti | صَدَقَة | sadaka
+🕌 | vakıf | vakuf | endowment | indaumınt | وَقْف | vakf
+🤝 | dernek | udruženje | association | ısousieyşın | جَمْعِيَّة | cem'iyya
+
+@tema c-alet | Alet, tamir ve araç | 🔧 | Ev ve araba tamirinde, hırdavatçıda lazım olanlar.
+🔨 | çekiç | čekić | hammer | hemır | مِطْرَقَة | mitrake
+🪚 | testere | testera | saw | so | مِنْشَار | minşâr
+📍 | çivi | ekser | nail | neyl | مِسْمَار | mismâr
+🔩 | vida | šaraf | screw | skru | بُرْغِي | burğî
+🪛 | tornavida | odvijač | screwdriver | skrudrayvır | مِفَكّ | mifekk
+🪜 | merdiven | ljestve | ladder | ledır | سُلَّم | sullem
+🪢 | ip | uže | rope | roup | حَبْل | habl
+🔌 | tel | žica | wire | vayır | سِلْك | silk
+🎨 | boya | boja | paint | peynt | دِهَان | dihân
+🖌️ | fırça | četka | brush | braş | فُرْشَاة | furşâ
+🗑️ | çöp | smeće | trash | treş | قُمَامَة | kumâme
+🚰 | musluk | slavina | tap | tep | صُنْبُور | sunbûr
+🔌 | priz | utičnica | socket | sokıt | مَقْبَس | makbes
+🔗 | kablo | kabl | cable | keybıl | كَابِل | kâbil
+🛞 | lastik | guma | tyre | tayır | إِطَار | itâr
+⚙️ | motor | motor | engine | encın | مُحَرِّك | muharrik
+🛑 | fren | kočnica | brake | breyk | فَرْمَلَة | fermele
+🎡 | direksiyon | volan | steering wheel | stîring vîl | مِقْوَد | mikvad
+💥 | kaza | nesreća | accident | eksidınt | حَادِث | hâdis
+🚦 | trafik | saobraćaj | traffic | trefik | مُرُور | mürûr
+
+@tema c-hayvan2 | Hayvanlar 2 | 🦁 | Hayvanat bahçesi, çiftlik ve doğa belgeseli hayvanları.
+🐯 | kaplan | tigar | tiger | taygır | نَمِر | nemir
+🐒 | maymun | majmun | monkey | manki | قِرْد | kırd
+🐻 | ayı | medvjed | bear | ber | دُبّ | dubb
+🐺 | kurt | vuk | wolf | vulf | ذِئْب | zi'b
+🦊 | tilki | lisica | fox | foks | ثَعْلَب | se'leb
+🐇 | tavşan | zec | rabbit | rabit | أَرْنَب | erneb
+🦌 | geyik | jelen | deer | dîr | غَزَال | gazâl
+🐪 | deve | deva | camel | kemıl | جَمَل | cemel
+🦒 | zürafa | žirafa | giraffe | cıraf | زَرَافَة | zerâfe
+🐢 | kaplumbağa | kornjača | turtle | törtıl | سُلَحْفَاة | sulahfât
+🐸 | kurbağa | žaba | frog | frog | ضِفْدَع | difda'
+🐊 | timsah | krokodil | crocodile | krokıdayl | تِمْسَاح | timsâh
+🐋 | balina | kit | whale | veyl | حُوت | hût
+🐬 | yunus | delfin | dolphin | dolfin | دُلْفِين | dulfîn
+🦈 | köpekbalığı | ajkula | shark | şark | قِرْش | kırş
+🦉 | baykuş | sova | owl | avl | بُومَة | bûma
+🕊️ | güvercin | golub | pigeon | picın | حَمَامَة | hamâma
+🐓 | horoz | pijetao | rooster | rustır | دِيك | dîk
+🦆 | ördek | patka | duck | dak | بَطَّة | batta
+🪿 | kaz | guska | goose | gus | إِوَزَّة | ivezza
+🦋 | kelebek | leptir | butterfly | batırflay | فَرَاشَة | ferâşa
+🕷️ | örümcek | pauk | spider | spaydır | عَنْكَبُوت | ankebût
+🪰 | sinek | muha | fly | flay | ذُبَابَة | zubâba
+🦟 | sivrisinek | komarac | mosquito | mıskîtou | بَعُوضَة | ba'ûda
+
+@tema c-doga2 | Doğa ve afetler | 🏞️ | Manzarayı, havayı ve doğal olayları anlatmak için.
+🛶 | göl | jezero | lake | leyk | بُحَيْرَة | buhayra
+🌐 | okyanus | okean | ocean | oşın | مُحِيط | muhît
+🏝️ | ada | ostrvo | island | aylınd | جَزِيرَة | cezîra
+🌲 | orman | šuma | forest | forist | غَابَة | gâba
+🏜️ | çöl | pustinja | desert | dezırt | صَحْرَاء | sahrâ'
+⛰️ | vadi | dolina | valley | veli | وَادٍ | vâdî
+⛰️ | tepe | brdo | hill | hil | تَلّ | tell
+🕳️ | mağara | pećina | cave | keyv | كَهْف | kehf
+💦 | şelale | vodopad | waterfall | votırfol | شَلَّال | şellâl
+🪨 | kaya | stijena | rock | rok | صَخْرَة | sahra
+🟤 | toprak | zemlja | soil | soyl | تُرَاب | türâb
+🌱 | çimen | trava | grass | gras | عُشْب | u'şb
+🍃 | yaprak | list | leaf | lîf | وَرَقَة | vereka
+🌰 | tohum | sjeme | seed | sîd | بَذْرَة | bezra
+🌌 | gökyüzü | nebo | sky | skay | سَمَاء | semâ'
+⚡ | şimşek | munja | lightning | laytning | بَرْق | bark
+🌩️ | gök gürültüsü | grmljavina | thunder | sandır | رَعْد | ra'd
+🌋 | deprem | zemljotres | earthquake | örthkveyk | زِلْزَال | zilzâl
+🌊 | sel | poplava | flood | flad | فَيَضَان | feyedân
+🔥 | yangın | požar | fire | fayır | حَرِيق | harîk
+
+@tema c-din2 | Din ve ibadet 2 | 🕌 | Dinî sohbetin, hutbenin ve ibadetin temel kelimeleri.
+📖 | sûre | sura | surah | sûra | سُورَة | sûra
+✨ | âyet | ajet | verse | vörs | آيَة | âya
+🧕 | hâfız | hafiz | hafiz | hâfiz | حَافِظ | hâfız
+🕋 | hac | hadždž | Hajj | hac | حَجّ | hacc
+🧳 | umre | umra | Umrah | umre | عُمْرَة | umra
+⛰️ | Arafat | Arefat | Arafat | arefat | عَرَفَات | arafât
+💧 | zemzem | zemzem | Zamzam | zemzem | زَمْزَم | zemzem
+📨 | elçi | poslanik | messenger | mesincır | رَسُول | resûl
+👼 | melek | melek | angel | eyncıl | مَلَك | melek
+🌳 | cennet | džennet | paradise | peradays | جَنَّة | cenne
+🔥 | cehennem | džehennem | hell | hel | جَهَنَّم | cehennem
+♾️ | ahiret | ahiret | hereafter | hiyıraftır | آخِرَة | âhıra
+📯 | kıyamet | kijamet | Judgement Day | cacmınt dey | قِيَامَة | kıyâma
+⚫ | günah | grijeh | sin | sin | ذَنْب | zenb
+🌟 | sevap | sevap | reward | riword | ثَوَاب | sevâb
+😢 | tövbe | tevba | repentance | ripentıns | تَوْبَة | tevba
+💗 | rahmet | milost | mercy | mörsi | رَحْمَة | rahma
+💚 | iman | iman | faith | feyz | إِيمَان | îmân
+☪️ | İslam | islam | Islam | islam | إِسْلَام | islâm
+🙋 | müslüman | musliman | Muslim | muzlim | مُسْلِم | müslim
+🙇 | rükû | ruku | bowing | bauing | رُكُوع | rükû'
+🧭 | kıble | kibla | qibla | kible | قِبْلَة | kıble
+🗼 | minare | minaret | minaret | minıret | مِئْذَنَة | mi'zana
+🕌 | mihrap | mihrab | prayer niche | prer niç | مِحْرَاب | mihrâb
+🪜 | minber | minber | pulpit | pulpit | مِنْبَر | minber
+🎙️ | hutbe | hutba | sermon | sörmın | خُطْبَة | hutba
+🐑 | kurban | kurban | sacrifice | sakrıfays | أُضْحِيَة | udhıyya
+✅ | helâl | halal | lawful | lofıl | حَلَال | halâl
+⛔ | haram | haram | forbidden | fırbidın | حَرَام | harâm
+📜 | hadis | hadis | hadith | hadîs | حَدِيث | hadîs
+🌿 | sünnet | sunnet | sunnah | sunne | سُنَّة | sünna
+📿 | zikir | zikr | remembrance | rimembrıns | ذِكْر | zikr
+

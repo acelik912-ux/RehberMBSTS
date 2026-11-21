@@ -132,6 +132,13 @@ samples = [G['a5']['c'][3], G['a5']['c'][4], G['a1']['c'][0], G['c-din']['c'][5]
 html += '<div><h1>Arapça yazı: Kur\'ân-ı Kerîm hattı (Amiri Quran)</h1><div class="cap">Uygulamada tüm Arapça yazılar bu harekeli nesih yazı tipiyle gösterilir (SIL Açık Yazı Tipi Lisansı).</div><div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">'
 for c in samples:
     html += f'<div class="card"><div class="tr">{c["t"]}</div><div style="font-family:AmiriQuran;font-size:44px;direction:rtl;text-align:right;line-height:2.1">{c["ar"]}</div><div class="rd">🔊 {c["ao"]}</div></div>'
+html += '</div></div>'
+new = ['c-meslek','c-meyve','c-ulke','c-fiil3']
+tot = sum(len(G[i]['c']) for i in new+['c-mutfak','c-okul','c-spor','c-hastane','c-sifat2','c-zarf','c-alet','c-hayvan2','c-doga2','c-din2'])
+html += '<div style="page-break-before:always"><h1>Yeni kelime paketi: +' + str(tot) + ' kelime, 16 yeni tema</h1><div class="cap">Her kelime üç dilde, harekeli Arapça ve okunuşla. Dil bölümü C listesinde yeni temalar görünür.</div><div class="pg">'
+html += phone('C · Günlük kelime havuzu', ''.join(gl(i) for i in new))
+html += phone('👷 Meslekler · kelime kartı', '<div class="seg"><b>Gez</b><span>Sına</span></div>' + ''.join(phrase_card(x) for x in [G['c-meslek']['c'][2]]))
+html += phone('🕌 Din 2 · kelime kartı', '<div class="seg"><b>Gez</b><span>Sına</span></div>' + ''.join(phrase_card(x) for x in [G['c-din2']['c'][3]]))
 html += '</div></div></body></html>'
 html = html.replace('</body></html></body></html>', '</body></html>')
 html += ''
