@@ -139,6 +139,20 @@ html += '<div style="page-break-before:always"><h1>Yeni kelime paketi: +' + str(
 html += phone('C · Günlük kelime havuzu', ''.join(gl(i) for i in new))
 html += phone('👷 Meslekler · kelime kartı', '<div class="seg"><b>Gez</b><span>Sına</span></div>' + ''.join(phrase_card(x) for x in [G['c-meslek']['c'][2]]))
 html += phone('🕌 Din 2 · kelime kartı', '<div class="seg"><b>Gez</b><span>Sına</span></div>' + ''.join(phrase_card(x) for x in [G['c-din2']['c'][3]]))
+html += '</div></div>'
+
+import base64 as _b64
+_img = 'data:image/png;base64,' + _b64.b64encode((root / 'assets/sema/akit_matrisi.png').read_bytes()).decode()
+def bub(left, top, inner, w=170):
+    return (f'<div style="position:absolute;left:{left}px;top:{top}px;width:{w}px;transform:translateY(-100%)">'
+            f'<div style="background:#fff3b0;border:1px solid #e2c04f;border-radius:14px;padding:8px 10px;box-shadow:0 2px 6px #0003;font-size:12.5px;line-height:1.3">{inner}</div>'
+            f'<div style="width:0;height:0;margin-left:20px;border-left:8px solid transparent;border-right:8px solid transparent;border-top:9px solid #e2c04f"></div></div>')
+gk = G['a1']['c'][0]
+page_a = '<div style="position:relative;height:100%">' + blocks(gk) + bub(14, 270, 'Bunu otobüste hep karıştırıyorum 🚌') + bub(62, 480, '<img src="' + _img + '" style="width:100%;border-radius:8px;display:block;margin-bottom:4px">Hoca bunu böyle çizmişti', 190) + '</div>'
+dlg = '<div style="position:absolute;inset:0;background:#0006"></div><div style="position:absolute;left:14px;right:14px;top:120px;background:#fff;border-radius:18px;padding:14px;box-shadow:0 4px 18px #0005"><b style="font-size:16px">Baloncuk not</b><div style="border:1.5px solid #7a4e9a;border-radius:6px;padding:8px;margin:10px 0;min-height:50px;font-size:13px">Kâbe tarafı = kıble. Akılda kalsın diye 🕋</div><div style="display:flex;gap:6px;margin-bottom:10px"><img src="' + _img + '" style="width:52px;height:52px;object-fit:cover;border-radius:8px"><span style="font-size:12px;color:#7a4e9a;align-self:center">+ Galeri · Kamera · Klavyeden resim</span></div><div style="text-align:right;font-size:13px"><span style="margin-right:14px">Vazgeç</span><b style="background:#7a4e9a;color:#fff;padding:7px 14px;border-radius:16px">Kaydet</b></div></div>'
+html += '<div style="page-break-before:always"><h1>Ekranın her yerine baloncuk not</h1><div class="cap">Ekranda istediğin yere basılı tut → yaz veya resim ekle → baloncuk o noktada durur, sayfayla birlikte kayar. Dokununca düzenlenir, sürükleyince yeri değişir.</div><div class="pg">'
+html += phone('1 · Basılı tut', blocks(gk), extra=dlg)
+html += phone('2 · Baloncuklar yerinde', page_a)
 html += '</div></div></body></html>'
 html = html.replace('</body></html></body></html>', '</body></html>')
 html += ''
