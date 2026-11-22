@@ -22,6 +22,7 @@ import 'package:rehber_mbsts/screens/quiz_screen.dart';
 import 'package:rehber_mbsts/screens/settings_screen.dart';
 import 'package:rehber_mbsts/store.dart';
 import 'package:rehber_mbsts/tts.dart';
+import 'package:rehber_mbsts/widgets/not_katman.dart';
 import 'package:rehber_mbsts/widgets/player_bar.dart';
 import 'package:rehber_mbsts/widgets/read_bar.dart';
 import 'package:rehber_mbsts/widgets/rich_body.dart';
@@ -305,5 +306,33 @@ void main() {
     store.replaceAllSync({'v': 1});
     expect(store.attach, isEmpty);
     expect(store.dilCards, isEmpty);
+  });
+
+  testWidgets('basılı tutunca baloncuk penceresi açılır, kayıt JSON gidiş-dönüşü çalışır', (tester) async {
+    final tmp = Directory.systemTemp.createTempSync('bb');
+    store.dir = tmp;
+    store.imgDir = Directory('${tmp.path}/gorseller')..createSync();
+    await tester.pumpWidget(MaterialApp(
+      navigatorKey: navKey,
+      navigatorObservers: [notRegistry],
+      builder: (context, child) => NotKatman(child: child ?? const SizedBox()),
+      home: const Scaffold(body: SizedBox.expand(child: Center(child: Text('merhaba')))),
+    ));
+    await tester.pump();
+    expect(notRegistry.pageKey, 'home');
+    await tester.longPressAt(const Offset(100, 300));
+    await tester.pumpAndSettle();
+    expect(find.text('Baloncuk not'), findsOneWidget);
+    expect(notRegistry.pageKey, isNull);
+    await tester.tap(find.text('Vazgeç'));
+    await tester.pumpAndSettle();
+    expect(store.bubbles, isEmpty);
+    store.bubbles['e:x'] = [Bubble(id: '1', x: 0.5, y: 120, text: 'not', images: ['a.png'])];
+    final j = store.toJson();
+    expect(j['bb'], {'e:x': [{'id': '1', 'x': 0.5, 'y': 120.0, 't': 'not', 'm': ['a.png']}]});
+    store.replaceAllSync(j);
+    expect(store.bubbles['e:x']!.single.text, 'not');
+    store.replaceAllSync({'v': 1});
+    expect(store.bubbles, isEmpty);
   });
 }

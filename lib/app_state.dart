@@ -14,7 +14,7 @@ void openEntry(BuildContext context, String id) {
     ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('Bu madde bulunamadı.')));
     return;
   }
-  Navigator.of(context).push(MaterialPageRoute(builder: (_) => EntryScreen(id: id)));
+  Navigator.of(context).push(MaterialPageRoute(settings: RouteSettings(name: 'e:$id'), builder: (_) => EntryScreen(id: id)));
 }
 
 /// Bir maddeye bağlantı veren diğer maddeler.

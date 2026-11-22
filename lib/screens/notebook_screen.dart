@@ -51,7 +51,7 @@ class NotebookScreen extends StatelessWidget {
                       title: const Text('Serbest not (bir maddeye bağlı değil)'),
                       onTap: () {
                         Navigator.pop(c);
-                        Navigator.push(context, MaterialPageRoute(builder: (_) => const NoteEditor(entryId: '')));
+                        Navigator.push(context, MaterialPageRoute(settings: RouteSettings(name: 'not-yeni'), builder: (_) => const NoteEditor(entryId: '')));
                       },
                     ),
                     ListTile(
@@ -59,7 +59,7 @@ class NotebookScreen extends StatelessWidget {
                       title: const Text('Yeni madde (kendi konu sayfam)'),
                       onTap: () {
                         Navigator.pop(c);
-                        Navigator.push(context, MaterialPageRoute(builder: (_) => const EntryEditor()));
+                        Navigator.push(context, MaterialPageRoute(settings: RouteSettings(name: 'madde-yeni'), builder: (_) => const EntryEditor()));
                       },
                     ),
                   ]),
@@ -87,7 +87,7 @@ class NotebookScreen extends StatelessWidget {
                           subtitle: Text(n.text.isEmpty ? '${n.images.length} görsel' : n.text, maxLines: 2, overflow: TextOverflow.ellipsis),
                           onTap: () => e != null
                               ? openEntry(context, e.id)
-                              : Navigator.push(context, MaterialPageRoute(builder: (_) => NoteEditor(entryId: n.entryId, note: n))),
+                              : Navigator.push(context, MaterialPageRoute(settings: RouteSettings(name: 'not-duzenle'), builder: (_) => NoteEditor(entryId: n.entryId, note: n))),
                         );
                       },
                     ),

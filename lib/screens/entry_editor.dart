@@ -52,7 +52,7 @@ class _EntryEditorState extends State<EntryEditor> {
   }
 
   Future<void> _link() async {
-    final id = await Navigator.push<String>(context, MaterialPageRoute(builder: (_) => const SearchScreen(pick: true)));
+    final id = await Navigator.push<String>(context, MaterialPageRoute(settings: RouteSettings(name: 'ara-sec'), builder: (_) => const SearchScreen(pick: true)));
     if (id == null) return;
     final e = store.resolve(content, id);
     final tag = '[[$id|${e?.title ?? id}]]';

@@ -4,7 +4,6 @@ import '../app_state.dart';
 import '../content.dart';
 import '../hafiza.dart';
 import '../tts.dart';
-import '../widgets/photo_bar.dart';
 import '../widgets/read_bar.dart';
 import 'entry_screen.dart' show showImage;
 
@@ -59,7 +58,7 @@ class SarayScreen extends StatelessWidget {
                                 '${[for (final o in t.items) store.visual['saray:${t.id}|${o.stop}'] == true].where((x) => x).length} bildim',
                               ),
                               trailing: const Icon(Icons.chevron_right),
-                              onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => SarayTurScreen(tur: t, duraklar: h.duraklar))),
+                              onTap: () => Navigator.push(context, MaterialPageRoute(settings: RouteSettings(name: 'saray:${t.id}'), builder: (_) => SarayTurScreen(tur: t, duraklar: h.duraklar))),
                             ),
                           ),
                       ]),
@@ -148,7 +147,6 @@ class _SarayTurScreenState extends State<SarayTurScreen> {
                 Text(o.info, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w800, color: Color(0xFF7A4E9A))),
                 const SizedBox(height: 4),
                 Text(o.scene, style: const TextStyle(fontSize: 14.5, height: 1.45)),
-                PhotoBar(slot: 'saray:${t.id}|${o.stop}', label: 'Kendi resmini ekle'),
                 if (entryExists(o.entryId))
                   Align(alignment: Alignment.centerRight, child: TextButton(onPressed: () => openEntry(context, o.entryId), child: const Text('Maddeye git'))),
               ]),

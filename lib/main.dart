@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'app_state.dart';
 import 'content.dart';
 import 'screens/home_screen.dart';
+import 'widgets/not_katman.dart';
 import 'widgets/player_bar.dart';
 import 'widgets/read_bar.dart';
 
@@ -24,8 +25,8 @@ class RehberApp extends StatelessWidget {
       title: 'Rehber MBSTS',
       debugShowCheckedModeBanner: false,
       navigatorKey: navKey,
-      navigatorObservers: [readRegistry],
-      builder: (context, child) => AppFrame(player: const PlayerBar(), child: child ?? const SizedBox()),
+      navigatorObservers: [readRegistry, notRegistry],
+      builder: (context, child) => AppFrame(player: const PlayerBar(), child: NotKatman(child: child ?? const SizedBox())),
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: seed),
         useMaterial3: true,

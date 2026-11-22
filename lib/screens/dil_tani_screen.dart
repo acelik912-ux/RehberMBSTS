@@ -66,7 +66,7 @@ class _DilTaniScreenState extends State<DilTaniScreen> {
                         const Text('Bilmediklerin Dil tekrarı kartlarına eklendi. Eksik haritasında dil ve temaya göre nerede açık olduğunu görebilirsin.'),
                         const SizedBox(height: 14),
                         FilledButton(
-                          onPressed: () => Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => const DilHaritaScreen())),
+                          onPressed: () => Navigator.pushReplacement(context, MaterialPageRoute(settings: RouteSettings(name: 'dil-harita'), builder: (_) => const DilHaritaScreen())),
                           child: const Text('Eksik haritasını gör'),
                         ),
                       ])

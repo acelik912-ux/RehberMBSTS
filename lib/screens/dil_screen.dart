@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import '../app_state.dart';
 import '../dil.dart';
 import '../tts.dart';
-import '../widgets/photo_bar.dart';
 import '../widgets/read_bar.dart';
 import 'dil_tani_screen.dart';
 
@@ -76,7 +75,7 @@ class DilScreen extends StatelessWidget {
                   Row(children: [
                     Expanded(
                       child: FilledButton.icon(
-                        onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const DilTaniScreen())),
+                        onPressed: () => Navigator.push(context, MaterialPageRoute(settings: RouteSettings(name: 'dil-tani'), builder: (_) => const DilTaniScreen())),
                         icon: const Icon(Icons.radar),
                         label: const Text('Tanı testi'),
                       ),
@@ -84,7 +83,7 @@ class DilScreen extends StatelessWidget {
                     const SizedBox(width: 8),
                     Expanded(
                       child: OutlinedButton.icon(
-                        onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const DilHaritaScreen())),
+                        onPressed: () => Navigator.push(context, MaterialPageRoute(settings: RouteSettings(name: 'dil-harita'), builder: (_) => const DilHaritaScreen())),
                         icon: const Icon(Icons.map),
                         label: const Text('Eksik haritası'),
                       ),
@@ -92,7 +91,7 @@ class DilScreen extends StatelessWidget {
                   ]),
                   const SizedBox(height: 8),
                   FilledButton.tonalIcon(
-                    onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const DilTekrarScreen())),
+                    onPressed: () => Navigator.push(context, MaterialPageRoute(settings: RouteSettings(name: 'dil-tekrar'), builder: (_) => const DilTekrarScreen())),
                     icon: const Icon(Icons.replay),
                     label: Text('Dil tekrarı · bugün ${store.dueDil().length} kart'),
                   ),
@@ -107,7 +106,7 @@ class DilScreen extends StatelessWidget {
                           title: Text(g.title, style: const TextStyle(fontWeight: FontWeight.w700)),
                           subtitle: Text('${g.items.length} ${g.bolum == 'A' ? 'sahne' : g.bolum == 'K' ? 'kalıp' : 'kelime'} · ${g.items.where((c) => store.visual['dil:${c.id}'] == true).length} bildim'),
                           trailing: const Icon(Icons.chevron_right),
-                          onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => DilCalisScreen(grup: g))),
+                          onTap: () => Navigator.push(context, MaterialPageRoute(settings: RouteSettings(name: 'dilgrup:${g.id}'), builder: (_) => DilCalisScreen(grup: g))),
                         ),
                       ),
                   ],
@@ -235,7 +234,6 @@ class _DilCalisScreenState extends State<DilCalisScreen> {
                 decoration: BoxDecoration(color: const Color(0x1AFFC83D), borderRadius: BorderRadius.circular(8)),
                 child: Text('🎬 ${c.hook}', style: const TextStyle(fontSize: 13.5, height: 1.35)),
               ),
-            PhotoBar(slot: 'd:${c.id}', label: 'Kendi resmini ekle'),
           ]),
         ),
       );

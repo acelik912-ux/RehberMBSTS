@@ -82,7 +82,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
             leading: const Icon(Icons.save_alt),
             title: const Text('Yedekle / geri yükle'),
             subtitle: const Text('Notlar, görseller, kartlar ve deneme sonuçları'),
-            onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const BackupScreen())),
+            onTap: () => Navigator.push(context, MaterialPageRoute(settings: RouteSettings(name: 'yedek'), builder: (_) => const BackupScreen())),
           ),
           Padding(
             padding: const EdgeInsets.all(16),

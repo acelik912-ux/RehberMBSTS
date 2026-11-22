@@ -7,7 +7,6 @@ import '../tts.dart';
 import '../widgets/entry_icon.dart';
 import '../widgets/player_bar.dart';
 import '../widgets/read_bar.dart';
-import '../widgets/photo_bar.dart';
 import '../widgets/rich_body.dart';
 import 'entry_editor.dart';
 import 'note_editor.dart';
@@ -85,7 +84,7 @@ class _EntryScreenState extends State<EntryScreen> {
             foregroundColor: Colors.white,
             icon: const Icon(Icons.add_photo_alternate),
             label: const Text('Not / görsel ekle'),
-            onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => NoteEditor(entryId: e.id))),
+            onPressed: () => Navigator.push(context, MaterialPageRoute(settings: RouteSettings(name: 'not:${e.id}'), builder: (_) => NoteEditor(entryId: e.id))),
           ),
           body: ListView(
             padding: const EdgeInsets.fromLTRB(18, 14, 18, 100),
@@ -141,7 +140,6 @@ class _EntryScreenState extends State<EntryScreen> {
               const SizedBox(height: 4),
               RichBody(text: e.body, exists: entryExists, onLink: (id) => openEntry(context, id)),
               for (final img in e.images) _AssetImage(path: img),
-              PhotoBar(slot: 'e:${e.id}'),
               const SizedBox(height: 18),
               _SectionTitle(icon: Icons.sticky_note_2, text: 'Notlarım (${notes.length})', color: area.color),
               if (notes.isEmpty)
@@ -172,7 +170,7 @@ class _EntryScreenState extends State<EntryScreen> {
 
   Future<void> _menu(String v, Entry e) async {
     if (v == 'edit') {
-      await Navigator.push(context, MaterialPageRoute(builder: (_) => EntryEditor(existing: e)));
+      await Navigator.push(context, MaterialPageRoute(settings: RouteSettings(name: 'duzenle:${e.id}'), builder: (_) => EntryEditor(existing: e)));
     } else if (v == 'reset') {
       await store.setOverride(e.id, null);
     } else if (v == 'delete') {
@@ -279,7 +277,7 @@ class _NoteCard extends StatelessWidget {
     return Card(
       margin: const EdgeInsets.only(bottom: 8),
       child: InkWell(
-        onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => NoteEditor(entryId: entryId, note: note))),
+        onTap: () => Navigator.push(context, MaterialPageRoute(settings: RouteSettings(name: 'not-duzenle'), builder: (_) => NoteEditor(entryId: entryId, note: note))),
         child: Padding(
           padding: const EdgeInsets.all(12),
           child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [

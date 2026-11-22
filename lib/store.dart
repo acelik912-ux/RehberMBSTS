@@ -25,6 +25,25 @@ class Note {
   Map<String, dynamic> toJson() => {'id': id, 'e': entryId, 't': text, 'i': images, 'c': created};
 }
 
+/// Ekranda basılı tutarak eklenen baloncuk not: yazı ve/veya resimler.
+/// [x] sayfa genişliğinin oranı (0..1), [y] sayfa içeriğindeki konum (piksel, kaydırmayla birlikte hareket eder).
+class Bubble {
+  final String id;
+  double x, y;
+  String text;
+  List<String> images;
+  Bubble({required this.id, required this.x, required this.y, this.text = '', List<String>? images}) : images = images ?? [];
+
+  factory Bubble.fromJson(Map<String, dynamic> j) => Bubble(
+        id: j['id'] as String,
+        x: (j['x'] as num).toDouble(),
+        y: (j['y'] as num).toDouble(),
+        text: (j['t'] ?? '') as String,
+        images: List<String>.from(j['m'] ?? const []),
+      );
+  Map<String, dynamic> toJson() => {'id': id, 'x': x, 'y': y, 't': text, 'm': images};
+}
+
 /// Leitner kartı durumu.
 class CardState {
   int box; // 1..5
@@ -57,6 +76,7 @@ class Store extends ChangeNotifier {
   int remindH = 20, remindM = 30;
   final List<DenemeResult> denemeler = [];
   final Map<String, List<String>> attach = {}; // yer anahtarı (ör. e:abdest, d:bs-selam-1) -> eklenen resim dosyaları
+  final Map<String, List<Bubble>> bubbles = {}; // sayfa anahtarı (ör. e:abdest, home) -> baloncuk notlar
   final Map<String, CardState> dilCards = {}; // 'satırId|dilNo' -> aralıklı tekrar kartı
   final Map<String, bool> visual = {}; // kapalı şema kutusu / saray durağı -> bildim mi
 
@@ -117,6 +137,9 @@ class Store extends ChangeNotifier {
     attach
       ..clear()
       ..addAll(((j['att'] as Map?) ?? const {}).map((k, v) => MapEntry(k as String, List<String>.from(v as List))));
+    bubbles
+      ..clear()
+      ..addAll(((j['bb'] as Map?) ?? const {}).map((k, v) => MapEntry(k as String, (v as List).map((e) => Bubble.fromJson(e as Map<String, dynamic>)).toList())));
     visual
       ..clear()
       ..addAll(((j['vk'] as Map?) ?? const {}).map((k, v) => MapEntry(k as String, v == true)));
@@ -137,6 +160,7 @@ class Store extends ChangeNotifier {
         'dnm': denemeler.map((d) => d.toJson()).toList(),
         'vk': visual,
         'att': attach,
+        'bb': bubbles.map((k, v) => MapEntry(k, v.map((b) => b.toJson()).toList())),
         'wc': dilCards.map((k, v) => MapEntry(k, v.toJson())),
       };
 
@@ -204,6 +228,17 @@ class Store extends ChangeNotifier {
     final name = 'g${DateTime.now().microsecondsSinceEpoch}$ext';
     await imageFile(name).writeAsBytes(bytes);
     return name;
+  }
+
+  void addBubble(String page, Bubble b) {
+    bubbles.putIfAbsent(page, () => []).add(b);
+    save();
+  }
+
+  void removeBubble(String page, Bubble b) {
+    bubbles[page]?.remove(b);
+    if (bubbles[page]?.isEmpty ?? false) bubbles.remove(page);
+    save();
   }
 
   void attachImage(String slot, String name) {

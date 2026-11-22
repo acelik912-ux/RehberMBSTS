@@ -54,7 +54,7 @@ class _AreaScreenState extends State<AreaScreen> {
                 IconButton(
                   tooltip: 'Bu alandan test',
                   icon: const Icon(Icons.quiz),
-                  onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => QuizScreen(area: area.id))),
+                  onPressed: () => Navigator.push(context, MaterialPageRoute(settings: RouteSettings(name: 'quiz:${area.id}'), builder: (_) => QuizScreen(area: area.id))),
                 ),
               PopupMenuButton<String>(
                 onSelected: (v) {
@@ -76,7 +76,7 @@ class _AreaScreenState extends State<AreaScreen> {
             foregroundColor: Colors.white,
             icon: const Icon(Icons.add),
             label: const Text('Madde ekle'),
-            onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => EntryEditor(areaId: area.id))),
+            onPressed: () => Navigator.push(context, MaterialPageRoute(settings: RouteSettings(name: 'duzenle-yeni'), builder: (_) => EntryEditor(areaId: area.id))),
           ),
           body: entries.isEmpty
               ? const Center(child: Text('Bu alanda henüz madde yok. Sağ alttan ekleyebilirsin.'))

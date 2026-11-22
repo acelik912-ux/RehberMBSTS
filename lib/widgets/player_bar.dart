@@ -31,7 +31,7 @@ class PlayerBar extends StatelessWidget {
                 const SizedBox(width: 10),
                 Expanded(
                   child: InkWell(
-                    onTap: id == null ? null : () => navKey.currentState?.push(MaterialPageRoute(builder: (_) => EntryScreen(id: id))),
+                    onTap: id == null ? null : () => navKey.currentState?.push(MaterialPageRoute(settings: RouteSettings(name: 'e:$id'), builder: (_) => EntryScreen(id: id))),
                     child: Column(crossAxisAlignment: CrossAxisAlignment.start, mainAxisSize: MainAxisSize.min, children: [
                       Text(item.title, maxLines: 1, overflow: TextOverflow.ellipsis,
                           style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w800)),

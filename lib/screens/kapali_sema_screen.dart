@@ -31,7 +31,7 @@ class KapaliSemaListScreen extends StatelessWidget {
                   ),
                   const SizedBox(height: 10),
                   FilledButton.icon(
-                    onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const GorselSoruScreen())),
+                    onPressed: () => Navigator.push(context, MaterialPageRoute(settings: RouteSettings(name: 'gorsel-soru'), builder: (_) => const GorselSoruScreen())),
                     icon: const Icon(Icons.quiz),
                     label: const Text('Çoktan seçmeli sına (10 soru)'),
                   ),
@@ -46,7 +46,7 @@ class KapaliSemaListScreen extends StatelessWidget {
                           title: Text(s.title, style: const TextStyle(fontWeight: FontWeight.w700)),
                           subtitle: Text('${a.name} · ${s.boxes.length} kutu · $known bildim'),
                           trailing: const Icon(Icons.chevron_right),
-                          onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => KapaliSemaScreen(sema: s))),
+                          onTap: () => Navigator.push(context, MaterialPageRoute(settings: RouteSettings(name: 'sema:${s.id}'), builder: (_) => KapaliSemaScreen(sema: s))),
                         ),
                       );
                     }),

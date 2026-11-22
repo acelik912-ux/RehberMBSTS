@@ -40,14 +40,14 @@ class QuizMenuScreen extends StatelessWidget {
               subtitle: Text(last == null
                   ? 'Gerçek dağılım: Fıkıh 20, Kur\'an 7, Tefsir 7, Kelam 7, Hadis 7, Siyer 7, Mezhep 3, Dinler 2'
                   : 'Son deneme: ${last.right}/${last.total} doğru · ${store.denemeler.length} deneme'),
-              onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const DenemeScreen())),
+              onTap: () => Navigator.push(context, MaterialPageRoute(settings: RouteSettings(name: 'deneme'), builder: (_) => const DenemeScreen())),
             ),
           ),
           if (last != null)
             Align(
               alignment: Alignment.centerRight,
               child: TextButton.icon(
-                onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const DenemeHistoryScreen())),
+                onPressed: () => Navigator.push(context, MaterialPageRoute(settings: RouteSettings(name: 'deneme-gecmis'), builder: (_) => const DenemeHistoryScreen())),
                 icon: const Icon(Icons.bar_chart),
                 label: const Text('Deneme geçmişi'),
               ),
@@ -60,7 +60,7 @@ class QuizMenuScreen extends StatelessWidget {
               leading: const Icon(Icons.shuffle),
               title: const Text('Karışık test (15 soru)', style: TextStyle(fontWeight: FontWeight.w800)),
               subtitle: const Text('Bütün alanlardan rastgele'),
-              onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const QuizScreen())),
+              onTap: () => Navigator.push(context, MaterialPageRoute(settings: RouteSettings(name: 'quiz'), builder: (_) => const QuizScreen())),
             ),
           ),
           Card(
@@ -69,7 +69,7 @@ class QuizMenuScreen extends StatelessWidget {
               title: const Text('Yanlışlarım', style: TextStyle(fontWeight: FontWeight.w700)),
               subtitle: Text(wrong == 0 ? 'Henüz yanlış yok' : '$wrong soru tekrar bekliyor'),
               enabled: wrong > 0,
-              onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const QuizScreen(onlyWrong: true))),
+              onTap: () => Navigator.push(context, MaterialPageRoute(settings: RouteSettings(name: 'quiz-yanlis'), builder: (_) => const QuizScreen(onlyWrong: true))),
             ),
           ),
           const Padding(padding: EdgeInsets.fromLTRB(8, 14, 8, 6), child: Text('Alana göre', style: TextStyle(fontWeight: FontWeight.w800))),
@@ -79,7 +79,7 @@ class QuizMenuScreen extends StatelessWidget {
                 leading: CircleAvatar(backgroundColor: a.color, child: Icon(a.icon, color: Colors.white, size: 18)),
                 title: Text(a.name),
                 subtitle: Text('${content.questions.where((q) => q.area == a.id).length} soru'),
-                onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => QuizScreen(area: a.id))),
+                onTap: () => Navigator.push(context, MaterialPageRoute(settings: RouteSettings(name: 'quiz:${a.id}'), builder: (_) => QuizScreen(area: a.id))),
               ),
         ],
       ),

@@ -97,7 +97,7 @@ class _DenemeScreenState extends State<DenemeScreen> {
     if (!mounted) return;
     Navigator.pushReplacement(
       context,
-      MaterialPageRoute(builder: (_) => DenemeResultScreen(result: d, questions: _qs, answers: _ans)),
+      MaterialPageRoute(settings: RouteSettings(name: 'deneme-sonuc'), builder: (_) => DenemeResultScreen(result: d, questions: _qs, answers: _ans)),
     );
   }
 

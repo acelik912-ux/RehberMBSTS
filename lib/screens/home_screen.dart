@@ -38,17 +38,23 @@ class HomeScreen extends StatelessWidget {
               IconButton(
                 tooltip: 'Ayarlar ve yedek',
                 icon: const Icon(Icons.settings),
-                onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const SettingsScreen())),
+                onPressed: () => Navigator.push(context, MaterialPageRoute(settings: RouteSettings(name: 'ayarlar'), builder: (_) => const SettingsScreen())),
               ),
             ],
           ),
           body: ListView(
             padding: const EdgeInsets.fromLTRB(16, 4, 16, 32),
             children: [
+              if (store.bubbles.isEmpty)
+                const Padding(
+                  padding: EdgeInsets.only(bottom: 10),
+                  child: Text('💬 Ekranın herhangi bir yerine basılı tut: yazılı veya resimli baloncuk not ekle.',
+                      style: TextStyle(fontSize: 12.5, color: Colors.black54)),
+                ),
               // Arama kutusu
               InkWell(
                 borderRadius: BorderRadius.circular(28),
-                onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const SearchScreen())),
+                onTap: () => Navigator.push(context, MaterialPageRoute(settings: RouteSettings(name: 'ara'), builder: (_) => const SearchScreen())),
                 child: Container(
                   padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 14),
                   decoration: BoxDecoration(
@@ -73,7 +79,7 @@ class HomeScreen extends StatelessWidget {
                     sub: due == 0 ? '${store.cards.length} kart' : '$due kart bekliyor',
                     color: const Color(0xFFB9862F),
                     badge: due,
-                    onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const CardsScreen())),
+                    onTap: () => Navigator.push(context, MaterialPageRoute(settings: RouteSettings(name: 'kartlar'), builder: (_) => const CardsScreen())),
                   ),
                 ),
                 const SizedBox(width: 10),
@@ -83,7 +89,7 @@ class HomeScreen extends StatelessWidget {
                     label: 'Test',
                     sub: '${content.questions.length} soru',
                     color: const Color(0xFFA8402F),
-                    onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const QuizMenuScreen())),
+                    onTap: () => Navigator.push(context, MaterialPageRoute(settings: RouteSettings(name: 'sinav'), builder: (_) => const QuizMenuScreen())),
                   ),
                 ),
                 const SizedBox(width: 10),
@@ -93,7 +99,7 @@ class HomeScreen extends StatelessWidget {
                     label: 'Defterim',
                     sub: '${store.notes.length} not',
                     color: const Color(0xFF0F5C63),
-                    onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const NotebookScreen())),
+                    onTap: () => Navigator.push(context, MaterialPageRoute(settings: RouteSettings(name: 'defter'), builder: (_) => const NotebookScreen())),
                   ),
                 ),
               ]),
@@ -105,7 +111,7 @@ class HomeScreen extends StatelessWidget {
                     label: 'Kapalı şema',
                     sub: 'terimi kapat, hatırla',
                     color: const Color(0xFF7A4E9A),
-                    onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const KapaliSemaListScreen())),
+                    onTap: () => Navigator.push(context, MaterialPageRoute(settings: RouteSettings(name: 'sema-liste'), builder: (_) => const KapaliSemaListScreen())),
                   ),
                 ),
                 const SizedBox(width: 10),
@@ -115,7 +121,7 @@ class HomeScreen extends StatelessWidget {
                     label: 'Cami sarayı',
                     sub: '10 durak, hep aynı rota',
                     color: const Color(0xFF2B4C7E),
-                    onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const SarayScreen())),
+                    onTap: () => Navigator.push(context, MaterialPageRoute(settings: RouteSettings(name: 'saray'), builder: (_) => const SarayScreen())),
                   ),
                 ),
               ]),
@@ -125,7 +131,7 @@ class HomeScreen extends StatelessWidget {
                 label: 'Dil bölümü',
                 sub: '1100+ satır: cümle, kalıp, 900+ kelime · tanı testi · tekrar',
                 color: const Color(0xFFB8860B),
-                onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const DilScreen())),
+                onTap: () => Navigator.push(context, MaterialPageRoute(settings: RouteSettings(name: 'dil'), builder: (_) => const DilScreen())),
               ),
               const SizedBox(height: 18),
               Text('Alanlar', style: Theme.of(context).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w800)),
@@ -202,7 +208,7 @@ class _AreaTile extends StatelessWidget {
       margin: const EdgeInsets.only(bottom: 8),
       clipBehavior: Clip.antiAlias,
       child: InkWell(
-        onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => AreaScreen(area: area))),
+        onTap: () => Navigator.push(context, MaterialPageRoute(settings: RouteSettings(name: 'alan:${area.id}'), builder: (_) => AreaScreen(area: area))),
         child: Row(children: [
           Container(width: 8, height: 74, color: area.color),
           const SizedBox(width: 12),
