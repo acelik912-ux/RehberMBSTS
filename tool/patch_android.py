@@ -156,3 +156,9 @@ if 'android.speech.RecognitionService' not in s:
     else:
         s = s.replace('</manifest>', '    <queries>' + q + '</queries>\n</manifest>', 1)
 manifest.write_text(s, encoding='utf-8')
+
+# Uygulama simgesi (Ayasofya): tool/android_res -> android/app/src/main/res
+import shutil
+res_src = pathlib.Path('tool/android_res')
+if res_src.exists():
+    shutil.copytree(res_src, pathlib.Path('android/app/src/main/res'), dirs_exist_ok=True)
