@@ -153,6 +153,7 @@ void main() {
     await tester.pumpWidget(const MaterialApp(home: DenemeScreen()));
     await tester.pump(const Duration(seconds: 2));
     expect(find.text('Soru 1 / 60'), findsOneWidget);
+    await tester.scrollUntilVisible(find.text('Sonraki'), 300, scrollable: find.byType(Scrollable).first);
     await tester.tap(find.text('Sonraki'));
     await tester.pump();
     expect(find.text('Soru 2 / 60'), findsOneWidget);
