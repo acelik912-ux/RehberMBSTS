@@ -604,3 +604,189 @@ Fuzûlînin işlemi, adına işlem yapılan kişinin **onayına bağlı** (mevku
 && 🍒 | Kutub-i sitte: bir kiraz salkımında altı kiraz, her kiraz bir kitap. → [[kutub-i-sitte]]
 && ⛄ | Tahammül yolları: kardan adamın iki yuvarlağı ve her yuvarlakta dört düğme = sekiz yol. → [[tahammul-yollari]]
 && 🎳 | Ravideki kusurlar: on lobutun beşi adalet tarafında, beşi zabt tarafında devriliyor. → [[ravi-tan]]
+
+@@ su-necaset | Su ve necaset | İbadetler: taharet ve namaz | mutlak su; mukayyet su; müstamel su; hades; necâset; istibrâ; istincâ; umûm-i belvâ |
+= Temizliğin iki malzemesi: temizleyen su ve temizlenmesi gereken kirlilik.
+## Su çeşitleri
+- **Mutlak su**: yaratılış hâlini koruyan su (yağmur, kar, deniz, nehir, kaynak, kuyu). Üç özelliği renk, koku, tat; iki tabiatı incelik ve akıcılık.
+- **Mukayyet su**: içine temiz bir şey karışıp inceliğini ve akıcılığını yitiren su (meyve suyu, çay gibi). Abdest ve gusle yaramaz.
+- **Müstemel su**: abdest veya gusülde kullanılıp akmış su; tekrar abdest için kullanılmaz.
+## Kirlilik
+- **Hades**: abdestsizlik ya da cünüplük hâli.
+- **Necâset-i galîza** (ağır kir): katı ise yaklaşık bir dirhem (≈3,5 g), sıvı ise avuç içi kadarı namaza engeldir. Şâfiî'de az da olsa engeldir.
+- **Necâset-i hafîfe** (hafif kir): bir uzvun veya giysinin dörtte birinden fazlasına bulaşırsa engeldir.
+- **İstibrâ**: küçük abdestten sonra sızıntı kalmadığından emin olmak. **İstincâ**: abdest bozduktan sonra yeri su ile temizlemek.
+- **Umûm-i belvâ**: kaçınması çok zor olduğu için bağışlanan hafif bulaşmalar.
+&& 🚰🍊🚿🪣 | Bir şehir çeşmesinin dört musluğu var. Mavi musluktan **mutlak su** akıyor: hem içilir hem abdest alınır. Turuncu musluk portakal suyu veriyor (**mukayyet**): içilir ama abdest bozmaz, kimseyi temizlemez. Altındaki leğende abdestten dökülen su duruyor (**müstemel**). Tezgâhta iki tartı: ağır kire bir dirhem ya da avuç içi, hafif kire dörtte bir.
+
+@@ abdest-gusul-farzlari | Abdest ve gusül farzları (mezhep farkı) | İbadetler: taharet ve namaz | tertip; muvâlât; delk; mazmaza; istinşak; niyet | 
+= Aynı abdest, dört mezhepte farklı sayıda farzla anlatılır; Hanefî en sade olanıdır.
+## Abdestin farzları
+- **Hanefî**: yalnızca Mâide 6'daki dörtlü: yüzü yıkamak, kolları dirseklerle yıkamak, başı meshetmek, ayakları topuklarla yıkamak.
+- **Şâfiî**: dört + **niyet** + **tertip** (sırayla yapmak).
+- **Mâlikî**: dört + **niyet** + **muvâlât** (ara vermeden yıkamak).
+- **Hanbelî**: dört + niyet + besmele + tertip + muvâlât (en kalabalık liste).
+- **Delk**: yıkarken elle ovmak. **Muvâlât (vilâ)**: organları ara vermeden yıkamak.
+## Gusül (Hanefî)
+Üç farz: **mazmaza** (ağza su almak), **istinşak** (buruna su çekmek), bütün bedeni yıkamak. Niyet Hanefî'de sünnet, diğer mezheplerde farzdır. Mâlikî ve Şâfiî'de ağız-burun yıkamak sünnettir; Mâlikî'de ovmak ve ara vermemek de farza girer.
+%% Hanefî 4 · Şâfiî 4+2 (niyet, tertip) · Mâlikî 4+2 (niyet, muvâlât) · Hanbelî 4+4 (niyet, besmele, tertip, muvâlât).
+&& 💧🧍👨‍🍳 | Dört aşçı aynı sofraya abdest hazırlıyor. **Hanefî** aşçı yalnızca dört tabağı koyuyor. **Şâfiî** niyet defteri ile sıra cetvelini ekliyor. **Mâlikî** niyet defteri ile saat tutmayı ekliyor (ara vermeden). **Hanbelî** hepsini birden, üstüne besmeleyi de getiriyor.
+
+@@ hayiz-nifas-ozur | Hayız, nifas, mest ve özür hâli | İbadetler: taharet ve namaz | istihâze; sâhib-i özür; mest süresi; nifas | 
+= Kadınlara özgü kan hâlleri ve özürlü kimselerin abdest düzeni.
+## Süreler
+- **Hayız (âdet)** — Hanefî: en az 3, en çok 10 gün. İki hayız arası en az temizlik süresi 15 gündür.
+- **Nifas (lohusalık)** — Hanefî ve Hanbelî: en çok 40 gün; Mâlikî ve Şâfiî: 60 gün. Süre dolmadan kan kesilirse nifas biter.
+- **Mest üzerine mesh**: mukim 24 saat, yolcu 72 saat.
+## Hayız ve nifasta
+Namaz, oruç, Mushaf'a dokunma, Kur'an okuma, mescide girme, tavaf ve cinsel ilişki yasaktır. **Namazlar kazâ edilmez**, ama tutulmayan farz ve vâcip oruçlar sonradan kazâ edilir.
+## İstihâze ve sâhib-i özür
+Hastalık gibi bir özür **en az bir namaz vakti boyunca** sürüyorsa kişi sâhib-i özürdür. Her vakit için yeni abdest alır; o vakit içinde özrü dışında bir şey abdestini bozmazsa dilediği kadar namaz kılar. **Vakit çıkınca abdest biter.** Şâfiî ve Mâlikî'de her farz için ayrı abdest gerekir.
+&& 🩸📆🔄 | Takvimde kırmızı kalemle çerçevelenmiş bir kutu: en az **3**, en çok **10** gün. Kutuların arası en az **15** temiz gün. Lohusa sandığında 40 mührü (Hanefî–Hanbelî), yanında 60 mührü (Mâlikî–Şâfiî). Namaz defterleri bu kutularda **boş bırakılır** (kazâ yok), oruç defterleri ise sonradan doldurulur.
+
+@@ teyemmum | Teyemmüm | İbadetler: taharet ve namaz | toprakla temizlik | 
+= Su bulunmadığında ya da kullanılamadığında temiz toprakla yapılan temizlik.
+## Sebepleri
+Abdest veya gusle yetecek su bulunmaması; suyu kullanmayı engelleyen hastalık, tehlike gibi fiilî bir durum.
+## Farzları
+İki tane: **niyet** ve **yüzü ile kolları** temiz toprakla meshetmek (Mâide 5/6).
+## Mezhep farkı
+- **Hanefî**: Vakit girmeden de yapılabilir; mazeret sürdüğü müddetçe bir teyemmümle dilediği kadar farz ve nafile kılınır.
+- Diğer üç mezhep: vakit girmeden olmaz, her farz için yenilenir. (Hanbelî birden çok kazâ namazına izin verir.)
+## Bozanlar
+Abdesti ve guslü bozan her şey; mazeretin kalkması; namazdayken suyu görmek ya da su bulunması. Teyemmümle kılınmış namaz, sonradan su bulunsa **iade edilmez** (Şâfiî vakit içinde iade der).
+&& 🏜️🤲🚰 | Çölde yol kenarında kuru bir kuyu. Yolcu avuçlarını toprağa vurup yüzüne ve kollarına sürüyor (**iki farz**: niyet + mesh). Namaz kılarken uzaktan bir su arabası görünce seccadesini toplayıp yeniden abdestine gidiyor: **su görünce teyemmüm biter**. Kıldığı namazın önceki bölümü ise geçerli sayılıyor.
+
+@@ namaz-vakitleri | Namaz vakitleri ve vakit kavramları | İbadetler: taharet ve namaz | fecr-i sâdık; fey-i zevâl; isfâr; tağlîs; ibrâd; mekruh vakitler | 
+= Vakitlerin başlangıcını belirleyen terimler ve namaz kılınmayan üç vakit.
+- **Fecr-i sâdık**: gerçek şafak; imsak ve sabah vaktinin başlangıcı.
+- **Fey-i zevâl**: güneş tam tepedeyken bir cismin kendi gölgesi (öğle vaktinin ölçüsüdür).
+- **İsfâr**: sabahı ortalık aydınlanınca kılmak (Hanefî'de sünnet/müstehap). **Tağlîs**: sabahı karanlıkta, ilk vakitte kılmak (Şâfiî'de tercih edilir).
+- **İbrâd**: yazın öğleyi serin vakte bırakmak.
+- **Teharrî**: kıble yönünü araştırmak.
+## Namaz kılınmayan üç vakit
+1. **Şürûk**: güneşin doğuşundan bir mızrak boyu yükselene kadar (yaklaşık 40-45 dakika).
+2. **İstivâ**: güneşin tam tepede olduğu an.
+3. **Gurûb**: güneşin sararıp kızarıp gözü kamaştırmaz hâle geldiği batış vakti; bu vakitte yalnızca **o günün ikindi farzı** kılınabilir.
+&& 🌅☀️🌇 | Üç kırmızı trafik ışığı güneşin yolunda: doğarken (**şürûk**), tepede dururken (**istivâ**), batarken (**gurûb**). Işıklar yanarken seccade serilmez; yalnız batış ışığında o günkü **ikindi** için küçük bir geçiş yolu açık.
+
+@@ namaz-sart-farz | Namazın şartları ve farzları (6+6) | İbadetler: taharet ve namaz | altı şart; altı rükün; setr-i avret; istikbâl-i kıble | 
+= Namazın dışında hazır olması gereken altı şart ve içinde yapılması gereken altı farz.
+## Dışarıdaki altı şart
+**H**adesten taharet · **N**ecasetten taharet · **S**etr-i avret · **K**ıbleye yönelmek (istikbâl) · **V**akit · **N**iyet.
+## İçerideki altı farz (rükün)
+**İ**ftitah tekbiri (tahrîme) · **K**ıyam · **K**ıraat · **R**ükû · **S**ecde · **K**a'de-i âhîre.
+> Namazın vâcip olma şartları: Müslüman, akıllı ve ergen olmak.
+> Mâlikî: setr-i avreti namaza özgü değil genel bir emir sayar; namazın sünneti olarak sayar.
+%% Şartlar: "**H**ocam **N**e **S**abah **K**ıldın **V**ardın **N**iyet?" · Farzlar: "**İ**yi **K**ıl **K**ardeş, **R**ükû-**S**ecde-**K**a'de".
+&& 🏠🧱🪟 | Namaz bir ev gibi: dış duvarın altı taşı (**şartlar**) kapıdan girmeden önce yerinde olmalı: temizlik, örtü, yön, saat, niyet. İçeride altı kat merdiven var (**farzlar**): tekbir kapısı, ayakta bekleme, okuma, eğilme, secde ve son oturuş. Merdivenin bir basamağı eksikse ev yıkılır.
+
+@@ namaz-vacipleri | Namazın vacipleri ve sünnetleri | İbadetler: taharet ve namaz | vâcipler; sünnetler; tâdîl-i erkân; zamm-ı sûre | 
+= Farzdan sonra gelen, unutulursa sehiv secdesi gerektiren vâcipler ve tamamlayıcı sünnetler.
+## Başlıca vâcipler
+- Namaza "Allâhu ekber" ile başlamak; **Fâtiha** ve **zamm-ı sûre** (farzın ilk iki rekâtı, nafile ve vitrin her rekâtı); Fâtiha'yı sureden önce okumak.
+- Secdede alınla birlikte **burnu** yere koymak; iki secdeyi art arda yapmak; **tâdîl-i erkân** (rükünlerde bir an durmak).
+- Üç-dört rekâtlıda **ilk oturuş** ve tahiyyat; tahiyyattan sonra gecikmeden kalkmak.
+- Vitirde **kunut**; bayram namazında fazla tekbirler; imamın açık/gizli okuma yerlerine uyması; cemaatte imamı dinleyip susmak.
+- Selâm vermek; gerekince **sehiv secdesi**; secde âyeti okunursa **tilâvet secdesi**.
+## Başlıca sünnetler
+Ezan ve kâmet; tekbirde elleri kulak hizasına kaldırmak; kıyamda elleri bağlamak; ayaklar arası dört parmak; **Sübhâneke**; her rekâtta besmele; Fâtiha sonunda âmin; rükû ve secde tesbihleri; geçişlerde tekbir; selâmda başı önce sağa sonra sola çevirmek.
+Bkz. [[sehiv-secdesi]].
+&& 🧮🧱📖 | Kasadaki on beş bozuk para (**vâcipler**): Fâtiha, sure, burun, art arda secde, ilk oturuş, kunut, bayram tekbirleri, selâm… Biri düşse tezgâhtar küçük bir "sehiv" kutusu açıp eksiği telafi ediyor. Yanında hediye paketleri (**sünnetler**) var; eksik olursa kimse ceza kesmiyor.
+
+@@ namaz-bozanlar | Namazı bozanlar ve mekruhlar | İbadetler: taharet ve namaz | müfsidât-ı salât; ameli kesîr; tenahnuh | 
+= Namazı geçersiz kılan işler ve geçersiz kılmayıp mekruh olanlar.
+## Namazı bozanlar
+1. Konuşmak, selâm vermek/almak
+2. Yemek-içmek
+3. **Ameli kesîr** (uzun, peş peşe, namazla ilgisiz hareket)
+4. Göğsünü kıbleden çevirmek
+5. Özürsüz öksürüp boğaz temizlemek (**tenahnuh**), üflemek, inlemek, "of-ah" demek
+6. **Kahkaha** ile gülmek
+7. Ezberinde olmayanı Mushaf'tan bakarak okumak
+8. Anlamı bozacak biçimde Kur'an'ı yanlış okumak
+9. Avret yerlerinin açılması; üzerinde necâset bulunması
+10. Abdestin bozulması; mest süresinin dolması
+11. Teyemmümlünün suyu görmesi
+12. Sabah namazında güneşin doğması; cuma namazında ikindi vaktinin girmesi
+13. Kadınla erkeğin aynı hizada kılması (muhâzât); bayılmak; özrünün sona ermesi
+## Bozmayıp mekruh olanlar
+Elbise ile oynamak, parmak çıtlatmak, esnemek/gerinmek, özürsüz bağdaş kurmak, bir yere dayanmak, gözleri kapamak, rükû-secdede tesbihleri terk, başkasının izinsiz yerinde kılmak, ön safta boşluk varken arkada durmak.
+&& 🚦🛑😅 | Namaz yolunda iki tür tabela: kırmızı çarpılı olanlar (**konuşma, yeme-içme, kahkaha, kıbleden dönme**) yolu kapatıyor, bütün trafik baştan başlıyor. Sarı uyarı levhaları (**çıtlatma, esneme, gözü kapama**) yalnızca yavaşlatıyor; yol açık kalıyor.
+
+@@ namaz-kavramlari | Namaz kavramları sözlüğü | İbadetler: taharet ve namaz | tumâninet; kavme; celse; itimâd; teverrük; istihlâf; istînâf; müfteriz; müteneffil | 
+= Soruda sık çıkan namaz terimleri tek yerde.
+- **Tahrîme**: iftitah tekbiri. **Teavvüz**: euzü besmele. **İtimâd**: namazda elleri bağlamak.
+- **Tumâninet**: rükûda bir an beklemek. **Kavme**: rükûdan kalkınca doğrulup beklemek. **Celse**: iki secde arasında oturmak.
+- **Teverrük**: kadınların tahiyyatta oturuş biçimi.
+- **Müfteriz**: farz kılan. **Müteneffil**: nafile kılan.
+- **Müdrik** imama tam uyan, **mesbûk** sonradan yetişen, **lâhik** başladıktan sonra bir bölümü kaçıran kişi ([[mesbuk-lahik]]).
+- **İstihlâf**: abdesti bozulan imamın yerine cemaatten birini geçirmesi. **İstînâf**: namazda kasten abdest bozup yeniden başlamak.
+- **Huruc bi-sun'ihî**: namazdan kendi isteğiyle (selâmla) çıkmak.
+- **Muhâzât**: kadının erkekle aynı hizada namaz kılması. **Tertîbü'l-makâm**: duruş düzeni.
+- **Faite**: vaktinde kılınamayıp kazâya kalan namaz; **sâhib-i tertîb**: kazâ sırasına uyması gereken kişi ([[kaza-namazi]]).
+&& 🧩🕌 | Kapıda bir sözlük panosu: her kelimenin yanında mini bir maket. Rükûda bekleyen küçük figür (**tumâninet**), kalkıp bekleyen (**kavme**), iki secde arasında oturan (**celse**). Yan sıradaki figür namazdan çıkıp yeniden başlıyor (**istînâf**).
+
+@@ cemaat-saf | Cemaat ve saf düzeni | İbadetler: taharet ve namaz | cemaat hükmü; muhâzât; mazeret | 
+= Cemaatle namazın hükmü mezhebe göre değişir; mazeretler cemaati düşürür.
+## Hükmü
+- **Hanbelî**: farz-ı ayn. **Şâfiî**: farz-ı kifâye. **Hanefî**: sünnet-i müekkede.
+## Cemaate gitmemeye izin veren mazeretler
+Hastalık, korku, kötü hava, abdest veya ihtiyacın sıkıştırması, faydalı ve gerekli bir ilimle uğraşmak, bedensel engeller.
+## Kadınla erkek
+Hanefî'de kadının erkekle aynı hizada durması (**muhâzât**) erkeğin namazını bozar. **Cenaze namazı** mutlak namaz olmadığı için bu kuraldan ayrıdır; orada hizalanmak zarar vermez. Şâfiî'de muhâzât erkeğin namazına zarar vermez.
+## Setr-i avret
+Mâlikî'de avret yerleri ağır ve hafif diye ikiye ayrılır; namazda örtünmek sünnet kabul edilir.
+%% Cemaat: **Ha**nbelî **ayn** · **Şa**fiî **kifâye** · **Ha**nefî **müekkede** (sünnet).
+&& 🕌👥🌧️ | Cemaat kapısında üç bekçi: Hanbelî "farz, herkes gelsin" diyor, Şâfiî "birkaçı gelse yeter" diyor, Hanefî "sünnettir, gelin ama zorunlu değil" diyor. Dışarıda yağmur, hasta nöbetçi, korkutan bir gölge: bunlar **mazeret kapısını** açıyor.
+
+@@ cuma-namazi | Cuma namazı | İbadetler: taharet ve namaz | cuma şartları; hutbe; cemaat sayısı | 
+= Cuma günü öğle vaktinde, hutbeyle birlikte cemaatle kılınan iki rekâtlık farz.
+## Farz olma şartları
+Erkek, hür, mukim, mazeretsiz olmak. Kör kişiye Ebû Hanîfe, Mâlikî ve Şâfiî'ye göre farz değildir; kendisini götürecek biri varsa Hanbelî, Ebû Yûsuf ve İmam Muhammed farz sayar. Yatalak veya ayağı felçli kişiye farz değildir.
+## Geçerli olma şartları (6)
+**Vakit · izin · cami (toplanma yeri) · cemaat · hutbe · şehir**.
+## Cemaat sayısı (imam hariç)
+Hanefî 3 (Ebû Yûsuf 2) · Mâlikî 12 · Şâfiî ve Hanbelî 40.
+## Hutbe
+- Hanefî: rüknü Allah'ı zikretmektir.
+- Şâfiî: hamdele, salvele, takvâyı tavsiye, bir âyet, ikinci hutbede dua.
+- Geçerlilik: vaktinde, namazdan önce, hutbe niyetiyle, cemaatin önünde; hutbe ile namaz arasında yeme-içme olmaz.
+%% Cemaat sayısı: **3-12-40** → "Hanefî üç, Mâlikî on iki, Şâfiî-Hanbelî kırk".
+&& 🕌📣🔢 | Cuma kapısındaki sayaç: Hanefî sayaç **3**'te yeşil yanıyor, Mâlikî **12**'de, Şâfiî ve Hanbelî **40**'ta. İçeride minberde müezzin, hutbe bitmeden çay ikramı yapılmıyor.
+
+@@ sefer-kasr | Yolculuk (sefer) ve kasr | İbadetler: taharet ve namaz | kasr; mukim; vatan-ı aslî; vatan-ı ikâmet; vatan-ı sükna | 
+= Yolcunun namazı kısaltması ve kimin yolcu sayıldığı.
+- **Sefer mesafesi**: orta yürüyüşle üç günlük yol (üç konak).
+- **Kasr**: dört rekâtlı farzları ikiye indirmek. Hanefî'de **azîmet** (zorunlu), Şâfiî'de **ruhsat** (isteğe bağlı).
+- **Cem**: iki namazı bir vakitte kılmak (bkz. [[cem]]); **sûrî cem**: her namaz kendi vaktinde kalacak biçimde birini sona, diğerini başa alma.
+- **Kalış süresi**: Hanefî'de 15 günden az kalacaksan yolcusun; Şâfiî ve Mâlikî'de 4 günden az.
+## Vatan türleri
+- **Vatan-ı aslî**: doğup büyüdüğü ya da evlenip yerleştiği yer.
+- **Vatan-ı ikâmet**: 15 günden fazla kalmaya niyet ettiği yer.
+- **Vatan-ı sükna**: 15 günden az kalmaya niyet ettiği yer.
+&& 🧳🚗🗺️ | Yolcu üç konaklık bir yola çıkıyor, bavulunda dört rekâtlık namaz iki rekâta katlanmış duruyor (**kasr**). 15 günlük bir pansiyon rezervasyonu yapınca bavul yeniden açılıyor: artık **mukim**.
+
+@@ cenaze-namazi | Cenaze namazı ve ölü işlemleri | İbadetler: taharet ve namaz | gasil; tekfin; teşyî; defin; gıyabî cenaze | 
+= Ölen Müslüman için yapılan farz-ı kifâye ibadet ve hazırlık adımları.
+- **Rüknü**: dört tekbir ve ayakta durmaktır; selâm vâcip.
+- Sıra: **gasil** (yıkama) → **tekfin** (kefenleme) → **namaz** → **teşyî** (taşıma) → **defin**. Ölmek üzere olana **muhtazar** denir.
+- **Kefen**: kamîs, izâr, lifâfe ([[kefen]]).
+- **Düşük**: ölü doğan çocuk yıkanmaz, namazı kılınmaz, bir bezle sarılıp gömülür (canlı doğup ölürse isim konur, yıkanır, namazı kılınır).
+- **Gıyâbî cenaze namazı**: Hanefî ve Mâlikî câiz görmez; Şâfiî câiz görür (Necâşî örneği); Hanbelî bir ay geçmediyse câiz görür.
+- Cenaze namazında kahkaha abdesti bozmaz (mutlak namaz değil).
+&& ⚰️🧼🕌 | Bir yol: yıkama havuzu → üç parçalı kefen dolabı → dört tekbirli ayakta bekleme salonu → tabut taşıma yolu → kabir. Salonda hiç rükû ve secde tabelası yok.
+
+@@ nafile-vacip-namazlar | Vitir, bayram, nafile ve özel namazlar | İbadetler: taharet ve namaz | revâtib; regâib; vitir; küsûf; husûf; istiskâ; evvâbîn | 
+= Beş vakit dışındaki namazlar: vâcip olanlar, sünnet ve nafileler.
+## Vâcip namazlar
+- **Kul fiiline bağlı olmayan**: vitir, Ramazan ve Kurban bayramı namazları, tilâvet secdesi.
+- **Kul fiiline bağlı olan**: nezir (adak) namazı, sehiv secdesi, bozulan nafilenin kazâsı.
+- Şâfiî'ye göre kadın da bayram namazıyla yükümlüdür.
+## Sünnet ve nafile
+- **Sünen-i revâtib**: beş vakte bağlı, belli vakti olan nafileler. **Sünen-i regâib**: belli vakti olmayan gönüllü namazlar.
+- **Evvâbîn**: akşamdan sonra kılınan altı rekât.
+- **Küsûf**: güneş tutulması namazı, cemaatle ve cehrî. **Husûf**: ay tutulması namazı, evde tek başına.
+- **İstiskâ**: yağmur duası için iki rekât.
+- **Hasta namazı**: gücü ne kadar yetiyorsa o şekilde; "takat kadar yükümlülük" ilkesi.
+&& 🌙☀️🌧️ | Gökyüzünde üç özel nöbetçi: güneş kararınca **küsûf** meydanı cemaatle dolar; ay kararınca **husûf** evde sessizce kılınır; kuraklıkta herkes sahraya çıkıp **istiskâ** yapar. Vitir ise gece yarısı yanan tek bir lamba: vâciptir.

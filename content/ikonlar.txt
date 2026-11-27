@@ -242,3 +242,17 @@ yahudi-bayramlari | 🕎 | Yom Kippur: oruç günü
 mecusilik | 🔱 | Avesta · sessizlik kulesi
 sabiilik | 💦 | Vaftiz · Hz. Yahya · Ginza
 sayi-sekilleri | 🎰 | Rakama şekil bağla: mum, kuğu, üçgen, yelkenli…
+su-necaset | 🚰 | Dört musluk: mutlak, mukayyet, müstemel
+abdest-gusul-farzlari | 💧 | Dört aşçı, dört sofra
+hayiz-nifas-ozur | 🩸 | 3-10 gün · 15 temiz · 40/60
+teyemmum | 🏜️ | Çöl, toprak, iki farz
+namaz-vakitleri | 🌅 | Üç kırmızı ışık: şürûk-istivâ-gurûb
+namaz-sart-farz | 🏠 | Dış 6 şart, iç 6 rükün
+namaz-vacipleri | 🧮 | Vâcip bozuk paralar, sehiv kutusu
+namaz-bozanlar | 🚦 | Kırmızı çarpı ve sarı levha
+namaz-kavramlari | 🧩 | Tumâninet, kavme, celse
+cemaat-saf | 👥 | Üç bekçi: ayn, kifâye, müekkede
+cuma-namazi | 📣 | Sayaç 3-12-40
+sefer-kasr | 🧳 | Üç konak, 15 gün
+cenaze-namazi | ⚰️ | Gasil → kefen → dört tekbir
+nafile-vacip-namazlar | 🌙 | Küsûf, husûf, istiskâ

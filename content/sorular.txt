@@ -2506,3 +2506,57 @@ C) Kuzey Afrika'da Rüstemîler Devleti'ni kurmuşlardır.
 D) Günümüzde özellikle Umman'da yaşarlar.
 *E) Büyük günah işleyeni dinden çıkmış kâfir sayarlar.
 = İbâzîler büyük günah işleyeni kâfir ilan etmez.
+
+?? fikih | cuma-namazi
+Cuma namazının geçerli olması için gereken asgari cemaat sayısı (imam hariç) Hanefî, Mâlikî ve Şâfiî mezheplerinde sırasıyla aşağıdakilerden hangisidir?
+A) 12 – 40 – 3
+*B) 3 – 12 – 40
+C) 40 – 12 – 3
+D) 3 – 40 – 12
+E) 2 – 12 – 30
+= Hanefî üç, Mâlikî on iki, Şâfiî ve Hanbelî kırk kişi ister.
+
+?? fikih | hayiz-nifas-ozur
+Hanefî mezhebine göre hayız süresi ile iki hayız arasındaki en az temizlik süresi aşağıdakilerden hangisidir?
+A) 1-7 gün; 10 gün
+B) 3-10 gün; 10 gün
+*C) 3-10 gün; 15 gün
+D) 5-15 gün; 15 gün
+E) 3-15 gün; 20 gün
+= Hayız en az 3, en çok 10 gündür; iki hayız arası en az 15 gün temizlik gerekir.
+
+?? fikih | teyemmum
+Teyemmümün farzları aşağıdakilerden hangisinde doğru verilmiştir?
+A) Besmele ve tertip
+*B) Niyet ve yüzle kolları toprakla meshetmek
+C) Niyet ve başı meshetmek
+D) Yalnızca ellere mesh
+E) Tertip ve muvâlât
+= Teyemmümün iki farzı niyet ile yüz ve kolların meshidir.
+
+?? fikih | namaz-vakitleri
+Aşağıdakilerden hangisi namaz kılınması mekruh olan vakitlerden biri değildir?
+A) Şürûk
+B) İstivâ
+C) Gurûb
+*D) İsfâr
+E) Güneşin doğuşundan sonraki ilk dakikalar
+= İsfâr, sabahı ortalık aydınlanınca kılmaktır; mekruh vakit değildir.
+
+?? fikih | abdest-gusul-farzlari
+Abdestin farzları arasında yalnızca "niyet ve muvâlât"ı ekleyen mezhep hangisidir?
+A) Hanefî
+B) Şâfiî
+*C) Mâlikî
+D) Hanbelî
+E) Hiçbiri
+= Mâlikî dört farza niyet ve muvâlâtı ekler; Şâfiî niyet ve tertibi ekler.
+
+?? fikih | cemaat-saf
+Cemaatle namazın hükmü Hanbelî, Şâfiî ve Hanefî mezheplerinde sırasıyla nasıldır?
+A) Sünnet – farz-ı kifâye – farz-ı ayn
+B) Farz-ı kifâye – farz-ı ayn – sünnet
+*C) Farz-ı ayn – farz-ı kifâye – sünnet-i müekkede
+D) Farz-ı ayn – sünnet – farz-ı kifâye
+E) Vâcip – müstehap – sünnet
+= Hanbelî farz-ı ayn, Şâfiî farz-ı kifâye, Hanefî sünnet-i müekkede der.
