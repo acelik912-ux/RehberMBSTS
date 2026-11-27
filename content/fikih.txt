@@ -790,3 +790,80 @@ Hanefî 3 (Ebû Yûsuf 2) · Mâlikî 12 · Şâfiî ve Hanbelî 40.
 - **İstiskâ**: yağmur duası için iki rekât.
 - **Hasta namazı**: gücü ne kadar yetiyorsa o şekilde; "takat kadar yükümlülük" ilkesi.
 && 🌙☀️🌧️ | Gökyüzünde üç özel nöbetçi: güneş kararınca **küsûf** meydanı cemaatle dolar; ay kararınca **husûf** evde sessizce kılınır; kuraklıkta herkes sahraya çıkıp **istiskâ** yapar. Vitir ise gece yarısı yanan tek bir lamba: vâciptir.
+
+@@ oruc | Oruç: şartlar, çeşitler, niyet | İbadetler: zekât, hac, kurban | savm; imsâk; sahûr; niyet vakti; nafile oruç | 
+= Fecr-i sâdıktan akşama kadar, niyetle yemek, içmek ve cinsel ilişkiden uzak durmak.
+## Çeşitleri
+- **Farz**: Ramazan orucu ve kazâsı. **Vâcip**: adak ve keffâret orucu. **Sünnet**: Muharrem'in 9-10 ya da 10-11'i, Arefe, her ayın 13-14-15. günleri, pazartesi-perşembe. **Mekruh**: yalnızca cumayı tutmak gibi.
+- **Haram günler**: iki bayramın birinci günleri ve Kurban'ın dört günü (teşrik).
+## Niyet vakti
+- Hanefî: Ramazan ve belirli adak orucunda **zevâl vaktinden önce** (kuşluk zamanı) niyet edilebilir; kazâ ve keffâret orucunda geceden.
+- Şâfiî, Mâlikî, Hanbelî: farz oruçta niyet geceden yapılmalıdır.
+## Oruçtan muaf olanlar
+Yolcu, hasta, hamile ve emziren (zarar görürse), çok yaşlı (fidye verir). Fidye bir yoksulu doyurmaktır.
+%% Hanefî niyet: "öğleden önce". Diğer üçü: "geceden".
+&& 🌙🍽️⏰ | Bir iftar sofrası, ucuna bir saat asılmış: öğleden önce saat (Hanefî niyet penceresi) yeşil yanıyor. Diğer üç mezhep kapıdan "geceden hazır ol" levhası asmış. Takvimde kırmızı iki gün (**bayramlar**) ve dört gün (**teşrik**) çarpı işaretli.
+
+@@ oruc-bozanlar | Orucu bozanlar, kazâ ve kefâret | İbadetler: zekât, hac, kurban | fidye; keffâret; kasten yeme; hamile | 
+= Orucu bozan hâller ve bozulunca gereken yükümlülük.
+- **Yalnızca kazâ** gerektirenler: unutarak değil ama kasıtsız bozma (su kaçırmak), sağlık özrü, ilaç, hayız-nifas.
+- **Kazâ ve keffâret** gerektirenler: kasten yeme-içme ya da cinsel ilişki. Keffâret: köle azâtı → olmazsa **60 gün peş peşe oruç** → olmazsa 60 yoksulu doyurmak.
+- **Bozmayanlar**: unutarak yeme-içme, yanlışlıkla yutulan su, gözyaşı-kan alma, misvak, ihtilam.
+- **Fidye**: oruç tutamayacak yaşlı veya sürekli hasta için, günü başına bir yoksulu doyurmak.
+- **Fıtır sadakası**: Ramazan'ın sonunda yoksula verilen, bayram namazından önce ödenmesi gereken sadaka.
+&& 🍉😅🔥 | Sofrada unutarak tabağa uzanan çocuğun kolunu **uyarı lambası** tutuyor; oruç bozulmuyor. Yanında kasten tabağa dalan kişiye kocaman bir **60 günlük takvim** kuruluyor.
+
+@@ zekat-oranlari | Zekât oranları ve sarf yerleri | İbadetler: zekât, hac, kurban | nisap; bölüşüm; sekiz sınıf; muallefe | 
+= Hangi malda ne kadar verileceği ve kime verileceği.
+## Oranlar
+- Altın **80,18 g**, gümüş **561 g**, para ve ticaret malı: nisap karşılığı → **kırkta bir (%2,5)**.
+- Ziraî ürün: yağmurla sulananda **onda bir (öşür)**, emekle sulananda **yirmide bir**.
+- Hayvan: koyun ve keçide nisap 40; 40-120 arası bir koyun.
+## Kimlere?
+Tevbe 60 sekiz sınıf: yoksul, düşkün, zekât memuru, kalbi İslâm'a ısındırılacak olan, köle, borçlu, Allah yolunda olan, yolcu. **Ana-baba ve çocuğa** verilmez; eşe de verilmez.
+&& 💰🧮🍇 | Bir terazinin bir kefesinde altı sınıf para, öbüründe tahıl: para kırkta bir; yağmurla sulanan bağ onda bir. Bir kapıdan sekiz kuyruk çıkıyor (sekiz sınıf); yanında "anne baba çocuk" yazılı bir kapı kapalı.
+
+@@ talak-evlilik-engel | Talâk, mehir ve evlilik engelleri | Aile ve miras | sünnî talâk; bidatî talâk; hul'; ilâ; zıhâr; liân; mut'a | 
+= Boşanma türleri ve evlenmeyi engelleyen sebepler.
+## Talâk
+- **Ahsen** (en güzel): temizlik hâlinde bir kez boşamak ve iddeti beklemek. **Hasen**: üç ayrı temizlik döneminde üç kez. **Bid'î**: tek seferde üçlemek ya da hayızda boşamak.
+- **Ric'î** (dönülebilir) / **Bâin** (dönülemez, yeni nikâh gerekir). Üç talâkla **hülle** olmadan dönülmez.
+- **Hul'**: kadının bedel karşılığı boşanma talebi. **Îlâ**: dört ay ilişkiyi bırakma yemini. **Zıhâr**: eşi anasına benzetme. **Liân**: zina iftirasında karşılıklı yemin.
+## Mehir
+Nikâhla kadına ait olan bedel; **mehr-i müsemmâ** (adı konulan) veya **mehr-i misil** (emsali). **Mut'a nikâhı** kıyamete kadar haramdır.
+## Evlenme engelleri
+Nesep, süt kardeşliği, kayın hısımlığı, **din ayrılığı**, başka bir nikâh ya da iddet. Aynı anda iki kız kardeşle evlilik haram.
+&& 💍📜🔒 | Bir kapı kilidi üç anahtarla açılıyor: ilk ikisi çevrilince kapı hâlâ açılabilir (**ric'î**); üçüncüsü kırılınca kapı kalıcı kapanıyor (**bâin**). Duvarda altı levha: nesep, süt, kayın, din, nikâh, iddet.
+
+@@ ticaret-terimleri | Ticaret terimleri ve yasaklar | Muâmelât | riba; garar; bey'; selem; istisnâ; icâre; kefâlet; rehin | 
+= Alım-satım ve borç ilişkilerinin temel terimleri.
+- **Bey'**: alım satım. **Selem**: bedeli peşin, malı sonra teslim. **İstisnâ**: sipariş üzerine imalat. **İcâre**: kira. **Vedîa**: emanet. **Âriyet**: karşılıksız ödünç. **Rehin**: borç karşılığı güvence. **Kefâlet**: borcu üstlenme. **Havâle**: borcu başkasına aktarma. **Vekâlet**: temsil.
+- **Riba**: karşılıksız fazlalık (borç faizi **ribâ'n-nesî'e**, mübadele fazlası **ribâ'l-fadl**).
+- **Garar**: belirsizlik içeren satış. **Gabin**: fahiş fiyat farkı. **Tağrîr**: aldatma. **İhtikâr**: stokçuluk. **Necş**: sahte talep yaratma.
+- **Hıyâr-ı şart / ayıp / rü'yet / meclis**: seçme hakları ([[muhayyerlik]]).
+&& 🏪⚖️🧾 | Bir pazar yeri: tezgâhta tartı (**bey'**), arkada kilitli depo (**ihtikâr** yasak), kasada tezgâhın üstüne asılı yırtık kâğıt: "faiz". Ortasında bir gölge adam alıcı rolü yapıyor (**necş**): polis yakalıyor.
+
+@@ helal-haram-hayvan | Helal ve haram hayvanlar, kesim, av | Muâmelât | zebh; nahr; zekât-ı şer'iyye; cârih; sâid; müteveffâ | 
+= Hangi hayvanlar yenir, nasıl kesilir, avlanma kuralları ve mezhep farkları.
+## Haramlar
+Domuz, leş, akıtılmış kan, Allah'tan başkası adına kesilen, boğulmuş-vurulmuş-düşerek ölmüş hayvanlar (Mâide 3), köpek, kedi, kurt, aslan gibi azı dişli yırtıcılar, pençeli kuşlar.
+## Mezhep farkları
+- **At eti**: Hanefî mekruh, Şâfiî–Hanbelî–Mâlikî'de mubah veya mekruh.
+- **Deniz ürünleri**: Hanefî yalnızca balığı helal sayar; diğerleri tüm deniz ürünlerini helal bilir.
+## Kesim
+**Zebh**: boğazdan kesim; hayvan kıbleye, **besmeleyle**, **gırtlak, yemek borusu ve iki şah damarından** en az üçü kesilerek. **Nahr** devede göğse bıçak saplamak. **Zekât-ı şer'iyye** (zabit): başka şekilde kesilemeyen hayvana vücudun herhangi bir yerinden yara açmak.
+## Av
+Eğitilmiş av hayvanı (**cârih**) besmeleyle gönderilmeli, avdan yememiş olmalı. Ok-av da besmeleyle atılır.
+&& 🥩🔪🕋 | Bir kasabın tezgâhı: kıbleye dönük hayvan, besmeleli bıçak, gırtlak-yemek borusu-iki şah damarı üç yeşil yıldız. Duvar levhasında yasaklılar: domuz, leş, kan, başkası adına kesilen.
+
+@@ fikih-ilkeleri-sistem | Fıkıh sistematiği ve hak türleri | Fıkıh usulü | ibâdât; muâmelât; ukûbât; hakkullah; hakkul'ibâd | 
+= Fıkhın konularını üç ana bölüm ve haklar bakımından sınıflama.
+## Üç ana bölüm
+- **İbadât**: namaz, oruç, zekât, hac.
+- **Muâmelât**: alım-satım, evlilik, miras, borçlar.
+- **Ukûbât**: cezalar ve hadler.
+## Haklar
+- **Hakkullah**: toplum yararı; kul vazgeçemez (namaz, had).
+- **Hakkul'ibâd**: kişi menfaati; sahibi bağışlayabilir.
+- Karışık haklar: ağırlık hangisindeyse ona bağlanır.
+&& 🗂️⚖️ | Üç çekmeceli bir dolap: İbâdât (seccade), Muâmelât (tartı ve imza), Ukûbât (tokmak). Yanında iki anahtar: biri yalnızca Allah'ın (kimse bırakamaz), biri kulun (sahibi bırakabilir).

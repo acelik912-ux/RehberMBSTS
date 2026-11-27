@@ -256,3 +256,10 @@ cuma-namazi | 📣 | Sayaç 3-12-40
 sefer-kasr | 🧳 | Üç konak, 15 gün
 cenaze-namazi | ⚰️ | Gasil → kefen → dört tekbir
 nafile-vacip-namazlar | 🌙 | Küsûf, husûf, istiskâ
+oruc | 🌙 | Hanefî niyet: öğleden önce
+oruc-bozanlar | 🍉 | Unutan bozmaz; kasten: 60 gün
+zekat-oranlari | 💰 | Kırkta bir, onda bir, sekiz sınıf
+talak-evlilik-engel | 💍 | Üç anahtar, altı levha
+ticaret-terimleri | 🏪 | Bey', selem, riba, gabin
+helal-haram-hayvan | 🥩 | Besmele, kıble, üç damar
+fikih-ilkeleri-sistem | 🗂️ | İbâdât-muâmelât-ukûbât
